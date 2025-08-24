@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 import {
   ArrowRight,
   Building2,
@@ -16,8 +15,6 @@ import {
   Phone,
   Mail,
 } from "lucide-react";
-import { ThemeToggle } from "./components/theme-toggle";
-import { LanguageSwitcher } from "./components/language-switcher";
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -35,55 +32,6 @@ export default function Home() {
             <div className="absolute bottom-20 left-1/2 w-80 h-80 bg-indigo-200/50 dark:bg-indigo-500/30 rounded-full blur-3xl animate-bounce"></div>
           </div>
         </div>
-
-        {/* Navigation */}
-        <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-6 lg:p-8 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-gray-200/50 dark:border-white/10">
-          <div className="flex items-center space-x-2">
-            <Building2 className="w-8 h-8 text-gray-900 dark:text-white" />
-            <div>
-              <span className="text-xl font-bold text-gray-900 dark:text-white">
-                ProInvest
-              </span>
-            </div>
-          </div>
-          <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="#savings"
-              className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
-            >
-              Cost Savings
-            </a>
-            <a
-              href="#services"
-              className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
-            >
-              Services
-            </a>
-
-            <a
-              href="#commission"
-              className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
-            >
-              Pricing
-            </a>
-            <Link
-              href="/use-cases"
-              className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
-            >
-              Use Cases
-            </Link>
-          </div>
-          <div className="flex items-center space-x-4">
-            <LanguageSwitcher />
-            <ThemeToggle />
-            <Link
-              href="/get-started"
-              className="px-6 py-2 rounded-full bg-gray-900/10 backdrop-blur-sm border border-gray-900/20 text-gray-900 hover:bg-gray-900/20 dark:bg-white/10 dark:border-white/20 dark:text-white dark:hover:bg-white/20 transition-all"
-            >
-              Get Started
-            </Link>
-          </div>
-        </nav>
 
         {/* Hero Content */}
         <div className="relative z-10 container mx-auto px-6 lg:px-8 pt-60 pb-32">
@@ -1342,166 +1290,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
-        <div className="container mx-auto px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-            {/* Company Info */}
-            <div className="lg:col-span-2">
-              <div className="flex items-center space-x-3 mb-6">
-                <Building2 className="w-8 h-8 text-blue-400" />
-                <div>
-                  <span className="text-2xl font-bold">ProInvest</span>
-                  <div className="text-sm text-gray-400">
-                    <a
-                      href="https://livion.rs"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-gray-400"
-                    >
-                      by Livion Real Estate
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <p className="text-gray-300 mb-6 max-w-md">
-                Serbia&apos;s premier property sales service for investors. Zero
-                upfront costs, professional marketing, and guaranteed results.
-                Part of the Livion Real Estate family.
-              </p>
-              <div className="flex space-x-4">
-                <a
-                  href="https://livion.rs"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors"
-                >
-                  livion.rs
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  <span className="text-sm">LinkedIn</span>
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  <span className="text-sm">Facebook</span>
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  <span className="text-sm">Instagram</span>
-                </a>
-              </div>
-            </div>
-
-            {/* Services */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Our Services</h3>
-              <ul className="space-y-2 text-gray-300">
-                <li>
-                  <a
-                    href="#services"
-                    className="hover:text-white transition-colors"
-                  >
-                    Property Marketing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#services"
-                    className="hover:text-white transition-colors"
-                  >
-                    Virtual Tours
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#services"
-                    className="hover:text-white transition-colors"
-                  >
-                    Legal Support
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#services"
-                    className="hover:text-white transition-colors"
-                  >
-                    Sales Management
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#services"
-                    className="hover:text-white transition-colors"
-                  >
-                    Progress Tracking
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Contact Info */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-              <div className="space-y-3 text-gray-300">
-                <div className="flex items-center space-x-2">
-                  <Phone className="w-4 h-4 text-blue-400" />
-                  <span>+381 11 123 4567</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <Mail className="w-4 h-4 text-blue-400" />
-                  <span>info@proinvest.com</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <MapPin className="w-4 h-4 text-blue-400" />
-                  <span>Belgrade, Serbia</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <Globe className="w-4 h-4 text-blue-400" />
-                  <a
-                    href="https://livion.rs"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-white transition-colors"
-                  >
-                    livion.rs
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Bottom Section */}
-          <div className="border-t border-gray-800 pt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              <div className="text-gray-400 text-sm mb-4 md:mb-0">
-                © 2024 ProInvest by Livion Real Estate. All rights reserved.
-              </div>
-              <div className="flex space-x-6 text-sm text-gray-400">
-                <a href="#" className="hover:text-white transition-colors">
-                  Privacy Policy
-                </a>
-                <a href="#" className="hover:text-white transition-colors">
-                  Terms of Service
-                </a>
-                <a href="#" className="hover:text-white transition-colors">
-                  Cookie Policy
-                </a>
-                <a href="#" className="hover:text-white transition-colors">
-                  GDPR
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
