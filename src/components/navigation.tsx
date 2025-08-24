@@ -16,7 +16,10 @@ export default function Navigation() {
         />
 
         <span className="text-xl font-bold text-gray-900 dark:text-white">
-          ProInvest
+          <span className="font-oswald bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent">
+            PRO
+          </span>
+          Invest
         </span>
       </div>
       <div className="hidden md:flex items-center space-x-8">
