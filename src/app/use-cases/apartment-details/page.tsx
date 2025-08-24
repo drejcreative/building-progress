@@ -66,11 +66,11 @@ export default function ApartmentDetails() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900">
-      {/* InvestorPro Showcase Header */}
+      {/* ProInvest Showcase Header */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 text-center text-sm">
         <div className="flex items-center justify-center space-x-2">
           <Building2 className="w-4 h-4" />
-          <span className="font-semibold">InvestorPro Showcase</span>
+          <span className="font-semibold">ProInvest Showcase</span>
           <span className="text-blue-200">•</span>
           <span>This is how individual apartment pages will look</span>
           <span className="text-blue-200">•</span>
@@ -96,6 +96,9 @@ export default function ApartmentDetails() {
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   Premium Living in the Heart of Belgrade
                 </p>
+                <div className="text-xs text-blue-600 dark:text-blue-400">
+                  Powered by ProInvest • Livion Real Estate
+                </div>
               </div>
             </div>
 

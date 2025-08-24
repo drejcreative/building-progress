@@ -1,8 +1,8 @@
-# 🏢 InvestorPro - Premium Real Estate Sales Platform
+# 🏢 ProInvest - Premium Real Estate Sales Platform
 
 **Serbia's First Zero-Risk Property Sales Service for Investors**
 
-InvestorPro is a comprehensive real estate sales platform designed specifically for building investors and developers in Serbia, Montenegro, and Croatia. Our unique "Full-Service VIP Model" eliminates upfront costs for investors while providing professional marketing, media production, and sales support.
+ProInvest is a comprehensive real estate sales platform designed specifically for building investors and developers in Serbia, Montenegro, and Croatia. Our unique "Full-Service VIP Model" eliminates upfront costs for investors while providing professional marketing, media production, and sales support.
 
 ## 🎯 Business Model
 
@@ -243,8 +243,8 @@ This project is proprietary software. All rights reserved.
 
 ## 📞 Contact
 
-- **Website**: [InvestorPro URL]
-- **Email**: info@investorpro.com
+- **Website**: [ProInvest URL]
+- **Email**: info@proinvest.com
 - **Phone**: +381 11 123 4567
 - **Location**: Belgrade, Serbia
 

@@ -3,21 +3,18 @@ import Link from "next/link";
 import {
   ArrowRight,
   Building2,
-  Home as HomeIcon,
   TrendingUp,
   Users,
   Star,
   MapPin,
-  Calendar,
   CheckCircle,
-  Euro,
   Video,
   Camera,
   Globe,
   Shield,
   Zap,
-  Sun,
-  Moon,
+  Phone,
+  Mail,
 } from "lucide-react";
 import { ThemeToggle } from "./components/theme-toggle";
 import { LanguageSwitcher } from "./components/language-switcher";
@@ -43,9 +40,11 @@ export default function Home() {
         <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-6 lg:p-8 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-gray-200/50 dark:border-white/10">
           <div className="flex items-center space-x-2">
             <Building2 className="w-8 h-8 text-gray-900 dark:text-white" />
-            <span className="text-xl font-bold text-gray-900 dark:text-white">
-              InvestorPro
-            </span>
+            <div>
+              <span className="text-xl font-bold text-gray-900 dark:text-white">
+                ProInvest
+              </span>
+            </div>
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <a
@@ -107,8 +106,9 @@ export default function Home() {
               </p>
               <p className="text-lg mb-8 animate-fade-in-up animation-delay-200 text-gray-700 dark:text-white/80">
                 Serbia&apos;s premier property sales service for investors. We
-                handle everything from Belgrade to Novi Sad to Niš - you only
-                pay when properties sell. Expanding to Montenegro and Croatia.
+                handle everything from Belgrade to Novi Sad to Niš - we also
+                sell for you. You only pay when properties sell. Expanding to
+                Montenegro and Croatia.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-400">
                 <button className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-blue-600 hover:to-indigo-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2">
@@ -385,9 +385,10 @@ export default function Home() {
             </h2>
             <p className="text-xl lg:text-2xl max-w-4xl mx-auto text-gray-700 dark:text-white/70 leading-relaxed">
               From initial concept to final sale, we handle every aspect of your
-              property marketing. Our comprehensive platform combines
-              cutting-edge technology with proven sales strategies to maximize
-              your returns while minimizing your workload.
+              property marketing and sales. We also sell for you. Our
+              comprehensive platform combines cutting-edge technology with
+              proven sales strategies to maximize your returns while minimizing
+              your workload.
             </p>
           </div>
 
@@ -1343,34 +1344,160 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-gray-200 dark:border-white/10">
+      <footer className="bg-gray-900 text-white py-16">
         <div className="container mx-auto px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Building2 className="w-6 h-6 text-gray-900 dark:text-white" />
-              <span className="font-semibold text-gray-900 dark:text-white">
-                InvestorPro
-              </span>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+            {/* Company Info */}
+            <div className="lg:col-span-2">
+              <div className="flex items-center space-x-3 mb-6">
+                <Building2 className="w-8 h-8 text-blue-400" />
+                <div>
+                  <span className="text-2xl font-bold">ProInvest</span>
+                  <div className="text-sm text-gray-400">
+                    <a
+                      href="https://livion.rs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-400"
+                    >
+                      by Livion Real Estate
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <p className="text-gray-300 mb-6 max-w-md">
+                Serbia&apos;s premier property sales service for investors. Zero
+                upfront costs, professional marketing, and guaranteed results.
+                Part of the Livion Real Estate family.
+              </p>
+              <div className="flex space-x-4">
+                <a
+                  href="https://livion.rs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 transition-colors"
+                >
+                  livion.rs
+                </a>
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  <span className="text-sm">LinkedIn</span>
+                </a>
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  <span className="text-sm">Facebook</span>
+                </a>
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  <span className="text-sm">Instagram</span>
+                </a>
+              </div>
             </div>
-            <div className="flex space-x-6 text-gray-700 dark:text-white/70">
-              <a
-                href="#"
-                className="transition-colors hover:text-gray-800 dark:hover:text-white"
-              >
-                Privacy
-              </a>
-              <a
-                href="#"
-                className="transition-colors hover:text-gray-800 dark:hover:text-white"
-              >
-                Terms
-              </a>
-              <a
-                href="#"
-                className="transition-colors hover:text-gray-800 dark:hover:text-white"
-              >
-                Contact
-              </a>
+
+            {/* Services */}
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Our Services</h3>
+              <ul className="space-y-2 text-gray-300">
+                <li>
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
+                    Property Marketing
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
+                    Virtual Tours
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
+                    Legal Support
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
+                    Sales Management
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
+                    Progress Tracking
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Contact Info */}
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+              <div className="space-y-3 text-gray-300">
+                <div className="flex items-center space-x-2">
+                  <Phone className="w-4 h-4 text-blue-400" />
+                  <span>+381 11 123 4567</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Mail className="w-4 h-4 text-blue-400" />
+                  <span>info@proinvest.com</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <MapPin className="w-4 h-4 text-blue-400" />
+                  <span>Belgrade, Serbia</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Globe className="w-4 h-4 text-blue-400" />
+                  <a
+                    href="https://livion.rs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-white transition-colors"
+                  >
+                    livion.rs
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom Section */}
+          <div className="border-t border-gray-800 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+              <div className="text-gray-400 text-sm mb-4 md:mb-0">
+                © 2024 ProInvest by Livion Real Estate. All rights reserved.
+              </div>
+              <div className="flex space-x-6 text-sm text-gray-400">
+                <a href="#" className="hover:text-white transition-colors">
+                  Privacy Policy
+                </a>
+                <a href="#" className="hover:text-white transition-colors">
+                  Terms of Service
+                </a>
+                <a href="#" className="hover:text-white transition-colors">
+                  Cookie Policy
+                </a>
+                <a href="#" className="hover:text-white transition-colors">
+                  GDPR
+                </a>
+              </div>
             </div>
           </div>
         </div>

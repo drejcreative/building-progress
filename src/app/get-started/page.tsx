@@ -39,9 +39,14 @@ export default function GetStarted() {
         <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-6 lg:p-8 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-gray-200/50 dark:border-white/10">
           <Link href="/" className="flex items-center space-x-2">
             <Building2 className="w-8 h-8 text-gray-900 dark:text-white" />
-            <span className="text-xl font-bold text-gray-900 dark:text-white">
-              InvestorPro
-            </span>
+            <div>
+              <span className="text-xl font-bold text-gray-900 dark:text-white">
+                ProInvest
+              </span>
+              <div className="text-xs text-gray-600 dark:text-gray-400">
+                by Livion Real Estate
+              </div>
+            </div>
           </Link>
           <Link
             href="/"
@@ -380,7 +385,7 @@ export default function GetStarted() {
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Building2 className="w-6 h-6 text-gray-900 dark:text-white" />
               <span className="font-semibold text-gray-900 dark:text-white">
-                InvestorPro
+                ProInvest
               </span>
             </div>
             <div className="flex space-x-6 text-gray-700 dark:text-white/70">
