@@ -146,7 +146,7 @@ export default function Home() {
               </span>{" "}
               Per Building
             </h2>
-            <p className="text-xl max-w-3xl mx-auto text-gray-600 dark:text-white/70">
+            <p className="text-xl max-w-3xl mx-auto text-gray-700 dark:text-white/70">
               Traditional DIY marketing costs vs. our zero-upfront professional
               service
             </p>
