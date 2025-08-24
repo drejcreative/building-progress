@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 import {
   ArrowRight,
   Building2,
@@ -48,36 +49,40 @@ export default function Home() {
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <a
-              href="#services"
-              className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
-            >
-              Services
-            </a>
-            <a
               href="#savings"
               className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
             >
               Cost Savings
             </a>
             <a
-              href="#process"
+              href="#services"
               className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
             >
-              Process
+              Services
             </a>
+
             <a
-              href="#contact"
+              href="#commission"
               className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
             >
-              Contact
+              Pricing
             </a>
+            <Link
+              href="/examples"
+              className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
+            >
+              Examples
+            </Link>
           </div>
           <div className="flex items-center space-x-4">
             <LanguageSwitcher />
             <ThemeToggle />
-            <button className="px-6 py-2 rounded-full bg-gray-900/10 backdrop-blur-sm border border-gray-900/20 text-gray-900 hover:bg-gray-900/20 dark:bg-white/10 dark:border-white/20 dark:text-white dark:hover:bg-white/20 transition-all">
+            <Link
+              href="/get-started"
+              className="px-6 py-2 rounded-full bg-gray-900/10 backdrop-blur-sm border border-gray-900/20 text-gray-900 hover:bg-gray-900/20 dark:bg-white/10 dark:border-white/20 dark:text-white dark:hover:bg-white/20 transition-all"
+            >
               Get Started
-            </button>
+            </Link>
           </div>
         </nav>
 
@@ -182,7 +187,7 @@ export default function Home() {
                   cost: "€4,000-8,000",
                   icon: Globe,
                   description:
-                    "Professional custom website with SEO optimization",
+                    "Professional custom website with SEO optimization + dedicated apartment pages",
                 },
                 {
                   item: "Professional Photography",
@@ -194,7 +199,8 @@ export default function Home() {
                   item: "Drone Video + Editing",
                   cost: "€800-1,500",
                   icon: Video,
-                  description: "Aerial footage with cinematic editing",
+                  description:
+                    "Aerial footage with cinematic editing + YouTube videos & paid commercials",
                 },
                 {
                   item: "360° Virtual Tour",
@@ -274,7 +280,7 @@ export default function Home() {
                   included: true,
                   icon: Globe,
                   description:
-                    "Custom SEO-optimized website with lead capture and analytics",
+                    "Custom SEO-optimized website with lead capture, analytics & dedicated apartment pages",
                 },
                 {
                   item: "Professional Photography",
@@ -288,7 +294,7 @@ export default function Home() {
                   included: true,
                   icon: Video,
                   description:
-                    "Aerial footage with cinematic editing and music",
+                    "Aerial footage with cinematic editing, YouTube videos & high-end paid commercials",
                 },
                 {
                   item: "360° Virtual Tour",
@@ -415,7 +421,7 @@ export default function Home() {
                       Digital Presence
                     </h3>
                     <p className="text-blue-600 dark:text-blue-400">
-                      Professional Online Platform
+                      Professional Online Platform + Dedicated Apartment Pages
                     </p>
                   </div>
                 </div>
@@ -428,7 +434,8 @@ export default function Home() {
                       </h4>
                       <p className="text-gray-700 dark:text-white/70 text-sm">
                         SEO-optimized, mobile-responsive website with lead
-                        capture forms and analytics tracking
+                        capture forms, analytics tracking & dedicated apartment
+                        pages
                       </p>
                     </div>
                   </div>
@@ -456,6 +463,18 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-gray-900 dark:text-white">
+                        Dedicated Apartment Pages
+                      </h4>
+                      <p className="text-gray-700 dark:text-white/70 text-sm">
+                        Individual pages for each apartment with detailed
+                        information and virtual tours
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -469,7 +488,8 @@ export default function Home() {
                       Premium Media Production
                     </h3>
                     <p className="text-purple-600 dark:text-purple-400">
-                      Cinematic Visual Content
+                      Cinematic Visual Content + YouTube Videos & Paid
+                      Commercials
                     </p>
                   </div>
                 </div>
@@ -493,8 +513,8 @@ export default function Home() {
                         Drone Videography
                       </h4>
                       <p className="text-gray-700 dark:text-white/70 text-sm">
-                        Aerial footage showcasing location, views, and building
-                        exteriors
+                        Aerial footage showcasing location, views, building
+                        exteriors, YouTube videos & high-end paid commercials
                       </p>
                     </div>
                   </div>
@@ -507,6 +527,18 @@ export default function Home() {
                       <p className="text-gray-700 dark:text-white/70 text-sm">
                         Professional video tours with voice-over highlighting
                         key features
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-gray-900 dark:text-white">
+                        YouTube & Paid Commercials
+                      </h4>
+                      <p className="text-gray-700 dark:text-white/70 text-sm">
+                        Professional YouTube videos and high-end paid
+                        advertising commercials
                       </p>
                     </div>
                   </div>
@@ -580,6 +612,18 @@ export default function Home() {
                       <p className="text-gray-700 dark:text-white/70 text-sm">
                         Automated email sequences nurturing leads through the
                         sales funnel
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-gray-900 dark:text-white">
+                        Content Marketing
+                      </h4>
+                      <p className="text-gray-700 dark:text-white/70 text-sm">
+                        Blog posts, articles, and valuable content to attract
+                        and engage potential buyers
                       </p>
                     </div>
                   </div>
@@ -818,7 +862,10 @@ export default function Home() {
       </section>
 
       {/* Commission Structure */}
-      <section className="py-20 bg-gradient-to-r from-blue-100/50 to-indigo-100/50 dark:from-blue-600/20 dark:to-indigo-600/20">
+      <section
+        id="commission"
+        className="py-20 bg-gradient-to-r from-blue-100/50 to-indigo-100/50 dark:from-blue-600/20 dark:to-indigo-600/20"
+      >
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold mb-4 text-gray-800 dark:text-white">
@@ -833,43 +880,90 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {/* Standard Service */}
             <div className="backdrop-blur-sm border border-gray-200 dark:border-white/10 rounded-2xl p-8 text-center bg-white/80 dark:bg-white/5 shadow-lg">
               <h3 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">
                 Standard Service
               </h3>
               <div className="text-4xl font-bold text-blue-400 mb-4">2-4%</div>
               <p className="mb-6 text-gray-700 dark:text-white/70">
-                Market standard commission on successful sales
+                Complete service package with zero upfront costs
               </p>
-              <ul className="text-left space-y-2">
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span className="text-gray-700 dark:text-white/80">
-                    Professional website
-                  </span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span className="text-gray-700 dark:text-white/80">
-                    Media package
-                  </span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span className="text-gray-700 dark:text-white/80">
-                    Marketing campaigns
-                  </span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span className="text-gray-700 dark:text-white/80">
-                    Legal support
-                  </span>
-                </li>
-              </ul>
+
+              <div className="space-y-6">
+                {/* Core Services */}
+                <div>
+                  <h4 className="font-semibold text-gray-800 dark:text-white mb-3 text-left">
+                    Core Services:
+                  </h4>
+                  <ul className="text-left space-y-2">
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        Professional website + apartment pages
+                      </span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        Cinematic media package
+                      </span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        Multi-channel marketing campaigns
+                      </span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        Legal concierge service
+                      </span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        Dedicated sales team
+                      </span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        Progress tracking & reporting
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* What's Included */}
+                <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-4">
+                  <h4 className="font-semibold text-gray-800 dark:text-white mb-2 text-left">
+                    What&apos;s Included:
+                  </h4>
+                  <ul className="text-left space-y-1 text-sm">
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Basic SEO optimization
+                    </li>
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Standard photography & drone footage
+                    </li>
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Google & Facebook ads (3 months)
+                    </li>
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Standard legal documentation
+                    </li>
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Monthly progress reports
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
 
+            {/* Premium Service */}
             <div className="backdrop-blur-sm border border-blue-300 dark:border-blue-500/30 rounded-2xl p-8 text-center relative overflow-hidden bg-gradient-to-r from-blue-100/80 to-indigo-100/80 dark:from-blue-500/20 dark:to-indigo-500/20 shadow-lg">
               <div className="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                 VIP
@@ -881,34 +975,79 @@ export default function Home() {
                 3-5.5%
               </div>
               <p className="mb-6 text-gray-700 dark:text-white/70">
-                Exclusive service for high-value properties
+                Premium service with exclusive benefits & priority access
               </p>
-              <ul className="text-left space-y-2">
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span className="text-gray-700 dark:text-white/80">
-                    Everything in Standard
-                  </span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span className="text-gray-700 dark:text-white/80">
-                    Priority buyer access
-                  </span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span className="text-gray-700 dark:text-white/80">
-                    Enhanced marketing
-                  </span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="w-4 h-4 text-green-400" />
-                  <span className="text-gray-700 dark:text-white/80">
-                    Dedicated account manager
-                  </span>
-                </li>
-              </ul>
+
+              <div className="space-y-6">
+                {/* Everything from Standard */}
+                <div>
+                  <h4 className="font-semibold text-gray-800 dark:text-white mb-3 text-left">
+                    Everything in Standard +
+                  </h4>
+                  <ul className="text-left space-y-2">
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        Exclusive buyer database access
+                      </span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        Premium marketing campaigns
+                      </span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        Personal account manager
+                      </span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        YouTube videos & paid commercials
+                      </span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-400" />
+                      <span className="text-gray-700 dark:text-white/80">
+                        Content marketing & SEO
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Premium Benefits */}
+                <div className="bg-blue-50 dark:bg-blue-500/10 rounded-xl p-4 border border-blue-200 dark:border-blue-500/20">
+                  <h4 className="font-semibold text-gray-800 dark:text-white mb-2 text-left">
+                    Premium Benefits:
+                  </h4>
+                  <ul className="text-left space-y-1 text-sm">
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Advanced SEO & content marketing
+                    </li>
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Professional video production for YouTube
+                    </li>
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Extended ad campaigns (6 months)
+                    </li>
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Priority access to our buyer network
+                    </li>
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Weekly progress updates
+                    </li>
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Premium legal support & contracts
+                    </li>
+                    <li className="text-gray-600 dark:text-white/70">
+                      • Dedicated account manager 24/7
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
