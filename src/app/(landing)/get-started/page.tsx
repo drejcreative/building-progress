@@ -35,27 +35,6 @@ export default function GetStarted() {
           </div>
         </div>
 
-        {/* Navigation */}
-        <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-6 lg:p-8 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-gray-200/50 dark:border-white/10">
-          <Link href="/" className="flex items-center space-x-2">
-            <Building2 className="w-8 h-8 text-gray-900 dark:text-white" />
-            <div>
-              <span className="text-xl font-bold text-gray-900 dark:text-white">
-                ProInvest
-              </span>
-              <div className="text-xs text-gray-600 dark:text-gray-400">
-                by Livion Real Estate
-              </div>
-            </div>
-          </Link>
-          <Link
-            href="/"
-            className="px-6 py-2 rounded-full bg-gray-900/10 backdrop-blur-sm border border-gray-900/20 text-gray-900 hover:bg-gray-900/20 dark:bg-white/10 dark:border-white/20 dark:text-white dark:hover:bg-white/20 transition-all"
-          >
-            ← Back to Home
-          </Link>
-        </nav>
-
         {/* Hero Content */}
         <div className="relative z-10 container mx-auto px-6 lg:px-8 py-20">
           <div className="text-center mb-16">
@@ -377,40 +356,6 @@ export default function GetStarted() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="py-12 border-t border-gray-200 dark:border-white/10">
-        <div className="container mx-auto px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Building2 className="w-6 h-6 text-gray-900 dark:text-white" />
-              <span className="font-semibold text-gray-900 dark:text-white">
-                ProInvest
-              </span>
-            </div>
-            <div className="flex space-x-6 text-gray-700 dark:text-white/70">
-              <a
-                href="#"
-                className="transition-colors hover:text-gray-800 dark:hover:text-white"
-              >
-                Privacy
-              </a>
-              <a
-                href="#"
-                className="transition-colors hover:text-gray-800 dark:hover:text-white"
-              >
-                Terms
-              </a>
-              <a
-                href="#"
-                className="transition-colors hover:text-gray-800 dark:hover:text-white"
-              >
-                Contact
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

@@ -4,8 +4,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 
 import "./globals.css";
-import Navigation from "./components/navigation";
-import Footer from "./components/footer";
+import Navigation from "../components/navigation";
+import Footer from "../components/footer";
 import { ThemeProvider } from "@/provider/theme-provider";
 
 const geistSans = Geist({
@@ -36,16 +36,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="light"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <Navigation />
-            {children}
-            <Footer />
-          </ThemeProvider>
+          {children}
         </NextIntlClientProvider>
       </body>
     </html>
