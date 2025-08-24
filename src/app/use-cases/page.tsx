@@ -215,8 +215,8 @@ export default function UseCases() {
               </h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
                 Belgrade Luxury Residences offers an unparalleled living
-                experience in the heart of Serbia's capital. Each apartment is
-                designed with premium materials and finishes, featuring
+                experience in the heart of Serbia&apos;s capital. Each apartment
+                is designed with premium materials and finishes, featuring
                 open-concept layouts, floor-to-ceiling windows, and private
                 balconies with stunning city views.
               </p>
@@ -432,8 +432,9 @@ export default function UseCases() {
               </h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
                 Located in the heart of Belgrade, our residences offer easy
-                access to the city's finest amenities, cultural attractions, and
-                business districts. Everything you need is just minutes away.
+                access to the city&apos;s finest amenities, cultural
+                attractions, and business districts. Everything you need is just
+                minutes away.
               </p>
 
               <div className="space-y-4">
