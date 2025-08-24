@@ -29,6 +29,20 @@ export default async function RootLayout({
   const messages = await getMessages();
   return (
     <html lang={locale}>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var theme = localStorage.getItem('theme') || 'dark';
+                  document.documentElement.classList.toggle('dark', theme === 'dark');
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
