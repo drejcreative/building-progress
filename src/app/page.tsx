@@ -101,7 +101,7 @@ export default function Home() {
                   <span>Start Free Consultation</span>
                   <ArrowRight className="w-5 h-5" />
                 </button>
-                <button className="px-8 py-4 rounded-full text-lg font-semibold bg-gray-800/10 backdrop-blur-sm border border-gray-800/20 text-gray-800 hover:bg-gray-800/20 dark:bg-white/10 dark:border-white/20 dark:text-white dark:hover:bg-white/20 transition-all">
+                <button className="px-8 py-4 rounded-full text-lg font-semibold bg-gray-900/10 backdrop-blur-sm border border-gray-900/20 text-gray-900 hover:bg-gray-900/20 dark:bg-white/10 dark:border-white/20 dark:text-white dark:hover:bg-white/20 transition-all">
                   View Case Studies
                 </button>
               </div>
