@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { LanguageSwitcher } from "./language-switcher";
+import LanguageSwitcher from "./language-switcher";
 import { ThemeToggle } from "./theme-toggle";
 
 export default function Navigation() {

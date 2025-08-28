@@ -9,12 +9,17 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@plunk/node": "^3.0.3",
+    "@radix-ui/react-select": "^2.2.6",
+    "@react-email/components": "^0.5.1",
+    "@react-email/render": "^1.2.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.541.0",
     "next": "15.5.0",
     "next-intl": "^4.3.5",
     "next-themes": "^0.4.6",
+    "prettier": "^3.6.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "tailwind-merge": "^3.3.1"

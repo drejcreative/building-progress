@@ -1,5 +1,68 @@
 {
   "HomePage": {
     "title": "Hello world!"
+  },
+  "LocaleSwitcher": {
+    "label": "Select language",
+    "en": "English",
+    "rs": "Serbian"
+  },
+  "ComingSoon": {
+    "badge": "Something Amazing is Coming",
+    "hero": {
+      "title": "ProInvest",
+      "subtitle": "Revolutionizing real estate investment with zero upfront costs and maximum returns. The future of property investment is almost here.",
+      "features": {
+        "zeroRisk": "Zero Risk",
+        "maximumReturns": "Maximum Returns",
+        "innovation": "Innovation"
+      }
+    },
+    "countdown": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    },
+    "subscription": {
+      "title": "Be the First to Know",
+      "description": "Get exclusive early access and special launch offers",
+      "placeholder": "Enter your email address",
+      "button": "Notify Me",
+      "success": {
+        "title": "You're on the list!",
+        "description": "We'll notify you as soon as we launch. Stay tuned!"
+      }
+    },
+    "features": {
+      "title": "What's Coming",
+      "items": {
+        "zeroUpfront": {
+          "title": "Zero Upfront Costs",
+          "description": "Start selling your properties without any initial investment. We only succeed when you succeed."
+        },
+        "maximumReturns": {
+          "title": "Maximum Returns",
+          "description": "Our proven strategies help you achieve higher sales prices and faster turnover times."
+        },
+        "cinematicMarketing": {
+          "title": "Cinematic Marketing",
+          "description": "Professional photography, drone footage, and 360° virtual tours to showcase your properties."
+        },
+        "dedicatedTeam": {
+          "title": "Dedicated Team",
+          "description": "Expert sales team handling all inquiries and negotiations on your behalf."
+        },
+        "multiChannel": {
+          "title": "Multi-Channel Marketing",
+          "description": "Comprehensive campaigns across Google, Facebook, Instagram, and more."
+        },
+        "legalSupport": {
+          "title": "Legal Support",
+          "description": "Complete legal concierge service ensuring smooth transactions and compliance."
+        }
+      }
+    },
+    "copyright": "© {year} ProInvest. All rights reserved."
   }
 }

@@ -1,5 +1,68 @@
 {
   "HomePage": {
     "title": "Dobrodošli na našu stranicu!"
+  },
+  "LocaleSwitcher": {
+    "label": "Izaberite jezik",
+    "en": "Engleski",
+    "rs": "Српски"
+  },
+  "ComingSoon": {
+    "badge": "Nešto Neverovatno Dolazi",
+    "hero": {
+      "title": "ProInvest",
+      "subtitle": "Revolucionizujemo investicije u nekretnine bez početnih troškova i sa maksimalnim povratima. Budućnost investiranja u nekretnine je skoro ovde.",
+      "features": {
+        "zeroRisk": "Nulti Rizik",
+        "maximumReturns": "Maksimalni Povrati",
+        "innovation": "Inovacija"
+      }
+    },
+    "countdown": {
+      "days": "Dana",
+      "hours": "Sati",
+      "minutes": "Minuta",
+      "seconds": "Sekundi"
+    },
+    "subscription": {
+      "title": "Budite Prvi koji će Saznati",
+      "description": "Dobijte ekskluzivni rani pristup i posebne ponude za lansiranje",
+      "placeholder": "Unesite vašu email adresu",
+      "button": "Obavesti Me",
+      "success": {
+        "title": "Na listi ste!",
+        "description": "Obavestićemo vas čim se lansiramo. Pratite nas!"
+      }
+    },
+    "features": {
+      "title": "Šta Dolazi",
+      "items": {
+        "zeroUpfront": {
+          "title": "Nulti Početni Troškovi",
+          "description": "Započnite prodaju vaših nekretnina bez početne investicije. Mi uspevamo samo kada vi uspevate."
+        },
+        "maximumReturns": {
+          "title": "Maksimalni Povrati",
+          "description": "Naše dokazane strategije vam pomažu da postignete više cene prodaje i brže vremena obrta."
+        },
+        "cinematicMarketing": {
+          "title": "Kinematski Marketing",
+          "description": "Profesionalna fotografija, snimci dronom i 360° virtualne ture za predstavljanje vaših nekretnina."
+        },
+        "dedicatedTeam": {
+          "title": "Posvećen Tim",
+          "description": "Stručan prodajni tim koji upravlja svim upitima i pregovorima u vaše ime."
+        },
+        "multiChannel": {
+          "title": "Multi-Kanal Marketing",
+          "description": "Sveobuhvatne kampanje preko Google-a, Facebook-a, Instagram-a i više."
+        },
+        "legalSupport": {
+          "title": "Pravna Podrška",
+          "description": "Kompletna pravna koncijerž usluga koja osigurava glatke transakcije i usklađenost."
+        }
+      }
+    },
+    "copyright": "© {year} ProInvest. Sva prava zadržana."
   }
 }
