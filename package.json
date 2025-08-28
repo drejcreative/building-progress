@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@plunk/node": "^3.0.3",
+    "@react-email/components": "^0.5.1",
+    "@react-email/render": "^1.2.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.541.0",

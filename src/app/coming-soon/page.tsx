@@ -21,6 +21,7 @@ import {
   Rocket,
 } from "lucide-react";
 import Image from "next/image";
+import { sendEmail } from "@/utils/send-email";
 
 export default function ComingSoon() {
   const t = useTranslations("ComingSoon");
@@ -63,7 +64,7 @@ export default function ComingSoon() {
     if (email) {
       setIsSubscribed(true);
       setEmail("");
-      // Here you would typically send the email to your backend
+      sendEmail(email);
     }
   };
 
