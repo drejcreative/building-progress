@@ -10,7 +10,8 @@ export function middleware(request: NextRequest) {
   }
 
   // Redirect all other pages to coming soon
-  return NextResponse.redirect(new URL("/coming-soon", request.url));
+  // return NextResponse.redirect(new URL("/coming-soon", request.url));
+  return NextResponse.next();
 }
 
 export const config = {

@@ -7,14 +7,11 @@ import {
   TrendingUp,
   Users,
   Star,
-  MapPin,
   CheckCircle,
   Video,
   Globe,
   Shield,
   Zap,
-  Phone,
-  Mail,
   ArrowRight,
   Bell,
   Sparkles,
@@ -22,6 +19,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { sendEmail } from "@/utils/send-email";
+import LanguageSwitcher from "@/components/language-switcher";
 
 export default function ComingSoon() {
   const t = useTranslations("ComingSoon");
@@ -70,6 +68,11 @@ export default function ComingSoon() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+      {/* Language Switcher */}
+      <div className="absolute top-6 right-6 z-20">
+        <LanguageSwitcher />
+      </div>
+
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
@@ -92,7 +95,7 @@ export default function ComingSoon() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-medium mb-8">
             <Sparkles className="w-4 h-4 mr-2" />
-            Something Amazing is Coming
+            {t("badge")}
           </div>
 
           <div className="mb-8">
@@ -107,29 +110,28 @@ export default function ComingSoon() {
 
           <h1 className="text-5xl lg:text-7xl font-bold mb-6 text-white">
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-              ProInvest
+              {t("hero.title")}
             </span>
           </h1>
 
           <p className="text-xl lg:text-2xl max-w-3xl mx-auto text-white/80 mb-8">
-            Revolutionizing real estate investment with zero upfront costs and
-            maximum returns. The future of property investment is almost here.
+            {t("hero.subtitle")}
           </p>
 
           <div className="flex items-center justify-center space-x-4 text-white/60">
             <div className="flex items-center space-x-2">
               <Shield className="w-5 h-5" />
-              <span>Zero Risk</span>
+              <span>{t("hero.features.zeroRisk")}</span>
             </div>
             <div className="w-1 h-1 bg-white/40 rounded-full"></div>
             <div className="flex items-center space-x-2">
               <Zap className="w-5 h-5" />
-              <span>Maximum Returns</span>
+              <span>{t("hero.features.maximumReturns")}</span>
             </div>
             <div className="w-1 h-1 bg-white/40 rounded-full"></div>
             <div className="flex items-center space-x-2">
               <Rocket className="w-5 h-5" />
-              <span>Innovation</span>
+              <span>{t("hero.features.innovation")}</span>
             </div>
           </div>
         </div>
@@ -138,10 +140,10 @@ export default function ComingSoon() {
         <div className="max-w-4xl mx-auto mb-16">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { label: "Days", value: timeLeft.days },
-              { label: "Hours", value: timeLeft.hours },
-              { label: "Minutes", value: timeLeft.minutes },
-              { label: "Seconds", value: timeLeft.seconds },
+              { label: t("countdown.days"), value: timeLeft.days },
+              { label: t("countdown.hours"), value: timeLeft.hours },
+              { label: t("countdown.minutes"), value: timeLeft.minutes },
+              { label: t("countdown.seconds"), value: timeLeft.seconds },
             ].map((item, index) => (
               <div
                 key={index}
@@ -162,11 +164,9 @@ export default function ComingSoon() {
             <div className="text-center mb-6">
               <Bell className="w-12 h-12 text-purple-400 mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-white mb-2">
-                Be the First to Know
+                {t("subscription.title")}
               </h3>
-              <p className="text-white/70">
-                Get exclusive early access and special launch offers
-              </p>
+              <p className="text-white/70">{t("subscription.description")}</p>
             </div>
 
             {!isSubscribed ? (
@@ -176,7 +176,7 @@ export default function ComingSoon() {
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Enter your email address"
+                    placeholder={t("subscription.placeholder")}
                     className="flex-1 px-6 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent backdrop-blur-sm"
                     required
                   />
@@ -184,7 +184,7 @@ export default function ComingSoon() {
                     type="submit"
                     className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-xl hover:from-purple-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
                   >
-                    <span>Notify Me</span>
+                    <span>{t("subscription.button")}</span>
                     <ArrowRight className="w-5 h-5" />
                   </button>
                 </div>
@@ -193,10 +193,10 @@ export default function ComingSoon() {
               <div className="text-center py-8">
                 <CheckCircle className="w-16 h-16 text-green-400 mx-auto mb-4" />
                 <h4 className="text-xl font-bold text-white mb-2">
-                  You&apos;re on the list!
+                  {t("subscription.success.title")}
                 </h4>
                 <p className="text-white/70">
-                  We&apos;ll notify you as soon as we launch. Stay tuned!
+                  {t("subscription.success.description")}
                 </p>
               </div>
             )}
@@ -206,51 +206,45 @@ export default function ComingSoon() {
         {/* Features Preview */}
         <div className="max-w-6xl mx-auto mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-white text-center mb-12">
-            What&apos;s Coming
+            {t("features.title")}
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
                 icon: Building2,
-                title: "Zero Upfront Costs",
-                description:
-                  "Start selling your properties without any initial investment. We only succeed when you succeed.",
+                title: t("features.items.zeroUpfront.title"),
+                description: t("features.items.zeroUpfront.description"),
                 color: "from-blue-500 to-cyan-500",
               },
               {
                 icon: TrendingUp,
-                title: "Maximum Returns",
-                description:
-                  "Our proven strategies help you achieve higher sales prices and faster turnover times.",
+                title: t("features.items.maximumReturns.title"),
+                description: t("features.items.maximumReturns.description"),
                 color: "from-green-500 to-emerald-500",
               },
               {
                 icon: Video,
-                title: "Cinematic Marketing",
-                description:
-                  "Professional photography, drone footage, and 360° virtual tours to showcase your properties.",
+                title: t("features.items.cinematicMarketing.title"),
+                description: t("features.items.cinematicMarketing.description"),
                 color: "from-purple-500 to-pink-500",
               },
               {
                 icon: Users,
-                title: "Dedicated Team",
-                description:
-                  "Expert sales team handling all inquiries and negotiations on your behalf.",
+                title: t("features.items.dedicatedTeam.title"),
+                description: t("features.items.dedicatedTeam.description"),
                 color: "from-orange-500 to-red-500",
               },
               {
                 icon: Globe,
-                title: "Multi-Channel Marketing",
-                description:
-                  "Comprehensive campaigns across Google, Facebook, Instagram, and more.",
+                title: t("features.items.multiChannel.title"),
+                description: t("features.items.multiChannel.description"),
                 color: "from-indigo-500 to-purple-500",
               },
               {
                 icon: Shield,
-                title: "Legal Support",
-                description:
-                  "Complete legal concierge service ensuring smooth transactions and compliance.",
+                title: t("features.items.legalSupport.title"),
+                description: t("features.items.legalSupport.description"),
                 color: "from-teal-500 to-blue-500",
               },
             ].map((feature, index) => (
@@ -272,46 +266,10 @@ export default function ComingSoon() {
           </div>
         </div>
 
-        {/* Success Metrics Preview */}
-        <div className="max-w-4xl mx-auto mb-16">
-          <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-white text-center mb-8">
-              Proven Results
-            </h3>
-
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
-              {[
-                { value: "100%", label: "Risk-Free Trial" },
-                { value: "45+", label: "Units Sold" },
-                { value: "18%", label: "Above Market Price" },
-                { value: "3", label: "Months Average" },
-              ].map((metric, index) => (
-                <div key={index}>
-                  <div className="text-3xl lg:text-4xl font-bold text-white mb-2">
-                    {metric.value}
-                  </div>
-                  <div className="text-white/70 text-sm">{metric.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Contact Info */}
+        {/* Copyright */}
         <div className="text-center">
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-white/70">
-            <div className="flex items-center space-x-2">
-              <Mail className="w-5 h-5" />
-              <span>hello@proinvest.com</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Phone className="w-5 h-5" />
-              <span>+381 11 123 4567</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <MapPin className="w-5 h-5" />
-              <span>Belgrade, Serbia</span>
-            </div>
+          <div className="text-white/70">
+            <p>{t("copyright", { year: new Date().getFullYear() })}</p>
           </div>
         </div>
       </div>
