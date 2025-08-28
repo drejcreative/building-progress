@@ -1,20 +1,5 @@
 import { useTranslations } from "next-intl";
-import {
-  ArrowRight,
-  Building2,
-  TrendingUp,
-  Users,
-  Star,
-  MapPin,
-  CheckCircle,
-  Video,
-  Camera,
-  Globe,
-  Shield,
-  Zap,
-  Phone,
-  Mail,
-} from "lucide-react";
+import { MapPin, CheckCircle } from "lucide-react";
 import Hero from "./_components/hero";
 import CostSaving from "./_components/cost-saving";
 import Solution from "./_components/solution";
