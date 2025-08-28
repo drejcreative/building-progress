@@ -75,30 +75,14 @@ export const ProInvestWelcomeEmail = () => {
                   investicionim prilikama.
                 </Text>
 
-                <Text className="text-base">Evo kako da započnete:</Text>
+                <Text className="text-base">Uskoro sa vama:</Text>
               </Row>
             </Section>
 
             <Section className="text-center">
               <Button className="rounded-lg bg-brand px-[18px] py-3 text-white">
-                Idite na vaš dashboard
+                Budite spremni - uskoro sa vama
               </Button>
-            </Section>
-
-            <Section className="mt-45">
-              <Row>
-                {links?.map((link) => (
-                  <Column key={link.title}>
-                    <Link
-                      className="font-bold text-black underline"
-                      href={link.href}
-                    >
-                      {link.title}
-                    </Link>{" "}
-                    <span className="text-accent">→</span>
-                  </Column>
-                ))}
-              </Row>
             </Section>
           </Container>
 
