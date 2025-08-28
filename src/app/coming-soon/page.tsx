@@ -30,39 +30,46 @@ export default function ComingSoon() {
     seconds: 0,
   });
 
-  // Set launch date to 30 days from now
-  const launchDate = new Date();
-  launchDate.setDate(launchDate.getDate() + 30);
-
   useEffect(() => {
+    // Set launch date to October 1st, 2025
+    const launchDate = new Date("2025-10-01T00:00:00");
+
+    console.log("Countdown timer started");
     const timer = setInterval(() => {
       const now = new Date().getTime();
       const distance = launchDate.getTime() - now;
 
       if (distance > 0) {
-        setTimeLeft({
+        const newTimeLeft = {
           days: Math.floor(distance / (1000 * 60 * 60 * 24)),
           hours: Math.floor(
             (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
           ),
           minutes: Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
           seconds: Math.floor((distance % (1000 * 60)) / 1000),
-        });
+        };
+        console.log("Countdown update:", newTimeLeft);
+        setTimeLeft(newTimeLeft);
       }
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [launchDate]);
+  }, []); // Empty dependency array to run only once
 
   const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
 
-  const handleSubscribe = (e: React.FormEvent) => {
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault();
     if (email) {
-      setIsSubscribed(true);
-      setEmail("");
-      sendEmail(email);
+      try {
+        await sendEmail(email);
+        setIsSubscribed(true);
+        setEmail("");
+      } catch (error) {
+        console.error("Failed to subscribe:", error);
+        // You might want to show an error message to the user
+      }
     }
   };
 
