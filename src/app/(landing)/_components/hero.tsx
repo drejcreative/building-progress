@@ -20,9 +20,7 @@ export default function Hero() {
           </h1>
           <p className="text-xl lg:text-2xl mb-4 animate-fade-in-up animation-delay-200 text-gray-700 dark:text-white/80">
             {t("hero.description").split("**")[0]}
-            <strong>
-              {t("hero.description").split("**")[1]}
-            </strong>
+            <strong>{t("hero.description").split("**")[1]}</strong>
           </p>
           <p className="text-lg mb-8 animate-fade-in-up animation-delay-200 text-gray-700 dark:text-white/80">
             {t("hero.content")}
@@ -54,7 +52,9 @@ export default function Hero() {
                 <div className="font-semibold text-gray-800">
                   {t("hero.stats.properties")}
                 </div>
-                <div className="text-sm text-gray-600">{t("hero.stats.sold")}</div>
+                <div className="text-sm text-gray-600">
+                  {t("hero.stats.sold")}
+                </div>
               </div>
             </div>
           </div>
