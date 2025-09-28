@@ -1,6 +1,314 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "hero": {
+      "title": "Serbia's First",
+      "subtitle": "Zero-Risk Property Sales",
+      "description": "👉 **Sell Your Building Faster — Without Spending €1 Upfront.**",
+      "content": "Serbia's premier property sales service for investors. We handle everything from Belgrade to Novi Sad to Niš - we also sell for you. You only pay when properties sell. Expanding to Montenegro and Croatia.",
+      "ctaPrimary": "Start Free Consultation",
+      "ctaSecondary": "View Case Studies",
+      "stats": {
+        "properties": "150+ Properties",
+        "sold": "Successfully Sold"
+      }
+    },
+    "costSaving": {
+      "title": "Save **€20,000-35,000** Per Building",
+      "subtitle": "Traditional DIY marketing costs vs. our zero-upfront professional service.",
+      "maxSavings": "Maximum savings for Serbian market conditions",
+      "vsLabel": "VS",
+      "diyTitle": "DIY Costs (Your Risk)",
+      "ourServiceTitle": "Our Service (Zero Risk)",
+      "services": {
+        "websiteDevelopment": {
+          "title": "Website Development",
+          "cost": "€6,000-12,000",
+          "descriptionDiy": "Professional custom website with SEO optimization + dedicated apartment pages",
+          "descriptionOur": "Custom SEO-optimized website with lead capture, analytics & dedicated apartment pages"
+        },
+        "photography": {
+          "title": "Professional Photography",
+          "cost": "€800-1,800",
+          "descriptionDiy": "High-quality photos with professional staging",
+          "descriptionOur": "Professional photos with staging and lighting setup"
+        },
+        "droneVideo": {
+          "title": "Drone Video + Editing",
+          "cost": "€1,200-2,500",
+          "descriptionDiy": "Aerial footage with cinematic editing + YouTube videos & paid commercials",
+          "descriptionOur": "Aerial footage with cinematic editing, YouTube videos & high-end paid commercials"
+        },
+        "virtualTour": {
+          "title": "360° Virtual Tour",
+          "cost": "€1,500-3,000",
+          "descriptionDiy": "Interactive virtual tours with floor plans",
+          "descriptionOur": "Interactive virtual tours with floor plans and details"
+        },
+        "marketing": {
+          "title": "Marketing & Ads (6-12 months)",
+          "cost": "€7,000-12,000",
+          "descriptionDiy": "Google, Facebook, Instagram campaigns",
+          "descriptionOur": "Google, Facebook, Instagram, and LinkedIn advertising"
+        },
+        "legalSupport": {
+          "title": "Legal Support",
+          "cost": "€2,000-4,000",
+          "descriptionDiy": "Contract management and compliance",
+          "descriptionOur": "Full legal support from contracts to closing"
+        },
+        "salesStaff": {
+          "title": "Sales Staff (6 months)",
+          "cost": "€8,000-15,000",
+          "descriptionDiy": "Professional sales team and management",
+          "descriptionOur": "Professional sales agents handling all inquiries"
+        }
+      },
+      "summary": {
+        "yourRisk": {
+          "badge": "YOUR RISK",
+          "total": "€20,000-35,000",
+          "title": "Total Upfront Investment",
+          "monthly": "Plus ongoing monthly costs",
+          "noGuarantee": "No guarantee of success"
+        },
+        "zeroRisk": {
+          "badge": "ZERO RISK",
+          "total": "€0",
+          "title": "Upfront Investment",
+          "payOnSale": "Pay only when properties sell",
+          "maxReturn": "Zero risk, maximum return"
+        }
+      }
+    },
+    "solution": {
+      "badge": "All-Inclusive Service",
+      "title": "Complete **Investor Solution**",
+      "subtitle": "From initial concept to final sale, we handle every aspect of your property marketing and sales. We also sell for you. Our comprehensive platform combines cutting-edge technology with proven sales strategies to maximize your returns while minimizing your workload.",
+      "digitalPresence": {
+        "title": "Digital Presence",
+        "subtitle": "Professional Online Platform + Dedicated Apartment Pages",
+        "image": {
+          "title": "Complete Investor Solution",
+          "description": "Everything you need for successful property sales"
+        },
+        "features": {
+          "customWebsite": {
+            "title": "Custom Building Website",
+            "description": "SEO-optimized, mobile-responsive website with lead capture forms, analytics tracking & dedicated apartment pages"
+          },
+          "virtualTours": {
+            "title": "Virtual Property Tours",
+            "description": "Interactive 360° virtual tours with floor plans and detailed property information"
+          },
+          "leadManagement": {
+            "title": "Lead Management System",
+            "description": "Automated lead tracking, qualification, and follow-up system"
+          },
+          "apartmentPages": {
+            "title": "Dedicated Apartment Pages",
+            "description": "Individual pages for each apartment with detailed information and virtual tours"
+          }
+        }
+      },
+      "mediaProduction": {
+        "title": "Premium Media Production",
+        "subtitle": "Cinematic Visual Content + YouTube Videos & Paid Commercials",
+        "features": {
+          "photography": {
+            "title": "Professional Photography",
+            "description": "High-resolution photos with professional staging and lighting"
+          },
+          "droneVideography": {
+            "title": "Drone Videography",
+            "description": "Aerial footage showcasing location, views, building exteriors, YouTube videos & high-end paid commercials"
+          },
+          "walkthroughs": {
+            "title": "Narrated Walkthroughs",
+            "description": "Professional video tours with voice-over highlighting key features"
+          },
+          "youtubeCommercials": {
+            "title": "YouTube & Paid Commercials",
+            "description": "Professional YouTube videos and high-end paid advertising commercials"
+          }
+        }
+      },
+      "marketing": {
+        "title": "Strategic Marketing",
+        "subtitle": "Multi-Channel Campaigns",
+        "image": {
+          "title": "Premium Marketing & Sales",
+          "description": "Strategic campaigns and dedicated support"
+        },
+        "features": {
+          "googleMeta": {
+            "title": "Google & Meta Advertising",
+            "description": "Targeted PPC campaigns reaching qualified buyers across platforms"
+          },
+          "socialMedia": {
+            "title": "Social Media Management",
+            "description": "Regular content creation and community engagement"
+          },
+          "emailMarketing": {
+            "title": "Email Marketing",
+            "description": "Automated email sequences nurturing leads through the sales funnel"
+          },
+          "contentMarketing": {
+            "title": "Content Marketing",
+            "description": "Blog posts, articles, and valuable content to attract and engage potential buyers"
+          }
+        }
+      },
+      "salesSupport": {
+        "title": "Sales & Support",
+        "subtitle": "End-to-End Service",
+        "features": {
+          "dedicatedTeam": {
+            "title": "Dedicated Sales Team",
+            "description": "Professional sales agents handling all buyer inquiries and negotiations"
+          },
+          "legalConcierge": {
+            "title": "Legal Concierge",
+            "description": "Full legal support from contract creation to closing"
+          },
+          "contractManagement": {
+            "title": "Contract Management",
+            "description": "Professional contract drafting, review, and negotiation"
+          },
+          "compliance": {
+            "title": "Compliance & Verification",
+            "description": "Buyer verification, legal compliance, and regulatory support"
+          },
+          "progressTracking": {
+            "title": "Progress Tracking",
+            "description": "Real-time construction updates and investor reporting dashboard"
+          }
+        }
+      }
+    },
+    "freeShowcase": {
+      "badge": "Risk-Free Trial",
+      "title": "Try Our Service **100% Free**",
+      "subtitle": "We'll create a professional showcase for your first apartment completely free. No commitment, no risk — see our quality before you commit.",
+      "whatYouGet": "What You Get in Our Free Trial:",
+      "features": {
+        "listing": {
+          "title": "Professional Apartment Listing",
+          "description": "Complete webpage for one apartment with SEO optimization"
+        },
+        "photography": {
+          "title": "Professional Photography",
+          "description": "High-quality photos and basic drone footage"
+        },
+        "marketingTest": {
+          "title": "2-Week Marketing Test",
+          "description": "Targeted Facebook and Google ads with performance analytics"
+        },
+        "analysis": {
+          "title": "Results Analysis",
+          "description": "Detailed report on leads, engagement, and recommendations"
+        }
+      },
+      "whyWeOffer": "Why We Offer This:",
+      "explanation": {
+        "confidence": "We're confident in our ability to deliver results. This limited trial proves our quality with minimal investment from us while giving you a real taste of our service.",
+        "value": "After seeing the leads and engagement we generate, you'll understand the value of our commission-based approach for your entire building.",
+        "quote": "\"Small investment, big proof of concept.\"",
+        "cost": "Typical cost: €800-1,200 • Your cost: €0"
+      }
+    },
+    "commission": {
+      "title": "Fair **Commission** Structure",
+      "subtitle": "We only succeed when you succeed - no hidden fees or upfront costs",
+      "standard": {
+        "title": "Standard Service",
+        "rate": "2-4%",
+        "description": "Complete service package with zero upfront costs",
+        "coreServices": "Core Services:",
+        "features": {
+          "website": "Professional website + apartment pages",
+          "media": "Cinematic media package",
+          "marketing": "Multi-channel marketing campaigns",
+          "legal": "Legal concierge service",
+          "sales": "Dedicated sales team",
+          "tracking": "Progress tracking & reporting"
+        },
+        "included": "What's Included:",
+        "details": {
+          "seo": "• Basic SEO optimization",
+          "photography": "• Standard photography & drone footage",
+          "ads": "• Google & Facebook ads (3 months)",
+          "documentation": "• Standard legal documentation",
+          "reports": "• Monthly progress reports"
+        }
+      },
+      "premium": {
+        "title": "Premium Service",
+        "badge": "VIP",
+        "rate": "3-5.5%",
+        "description": "Premium service with exclusive benefits & priority access",
+        "everything": "Everything in Standard +",
+        "features": {
+          "database": "Exclusive buyer database access",
+          "premiumMarketing": "Premium marketing campaigns",
+          "accountManager": "Personal account manager",
+          "youtube": "YouTube videos & paid commercials",
+          "contentSeo": "Content marketing & SEO"
+        },
+        "benefits": "Premium Benefits:",
+        "details": {
+          "seo": "• Advanced SEO & content marketing",
+          "video": "• Professional video production for YouTube",
+          "extended": "• Extended ad campaigns (6 months)",
+          "priority": "• Priority access to our buyer network",
+          "weekly": "• Weekly progress updates",
+          "premiumLegal": "• Premium legal support & contracts",
+          "manager": "• Dedicated account manager 24/7"
+        }
+      }
+    },
+    "marketExpansion": {
+      "title": "Growing **Regional Presence**",
+      "subtitle": "Expanding our premium service across the region to serve more investors",
+      "serbia": {
+        "title": "Serbia",
+        "status": "Primary Market",
+        "cities": {
+          "belgrade": "• Belgrade",
+          "noviSad": "• Novi Sad",
+          "nis": "• Niš"
+        }
+      },
+      "montenegro": {
+        "title": "Montenegro",
+        "status": "Expansion Market",
+        "cities": {
+          "budva": "• Budva",
+          "kotor": "• Kotor",
+          "podgorica": "• Podgorica"
+        }
+      },
+      "croatia": {
+        "title": "Croatia",
+        "status": "Expansion Market",
+        "cities": {
+          "zagreb": "• Zagreb",
+          "dubrovnik": "• Dubrovnik",
+          "split": "• Split"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Property Sales?",
+      "subtitle": "Join successful investors who've eliminated upfront costs and increased their returns. Start with a free consultation today.",
+      "primary": "Schedule Free Consultation",
+      "secondary": "View Success Stories"
+    },
+    "vipCta": {
+      "badge": "Limited Availability",
+      "title": "👉 Secure Your VIP Investor Spot",
+      "subtitle": "Only **2 VIP Properties Accepted Monthly** — Extreme scarcity creates maximum urgency and ensures premium service quality. Join the elite investors who get exclusive access.",
+      "button": "Apply Now"
+    }
   },
   "LocaleSwitcher": {
     "label": "Select language",

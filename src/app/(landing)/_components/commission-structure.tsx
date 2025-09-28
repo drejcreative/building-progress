@@ -1,7 +1,9 @@
 import { CheckCircle } from "lucide-react";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function CommissionStructure() {
+  const t = useTranslations("HomePage");
   return (
     <section
       id="commission"
@@ -10,14 +12,14 @@ export default function CommissionStructure() {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4 text-gray-800 dark:text-white">
-            Fair{" "}
+            {t("commission.title").split("**")[0]}{" "}
             <span className="bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
-              Commission
+              {t("commission.title").split("**")[1]}
             </span>{" "}
-            Structure
+            {t("commission.title").split("**")[2]}
           </h2>
           <p className="text-xl max-w-2xl mx-auto text-gray-700 dark:text-white/70">
-            We only succeed when you succeed - no hidden fees or upfront costs
+            {t("commission.subtitle")}
           </p>
         </div>
 
@@ -25,54 +27,56 @@ export default function CommissionStructure() {
           {/* Standard Service */}
           <div className="backdrop-blur-sm border border-gray-200 dark:border-white/10 rounded-2xl p-8 text-center bg-white/80 dark:bg-white/5 shadow-lg">
             <h3 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">
-              Standard Service
+              {t("commission.standard.title")}
             </h3>
-            <div className="text-4xl font-bold text-blue-400 mb-4">2-4%</div>
+            <div className="text-4xl font-bold text-blue-400 mb-4">
+              {t("commission.standard.rate")}
+            </div>
             <p className="mb-6 text-gray-700 dark:text-white/70">
-              Complete service package with zero upfront costs
+              {t("commission.standard.description")}
             </p>
 
             <div className="space-y-6">
               {/* Core Services */}
               <div>
                 <h4 className="font-semibold text-gray-800 dark:text-white mb-3 text-left">
-                  Core Services:
+                  {t("commission.standard.coreServices")}
                 </h4>
                 <ul className="text-left space-y-2">
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      Professional website + apartment pages
+                      {t("commission.standard.features.website")}
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      Cinematic media package
+                      {t("commission.standard.features.media")}
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      Multi-channel marketing campaigns
+                      {t("commission.standard.features.marketing")}
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      Legal concierge service
+                      {t("commission.standard.features.legal")}
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      Dedicated sales team
+                      {t("commission.standard.features.sales")}
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      Progress tracking & reporting
+                      {t("commission.standard.features.tracking")}
                     </span>
                   </li>
                 </ul>
@@ -81,23 +85,23 @@ export default function CommissionStructure() {
               {/* What's Included */}
               <div className="bg-gray-50 dark:bg-white/5 rounded-xl p-4">
                 <h4 className="font-semibold text-gray-800 dark:text-white mb-2 text-left">
-                  What&apos;s Included:
+                  {t("commission.standard.included")}
                 </h4>
                 <ul className="text-left space-y-1 text-sm">
                   <li className="text-gray-600 dark:text-white/70">
-                    • Basic SEO optimization
+                    {t("commission.standard.details.seo")}
                   </li>
                   <li className="text-gray-600 dark:text-white/70">
-                    • Standard photography & drone footage
+                    {t("commission.standard.details.photography")}
                   </li>
                   <li className="text-gray-600 dark:text-white/70">
-                    • Google & Facebook ads (3 months)
+                    {t("commission.standard.details.ads")}
                   </li>
                   <li className="text-gray-600 dark:text-white/70">
-                    • Standard legal documentation
+                    {t("commission.standard.details.documentation")}
                   </li>
                   <li className="text-gray-600 dark:text-white/70">
-                    • Monthly progress reports
+                    {t("commission.standard.details.reports")}
                   </li>
                 </ul>
               </div>
@@ -107,53 +111,53 @@ export default function CommissionStructure() {
           {/* Premium Service */}
           <div className="backdrop-blur-sm border border-blue-300 dark:border-blue-500/30 rounded-2xl p-8 text-center relative overflow-hidden bg-gradient-to-r from-blue-100/80 to-indigo-100/80 dark:from-blue-500/20 dark:to-indigo-500/20 shadow-lg">
             <div className="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-              VIP
+              {t("commission.premium.badge")}
             </div>
             <h3 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">
-              Premium Service
+              {t("commission.premium.title")}
             </h3>
             <div className="text-4xl font-bold text-indigo-400 mb-4">
-              3-5.5%
+              {t("commission.premium.rate")}
             </div>
             <p className="mb-6 text-gray-700 dark:text-white/70">
-              Premium service with exclusive benefits & priority access
+              {t("commission.premium.description")}
             </p>
 
             <div className="space-y-6">
               {/* Everything from Standard */}
               <div>
                 <h4 className="font-semibold text-gray-800 dark:text-white mb-3 text-left">
-                  Everything in Standard +
+                  {t("commission.premium.everything")}
                 </h4>
                 <ul className="text-left space-y-2">
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      Exclusive buyer database access
+                      {t("commission.premium.features.database")}
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      Premium marketing campaigns
+                      {t("commission.premium.features.premiumMarketing")}
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      Personal account manager
+                      {t("commission.premium.features.accountManager")}
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      YouTube videos & paid commercials
+                      {t("commission.premium.features.youtube")}
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4 text-green-400" />
                     <span className="text-gray-700 dark:text-white/80">
-                      Content marketing & SEO
+                      {t("commission.premium.features.contentSeo")}
                     </span>
                   </li>
                 </ul>
@@ -162,29 +166,29 @@ export default function CommissionStructure() {
               {/* Premium Benefits */}
               <div className="bg-blue-50 dark:bg-blue-500/10 rounded-xl p-4 border border-blue-200 dark:border-blue-500/20">
                 <h4 className="font-semibold text-gray-800 dark:text-white mb-2 text-left">
-                  Premium Benefits:
+                  {t("commission.premium.benefits")}
                 </h4>
                 <ul className="text-left space-y-1 text-sm">
                   <li className="text-gray-600 dark:text-white/70">
-                    • Advanced SEO & content marketing
+                    {t("commission.premium.details.seo")}
                   </li>
                   <li className="text-gray-600 dark:text-white/70">
-                    • Professional video production for YouTube
+                    {t("commission.premium.details.video")}
                   </li>
                   <li className="text-gray-600 dark:text-white/70">
-                    • Extended ad campaigns (6 months)
+                    {t("commission.premium.details.extended")}
                   </li>
                   <li className="text-gray-600 dark:text-white/70">
-                    • Priority access to our buyer network
+                    {t("commission.premium.details.priority")}
                   </li>
                   <li className="text-gray-600 dark:text-white/70">
-                    • Weekly progress updates
+                    {t("commission.premium.details.weekly")}
                   </li>
                   <li className="text-gray-600 dark:text-white/70">
-                    • Premium legal support & contracts
+                    {t("commission.premium.details.premiumLegal")}
                   </li>
                   <li className="text-gray-600 dark:text-white/70">
-                    • Dedicated account manager 24/7
+                    {t("commission.premium.details.manager")}
                   </li>
                 </ul>
               </div>

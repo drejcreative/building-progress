@@ -1,9 +1,11 @@
 import { CheckCircle, Globe, TrendingUp, Users, Video } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import { useTranslations } from "next-intl";
 import VipCta from "./vip-cta";
 
 export default function Solution() {
+  const t = useTranslations("HomePage");
   return (
     <section id="services" className="py-20">
       <div className="container mx-auto px-6 lg:px-8">
@@ -11,20 +13,16 @@ export default function Solution() {
         <div className="text-center mb-20">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm font-medium mb-6">
             <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
-            All-Inclusive Service
+            {t("solution.badge")}
           </div>
           <h2 className="text-4xl lg:text-6xl font-bold mb-6 text-gray-900 dark:text-white">
-            Complete{" "}
+            {t("solution.title").split("**")[0]}{" "}
             <span className="bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent">
-              Investor Solution
+              {t("solution.title").split("**")[1]}
             </span>
           </h2>
           <p className="text-xl lg:text-2xl max-w-4xl mx-auto text-gray-700 dark:text-white/70 leading-relaxed">
-            From initial concept to final sale, we handle every aspect of your
-            property marketing and sales. We also sell for you. Our
-            comprehensive platform combines cutting-edge technology with proven
-            sales strategies to maximize your returns while minimizing your
-            workload.
+            {t("solution.subtitle")}
           </p>
         </div>
 
@@ -44,10 +42,10 @@ export default function Solution() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-6 left-6 text-white">
                 <h3 className="text-2xl font-bold mb-2">
-                  Complete Investor Solution
+                  {t("solution.digitalPresence.image.title")}
                 </h3>
                 <p className="text-white/90">
-                  Everything you need for successful property sales
+                  {t("solution.digitalPresence.image.description")}
                 </p>
               </div>
             </div>
@@ -58,10 +56,10 @@ export default function Solution() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                    Digital Presence
+                    {t("solution.digitalPresence.title")}
                   </h3>
                   <p className="text-blue-600 dark:text-blue-400">
-                    Professional Online Platform + Dedicated Apartment Pages
+                    {t("solution.digitalPresence.subtitle")}
                   </p>
                 </div>
               </div>
@@ -70,11 +68,14 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Custom Building Website
+                      {t(
+                        "solution.digitalPresence.features.customWebsite.title"
+                      )}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      SEO-optimized, mobile-responsive website with lead capture
-                      forms, analytics tracking & dedicated apartment pages
+                      {t(
+                        "solution.digitalPresence.features.customWebsite.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -82,11 +83,14 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Virtual Property Tours
+                      {t(
+                        "solution.digitalPresence.features.virtualTours.title"
+                      )}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Interactive 360° virtual tours with floor plans and
-                      detailed property information
+                      {t(
+                        "solution.digitalPresence.features.virtualTours.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -94,11 +98,14 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Lead Management System
+                      {t(
+                        "solution.digitalPresence.features.leadManagement.title"
+                      )}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Automated lead tracking, qualification, and follow-up
-                      system
+                      {t(
+                        "solution.digitalPresence.features.leadManagement.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -106,11 +113,14 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Dedicated Apartment Pages
+                      {t(
+                        "solution.digitalPresence.features.apartmentPages.title"
+                      )}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Individual pages for each apartment with detailed
-                      information and virtual tours
+                      {t(
+                        "solution.digitalPresence.features.apartmentPages.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -124,10 +134,10 @@ export default function Solution() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                    Premium Media Production
+                    {t("solution.mediaProduction.title")}
                   </h3>
                   <p className="text-purple-600 dark:text-purple-400">
-                    Cinematic Visual Content + YouTube Videos & Paid Commercials
+                    {t("solution.mediaProduction.subtitle")}
                   </p>
                 </div>
               </div>
@@ -136,11 +146,12 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Professional Photography
+                      {t("solution.mediaProduction.features.photography.title")}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      High-resolution photos with professional staging and
-                      lighting
+                      {t(
+                        "solution.mediaProduction.features.photography.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -148,11 +159,14 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Drone Videography
+                      {t(
+                        "solution.mediaProduction.features.droneVideography.title"
+                      )}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Aerial footage showcasing location, views, building
-                      exteriors, YouTube videos & high-end paid commercials
+                      {t(
+                        "solution.mediaProduction.features.droneVideography.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -160,11 +174,14 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Narrated Walkthroughs
+                      {t(
+                        "solution.mediaProduction.features.walkthroughs.title"
+                      )}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Professional video tours with voice-over highlighting key
-                      features
+                      {t(
+                        "solution.mediaProduction.features.walkthroughs.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -172,11 +189,14 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      YouTube & Paid Commercials
+                      {t(
+                        "solution.mediaProduction.features.youtubeCommercials.title"
+                      )}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Professional YouTube videos and high-end paid advertising
-                      commercials
+                      {t(
+                        "solution.mediaProduction.features.youtubeCommercials.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -198,10 +218,10 @@ export default function Solution() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-6 left-6 text-white">
                 <h3 className="text-2xl font-bold mb-2">
-                  Premium Marketing & Sales
+                  {t("solution.marketing.image.title")}
                 </h3>
                 <p className="text-white/90">
-                  Strategic campaigns and dedicated support
+                  {t("solution.marketing.image.description")}
                 </p>
               </div>
             </div>
@@ -212,10 +232,10 @@ export default function Solution() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                    Strategic Marketing
+                    {t("solution.marketing.title")}
                   </h3>
                   <p className="text-green-600 dark:text-green-400">
-                    Multi-Channel Campaigns
+                    {t("solution.marketing.subtitle")}
                   </p>
                 </div>
               </div>
@@ -224,11 +244,10 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Google & Meta Advertising
+                      {t("solution.marketing.features.googleMeta.title")}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Targeted PPC campaigns reaching qualified buyers across
-                      platforms
+                      {t("solution.marketing.features.googleMeta.description")}
                     </p>
                   </div>
                 </div>
@@ -236,10 +255,10 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Social Media Management
+                      {t("solution.marketing.features.socialMedia.title")}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Regular content creation and community engagement
+                      {t("solution.marketing.features.socialMedia.description")}
                     </p>
                   </div>
                 </div>
@@ -247,11 +266,12 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Email Marketing
+                      {t("solution.marketing.features.emailMarketing.title")}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Automated email sequences nurturing leads through the
-                      sales funnel
+                      {t(
+                        "solution.marketing.features.emailMarketing.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -259,11 +279,12 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Content Marketing
+                      {t("solution.marketing.features.contentMarketing.title")}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Blog posts, articles, and valuable content to attract and
-                      engage potential buyers
+                      {t(
+                        "solution.marketing.features.contentMarketing.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -277,10 +298,10 @@ export default function Solution() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                    Sales & Support
+                    {t("solution.salesSupport.title")}
                   </h3>
                   <p className="text-orange-600 dark:text-orange-400">
-                    End-to-End Service
+                    {t("solution.salesSupport.subtitle")}
                   </p>
                 </div>
               </div>
@@ -289,11 +310,12 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Dedicated Sales Team
+                      {t("solution.salesSupport.features.dedicatedTeam.title")}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Professional sales agents handling all buyer inquiries and
-                      negotiations
+                      {t(
+                        "solution.salesSupport.features.dedicatedTeam.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -301,10 +323,12 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Legal Concierge
+                      {t("solution.salesSupport.features.legalConcierge.title")}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Full legal support from contract creation to closing
+                      {t(
+                        "solution.salesSupport.features.legalConcierge.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -312,10 +336,14 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Contract Management
+                      {t(
+                        "solution.salesSupport.features.contractManagement.title"
+                      )}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Professional contract drafting, review, and negotiation
+                      {t(
+                        "solution.salesSupport.features.contractManagement.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -323,11 +351,12 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Compliance & Verification
+                      {t("solution.salesSupport.features.compliance.title")}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Buyer verification, legal compliance, and regulatory
-                      support
+                      {t(
+                        "solution.salesSupport.features.compliance.description"
+                      )}
                     </p>
                   </div>
                 </div>
@@ -335,11 +364,14 @@ export default function Solution() {
                   <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">
-                      Progress Tracking
+                      {t(
+                        "solution.salesSupport.features.progressTracking.title"
+                      )}
                     </h4>
                     <p className="text-gray-700 dark:text-white/70 text-sm">
-                      Real-time construction updates and investor reporting
-                      dashboard
+                      {t(
+                        "solution.salesSupport.features.progressTracking.description"
+                      )}
                     </p>
                   </div>
                 </div>

@@ -1,6 +1,314 @@
 {
   "HomePage": {
-    "title": "Dobrodošli na našu stranicu!"
+    "hero": {
+      "title": "Prva u Srbiji",
+      "subtitle": "Prodaja Nekretnina Bez Rizika",
+      "description": "👉 **Prodajte Svoju Zgradu Brže — Bez Ulaganja €1 Unapred.**",
+      "content": "Vodeći srpski servis za prodaju nekretnina za investitore. Vodimo računa o svemu od Beograda do Novog Sada do Niša - takođe prodajemo za vas. Plaćate samo kada se nekretnine prodaju. Širimo se na Crnu Goru i Hrvatsku.",
+      "ctaPrimary": "Započni Besplatnu Konsultaciju",
+      "ctaSecondary": "Pogledaj Studije Slučaja",
+      "stats": {
+        "properties": "150+ Nekretnina",
+        "sold": "Uspešno Prodato"
+      }
+    },
+    "costSaving": {
+      "title": "Uštedite **€20.000-35.000** Po Zgradi",
+      "subtitle": "Tradicionalni DIY marketing troškovi naspram našeg profesionalnog servisa bez početnih troškova.",
+      "maxSavings": "Maksimalne uštede za srpske tržišne uslove",
+      "vsLabel": "NASPRAM",
+      "diyTitle": "DIY Troškovi (Vaš Rizik)",
+      "ourServiceTitle": "Naš Servis (Nulti Rizik)",
+      "services": {
+        "websiteDevelopment": {
+          "title": "Razvoj Veb Sajta",
+          "cost": "€6.000-12.000",
+          "descriptionDiy": "Profesionalni prilagođeni veb sajt sa SEO optimizacijom + posvećene stranice stanova",
+          "descriptionOur": "Prilagođeni SEO-optimizovani veb sajt sa snimanjem potencijalnih kupaca, analitikama i posvećenim stranicama stanova"
+        },
+        "photography": {
+          "title": "Profesionalna Fotografija",
+          "cost": "€800-1.800",
+          "descriptionDiy": "Visokokvalitetne fotografije sa profesionalnim postavljanjem",
+          "descriptionOur": "Profesionalne fotografije sa postavljanjem i osvetljenjem"
+        },
+        "droneVideo": {
+          "title": "Dron Video + Montaža",
+          "cost": "€1.200-2.500",
+          "descriptionDiy": "Snimci iz vazduha sa kinematskim editovanjem + YouTube videi i plaćene reklame",
+          "descriptionOur": "Snimci iz vazduha sa kinematskim editovanjem, YouTube videi i vrhunske plaćene reklame"
+        },
+        "virtualTour": {
+          "title": "360° Virtuelna Tura",
+          "cost": "€1.500-3.000",
+          "descriptionDiy": "Interaktivne virtuelne ture sa planovima osnovama",
+          "descriptionOur": "Interaktivne virtuelne ture sa planovima osnova i detaljima"
+        },
+        "marketing": {
+          "title": "Marketing i Reklame (6-12 meseci)",
+          "cost": "€7.000-12.000",
+          "descriptionDiy": "Google, Facebook, Instagram kampanje",
+          "descriptionOur": "Google, Facebook, Instagram i LinkedIn reklamiranje"
+        },
+        "legalSupport": {
+          "title": "Pravna Podrška",
+          "cost": "€2.000-4.000",
+          "descriptionDiy": "Upravljanje ugovorima i usklađenost",
+          "descriptionOur": "Potpuna pravna podrška od ugovora do zatvaranja"
+        },
+        "salesStaff": {
+          "title": "Prodajno Osoblje (6 meseci)",
+          "cost": "€8.000-15.000",
+          "descriptionDiy": "Profesionalni prodajni tim i upravljanje",
+          "descriptionOur": "Profesionalni prodajni agenti koji rešavaju sve upite"
+        }
+      },
+      "summary": {
+        "yourRisk": {
+          "badge": "VAŠ RIZIK",
+          "total": "€20.000-35.000",
+          "title": "Ukupna Početna Investicija",
+          "monthly": "Plus tekući mesečni troškovi",
+          "noGuarantee": "Nema garancije uspeha"
+        },
+        "zeroRisk": {
+          "badge": "NULTI RIZIK",
+          "total": "€0",
+          "title": "Početna Investicija",
+          "payOnSale": "Platite samo kada se nekretnine prodaju",
+          "maxReturn": "Nulti rizik, maksimalni povrat"
+        }
+      }
+    },
+    "solution": {
+      "badge": "Sveobuhvatni Servis",
+      "title": "Kompletno **Investitorsko Rešenje**",
+      "subtitle": "Od početne ideje do finalne prodaje, vodimo računa o svakom aspektu vašeg marketinga i prodaje nekretnina. Takođe prodajemo za vas. Naša sveobuhvatna platforma kombinuje najnoviju tehnologiju sa dokazanim prodajnim strategijama da maksimizuje vaše povrate uz minimalizovanje vašeg opterećenja.",
+      "digitalPresence": {
+        "title": "Digitalno Prisustvo",
+        "subtitle": "Profesionalna Online Platforma + Posvećene Stranice Stanova",
+        "image": {
+          "title": "Kompletno Investitorsko Rešenje",
+          "description": "Sve što vam je potrebno za uspešnu prodaju nekretnina"
+        },
+        "features": {
+          "customWebsite": {
+            "title": "Prilagođeni Veb Sajt Zgrade",
+            "description": "SEO-optimizovan, mobilno-responzivan veb sajt sa formama za snimanje potencijalnih kupaca, praćenjem analitike i posvećenim stranicama stanova"
+          },
+          "virtualTours": {
+            "title": "Virtuelne Ture Nekretnina",
+            "description": "Interaktivne 360° virtuelne ture sa planovima osnova i detaljnim informacijama o nekretnini"
+          },
+          "leadManagement": {
+            "title": "Sistem Upravljanja Potencijalnim Kupcima",
+            "description": "Automatizovano praćenje, kvalifikovanje i sistem praćenja potencijalnih kupaca"
+          },
+          "apartmentPages": {
+            "title": "Posvećene Stranice Stanova",
+            "description": "Individualne stranice za svaki stan sa detaljnim informacijama i virtuelnim turama"
+          }
+        }
+      },
+      "mediaProduction": {
+        "title": "Premium Medijska Produkcija",
+        "subtitle": "Kinematski Vizuelni Sadržaj + YouTube Videi i Plaćene Reklame",
+        "features": {
+          "photography": {
+            "title": "Profesionalna Fotografija",
+            "description": "Visoke rezolucije fotografije sa profesionalnim postavljanjem i osvetljenjem"
+          },
+          "droneVideography": {
+            "title": "Dron Videografija",
+            "description": "Snimci iz vazduha koji prikazuju lokaciju, poglede, spoljašnjost zgrade, YouTube videi i vrhunske plaćene reklame"
+          },
+          "walkthroughs": {
+            "title": "Narator Obilasci",
+            "description": "Profesionalne video ture sa glasovnim komentarom koji ističe ključne karakteristike"
+          },
+          "youtubeCommercials": {
+            "title": "YouTube i Plaćene Reklame",
+            "description": "Profesionalni YouTube videi i vrhunske plaćene reklamne reklame"
+          }
+        }
+      },
+      "marketing": {
+        "title": "Strateški Marketing",
+        "subtitle": "Multi-Kanal Kampanje",
+        "image": {
+          "title": "Premium Marketing i Prodaja",
+          "description": "Strateške kampanje i posvećena podrška"
+        },
+        "features": {
+          "googleMeta": {
+            "title": "Google i Meta Reklamiranje",
+            "description": "Ciljane PPC kampanje koje dopiru do kvalifikovanih kupaca na svim platformama"
+          },
+          "socialMedia": {
+            "title": "Upravljanje Društvenim Mrežama",
+            "description": "Redovno kreiranje sadržaja i angažovanje zajednice"
+          },
+          "emailMarketing": {
+            "title": "Email Marketing",
+            "description": "Automatizovane email sekvence koje neguju potencijalne kupce kroz prodajni lej"
+          },
+          "contentMarketing": {
+            "title": "Content Marketing",
+            "description": "Blog postovi, članci i vredan sadržaj za privlačenje i angažovanje potencijalnih kupaca"
+          }
+        }
+      },
+      "salesSupport": {
+        "title": "Prodaja i Podrška",
+        "subtitle": "Servis od Kraja do Kraja",
+        "features": {
+          "dedicatedTeam": {
+            "title": "Posvećen Prodajni Tim",
+            "description": "Profesionalni prodajni agenti koji rešavaju sve upite kupaca i pregovore"
+          },
+          "legalConcierge": {
+            "title": "Pravni Konsijeriž",
+            "description": "Potpuna pravna podrška od kreiranja ugovora do zatvaranja"
+          },
+          "contractManagement": {
+            "title": "Upravljanje Ugovorima",
+            "description": "Profesionalno kreiranje ugovora, pregled i pregovaranje"
+          },
+          "compliance": {
+            "title": "Usklađenost i Verifikacija",
+            "description": "Verifikacija kupaca, pravna usklađenost i regulatorna podrška"
+          },
+          "progressTracking": {
+            "title": "Praćenje Napretka",
+            "description": "Ažuriranja izgradnje u realnom vremenu i dashboard za izveštavanje investitora"
+          }
+        }
+      }
+    },
+    "freeShowcase": {
+      "badge": "Pokušaj Bez Rizika",
+      "title": "Isprobajte Naš Servis **100% Besplatno**",
+      "subtitle": "Kreirat ćemo profesionalnu prezentaciju za vaš prvi stan potpuno besplatno. Bez obaveza, bez rizika — vidite naš kvalitet pre nego što se opredelite.",
+      "whatYouGet": "Šta Dobijate u Našem Besplatnom Pokušaju:",
+      "features": {
+        "listing": {
+          "title": "Profesionalan Listing Stana",
+          "description": "Kompletna veb stranica za jedan stan sa SEO optimizacijom"
+        },
+        "photography": {
+          "title": "Profesionalna Fotografija",
+          "description": "Visokokvalitetne fotografije i osnovni dron snimci"
+        },
+        "marketingTest": {
+          "title": "2-nedeljni Marketing Test",
+          "description": "Ciljane Facebook i Google reklame sa analitikama performansi"
+        },
+        "analysis": {
+          "title": "Analiza Rezultata",
+          "description": "Detaljan izveštaj o potencijalnim kupcima, angažovanju i preporukama"
+        }
+      },
+      "whyWeOffer": "Zašto Ovo Nudimo:",
+      "explanation": {
+        "confidence": "Uvereni smo u našu sposobnost da isporučimo rezultate. Ovaj ograničeni pokušaj dokazuje naš kvalitet uz minimalnu investiciju od nas dok vam daje pravi ukus našeg servisa.",
+        "value": "Nakon što vidite potencijalne kupce i angažovanje koje generišemo, razumećete vrednost našeg pristupa zasnovanog na proviziji za celu vašu zgradu.",
+        "quote": "\"Mala investicija, veliki dokaz koncepta.\"",
+        "cost": "Tipičan trošak: €800-1.200 • Vaš trošak: €0"
+      }
+    },
+    "commission": {
+      "title": "Fer **Provizijska** Struktura",
+      "subtitle": "Mi uspevamo samo kada vi uspevate - nema skrivenih tarifa ili početnih troškova",
+      "standard": {
+        "title": "Standardni Servis",
+        "rate": "2-4%",
+        "description": "Kompletan servisni paket bez početnih troškova",
+        "coreServices": "Osnovni Servisi:",
+        "features": {
+          "website": "Profesionalan veb sajt + stranice stanova",
+          "media": "Kinematski medijski paket",
+          "marketing": "Multi-kanal marketing kampanje",
+          "legal": "Pravni konsijeriž servis",
+          "sales": "Posvećen prodajni tim",
+          "tracking": "Praćenje napretka i izveštavanje"
+        },
+        "included": "Šta je Uključeno:",
+        "details": {
+          "seo": "• Osnovna SEO optimizacija",
+          "photography": "• Standardna fotografija i dron snimci",
+          "ads": "• Google i Facebook reklame (3 meseca)",
+          "documentation": "• Standardna pravna dokumentacija",
+          "reports": "• Mesečni izveštaji o napretku"
+        }
+      },
+      "premium": {
+        "title": "Premium Servis",
+        "badge": "VIP",
+        "rate": "3-5.5%",
+        "description": "Premium servis sa ekskluzivnim pogodnostima i prioritetnim pristupom",
+        "everything": "Sve iz Standardnog +",
+        "features": {
+          "database": "Ekskluzivan pristup bazi kupaca",
+          "premiumMarketing": "Premium marketing kampanje",
+          "accountManager": "Lični menadžer računa",
+          "youtube": "YouTube videi i plaćene reklame",
+          "contentSeo": "Content marketing i SEO"
+        },
+        "benefits": "Premium Pogodnosti:",
+        "details": {
+          "seo": "• Napredni SEO i content marketing",
+          "video": "• Profesionalna video produkcija za YouTube",
+          "extended": "• Proširene reklamne kampanje (6 meseci)",
+          "priority": "• Prioritetan pristup našoj mreži kupaca",
+          "weekly": "• Nedeljni izveštaji o napretku",
+          "premiumLegal": "• Premium pravna podrška i ugovori",
+          "manager": "• Posvećen menadžer računa 24/7"
+        }
+      }
+    },
+    "marketExpansion": {
+      "title": "Rastuce **Regionalno Prisustvo**",
+      "subtitle": "Širimo naš premium servis širom regiona da poslužimo više investitora",
+      "serbia": {
+        "title": "Srbija",
+        "status": "Primarno Tržište",
+        "cities": {
+          "belgrade": "• Beograd",
+          "noviSad": "• Novi Sad",
+          "nis": "• Niš"
+        }
+      },
+      "montenegro": {
+        "title": "Crna Gora",
+        "status": "Tržište Širenja",
+        "cities": {
+          "budva": "• Budva",
+          "kotor": "• Kotor",
+          "podgorica": "• Podgorica"
+        }
+      },
+      "croatia": {
+        "title": "Hrvatska",
+        "status": "Tržište Širenja",
+        "cities": {
+          "zagreb": "• Zagreb",
+          "dubrovnik": "• Dubrovnik",
+          "split": "• Split"
+        }
+      }
+    },
+    "cta": {
+      "title": "Spremni da Transformišete Prodaju Svojih Nekretnina?",
+      "subtitle": "Pridružite se uspešnim investitorima koji su eliminisali početne troškove i povećali svoje povrate. Započnite sa besplatnom konsultacijom danas.",
+      "primary": "Zakazati Besplatnu Konsultaciju",
+      "secondary": "Pogledati Priče o Uspehu"
+    },
+    "vipCta": {
+      "badge": "Ograničena Dostupnost",
+      "title": "👉 Obezbedite Svoje VIP Investitorsko Mesto",
+      "subtitle": "Samo **2 VIP Nekretnine Prihvaćene Mesečno** — Ekstremna retkost stvara maksimalnu hitnost i osigurava kvalitet premium servisa. Pridružite se elitnim investitorima koji dobijaju ekskluzivan pristup.",
+      "button": "Prijaviti Se Sada"
+    }
   },
   "LocaleSwitcher": {
     "label": "Izaberite jezik",
@@ -59,7 +367,7 @@
         },
         "legalSupport": {
           "title": "Pravna Podrška",
-          "description": "Kompletna pravna koncijerž usluga koja osigurava glatke transakcije i usklađenost."
+          "description": "Kompletna pravna konsijeriž usluga koja osigurava glatke transakcije i usklađenost."
         }
       }
     },
