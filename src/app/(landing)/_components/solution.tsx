@@ -1,15 +1,7 @@
-import {
-  CheckCircle,
-  Globe,
-  Shield,
-  Star,
-  TrendingUp,
-  Users,
-  Video,
-  Zap,
-} from "lucide-react";
+import { CheckCircle, Globe, TrendingUp, Users, Video } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import VipCta from "./vip-cta";
 
 export default function Solution() {
   return (
@@ -356,78 +348,8 @@ export default function Solution() {
           </div>
         </div>
 
-        {/* Bottom Section - Additional Features */}
-        <div className="bg-gradient-to-r from-gray-50 to-blue-50 dark:from-gray-900/50 dark:to-blue-900/20 rounded-3xl p-8 border border-gray-200/50 dark:border-gray-700/30">
-          <div className="text-center mb-8">
-            <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Additional Premium Features
-            </h3>
-            <p className="text-gray-700 dark:text-white/70 max-w-2xl mx-auto">
-              Beyond our core services, we provide additional tools and features
-              to give you the competitive edge
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="text-center p-6 rounded-2xl bg-white/50 dark:bg-white/5 border border-white/20 dark:border-white/10">
-              <div className="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-white" />
-              </div>
-              <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
-                Investor Dashboard
-              </h4>
-              <p className="text-gray-700 dark:text-white/70 text-sm">
-                Real-time analytics, lead tracking, and performance metrics
-              </p>
-            </div>
-
-            <div className="text-center p-6 rounded-2xl bg-white/50 dark:bg-white/5 border border-white/20 dark:border-white/10">
-              <div className="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <Zap className="w-8 h-8 text-white" />
-              </div>
-              <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
-                Automated Systems
-              </h4>
-              <p className="text-gray-700 dark:text-white/70 text-sm">
-                Lead nurturing, follow-up sequences, and appointment scheduling
-              </p>
-            </div>
-
-            <div className="text-center p-6 rounded-2xl bg-white/50 dark:bg-white/5 border border-white/20 dark:border-white/10">
-              <div className="w-16 h-16 bg-purple-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <Star className="w-8 h-8 text-white" />
-              </div>
-              <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
-                VIP Buyer Access
-              </h4>
-              <p className="text-gray-700 dark:text-white/70 text-sm">
-                Exclusive access to our premium buyer database
-              </p>
-            </div>
-          </div>
-        </div>
-
         {/* VIP Spot CTA Section */}
-        <div className="mt-20 bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600 rounded-3xl p-12 text-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="relative z-10">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/20 text-white text-sm font-medium mb-6 backdrop-blur-sm">
-              <span className="w-2 h-2 bg-yellow-400 rounded-full mr-2 animate-pulse"></span>
-              Limited Availability
-            </div>
-            <h2 className="text-4xl lg:text-6xl font-bold mb-6 text-white">
-              👉 Secure Your VIP Investor Spot
-            </h2>
-            <p className="text-xl lg:text-2xl mb-8 text-white/90 max-w-3xl mx-auto">
-              Only <strong>2 VIP Properties Accepted Monthly</strong> — Extreme
-              scarcity creates maximum urgency and ensures premium service
-              quality. Join the elite investors who get exclusive access.
-            </p>
-            <button className="bg-white text-purple-600 px-12 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-2xl">
-              Apply Now
-            </button>
-          </div>
-        </div>
+        <VipCta />
       </div>
     </section>
   );
