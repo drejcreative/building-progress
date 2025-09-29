@@ -153,14 +153,13 @@ export default function MarketExpansion() {
           <div className="max-w-3xl mx-auto bg-gradient-to-r from-blue-500 to-indigo-600 rounded-3xl p-8 text-white shadow-2xl">
             <Users className="w-12 h-12 mx-auto mb-4 opacity-90" />
             <h3 className="text-2xl font-bold mb-4">
-              Join Our Expanding Network
+              {t("expandingNetwork.title")}
             </h3>
             <p className="text-blue-100 mb-6 leading-relaxed">
-              Be part of our regional growth story. Connect with premium
-              properties and investment opportunities across the Balkans.
+              {t("expandingNetwork.description")}
             </p>
             <button className="bg-white text-blue-600 font-semibold px-8 py-3 rounded-xl hover:bg-blue-50 transition-colors duration-300 shadow-lg">
-              Explore Opportunities
+              {t("expandingNetwork.cta")}
             </button>
           </div>
         </div>

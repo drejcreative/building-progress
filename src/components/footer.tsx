@@ -1,7 +1,9 @@
 import { Building2, Globe, Mail, MapPin, Phone } from "lucide-react";
+import { useTranslations } from "next-intl";
 import React from "react";
 
 export default function Footer() {
+  const t = useTranslations("Footer");
   return (
     <footer className="bg-gray-900 text-white py-16">
       <div className="container mx-auto px-6 lg:px-8">
@@ -24,11 +26,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <p className="text-gray-300 mb-6 max-w-md">
-              Serbia&apos;s premier property sales service for investors. Zero
-              upfront costs, professional marketing, and guaranteed results.
-              Part of the Livion Real Estate family.
-            </p>
+            <p className="text-gray-300 mb-6 max-w-md">{t("description")}</p>
             <div className="flex space-x-4">
               <a
                 href="https://livion.rs"
@@ -61,14 +59,14 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Our Services</h3>
+            <h3 className="text-lg font-semibold mb-4">{t("ourServices")}</h3>
             <ul className="space-y-2 text-gray-300">
               <li>
                 <a
                   href="#services"
                   className="hover:text-white transition-colors"
                 >
-                  Property Marketing
+                  {t("propertyMarketing")}
                 </a>
               </li>
               <li>
@@ -76,7 +74,7 @@ export default function Footer() {
                   href="#services"
                   className="hover:text-white transition-colors"
                 >
-                  Virtual Tours
+                  {t("virtualTours")}
                 </a>
               </li>
               <li>
@@ -84,7 +82,7 @@ export default function Footer() {
                   href="#services"
                   className="hover:text-white transition-colors"
                 >
-                  Legal Support
+                  {t("legalSupport")}
                 </a>
               </li>
               <li>
@@ -92,7 +90,7 @@ export default function Footer() {
                   href="#services"
                   className="hover:text-white transition-colors"
                 >
-                  Sales Management
+                  {t("salesManagement")}
                 </a>
               </li>
               <li>
@@ -100,7 +98,7 @@ export default function Footer() {
                   href="#services"
                   className="hover:text-white transition-colors"
                 >
-                  Progress Tracking
+                  {t("progressTracking")}
                 </a>
               </li>
             </ul>
@@ -108,7 +106,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-lg font-semibold mb-4">{t("contactUs")}</h3>
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-blue-400" />
@@ -141,20 +139,20 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 ProInvest by Livion Real Estate. All rights reserved.
+              {t("copyright")}
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors">
-                Privacy Policy
+                {t("privacyPolicy")}
               </a>
               <a href="#" className="hover:text-white transition-colors">
-                Terms of Service
+                {t("termsOfService")}
               </a>
               <a href="#" className="hover:text-white transition-colors">
-                Cookie Policy
+                {t("cookiePolicy")}
               </a>
               <a href="#" className="hover:text-white transition-colors">
-                GDPR
+                {t("gdpr")}
               </a>
             </div>
           </div>

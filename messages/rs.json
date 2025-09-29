@@ -308,6 +308,11 @@
       "title": "👉 Obezbedite Svoje VIP Investitorsko Mesto",
       "subtitle": "Samo **2 VIP Nekretnine Prihvaćene Mesečno** — Ekstremna retkost stvara maksimalnu hitnost i osigurava kvalitet premium servisa. Pridružite se elitnim investitorima koji dobijaju ekskluzivan pristup.",
       "button": "Prijaviti Se Sada"
+    },
+    "expandingNetwork": {
+      "title": "Pridružite Se Našoj Rastućoj Mreži",
+      "description": "Budite deo naše regionalne priče o rastu. Povezujte se sa premium nekretninama i investicionim prilikama širom Balkana.",
+      "cta": "Istražite Mogućnosti"
     }
   },
   "LocaleSwitcher": {
@@ -372,6 +377,21 @@
       }
     },
     "copyright": "© {year} ProInvest. Sva prava zadržana."
+  },
+  "Footer": {
+    "description": "Vodeći srpski servis za prodaju nekretnina za investitore. Nulti početni troškovi, profesionalni marketing i garantovani rezultati. Deo porodice Livion Real Estate.",
+    "ourServices": "Naši Servisi",
+    "propertyMarketing": "Marketing Nekretnina",
+    "virtualTours": "Virtuelne Ture",
+    "legalSupport": "Pravna Podrška",
+    "salesManagement": "Upravljanje Prodajom",
+    "progressTracking": "Praćenje Napretka",
+    "contactUs": "Kontaktirajte Nas",
+    "copyright": "© 2024 ProInvest od strane Livion Real Estate. Sva prava zadržana.",
+    "privacyPolicy": "Politika Privatnosti",
+    "termsOfService": "Uslovi Korišćenja",
+    "cookiePolicy": "Politika Kolačića",
+    "gdpr": "GDPR"
   },
   "UseCases": {
     "header": {

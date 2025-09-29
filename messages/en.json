@@ -308,6 +308,11 @@
       "title": "👉 Secure Your VIP Investor Spot",
       "subtitle": "Only **2 VIP Properties Accepted Monthly** — Extreme scarcity creates maximum urgency and ensures premium service quality. Join the elite investors who get exclusive access.",
       "button": "Apply Now"
+    },
+    "expandingNetwork": {
+      "title": "Join Our Expanding Network",
+      "description": "Be part of our regional growth story. Connect with premium properties and investment opportunities across the Balkans.",
+      "cta": "Explore Opportunities"
     }
   },
   "LocaleSwitcher": {
@@ -372,6 +377,21 @@
       }
     },
     "copyright": "© {year} ProInvest. All rights reserved."
+  },
+  "Footer": {
+    "description": "Serbia's premier property sales service for investors. Zero upfront costs, professional marketing, and guaranteed results. Part of the Livion Real Estate family.",
+    "ourServices": "Our Services",
+    "propertyMarketing": "Property Marketing",
+    "virtualTours": "Virtual Tours",
+    "legalSupport": "Legal Support",
+    "salesManagement": "Sales Management",
+    "progressTracking": "Progress Tracking",
+    "contactUs": "Contact Us",
+    "copyright": "© 2024 ProInvest by Livion Real Estate. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "gdpr": "GDPR"
   },
   "UseCases": {
     "header": {
