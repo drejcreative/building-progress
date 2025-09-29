@@ -456,6 +456,23 @@
         "metro": "2 min to Metro Station",
         "shops": "Walking distance to shops"
       },
+      "destinations": {
+        "center": "Belgrade Center",
+        "airport": "Airport",
+        "metro": "Metro Station",
+        "shops": "Shopping Centers"
+      },
+      "methods": {
+        "byCar": "By car",
+        "walking": "Walking"
+      },
+      "benefits": {
+        "title": "Prime Location Benefits",
+        "cityCenter": "City center access",
+        "publicTransport": "Public transport",
+        "shopping": "Shopping nearby",
+        "airport": "Airport proximity"
+      },
       "mapPlaceholder": "Interactive Map"
     },
     "progress": {
@@ -507,21 +524,63 @@
       "photosPlaceholder": "Latest Construction Photos"
     },
     "contact": {
-      "title": "Ready to Make This Your Home?",
-      "description": "Contact our sales team to schedule a visit or learn more about available units",
+      "urgency": {
+        "badge": "⚡ LIMITED TIME - Only 3 Units Left!"
+      },
+      "title": "Don't Miss Your Dream Home!",
+      "description": "Join 150+ successful investors who trusted us with their property sales. Get instant access to our exclusive buyer network and sell faster than ever before.",
+      "value": {
+        "fast": {
+          "title": "Sell in 30 Days",
+          "description": "Average sale time with our proven system"
+        },
+        "expert": {
+          "title": "Expert Team",
+          "description": "15+ years of real estate experience"
+        },
+        "guaranteed": {
+          "title": "Zero Risk",
+          "description": "Pay only when your property sells"
+        }
+      },
       "call": {
-        "title": "Call Us",
-        "phone": "+381 11 123 4567"
+        "title": "Call Now & Get Instant Quote",
+        "description": "Speak directly with our sales director. Get your property evaluated in 5 minutes.",
+        "phone": "+381 11 123 4567",
+        "urgency": "🔥 Hotline - Call within 24 hours for priority service"
       },
       "email": {
-        "title": "Email Us",
-        "address": "info@belgradeluxury.com"
+        "title": "Get Free Property Analysis",
+        "description": "Send us your property details and receive a comprehensive market analysis within 2 hours.",
+        "address": "info@belgradeluxury.com",
+        "cta": "Send Property Details",
+        "response": "📧 Guaranteed response within 2 hours"
       },
       "visit": {
-        "title": "Visit Us",
-        "location": "Belgrade, Serbia"
+        "title": "Schedule VIP Tour",
+        "description": "Book a private viewing with our sales team. See why our properties sell 3x faster.",
+        "cta": "Book VIP Tour",
+        "availability": "⏰ Limited slots - Book today for this week"
       },
-      "scheduleVisit": "Schedule a Visit"
+      "socialProof": {
+        "title": "Trusted by 150+ Property Investors",
+        "rating": "4.9/5",
+        "description": "See why investors choose us over traditional real estate agents"
+      },
+      "stats": {
+        "properties": "150+",
+        "propertiesLabel": "Properties Sold",
+        "sold": "€45M+",
+        "soldLabel": "Total Sales Volume",
+        "satisfaction": "98%",
+        "satisfactionLabel": "Client Satisfaction"
+      },
+      "finalCta": {
+        "urgency": "⏰ Last Chance - Only 2 Units Available This Month",
+        "call": "Call Now - Get Instant Quote",
+        "schedule": "Schedule VIP Tour",
+        "guarantee": "💯 100% Risk-Free - You pay only when we sell your property"
+      }
     },
     "footer": {
       "title": "Belgrade Luxury Residences",

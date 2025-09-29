@@ -456,6 +456,23 @@
         "metro": "2 min do Metro Stanice",
         "shops": "Pješice do prodavnica"
       },
+      "destinations": {
+        "center": "Beogradski Centar",
+        "airport": "Aerodrom",
+        "metro": "Metro Stanica",
+        "shops": "Prodavnice"
+      },
+      "methods": {
+        "byCar": "Automobilom",
+        "walking": "Pješice"
+      },
+      "benefits": {
+        "title": "Prednosti Premijske Lokacije",
+        "cityCenter": "Pristup centru grada",
+        "publicTransport": "Javni prevoz",
+        "shopping": "Prodavnice u blizini",
+        "airport": "Blizina aerodroma"
+      },
       "mapPlaceholder": "Interaktivna Mapa"
     },
     "progress": {
@@ -507,21 +524,63 @@
       "photosPlaceholder": "Najnovije Fotografije Izgradnje"
     },
     "contact": {
-      "title": "Spremni da Ovo Postane Vaš Dom?",
-      "description": "Kontaktirajte naš prodajni tim da zakazete posetu ili saznate više o dostupnim jedinicama",
+      "urgency": {
+        "badge": "⚡ OGRANIČENO VREME - Samo 3 Jedinice Preostale!"
+      },
+      "title": "Ne Propustite Vaš San Dom!",
+      "description": "Pridružite se 150+ uspešnim investitorima koji su nam poverili prodaju svojih nekretnina. Dobijte trenutni pristup našoj ekskluzivnoj mreži kupaca i prodajte brže nego ikad.",
+      "value": {
+        "fast": {
+          "title": "Prodajte za 30 Dana",
+          "description": "Prosečno vreme prodaje sa našim dokazanim sistemom"
+        },
+        "expert": {
+          "title": "Stručni Tim",
+          "description": "15+ godina iskustva u nekretninama"
+        },
+        "guaranteed": {
+          "title": "Nula Rizika",
+          "description": "Plaćate samo kada prodamo vašu nekretninu"
+        }
+      },
       "call": {
-        "title": "Pozovite Nas",
-        "phone": "+381 11 123 4567"
+        "title": "Pozovite Sada i Dobijte Trenutnu Ponudu",
+        "description": "Razgovarajte direktno sa našim direktorom prodaje. Dobijte procenu vaše nekretnine za 5 minuta.",
+        "phone": "+381 11 123 4567",
+        "urgency": "🔥 Hotline - Pozovite u roku od 24 sata za prioritetnu uslugu"
       },
       "email": {
-        "title": "Pošaljite Email",
-        "address": "info@belgradeluxury.com"
+        "title": "Dobijte Besplatnu Analizu Nekretnine",
+        "description": "Pošaljite nam detalje vaše nekretnine i dobijte sveobuhvatnu tržišnu analizu u roku od 2 sata.",
+        "address": "info@belgradeluxury.com",
+        "cta": "Pošaljite Detalje Nekretnine",
+        "response": "📧 Garantovani odgovor u roku od 2 sata"
       },
       "visit": {
-        "title": "Posetite Nas",
-        "location": "Beograd, Srbija"
+        "title": "Zakazati VIP Turu",
+        "description": "Rezervišite privatni pregled sa našim prodajnim timom. Vidite zašto naše nekretnine prodajemo 3x brže.",
+        "cta": "Rezervišite VIP Turu",
+        "availability": "⏰ Ograničeni termini - Rezervišite danas za ovu nedelju"
       },
-      "scheduleVisit": "Zakazati Posetu"
+      "socialProof": {
+        "title": "Poverenje 150+ Investitora u Nekretnine",
+        "rating": "4.9/5",
+        "description": "Vidite zašto investitori biraju nas umesto tradicionalnih agenata za nekretnine"
+      },
+      "stats": {
+        "properties": "150+",
+        "propertiesLabel": "Prodatih Nekretnina",
+        "sold": "€45M+",
+        "soldLabel": "Ukupni Obim Prodaje",
+        "satisfaction": "98%",
+        "satisfactionLabel": "Zadovoljstvo Klijenata"
+      },
+      "finalCta": {
+        "urgency": "⏰ Poslednja Šansa - Samo 2 Jedinice Dostupne Ovaj Mesec",
+        "call": "Pozovite Sada - Dobijte Trenutnu Ponudu",
+        "schedule": "Zakazati VIP Turu",
+        "guarantee": "💯 100% Bez Rizika - Plaćate samo kada prodamo vašu nekretninu"
+      }
     },
     "footer": {
       "title": "Beograd Luksuzni Stanovi",
