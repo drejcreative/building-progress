@@ -525,61 +525,61 @@
     },
     "contact": {
       "urgency": {
-        "badge": "⚡ OGRANIČENO VREME - Samo 3 Jedinice Preostale!"
+        "badge": "Premium Stanovi Dostupni"
       },
-      "title": "Ne Propustite Vaš San Dom!",
-      "description": "Pridružite se 150+ uspešnim investitorima koji su nam poverili prodaju svojih nekretnina. Dobijte trenutni pristup našoj ekskluzivnoj mreži kupaca i prodajte brže nego ikad.",
+      "title": "Spremni da Budete Vlasnik Vašeg San Stan?",
+      "description": "Zakupite svoj stan u najprestižnijem stambenom kompleksu u Beogradu. Ograničeni broj jedinica dostupan sa ekskluzivnim cenama pre završetka izgradnje i premium opremom.",
       "value": {
         "fast": {
-          "title": "Prodajte za 30 Dana",
-          "description": "Prosečno vreme prodaje sa našim dokazanim sistemom"
+          "title": "Cene Pre Završetka",
+          "description": "Najbolje cene pre završetka"
         },
         "expert": {
-          "title": "Stručni Tim",
-          "description": "15+ godina iskustva u nekretninama"
+          "title": "Premium Lokacija",
+          "description": "Prva lokacija u Beogradu"
         },
         "guaranteed": {
-          "title": "Nula Rizika",
-          "description": "Plaćate samo kada prodamo vašu nekretninu"
+          "title": "Luksuzna Oprema",
+          "description": "Visokokvalitetni materijali uključeni"
         }
       },
       "call": {
-        "title": "Pozovite Sada i Dobijte Trenutnu Ponudu",
-        "description": "Razgovarajte direktno sa našim direktorom prodaje. Dobijte procenu vaše nekretnine za 5 minuta.",
+        "title": "Pozovite za Informacije o Stanu",
+        "description": "Razgovarajte sa našim prodajnim stručnjakom o dostupnim jedinicama, cenama i napretku izgradnje. Dobijte detaljne informacije o vašem budućem domu.",
         "phone": "+381 11 123 4567",
-        "urgency": "🔥 Hotline - Pozovite u roku od 24 sata za prioritetnu uslugu"
+        "urgency": "Dostupno ponedeljak-petak, 9-18h"
       },
       "email": {
-        "title": "Dobijte Besplatnu Analizu Nekretnine",
-        "description": "Pošaljite nam detalje vaše nekretnine i dobijte sveobuhvatnu tržišnu analizu u roku od 2 sata.",
+        "title": "Dobijte Detalje o Stanu",
+        "description": "Zatražite detaljne informacije o dostupnim stanovima, tlocrtima i cenama. Dobijte sveobuhvatnu dokumentaciju projekta.",
         "address": "info@belgradeluxury.com",
-        "cta": "Pošaljite Detalje Nekretnine",
-        "response": "📧 Garantovani odgovor u roku od 2 sata"
+        "cta": "Zatražite Informacije",
+        "response": "Odgovaramo u roku od 24 sata"
       },
       "visit": {
-        "title": "Zakazati VIP Turu",
-        "description": "Rezervišite privatni pregled sa našim prodajnim timom. Vidite zašto naše nekretnine prodajemo 3x brže.",
-        "cta": "Rezervišite VIP Turu",
-        "availability": "⏰ Ograničeni termini - Rezervišite danas za ovu nedelju"
+        "title": "Zakazati Posetu Gradilišta",
+        "description": "Rezervišite vođenu turu gradilišta i showroom-a. Vidite napredak i kvalitet vašeg budućeg stana.",
+        "cta": "Rezervišite Posetu",
+        "availability": "Dostupno po dogovoru"
       },
       "socialProof": {
-        "title": "Poverenje 150+ Investitora u Nekretnine",
+        "title": "Poverenje Kupaca Stanova",
         "rating": "4.9/5",
-        "description": "Vidite zašto investitori biraju nas umesto tradicionalnih agenata za nekretnine"
+        "description": "Premium stambeni kompleks sa dokazanim kvalitetom"
       },
       "stats": {
-        "properties": "150+",
-        "propertiesLabel": "Prodatih Nekretnina",
-        "sold": "€45M+",
-        "soldLabel": "Ukupni Obim Prodaje",
+        "properties": "24",
+        "propertiesLabel": "Luksuzni Stanovi",
+        "sold": "75%",
+        "soldLabel": "Napredak Izgradnje",
         "satisfaction": "98%",
-        "satisfactionLabel": "Zadovoljstvo Klijenata"
+        "satisfactionLabel": "Zadovoljstvo Kupaca"
       },
       "finalCta": {
-        "urgency": "⏰ Poslednja Šansa - Samo 2 Jedinice Dostupne Ovaj Mesec",
-        "call": "Pozovite Sada - Dobijte Trenutnu Ponudu",
-        "schedule": "Zakazati VIP Turu",
-        "guarantee": "💯 100% Bez Rizika - Plaćate samo kada prodamo vašu nekretninu"
+        "urgency": "Ograničeni Broj Jedinica",
+        "call": "Pozovite za Informacije o Stanu",
+        "schedule": "Zakazati Posetu Gradilišta",
+        "guarantee": "Premium kvalitet sa garancijom izgradnje"
       }
     },
     "footer": {
