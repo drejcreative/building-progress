@@ -372,5 +372,149 @@
       }
     },
     "copyright": "© {year} ProInvest. All rights reserved."
+  },
+  "UseCases": {
+    "header": {
+      "showcase": "ProInvest Showcase",
+      "description": "This is how your building website will look",
+      "backToProInvest": "Back to ProInvest",
+      "title": "Belgrade Luxury Residences",
+      "subtitle": "Premium Living in the Heart of Belgrade",
+      "poweredBy": "Powered by ProInvest • Livion Real Estate"
+    },
+    "navigation": {
+      "overview": "Overview",
+      "apartments": "Apartments",
+      "location": "Location",
+      "progress": "Progress",
+      "contact": "Contact"
+    },
+    "hero": {
+      "constructionStatus": "Construction: 75% Complete",
+      "title": "Belgrade Luxury Residences",
+      "description": "Premium living in the heart of Belgrade. 24 luxury apartments with world-class amenities and stunning city views.",
+      "viewUnits": "View Available Units",
+      "virtualTour": "Virtual Tour"
+    },
+    "stats": {
+      "totalUnits": "Total Units",
+      "sold": "Sold",
+      "available": "Available",
+      "totalValue": "Total Value"
+    },
+    "overview": {
+      "title": "Luxury Living Redefined",
+      "description": "Belgrade Luxury Residences offers an unparalleled living experience in the heart of Serbia's capital. Each apartment is designed with premium materials and finishes, featuring open-concept layouts, floor-to-ceiling windows, and private balconies with stunning city views.",
+      "features": {
+        "premiumLocation": "Premium Location",
+        "security": "24/7 Security",
+        "parking": "Underground Parking",
+        "fitness": "Fitness Center",
+        "garden": "Garden Terrace",
+        "lounge": "Coffee Lounge"
+      },
+      "completion": {
+        "title": "Completion",
+        "date": "Q2 2024"
+      }
+    },
+    "apartments": {
+      "title": "Available Apartments",
+      "description": "Choose from our selection of premium apartments, each designed for modern luxury living",
+      "filter": "Filter",
+      "view": "View",
+      "availableCount": "6 apartments available",
+      "status": "Available",
+      "viewDetails": "View Details"
+    },
+    "location": {
+      "title": "Prime Location",
+      "description": "Located in the heart of Belgrade, our residences offer easy access to the city's finest amenities, cultural attractions, and business districts. Everything you need is just minutes away.",
+      "distances": {
+        "center": "5 min to Belgrade Center",
+        "airport": "10 min to Airport",
+        "metro": "2 min to Metro Station",
+        "shops": "Walking distance to shops"
+      },
+      "mapPlaceholder": "Interactive Map"
+    },
+    "progress": {
+      "title": "Construction Progress",
+      "description": "Stay updated on our construction progress with real-time updates",
+      "overallProgress": "Overall Progress",
+      "milestones": {
+        "sitePreparation": {
+          "title": "Site Preparation & Excavation",
+          "date": "January 15, 2024",
+          "description": "Site cleared, foundation trenches dug"
+        },
+        "foundation": {
+          "title": "Foundation & Basement",
+          "date": "February 28, 2024",
+          "description": "Concrete foundation poured, basement walls completed"
+        },
+        "structural": {
+          "title": "Structural Framework",
+          "date": "March 15, 2024",
+          "description": "Steel structure erected, floors installed"
+        },
+        "exterior": {
+          "title": "Exterior Walls & Roofing",
+          "date": "April 10, 2024",
+          "description": "Facade installation, roof waterproofing"
+        },
+        "mep": {
+          "title": "MEP Systems",
+          "date": "April 30, 2024",
+          "description": "Electrical, plumbing, HVAC installation"
+        },
+        "interior": {
+          "title": "Interior Finishing",
+          "date": "In Progress - 60%",
+          "description": "Drywall, flooring, kitchen installations"
+        },
+        "amenities": {
+          "title": "Amenities & Landscaping",
+          "date": "May 15, 2024",
+          "description": "Gym, lounge, garden installation"
+        },
+        "inspection": {
+          "title": "Final Inspection & Handover",
+          "date": "June 1, 2024",
+          "description": "Quality checks, permits, delivery"
+        }
+      },
+      "photosPlaceholder": "Latest Construction Photos"
+    },
+    "contact": {
+      "title": "Ready to Make This Your Home?",
+      "description": "Contact our sales team to schedule a visit or learn more about available units",
+      "call": {
+        "title": "Call Us",
+        "phone": "+381 11 123 4567"
+      },
+      "email": {
+        "title": "Email Us",
+        "address": "info@belgradeluxury.com"
+      },
+      "visit": {
+        "title": "Visit Us",
+        "location": "Belgrade, Serbia"
+      },
+      "scheduleVisit": "Schedule a Visit"
+    },
+    "footer": {
+      "title": "Belgrade Luxury Residences",
+      "description": "Premium living in the heart of Belgrade. Experience luxury redefined.",
+      "quickLinks": "Quick Links",
+      "contact": "Contact",
+      "followUs": "Follow Us",
+      "copyright": "© 2024 Belgrade Luxury Residences. All rights reserved."
+    },
+    "expandingNetwork": {
+      "title": "Join Our Expanding Network",
+      "description": "Be part of our regional growth story. Connect with premium properties and investment opportunities across the Balkans.",
+      "cta": "Explore Opportunities"
+    }
   }
 }

@@ -372,5 +372,149 @@
       }
     },
     "copyright": "© {year} ProInvest. Sva prava zadržana."
+  },
+  "UseCases": {
+    "header": {
+      "showcase": "ProInvest Prikaz",
+      "description": "Ovako će izgledati vaš veb sajt zgrade",
+      "backToProInvest": "Nazad na ProInvest",
+      "title": "Beograd Luksuzni Stanovi",
+      "subtitle": "Premium Život u Srcu Beograda",
+      "poweredBy": "Pokrenuto od strane ProInvest • Livion Real Estate"
+    },
+    "navigation": {
+      "overview": "Pregled",
+      "apartments": "Stanovi",
+      "location": "Lokacija",
+      "progress": "Napredak",
+      "contact": "Kontakt"
+    },
+    "hero": {
+      "constructionStatus": "Izgradnja: 75% Završeno",
+      "title": "Beograd Luksuzni Stanovi",
+      "description": "Premium život u srcu Beograda. 24 luksuzna stana sa svetskim sadržajima i zadivljujućim pogledom na grad.",
+      "viewUnits": "Pogledaj Dostupne Jedinice",
+      "virtualTour": "Virtuelna Tura"
+    },
+    "stats": {
+      "totalUnits": "Ukupno Jedinica",
+      "sold": "Prodato",
+      "available": "Dostupno",
+      "totalValue": "Ukupna Vrednost"
+    },
+    "overview": {
+      "title": "Luksuzni Život Redefinisan",
+      "description": "Beograd Luksuzni Stanovi nude neuporedivo iskustvo života u srcu srpske prestonice. Svaki stan je dizajniran sa premium materijalima i završnim radovima, sa otvorenim konceptom, podovima do plafona i privatnim balkonima sa zadivljujućim pogledom na grad.",
+      "features": {
+        "premiumLocation": "Premium Lokacija",
+        "security": "24/7 Bezbednost",
+        "parking": "Podzemno Parkiranje",
+        "fitness": "Fitnes Centar",
+        "garden": "Bašta Terasa",
+        "lounge": "Kafić Lounge"
+      },
+      "completion": {
+        "title": "Završetak",
+        "date": "Q2 2024"
+      }
+    },
+    "apartments": {
+      "title": "Dostupni Stanovi",
+      "description": "Izaberite iz naše selekcije premium stanova, svaki dizajniran za moderni luksuzni život",
+      "filter": "Filter",
+      "view": "Pregled",
+      "availableCount": "6 stanova dostupno",
+      "status": "Dostupno",
+      "viewDetails": "Pogledaj Detalje"
+    },
+    "location": {
+      "title": "Premijska Lokacija",
+      "description": "Locirani u srcu Beograda, naši stanovi nude lak pristup najboljim sadržajima grada, kulturnim atrakcijama i poslovnim distriktima. Sve što vam je potrebno je na nekoliko minuta.",
+      "distances": {
+        "center": "5 min do Beogradskog Centra",
+        "airport": "10 min do Aerodroma",
+        "metro": "2 min do Metro Stanice",
+        "shops": "Pješice do prodavnica"
+      },
+      "mapPlaceholder": "Interaktivna Mapa"
+    },
+    "progress": {
+      "title": "Napredak Izgradnje",
+      "description": "Budite u toku sa napretkom naše izgradnje sa ažuriranjima u realnom vremenu",
+      "overallProgress": "Ukupan Napredak",
+      "milestones": {
+        "sitePreparation": {
+          "title": "Priprema Terena i Iskopavanje",
+          "date": "15. januar 2024",
+          "description": "Terrain očišćen, temeljni rovovi iskopani"
+        },
+        "foundation": {
+          "title": "Temelj i Podrum",
+          "date": "28. februar 2024",
+          "description": "Betonski temelj izliven, zidovi podruma završeni"
+        },
+        "structural": {
+          "title": "Strukturni Okvir",
+          "date": "15. mart 2024",
+          "description": "Čelična struktura podignuta, podovi instalirani"
+        },
+        "exterior": {
+          "title": "Spoljašnji Zidovi i Krov",
+          "date": "10. april 2024",
+          "description": "Instalacija fasade, hidroizolacija krova"
+        },
+        "mep": {
+          "title": "MEP Sistemi",
+          "date": "30. april 2024",
+          "description": "Instalacija elektrike, vodovoda, HVAC"
+        },
+        "interior": {
+          "title": "Unutrašnji Završni Radovi",
+          "date": "U Toku - 60%",
+          "description": "Gipsane ploče, podovi, instalacija kuhinje"
+        },
+        "amenities": {
+          "title": "Sadržaji i Pejzaž",
+          "date": "15. maj 2024",
+          "description": "Instalacija teretane, lounge-a, bašte"
+        },
+        "inspection": {
+          "title": "Finalna Inspekcija i Predaja",
+          "date": "1. jun 2024",
+          "description": "Kontrola kvaliteta, dozvole, predaja"
+        }
+      },
+      "photosPlaceholder": "Najnovije Fotografije Izgradnje"
+    },
+    "contact": {
+      "title": "Spremni da Ovo Postane Vaš Dom?",
+      "description": "Kontaktirajte naš prodajni tim da zakazete posetu ili saznate više o dostupnim jedinicama",
+      "call": {
+        "title": "Pozovite Nas",
+        "phone": "+381 11 123 4567"
+      },
+      "email": {
+        "title": "Pošaljite Email",
+        "address": "info@belgradeluxury.com"
+      },
+      "visit": {
+        "title": "Posetite Nas",
+        "location": "Beograd, Srbija"
+      },
+      "scheduleVisit": "Zakazati Posetu"
+    },
+    "footer": {
+      "title": "Beograd Luksuzni Stanovi",
+      "description": "Premium život u srcu Beograda. Doživite luksuz redefinisan.",
+      "quickLinks": "Brze Veze",
+      "contact": "Kontakt",
+      "followUs": "Pratite Nas",
+      "copyright": "© 2024 Beograd Luksuzni Stanovi. Sva prava zadržana."
+    },
+    "expandingNetwork": {
+      "title": "Pridružite Se Našoj Rastućoj Mreži",
+      "description": "Budite deo naše regionalne priče o rastu. Povezujte se sa premium nekretninama i investicionim prilikama širom Balkana.",
+      "cta": "Istražite Mogućnosti"
+    }
   }
 }

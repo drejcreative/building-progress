@@ -27,12 +27,12 @@ export default function UseCases() {
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 text-center text-sm">
         <div className="flex items-center justify-center space-x-2">
           <Building2 className="w-4 h-4" />
-          <span className="font-semibold">ProInvest Showcase</span>
+          <span className="font-semibold">{t("header.showcase")}</span>
           <span className="text-blue-200">•</span>
-          <span>This is how your building website will look</span>
+          <span>{t("header.description")}</span>
           <span className="text-blue-200">•</span>
           <Link href="/" className="underline hover:no-underline">
-            Back to ProInvest
+            {t("header.backToProInvest")}
           </Link>
         </div>
       </div>
@@ -48,13 +48,13 @@ export default function UseCases() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900 dark:text-white">
-                  Belgrade Luxury Residences
+                  {t("header.title")}
                 </h1>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Premium Living in the Heart of Belgrade
+                  {t("header.subtitle")}
                 </p>
                 <div className="text-xs text-blue-600 dark:text-blue-400">
-                  Powered by ProInvest • Livion Real Estate
+                  {t("header.poweredBy")}
                 </div>
               </div>
             </div>
@@ -65,31 +65,31 @@ export default function UseCases() {
                 href="#overview"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                Overview
+                {t("navigation.overview")}
               </a>
               <a
                 href="#apartments"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                Apartments
+                {t("navigation.apartments")}
               </a>
               <a
                 href="#location"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                Location
+                {t("navigation.location")}
               </a>
               <a
                 href="#progress"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                Progress
+                {t("navigation.progress")}
               </a>
               <a
                 href="#contact"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                Contact
+                {t("navigation.contact")}
               </a>
             </nav>
 
@@ -128,23 +128,22 @@ export default function UseCases() {
             <div className="max-w-4xl">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-medium mb-6">
                 <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
-                Construction: 75% Complete
+                {t("hero.constructionStatus")}
               </div>
               <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6">
-                Belgrade Luxury Residences
+                {t("hero.title")}
               </h1>
               <p className="text-xl lg:text-2xl text-white/90 mb-8 max-w-2xl">
-                Premium living in the heart of Belgrade. 24 luxury apartments
-                with world-class amenities and stunning city views.
+                {t("hero.description")}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center space-x-2">
                   <Eye className="w-5 h-5" />
-                  <span>View Available Units</span>
+                  <span>{t("hero.viewUnits")}</span>
                 </button>
                 <button className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2">
                   <Video className="w-5 h-5" />
-                  <span>Virtual Tour</span>
+                  <span>{t("hero.virtualTour")}</span>
                 </button>
               </div>
             </div>
@@ -157,19 +156,25 @@ export default function UseCases() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="text-2xl font-bold text-gray-900">24</div>
-                <div className="text-sm text-gray-600">Total Units</div>
+                <div className="text-sm text-gray-600">
+                  {t("stats.totalUnits")}
+                </div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-green-600">18</div>
-                <div className="text-sm text-gray-600">Sold</div>
+                <div className="text-sm text-gray-600">{t("stats.sold")}</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-blue-600">6</div>
-                <div className="text-sm text-gray-600">Available</div>
+                <div className="text-sm text-gray-600">
+                  {t("stats.available")}
+                </div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-purple-600">€2.1M</div>
-                <div className="text-sm text-gray-600">Total Value</div>
+                <div className="text-sm text-gray-600">
+                  {t("stats.totalValue")}
+                </div>
               </div>
             </div>
           </div>
@@ -182,51 +187,47 @@ export default function UseCases() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
-                Luxury Living Redefined
+                {t("overview.title")}
               </h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
-                Belgrade Luxury Residences offers an unparalleled living
-                experience in the heart of Serbia&apos;s capital. Each apartment
-                is designed with premium materials and finishes, featuring
-                open-concept layouts, floor-to-ceiling windows, and private
-                balconies with stunning city views.
+                {t("overview.description")}
               </p>
 
               <div className="grid grid-cols-2 gap-6">
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    Premium Location
+                    {t("overview.features.premiumLocation")}
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    24/7 Security
+                    {t("overview.features.security")}
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    Underground Parking
+                    {t("overview.features.parking")}
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    Fitness Center
+                    {t("overview.features.fitness")}
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    Garden Terrace
+                    {t("overview.features.garden")}
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-5 h-5 text-green-500" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    Coffee Lounge
+                    {t("overview.features.lounge")}
                   </span>
                 </div>
               </div>
@@ -245,9 +246,11 @@ export default function UseCases() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-800">
-                      Completion
+                      {t("overview.completion.title")}
                     </div>
-                    <div className="text-sm text-gray-600">Q2 2024</div>
+                    <div className="text-sm text-gray-600">
+                      {t("overview.completion.date")}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -261,11 +264,10 @@ export default function UseCases() {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Available Apartments
+              {t("apartments.title")}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              Choose from our selection of premium apartments, each designed for
-              modern luxury living
+              {t("apartments.description")}
             </p>
           </div>
 
@@ -274,17 +276,17 @@ export default function UseCases() {
             <div className="flex items-center space-x-4">
               <button className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-slate-700 rounded-lg shadow-sm">
                 <Filter className="w-4 h-4" />
-                <span>Filter</span>
+                <span>{t("apartments.filter")}</span>
                 <ChevronDown className="w-4 h-4" />
               </button>
               <button className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-slate-700 rounded-lg shadow-sm">
                 <Grid className="w-4 h-4" />
-                <span>View</span>
+                <span>{t("apartments.view")}</span>
               </button>
             </div>
             <div className="flex items-center space-x-2">
               <span className="text-sm text-gray-600 dark:text-gray-400">
-                6 apartments available
+                {t("apartments.availableCount")}
               </span>
             </div>
           </div>
@@ -337,7 +339,7 @@ export default function UseCases() {
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-medium">
-                    {apartment.status}
+                    {t("apartments.status")}
                   </div>
                   <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-1">
                     <div className="text-sm font-bold text-gray-900">
@@ -380,7 +382,7 @@ export default function UseCases() {
                       className="flex-1 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
                     >
                       <Eye className="w-4 h-4" />
-                      <span>View Details</span>
+                      <span>{t("apartments.viewDetails")}</span>
                     </Link>
                     <button className="bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
                       <Heart className="w-4 h-4" />
@@ -399,38 +401,35 @@ export default function UseCases() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
-                Prime Location
+                {t("location.title")}
               </h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
-                Located in the heart of Belgrade, our residences offer easy
-                access to the city&apos;s finest amenities, cultural
-                attractions, and business districts. Everything you need is just
-                minutes away.
+                {t("location.description")}
               </p>
 
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-blue-500" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    5 min to Belgrade Center
+                    {t("location.distances.center")}
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-blue-500" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    10 min to Airport
+                    {t("location.distances.airport")}
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-blue-500" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    2 min to Metro Station
+                    {t("location.distances.metro")}
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-blue-500" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    Walking distance to shops
+                    {t("location.distances.shops")}
                   </span>
                 </div>
               </div>
@@ -441,7 +440,7 @@ export default function UseCases() {
                 <div className="text-center">
                   <Map className="w-16 h-16 text-gray-400 mx-auto mb-4" />
                   <p className="text-gray-600 dark:text-gray-400">
-                    Interactive Map
+                    {t("location.mapPlaceholder")}
                   </p>
                 </div>
               </div>
@@ -455,10 +454,10 @@ export default function UseCases() {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Construction Progress
+              {t("progress.title")}
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              Stay updated on our construction progress with real-time updates
+              {t("progress.description")}
             </p>
           </div>
 
@@ -467,7 +466,7 @@ export default function UseCases() {
               <div className="mb-8">
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                    Overall Progress
+                    {t("progress.overallProgress")}
                   </span>
                   <span className="text-sm font-bold text-blue-600 dark:text-blue-400">
                     75%
@@ -487,13 +486,13 @@ export default function UseCases() {
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                     <div className="flex-1">
                       <div className="font-medium text-gray-900 dark:text-white">
-                        Site Preparation & Excavation
+                        {t("progress.milestones.sitePreparation.title")}
                       </div>
                       <div className="text-sm text-gray-600 dark:text-gray-400">
-                        January 15, 2024
+                        {t("progress.milestones.sitePreparation.date")}
                       </div>
                       <div className="text-xs text-gray-500 dark:text-gray-400">
-                        Site cleared, foundation trenches dug
+                        {t("progress.milestones.sitePreparation.description")}
                       </div>
                     </div>
                   </div>
@@ -501,13 +500,13 @@ export default function UseCases() {
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                     <div className="flex-1">
                       <div className="font-medium text-gray-900 dark:text-white">
-                        Foundation & Basement
+                        {t("progress.milestones.foundation.title")}
                       </div>
                       <div className="text-sm text-gray-600 dark:text-gray-400">
-                        February 28, 2024
+                        {t("progress.milestones.foundation.date")}
                       </div>
                       <div className="text-xs text-gray-500 dark:text-gray-400">
-                        Concrete foundation poured, basement walls completed
+                        {t("progress.milestones.foundation.description")}
                       </div>
                     </div>
                   </div>
@@ -515,13 +514,13 @@ export default function UseCases() {
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                     <div className="flex-1">
                       <div className="font-medium text-gray-900 dark:text-white">
-                        Structural Framework
+                        {t("progress.milestones.structural.title")}
                       </div>
                       <div className="text-sm text-gray-600 dark:text-gray-400">
-                        March 15, 2024
+                        {t("progress.milestones.structural.date")}
                       </div>
                       <div className="text-xs text-gray-500 dark:text-gray-400">
-                        Steel structure erected, floors installed
+                        {t("progress.milestones.structural.description")}
                       </div>
                     </div>
                   </div>
@@ -529,13 +528,13 @@ export default function UseCases() {
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                     <div className="flex-1">
                       <div className="font-medium text-gray-900 dark:text-white">
-                        Exterior Walls & Roofing
+                        {t("progress.milestones.exterior.title")}
                       </div>
                       <div className="text-sm text-gray-600 dark:text-gray-400">
-                        April 10, 2024
+                        {t("progress.milestones.exterior.date")}
                       </div>
                       <div className="text-xs text-gray-500 dark:text-gray-400">
-                        Facade installation, roof waterproofing
+                        {t("progress.milestones.exterior.description")}
                       </div>
                     </div>
                   </div>
@@ -543,13 +542,13 @@ export default function UseCases() {
                     <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                     <div className="flex-1">
                       <div className="font-medium text-gray-900 dark:text-white">
-                        MEP Systems
+                        {t("progress.milestones.mep.title")}
                       </div>
                       <div className="text-sm text-gray-600 dark:text-gray-400">
-                        April 30, 2024
+                        {t("progress.milestones.mep.date")}
                       </div>
                       <div className="text-xs text-gray-500 dark:text-gray-400">
-                        Electrical, plumbing, HVAC installation
+                        {t("progress.milestones.mep.description")}
                       </div>
                     </div>
                   </div>
@@ -557,13 +556,13 @@ export default function UseCases() {
                     <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
                     <div className="flex-1">
                       <div className="font-medium text-gray-900 dark:text-white">
-                        Interior Finishing
+                        {t("progress.milestones.interior.title")}
                       </div>
                       <div className="text-sm text-gray-600 dark:text-gray-400">
-                        In Progress - 60%
+                        {t("progress.milestones.interior.date")}
                       </div>
                       <div className="text-xs text-gray-500 dark:text-gray-400">
-                        Drywall, flooring, kitchen installations
+                        {t("progress.milestones.interior.description")}
                       </div>
                     </div>
                   </div>
@@ -571,13 +570,13 @@ export default function UseCases() {
                     <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
                     <div className="flex-1">
                       <div className="font-medium text-gray-500 dark:text-gray-400">
-                        Amenities & Landscaping
+                        {t("progress.milestones.amenities.title")}
                       </div>
                       <div className="text-sm text-gray-500 dark:text-gray-400">
-                        May 15, 2024
+                        {t("progress.milestones.amenities.date")}
                       </div>
                       <div className="text-xs text-gray-500 dark:text-gray-400">
-                        Gym, lounge, garden installation
+                        {t("progress.milestones.amenities.description")}
                       </div>
                     </div>
                   </div>
@@ -585,13 +584,13 @@ export default function UseCases() {
                     <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
                     <div className="flex-1">
                       <div className="font-medium text-gray-500 dark:text-gray-400">
-                        Final Inspection & Handover
+                        {t("progress.milestones.inspection.title")}
                       </div>
                       <div className="text-sm text-gray-500 dark:text-gray-400">
-                        June 1, 2024
+                        {t("progress.milestones.inspection.date")}
                       </div>
                       <div className="text-xs text-gray-500 dark:text-gray-400">
-                        Quality checks, permits, delivery
+                        {t("progress.milestones.inspection.description")}
                       </div>
                     </div>
                   </div>
@@ -602,7 +601,7 @@ export default function UseCases() {
                     <div className="text-center">
                       <Image className="w-12 h-12 text-gray-400 mx-auto mb-2" />
                       <p className="text-gray-600 dark:text-gray-400 text-sm">
-                        Latest Construction Photos
+                        {t("progress.photosPlaceholder")}
                       </p>
                     </div>
                   </div>
@@ -617,13 +616,8 @@ export default function UseCases() {
       <section id="contact" className="py-20 bg-blue-600">
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center text-white mb-16">
-            <h2 className="text-4xl font-bold mb-4">
-              Ready to Make This Your Home?
-            </h2>
-            <p className="text-xl text-blue-100">
-              Contact our sales team to schedule a visit or learn more about
-              available units
-            </p>
+            <h2 className="text-4xl font-bold mb-4">{t("contact.title")}</h2>
+            <p className="text-xl text-blue-100">{t("contact.description")}</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -631,32 +625,34 @@ export default function UseCases() {
               <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Call Us</h3>
-              <p className="text-blue-100">+381 11 123 4567</p>
+              <h3 className="text-xl font-semibold text-white mb-2">
+                {t("contact.call.title")}
+              </h3>
+              <p className="text-blue-100">{t("contact.call.phone")}</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">
-                Email Us
+                {t("contact.email.title")}
               </h3>
-              <p className="text-blue-100">info@belgradeluxury.com</p>
+              <p className="text-blue-100">{t("contact.email.address")}</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">
-                Visit Us
+                {t("contact.visit.title")}
               </h3>
-              <p className="text-blue-100">Belgrade, Serbia</p>
+              <p className="text-blue-100">{t("contact.visit.location")}</p>
             </div>
           </div>
 
           <div className="text-center mt-12">
             <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Schedule a Visit
+              {t("contact.scheduleVisit")}
             </button>
           </div>
         </div>
@@ -671,17 +667,12 @@ export default function UseCases() {
                 <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                   <Building2 className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">
-                  Belgrade Luxury Residences
-                </span>
+                <span className="text-xl font-bold">{t("footer.title")}</span>
               </div>
-              <p className="text-gray-400">
-                Premium living in the heart of Belgrade. Experience luxury
-                redefined.
-              </p>
+              <p className="text-gray-400">{t("footer.description")}</p>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Quick Links</h3>
+              <h3 className="font-semibold mb-4">{t("footer.quickLinks")}</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>
                   <a href="#" className="hover:text-white transition-colors">
@@ -706,7 +697,7 @@ export default function UseCases() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Contact</h3>
+              <h3 className="font-semibold mb-4">{t("footer.contact")}</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>+381 11 123 4567</li>
                 <li>info@belgradeluxury.com</li>
@@ -714,7 +705,7 @@ export default function UseCases() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Follow Us</h3>
+              <h3 className="font-semibold mb-4">{t("footer.followUs")}</h3>
               <div className="flex space-x-4">
                 <a
                   href="#"
@@ -738,7 +729,7 @@ export default function UseCases() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Belgrade Luxury Residences. All rights reserved.</p>
+            <p>{t("footer.copyright")}</p>
           </div>
         </div>
       </footer>
