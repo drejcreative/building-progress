@@ -10,7 +10,7 @@ export default function UseCasesHeader() {
   return (
     <>
       {/* ProInvest Showcase Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 text-center text-sm">
+      <div className="sticky top-0 z-50 bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 text-center text-sm">
         <div className="flex items-center justify-center space-x-2">
           <Building2 className="w-4 h-4" />
           <span className="font-semibold">{t("header.showcase")}</span>
@@ -24,7 +24,7 @@ export default function UseCasesHeader() {
       </div>
 
       {/* Building Website Header */}
-      <header className="bg-white dark:bg-slate-800 border-b border-gray-200 dark:border-gray-700">
+      <header className="sticky top-8 z-40 bg-white dark:bg-slate-800 border-b border-gray-200 dark:border-gray-700">
         <div className="container mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between py-4">
             {/* Logo */}

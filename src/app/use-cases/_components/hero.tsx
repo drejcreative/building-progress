@@ -8,7 +8,7 @@ export default function UseCasesHero() {
   const t = useTranslations("UseCases");
 
   return (
-    <section className="relative h-screen">
+    <section className="relative h-[calc(100vh-8rem)] min-h-[calc(100vh-8rem)]">
       <div className="absolute inset-0">
         <Image
           src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop"
