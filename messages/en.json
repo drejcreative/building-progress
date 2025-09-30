@@ -315,6 +315,13 @@
       "cta": "Explore Opportunities"
     }
   },
+  "Navigation": {
+    "costSavings": "Cost Savings",
+    "services": "Services",
+    "pricing": "Pricing",
+    "useCases": "Use Cases",
+    "getStarted": "Get Started"
+  },
   "LocaleSwitcher": {
     "label": "Select language",
     "en": "English",

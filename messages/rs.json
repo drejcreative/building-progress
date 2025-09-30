@@ -315,6 +315,13 @@
       "cta": "Istražite Mogućnosti"
     }
   },
+  "Navigation": {
+    "costSavings": "Uštede Troškova",
+    "services": "Servisi",
+    "pricing": "Cene",
+    "useCases": "Slučajevi Korišćenja",
+    "getStarted": "Započni"
+  },
   "LocaleSwitcher": {
     "label": "Izaberite jezik",
     "en": "Engleski",

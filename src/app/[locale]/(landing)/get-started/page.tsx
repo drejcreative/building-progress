@@ -1,20 +1,12 @@
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 import {
   ArrowRight,
-  Building2,
   CheckCircle,
   Clock,
-  Euro,
   Star,
-  Users,
   Shield,
   Zap,
   TrendingUp,
-  MapPin,
-  Calendar,
-  Phone,
-  Mail,
   AlertTriangle,
 } from "lucide-react";
 
