@@ -602,5 +602,103 @@
       "description": "Be part of our regional growth story. Connect with premium properties and investment opportunities across the Balkans.",
       "cta": "Explore Opportunities"
     }
+  },
+  "ApartmentDetails": {
+    "header": {
+      "showcase": "ProInvest Showcase",
+      "description": "This is how individual apartment pages will look",
+      "backToBuilding": "Back to Building Overview",
+      "title": "Belgrade Luxury Residences",
+      "subtitle": "Premium Living in the Heart of Belgrade",
+      "poweredBy": "Powered by ProInvest • Livion Real Estate"
+    },
+    "breadcrumb": {
+      "buildingOverview": "Building Overview",
+      "apartments": "Apartments",
+      "currentApartment": "Apartment A205"
+    },
+    "navigation": {
+      "overview": "Overview",
+      "apartments": "Apartments",
+      "location": "Location",
+      "progress": "Progress",
+      "contact": "Contact"
+    },
+    "apartment": {
+      "title": "Apartment A205 - 3 Bedroom",
+      "description": "Spacious 3-bedroom apartment with stunning city views, premium finishes, and modern amenities. Perfect for families seeking luxury living in the heart of Belgrade.",
+      "status": "Available",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "totalArea": "Total Area",
+      "floor": "Floor"
+    },
+    "features": {
+      "apartmentFeatures": "Apartment Features",
+      "buildingAmenities": "Building Amenities",
+      "largeBalcony": "Large balcony with city views",
+      "undergroundParking": "Underground parking space",
+      "storageRoom": "Storage room included",
+      "homeOffice": "Home office/study area",
+      "floorToCeiling": "Floor-to-ceiling windows",
+      "premiumKitchen": "Premium kitchen appliances",
+      "security": "24/7 security & concierge",
+      "fitnessCenter": "Fitness center",
+      "gardenTerrace": "Garden terrace",
+      "coffeeLounge": "Coffee lounge",
+      "highSpeedInternet": "High-speed internet",
+      "climateControl": "Climate control system"
+    },
+    "virtualTour": {
+      "title": "Virtual Tour",
+      "subtitle": "360° Interactive Experience",
+      "description": "Explore every corner of this beautiful apartment with our immersive 360° virtual tour. Experience the space as if you were there in person.",
+      "interactiveFloorPlan": "Interactive Floor Plan",
+      "clickToExplore": "Click to explore room dimensions"
+    },
+    "floorPlan": {
+      "title": "Floor Plan"
+    },
+    "pricing": {
+      "price": "€420,000",
+      "pricePerM2": "€3,500 per m²",
+      "monthlyPayment": "Monthly Payment",
+      "maintenanceFee": "Maintenance Fee",
+      "propertyTax": "Property Tax"
+    },
+    "actions": {
+      "scheduleViewing": "Schedule Viewing",
+      "requestInformation": "Request Information",
+      "addToFavorites": "Add to Favorites",
+      "sendMessage": "Send Message"
+    },
+    "contact": {
+      "title": "Contact Agent",
+      "agentName": "Milan Petrović",
+      "agentTitle": "Senior Sales Agent",
+      "phone": "+381 11 123 4567",
+      "email": "milan@belgradeluxury.com"
+    },
+    "similarApartments": {
+      "title": "Similar Apartments",
+      "apartment1": {
+        "name": "Apartment A101",
+        "description": "2 Bedroom • 85m²",
+        "price": "€285,000"
+      },
+      "apartment2": {
+        "name": "Apartment A301",
+        "description": "Penthouse • 180m²",
+        "price": "€750,000"
+      }
+    },
+    "footer": {
+      "title": "Belgrade Luxury Residences",
+      "description": "Premium living in the heart of Belgrade. Experience luxury redefined.",
+      "quickLinks": "Quick Links",
+      "contact": "Contact",
+      "followUs": "Follow Us",
+      "copyright": "© 2024 Belgrade Luxury Residences. All rights reserved."
+    }
   }
 }

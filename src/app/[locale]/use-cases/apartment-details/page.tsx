@@ -1,5 +1,8 @@
+"use client";
+
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { useEffect, useRef, useState } from "react";
 import {
   Building2,
   CheckCircle,
@@ -19,6 +22,22 @@ import {
 
 export default function ApartmentDetails() {
   const t = useTranslations("ApartmentDetails");
+  const [isFirstSticky, setIsFirstSticky] = useState(false);
+  const thirdSectionRef = useRef<HTMLDivElement>(null);
+  const firstSectionRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (thirdSectionRef.current) {
+        const rect = thirdSectionRef.current.getBoundingClientRect();
+        // When the third section is completely out of view (above the viewport)
+        setIsFirstSticky(rect.bottom < 0);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900">
@@ -26,12 +45,12 @@ export default function ApartmentDetails() {
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 text-center text-sm">
         <div className="flex items-center justify-center space-x-2">
           <Building2 className="w-4 h-4" />
-          <span className="font-semibold">ProInvest Showcase</span>
+          <span className="font-semibold">{t("header.showcase")}</span>
           <span className="text-blue-200">•</span>
-          <span>This is how individual apartment pages will look</span>
+          <span>{t("header.description")}</span>
           <span className="text-blue-200">•</span>
           <Link href="/use-cases" className="underline hover:no-underline">
-            Back to Building Overview
+            {t("header.backToBuilding")}
           </Link>
         </div>
       </div>
@@ -47,13 +66,13 @@ export default function ApartmentDetails() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900 dark:text-white">
-                  Belgrade Luxury Residences
+                  {t("header.title")}
                 </h1>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Premium Living in the Heart of Belgrade
+                  {t("header.subtitle")}
                 </p>
                 <div className="text-xs text-blue-600 dark:text-blue-400">
-                  Powered by ProInvest • Livion Real Estate
+                  {t("header.poweredBy")}
                 </div>
               </div>
             </div>
@@ -64,31 +83,31 @@ export default function ApartmentDetails() {
                 href="/use-cases"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                Overview
+                {t("navigation.overview")}
               </Link>
               <Link
                 href="/use-cases#apartments"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                Apartments
+                {t("navigation.apartments")}
               </Link>
               <Link
                 href="/use-cases#location"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                Location
+                {t("navigation.location")}
               </Link>
               <Link
                 href="/use-cases#progress"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                Progress
+                {t("navigation.progress")}
               </Link>
               <Link
                 href="/use-cases#contact"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
-                Contact
+                {t("navigation.contact")}
               </Link>
             </nav>
 
@@ -119,18 +138,18 @@ export default function ApartmentDetails() {
               href="/use-cases"
               className="hover:text-blue-600 dark:hover:text-blue-400"
             >
-              Building Overview
+              {t("breadcrumb.buildingOverview")}
             </Link>
             <span>/</span>
             <Link
               href="/use-cases#apartments"
               className="hover:text-blue-600 dark:hover:text-blue-400"
             >
-              Apartments
+              {t("breadcrumb.apartments")}
             </Link>
             <span>/</span>
             <span className="text-gray-900 dark:text-white">
-              Apartment A205
+              {t("breadcrumb.currentApartment")}
             </span>
           </div>
         </div>
@@ -158,7 +177,7 @@ export default function ApartmentDetails() {
                     </div>
                     <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-1">
                       <div className="text-sm font-bold text-green-600">
-                        Available
+                        {t("apartment.status")}
                       </div>
                     </div>
                   </div>
@@ -182,12 +201,10 @@ export default function ApartmentDetails() {
               {/* Apartment Details */}
               <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
                 <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                  Apartment A205 - 3 Bedroom
+                  {t("apartment.title")}
                 </h1>
                 <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-                  Spacious 3-bedroom apartment with stunning city views, premium
-                  finishes, and modern amenities. Perfect for families seeking
-                  luxury living in the heart of Belgrade.
+                  {t("apartment.description")}
                 </p>
 
                 {/* Key Stats */}
@@ -200,7 +217,7 @@ export default function ApartmentDetails() {
                       3
                     </div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">
-                      Bedrooms
+                      {t("apartment.bedrooms")}
                     </div>
                   </div>
                   <div className="text-center">
@@ -211,7 +228,7 @@ export default function ApartmentDetails() {
                       2
                     </div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">
-                      Bathrooms
+                      {t("apartment.bathrooms")}
                     </div>
                   </div>
                   <div className="text-center">
@@ -222,7 +239,7 @@ export default function ApartmentDetails() {
                       120m²
                     </div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">
-                      Total Area
+                      {t("apartment.totalArea")}
                     </div>
                   </div>
                   <div className="text-center">
@@ -233,7 +250,7 @@ export default function ApartmentDetails() {
                       2nd
                     </div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">
-                      Floor
+                      {t("apartment.floor")}
                     </div>
                   </div>
                 </div>
@@ -242,86 +259,86 @@ export default function ApartmentDetails() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                      Apartment Features
+                      {t("features.apartmentFeatures")}
                     </h3>
                     <div className="space-y-3">
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          Large balcony with city views
+                          {t("features.largeBalcony")}
                         </span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          Underground parking space
+                          {t("features.undergroundParking")}
                         </span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          Storage room included
+                          {t("features.storageRoom")}
                         </span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          Home office/study area
+                          {t("features.homeOffice")}
                         </span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          Floor-to-ceiling windows
+                          {t("features.floorToCeiling")}
                         </span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          Premium kitchen appliances
+                          {t("features.premiumKitchen")}
                         </span>
                       </div>
                     </div>
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                      Building Amenities
+                      {t("features.buildingAmenities")}
                     </h3>
                     <div className="space-y-3">
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          24/7 security & concierge
+                          {t("features.security")}
                         </span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          Fitness center
+                          {t("features.fitnessCenter")}
                         </span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          Garden terrace
+                          {t("features.gardenTerrace")}
                         </span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          Coffee lounge
+                          {t("features.coffeeLounge")}
                         </span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          High-speed internet
+                          {t("features.highSpeedInternet")}
                         </span>
                       </div>
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="w-5 h-5 text-green-500" />
                         <span className="text-gray-700 dark:text-gray-300">
-                          Climate control system
+                          {t("features.climateControl")}
                         </span>
                       </div>
                     </div>
@@ -337,10 +354,10 @@ export default function ApartmentDetails() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                      Virtual Tour
+                      {t("virtualTour.title")}
                     </h3>
                     <p className="text-blue-600 dark:text-blue-400">
-                      360° Interactive Experience
+                      {t("virtualTour.subtitle")}
                     </p>
                   </div>
                 </div>
@@ -357,26 +374,24 @@ export default function ApartmentDetails() {
                   </div>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300 text-sm">
-                  Explore every corner of this beautiful apartment with our
-                  immersive 360° virtual tour. Experience the space as if you
-                  were there in person.
+                  {t("virtualTour.description")}
                 </p>
               </div>
 
               {/* Floor Plan */}
               <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                  Floor Plan
+                  {t("floorPlan.title")}
                 </h3>
                 <div className="relative h-96 bg-gray-100 dark:bg-gray-700 rounded-xl overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center">
                       <Ruler className="w-16 h-16 text-gray-400 mx-auto mb-4" />
                       <p className="text-gray-600 dark:text-gray-400">
-                        Interactive Floor Plan
+                        {t("virtualTour.interactiveFloorPlan")}
                       </p>
                       <p className="text-sm text-gray-500 dark:text-gray-500 mt-2">
-                        Click to explore room dimensions
+                        {t("virtualTour.clickToExplore")}
                       </p>
                     </div>
                   </div>
@@ -387,20 +402,25 @@ export default function ApartmentDetails() {
             {/* Sidebar */}
             <div className="space-y-6">
               {/* Price Card */}
-              <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6 sticky top-6">
+              <div
+                ref={firstSectionRef}
+                className={`bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6 transition-all duration-300 ${
+                  isFirstSticky ? "sticky top-6 z-10" : ""
+                }`}
+              >
                 <div className="text-center mb-6">
                   <div className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">
-                    €420,000
+                    {t("pricing.price")}
                   </div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">
-                    €3,500 per m²
+                    {t("pricing.pricePerM2")}
                   </div>
                 </div>
 
                 <div className="space-y-4 mb-6">
                   <div className="flex justify-between items-center">
                     <span className="text-gray-700 dark:text-gray-300">
-                      Monthly Payment
+                      {t("pricing.monthlyPayment")}
                     </span>
                     <span className="font-semibold text-gray-900 dark:text-white">
                       €1,850
@@ -408,7 +428,7 @@ export default function ApartmentDetails() {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-gray-700 dark:text-gray-300">
-                      Maintenance Fee
+                      {t("pricing.maintenanceFee")}
                     </span>
                     <span className="font-semibold text-gray-900 dark:text-white">
                       €180/month
@@ -416,7 +436,7 @@ export default function ApartmentDetails() {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-gray-700 dark:text-gray-300">
-                      Property Tax
+                      {t("pricing.propertyTax")}
                     </span>
                     <span className="font-semibold text-gray-900 dark:text-white">
                       €420/year
@@ -427,15 +447,15 @@ export default function ApartmentDetails() {
                 <div className="space-y-3">
                   <button className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2">
                     <Phone className="w-5 h-5" />
-                    <span>Schedule Viewing</span>
+                    <span>{t("actions.scheduleViewing")}</span>
                   </button>
                   <button className="w-full bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-white py-3 px-4 rounded-lg font-semibold hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors flex items-center justify-center space-x-2">
                     <Mail className="w-5 h-5" />
-                    <span>Request Information</span>
+                    <span>{t("actions.requestInformation")}</span>
                   </button>
                   <button className="w-full bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-white py-3 px-4 rounded-lg font-semibold hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors flex items-center justify-center space-x-2">
                     <Heart className="w-5 h-5" />
-                    <span>Add to Favorites</span>
+                    <span>{t("actions.addToFavorites")}</span>
                   </button>
                 </div>
               </div>
@@ -443,55 +463,58 @@ export default function ApartmentDetails() {
               {/* Contact Agent */}
               <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                  Contact Agent
+                  {t("contact.title")}
                 </h3>
                 <div className="text-center mb-4">
                   <div className="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-full mx-auto mb-3 flex items-center justify-center">
                     <User className="w-8 h-8 text-gray-500" />
                   </div>
                   <div className="font-semibold text-gray-900 dark:text-white">
-                    Milan Petrović
+                    {t("contact.agentName")}
                   </div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">
-                    Senior Sales Agent
+                    {t("contact.agentTitle")}
                   </div>
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Phone className="w-4 h-4 text-blue-500" />
                     <span className="text-sm text-gray-700 dark:text-gray-300">
-                      +381 11 123 4567
+                      {t("contact.phone")}
                     </span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-4 h-4 text-blue-500" />
                     <span className="text-sm text-gray-700 dark:text-gray-300">
-                      milan@belgradeluxury.com
+                      {t("contact.email")}
                     </span>
                   </div>
                 </div>
                 <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors mt-4">
-                  Send Message
+                  {t("actions.sendMessage")}
                 </button>
               </div>
 
               {/* Similar Apartments */}
-              <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6">
+              <div
+                ref={thirdSectionRef}
+                className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6"
+              >
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                  Similar Apartments
+                  {t("similarApartments.title")}
                 </h3>
                 <div className="space-y-4">
                   <div className="flex space-x-3">
                     <div className="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-lg flex-shrink-0"></div>
                     <div className="flex-1">
                       <div className="font-semibold text-gray-900 dark:text-white">
-                        Apartment A101
+                        {t("similarApartments.apartment1.name")}
                       </div>
                       <div className="text-sm text-gray-600 dark:text-gray-400">
-                        2 Bedroom • 85m²
+                        {t("similarApartments.apartment1.description")}
                       </div>
                       <div className="text-sm font-semibold text-blue-600 dark:text-blue-400">
-                        €285,000
+                        {t("similarApartments.apartment1.price")}
                       </div>
                     </div>
                   </div>
@@ -499,13 +522,13 @@ export default function ApartmentDetails() {
                     <div className="w-16 h-16 bg-gray-200 dark:bg-gray-700 rounded-lg flex-shrink-0"></div>
                     <div className="flex-1">
                       <div className="font-semibold text-gray-900 dark:text-white">
-                        Apartment A301
+                        {t("similarApartments.apartment2.name")}
                       </div>
                       <div className="text-sm text-gray-600 dark:text-gray-400">
-                        Penthouse • 180m²
+                        {t("similarApartments.apartment2.description")}
                       </div>
                       <div className="text-sm font-semibold text-blue-600 dark:text-blue-400">
-                        €750,000
+                        {t("similarApartments.apartment2.price")}
                       </div>
                     </div>
                   </div>
@@ -525,24 +548,19 @@ export default function ApartmentDetails() {
                 <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                   <Building2 className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">
-                  Belgrade Luxury Residences
-                </span>
+                <span className="text-xl font-bold">{t("footer.title")}</span>
               </div>
-              <p className="text-gray-400">
-                Premium living in the heart of Belgrade. Experience luxury
-                redefined.
-              </p>
+              <p className="text-gray-400">{t("footer.description")}</p>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Quick Links</h3>
+              <h3 className="font-semibold mb-4">{t("footer.quickLinks")}</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>
                   <Link
                     href="/use-cases"
                     className="hover:text-white transition-colors"
                   >
-                    Overview
+                    {t("navigation.overview")}
                   </Link>
                 </li>
                 <li>
@@ -550,7 +568,7 @@ export default function ApartmentDetails() {
                     href="/use-cases#apartments"
                     className="hover:text-white transition-colors"
                   >
-                    Apartments
+                    {t("navigation.apartments")}
                   </Link>
                 </li>
                 <li>
@@ -558,7 +576,7 @@ export default function ApartmentDetails() {
                     href="/use-cases#location"
                     className="hover:text-white transition-colors"
                   >
-                    Location
+                    {t("navigation.location")}
                   </Link>
                 </li>
                 <li>
@@ -566,13 +584,13 @@ export default function ApartmentDetails() {
                     href="/use-cases#progress"
                     className="hover:text-white transition-colors"
                   >
-                    Progress
+                    {t("navigation.progress")}
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Contact</h3>
+              <h3 className="font-semibold mb-4">{t("footer.contact")}</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>+381 11 123 4567</li>
                 <li>info@belgradeluxury.com</li>
@@ -580,7 +598,7 @@ export default function ApartmentDetails() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Follow Us</h3>
+              <h3 className="font-semibold mb-4">{t("footer.followUs")}</h3>
               <div className="flex space-x-4">
                 <a
                   href="#"
@@ -604,7 +622,7 @@ export default function ApartmentDetails() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Belgrade Luxury Residences. All rights reserved.</p>
+            <p>{t("footer.copyright")}</p>
           </div>
         </div>
       </footer>

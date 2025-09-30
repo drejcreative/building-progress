@@ -602,5 +602,103 @@
       "description": "Budite deo naše regionalne priče o rastu. Povezujte se sa premium nekretninama i investicionim prilikama širom Balkana.",
       "cta": "Istražite Mogućnosti"
     }
+  },
+  "ApartmentDetails": {
+    "header": {
+      "showcase": "ProInvest Prikaz",
+      "description": "Ovako će izgledati individualne stranice stanova",
+      "backToBuilding": "Nazad na Pregled Zgrade",
+      "title": "Beograd Luksuzni Stanovi",
+      "subtitle": "Premium Život u Srcu Beograda",
+      "poweredBy": "Pokrenuto od strane ProInvest • Livion Real Estate"
+    },
+    "breadcrumb": {
+      "buildingOverview": "Pregled Zgrade",
+      "apartments": "Stanovi",
+      "currentApartment": "Stan A205"
+    },
+    "navigation": {
+      "overview": "Pregled",
+      "apartments": "Stanovi",
+      "location": "Lokacija",
+      "progress": "Napredak",
+      "contact": "Kontakt"
+    },
+    "apartment": {
+      "title": "Stan A205 - 3 Sobe",
+      "description": "Prostrani stan sa 3 sobe sa zadivljujućim pogledom na grad, premium završnim radovima i modernim sadržajima. Savršen za porodice koje traže luksuzni život u srcu Beograda.",
+      "status": "Dostupno",
+      "bedrooms": "Sobe",
+      "bathrooms": "Kupatila",
+      "totalArea": "Ukupna Površina",
+      "floor": "Sprat"
+    },
+    "features": {
+      "apartmentFeatures": "Karakteristike Stana",
+      "buildingAmenities": "Sadržaji Zgrade",
+      "largeBalcony": "Veliki balkon sa pogledom na grad",
+      "undergroundParking": "Podzemno parkiranje",
+      "storageRoom": "Ostava uključena",
+      "homeOffice": "Kućna kancelarija/radna soba",
+      "floorToCeiling": "Prozori od poda do plafona",
+      "premiumKitchen": "Premium kuhinjski aparati",
+      "security": "24/7 bezbednost i koncijerž",
+      "fitnessCenter": "Fitnes centar",
+      "gardenTerrace": "Bašta terasa",
+      "coffeeLounge": "Kafić lounge",
+      "highSpeedInternet": "Brzi internet",
+      "climateControl": "Sistem klimatizacije"
+    },
+    "virtualTour": {
+      "title": "Virtuelna Tura",
+      "subtitle": "360° Interaktivno Iskustvo",
+      "description": "Istražite svaki ugao ovog prelepog stana sa našom imerzivnom 360° virtuelnom turom. Doživite prostor kao da ste tamo lično.",
+      "interactiveFloorPlan": "Interaktivni Plan Stana",
+      "clickToExplore": "Kliknite da istražite dimenzije soba"
+    },
+    "floorPlan": {
+      "title": "Plan Stana"
+    },
+    "pricing": {
+      "price": "€420.000",
+      "pricePerM2": "€3.500 po m²",
+      "monthlyPayment": "Mesečna Rata",
+      "maintenanceFee": "Naknada za Održavanje",
+      "propertyTax": "Porez na Nekretninu"
+    },
+    "actions": {
+      "scheduleViewing": "Zakazati Pregled",
+      "requestInformation": "Zatražiti Informacije",
+      "addToFavorites": "Dodati u Omiljene",
+      "sendMessage": "Poslati Poruku"
+    },
+    "contact": {
+      "title": "Kontaktirajte Agenta",
+      "agentName": "Milan Petrović",
+      "agentTitle": "Senior Prodajni Agent",
+      "phone": "+381 11 123 4567",
+      "email": "milan@belgradeluxury.com"
+    },
+    "similarApartments": {
+      "title": "Slični Stanovi",
+      "apartment1": {
+        "name": "Stan A101",
+        "description": "2 Sobe • 85m²",
+        "price": "€285.000"
+      },
+      "apartment2": {
+        "name": "Stan A301",
+        "description": "Penthouse • 180m²",
+        "price": "€750.000"
+      }
+    },
+    "footer": {
+      "title": "Beograd Luksuzni Stanovi",
+      "description": "Premium život u srcu Beograda. Doživite luksuz redefinisan.",
+      "quickLinks": "Brze Veze",
+      "contact": "Kontakt",
+      "followUs": "Pratite Nas",
+      "copyright": "© 2024 Beograd Luksuzni Stanovi. Sva prava zadržana."
+    }
   }
 }

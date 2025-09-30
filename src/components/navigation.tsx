@@ -10,7 +10,10 @@ export default function Navigation() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-6 lg:p-8 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-gray-200/50 dark:border-white/10">
-      <div className="flex items-center space-x-2">
+      <Link
+        href="/"
+        className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+      >
         <Image
           src="/proinvest-logo.svg"
           alt="ProInvest"
@@ -24,7 +27,7 @@ export default function Navigation() {
           </span>
           Invest
         </span>
-      </div>
+      </Link>
       <div className="hidden md:flex items-center space-x-8">
         <a
           href="#savings"
