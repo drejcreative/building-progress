@@ -13,7 +13,9 @@ export default function UseCasesHeader() {
       <div className="sticky top-0 z-50 bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 text-center text-sm">
         <div className="flex items-center justify-center space-x-2">
           <Building2 className="w-4 h-4" />
-          <span className="font-semibold">{t("header.showcase")}</span>
+          <Link href="/" className="font-semibold hover:underline">
+            {t("header.showcase")}
+          </Link>
           <span className="text-blue-200">•</span>
           <span>{t("header.description")}</span>
           <span className="text-blue-200">•</span>
