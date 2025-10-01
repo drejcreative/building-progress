@@ -385,6 +385,19 @@
     },
     "copyright": "© {year} ProInvest. All rights reserved."
   },
+  "SEO": {
+    "title": "ProInvest - Serbia's First Zero-Risk Property Sales | Livion Real Estate",
+    "description": "Serbia's premier property sales service for investors. Zero upfront costs, professional marketing, and guaranteed results. Expanding to Montenegro and Croatia.",
+    "keywords": "property sales, real estate investment, property marketing, Belgrade, Novi Sad, Niš, Montenegro, Croatia, zero risk, professional marketing, virtual tours, SEO optimization",
+    "organizationName": "ProInvest",
+    "organizationAlternateName": "ProInvest by Livion Real Estate",
+    "organizationDescription": "Serbia's premier property sales service for investors. Zero upfront costs, professional marketing, and guaranteed results.",
+    "serviceName": "Zero-Risk Property Sales",
+    "serviceDescription": "Complete property sales service with zero upfront costs. Professional marketing, virtual tours, legal support, and sales team.",
+    "servicePaymentDescription": "Payment only when property sells. No upfront costs.",
+    "websiteDescription": "Serbia's premier property sales service for investors",
+    "homePageName": "Home"
+  },
   "Footer": {
     "description": "Serbia's premier property sales service for investors. Zero upfront costs, professional marketing, and guaranteed results. Part of the Livion Real Estate family.",
     "ourServices": "Our Services",

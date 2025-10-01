@@ -385,6 +385,19 @@
     },
     "copyright": "© {year} ProInvest. Sva prava zadržana."
   },
+  "SEO": {
+    "title": "ProInvest - Prva u Srbiji Prodaja Nekretnina Bez Rizika | Livion Real Estate",
+    "description": "Vodeći srpski servis za prodaju nekretnina za investitore. Nulti početni troškovi, profesionalni marketing i garantovani rezultati. Širimo se na Crnu Goru i Hrvatsku.",
+    "keywords": "prodaja nekretnina, investicije u nekretnine, marketing nekretnina, Beograd, Novi Sad, Niš, Crna Gora, Hrvatska, bez rizika, profesionalni marketing, virtuelne ture, SEO optimizacija",
+    "organizationName": "ProInvest",
+    "organizationAlternateName": "ProInvest by Livion Real Estate",
+    "organizationDescription": "Vodeći srpski servis za prodaju nekretnina za investitore. Nulti početni troškovi, profesionalni marketing i garantovani rezultati.",
+    "serviceName": "Prodaja Nekretnina Bez Rizika",
+    "serviceDescription": "Kompletna usluga prodaje nekretnina bez početnih troškova. Profesionalni marketing, virtuelne ture, pravna podrška i prodajni tim.",
+    "servicePaymentDescription": "Plaćanje samo kada se nekretnina proda. Nema početnih troškova.",
+    "websiteDescription": "Vodeći srpski servis za prodaju nekretnina za investitore",
+    "homePageName": "Početna"
+  },
   "Footer": {
     "description": "Vodeći srpski servis za prodaju nekretnina za investitore. Nulti početni troškovi, profesionalni marketing i garantovani rezultati. Deo porodice Livion Real Estate.",
     "ourServices": "Naši Servisi",
