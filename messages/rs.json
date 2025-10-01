@@ -320,6 +320,7 @@
     "services": "Servisi",
     "pricing": "Cene",
     "useCases": "Slučajevi Korišćenja",
+    "consultation": "Besplatna Konsultacija",
     "getStarted": "Započni"
   },
   "LocaleSwitcher": {
@@ -719,6 +720,41 @@
           "description": "Naši VIP klijenti vide 15-25% više cene prodaje i 2-3x brže prodaje u poređenju sa DIY pristupom."
         }
       }
+    }
+  },
+  "Consultation": {
+    "badge": "AI-Powered Konsultacija",
+    "title": "Dobijte Vašu AI-Generisanu Strategiju Prodaje Nekretnina",
+    "subtitle": "Naš inteligentni sistem analizira vašu situaciju i kreira personalizovanu strategiju. Bez obaveza, bez rizika - samo stručni uvidi prilagođeni vašoj specifičnoj situaciji.",
+    "progress": "Napredak",
+    "previous": "Prethodno",
+    "next": "Sledeće",
+    "complete": "Generiši Moj Izveštaj",
+    "contactPlaceholder": "Molimo unesite vaše ime, email i broj telefona da bismo vam poslali vašu personalizovanu ponudu...",
+    "ai": {
+      "analyzing": "AI Analizira Vašu Situaciju",
+      "analyzingDescription": "Naš inteligentni sistem obrađuje vaše odgovore da generiše vašu personalizovanu strategiju prodaje nekretnina..."
+    },
+    "report": {
+      "title": "Vaš AI-Generisan Izveštaj o Prodaji Nekretnina",
+      "subtitle": "Na osnovu vaših odgovora, naš AI je kreirao sveobuhvatnu analizu i strategiju za vaš uspeh u prodaji nekretnina.",
+      "propertyAnalysis": "Analiza Nekretnine",
+      "propertyType": "Tip Nekretnine",
+      "location": "Lokacija",
+      "value": "Procenjena Vrednost",
+      "timeline": "Rok",
+      "recommendations": "AI Preporuke",
+      "recommendedService": "Preporučeni Servis",
+      "urgency": "Nivo Hitnosti",
+      "estimatedSavings": "Procenjene Uštede",
+      "riskLevel": "Procena Rizika",
+      "nextSteps": "Preporučeni Sledeći Koraci",
+      "valueProposition": "Zašto Izabrati Naš Servis?",
+      "valueDescription": "Naša AI analiza pokazuje da možete uštedeti značajne novac i vreme dok smanjujete rizik na nulu.",
+      "zeroRisk": "Nulti Rizik",
+      "fastResults": "Brzi Rezultati",
+      "professional": "Profesionalno",
+      "cta": "Dobijte Moju Personalizovanu Ponudu"
     }
   },
   "ApartmentDetails": {

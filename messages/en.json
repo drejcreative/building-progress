@@ -320,6 +320,7 @@
     "services": "Services",
     "pricing": "Pricing",
     "useCases": "Use Cases",
+    "consultation": "Free Consultation",
     "getStarted": "Get Started"
   },
   "LocaleSwitcher": {
@@ -719,6 +720,41 @@
           "description": "Our VIP clients see 15-25% higher sale prices and 2-3x faster sales compared to DIY."
         }
       }
+    }
+  },
+  "Consultation": {
+    "badge": "AI-Powered Consultation",
+    "title": "Get Your AI-Generated Property Sales Strategy",
+    "subtitle": "Our intelligent system analyzes your situation and creates a personalized strategy. No commitment, no risk - just expert insights tailored to your specific situation.",
+    "progress": "Progress",
+    "previous": "Previous",
+    "next": "Next",
+    "complete": "Generate My Report",
+    "contactPlaceholder": "Please provide your name, email, and phone number so we can send your personalized report...",
+    "ai": {
+      "analyzing": "AI is Analyzing Your Situation",
+      "analyzingDescription": "Our intelligent system is processing your answers to generate your personalized property sales strategy..."
+    },
+    "report": {
+      "title": "Your AI-Generated Property Sales Report",
+      "subtitle": "Based on your answers, our AI has created a comprehensive analysis and strategy for your property sales success.",
+      "propertyAnalysis": "Property Analysis",
+      "propertyType": "Property Type",
+      "location": "Location",
+      "value": "Estimated Value",
+      "timeline": "Timeline",
+      "recommendations": "AI Recommendations",
+      "recommendedService": "Recommended Service",
+      "urgency": "Urgency Level",
+      "estimatedSavings": "Estimated Savings",
+      "riskLevel": "Risk Assessment",
+      "nextSteps": "Recommended Next Steps",
+      "valueProposition": "Why Choose Our Service?",
+      "valueDescription": "Our AI analysis shows you could save significant money and time while reducing risk to zero.",
+      "zeroRisk": "Zero Risk",
+      "fastResults": "Fast Results",
+      "professional": "Professional",
+      "cta": "Get My Personalized Proposal"
     }
   },
   "ApartmentDetails": {

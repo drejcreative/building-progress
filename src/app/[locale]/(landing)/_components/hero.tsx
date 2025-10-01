@@ -2,6 +2,7 @@ import { ArrowRight, CheckCircle } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export default function Hero() {
   const t = useTranslations("HomePage");
@@ -26,13 +27,19 @@ export default function Hero() {
             {t("hero.content")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-400">
-            <button className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-blue-600 hover:to-indigo-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2">
+            <Link
+              href="/consultation"
+              className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-blue-600 hover:to-indigo-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2"
+            >
               <span>{t("hero.ctaPrimary")}</span>
               <ArrowRight className="w-5 h-5" />
-            </button>
-            <button className="px-8 py-4 rounded-full text-lg font-semibold bg-gray-900/10 backdrop-blur-sm border border-gray-900/20 text-gray-900 hover:bg-gray-900/20 dark:bg-white/10 dark:border-white/20 dark:text-white dark:hover:bg-white/20 transition-all">
+            </Link>
+            <Link
+              href="/use-cases"
+              className="px-8 py-4 rounded-full text-lg font-semibold bg-gray-900/10 backdrop-blur-sm border border-gray-900/20 text-gray-900 hover:bg-gray-900/20 dark:bg-white/10 dark:border-white/20 dark:text-white dark:hover:bg-white/20 transition-all"
+            >
               {t("hero.ctaSecondary")}
-            </button>
+            </Link>
           </div>
         </div>
         <div className="relative">

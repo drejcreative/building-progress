@@ -24,9 +24,8 @@ export default function Navigation() {
 
         <span className="text-lg lg:text-xl font-bold text-gray-900 dark:text-white">
           <span className="font-oswald bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent">
-            PRO
+            PRO invest
           </span>
-          <span className="hidden xs:inline">Invest</span>
         </span>
       </Link>
       <div className="hidden md:flex items-center space-x-8">
@@ -55,16 +54,27 @@ export default function Navigation() {
         >
           {t("useCases")}
         </Link>
+        <Link
+          href="/consultation"
+          className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
+        >
+          {t("consultation")}
+        </Link>
       </div>
       <div className="flex items-center space-x-2 lg:space-x-4">
         <LanguageSwitcher />
         <ThemeToggle />
         <Link
           href="/get-started"
-          className="px-3 py-2 lg:px-6 rounded-full bg-gray-900/10 backdrop-blur-sm border border-gray-900/20 text-gray-900 hover:bg-gray-900/20 dark:bg-white/10 dark:border-white/20 dark:text-white dark:hover:bg-white/20 transition-all text-sm lg:text-base"
+          className="relative px-4 py-2 lg:px-6 lg:py-3 rounded-full bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600 text-white font-semibold hover:from-purple-700 hover:via-blue-700 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-sm lg:text-base group overflow-hidden"
         >
-          <span className="hidden lg:inline">{t("getStarted")}</span>
-          <span className="lg:hidden">→</span>
+          <span className="relative z-10 flex items-center space-x-2">
+            <span className="hidden lg:inline">{t("getStarted")}</span>
+            <span className="lg:hidden">🚀</span>
+            <span className="hidden lg:inline">→</span>
+          </span>
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-blue-500 to-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
         </Link>
       </div>
     </nav>

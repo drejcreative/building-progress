@@ -21,7 +21,7 @@ export default function VipCta() {
           {t("vipCta.subtitle").split("**")[2]}
         </p>
         <Link
-          href="/get-started"
+          href="/consultation"
           className="inline-block bg-white text-purple-600 px-12 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-2xl"
         >
           {t("vipCta.button")}
