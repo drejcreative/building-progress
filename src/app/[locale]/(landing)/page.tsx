@@ -13,8 +13,12 @@ export async function generateStaticParams() {
   return locales.map((locale: string) => ({ locale }));
 }
 
-export default async function Home({ params }: { params: { locale: string } }) {
-  const locale = params.locale;
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
 
   return (
     <>
