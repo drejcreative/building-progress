@@ -22,7 +22,7 @@ export const ReportDisplay: React.FC<ReportDisplayProps> = ({
   onGenerateProposal,
 }) => {
   const t = useTranslations("Consultation");
-  const router = useRouter();
+  // const router = useRouter();
 
   return (
     <div className="space-y-8">

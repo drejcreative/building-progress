@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function SuccessStories() {
   return (
@@ -51,9 +52,11 @@ export default function SuccessStories() {
               className="rounded-2xl overflow-hidden bg-white shadow-lg dark:bg-white/5 dark:border dark:border-white/10"
             >
               <div className="h-48 overflow-hidden">
-                <img
+                <Image
                   src={story.image}
                   alt={story.title}
+                  width={400}
+                  height={300}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -80,5 +83,3 @@ export default function SuccessStories() {
     </section>
   );
 }
-
-

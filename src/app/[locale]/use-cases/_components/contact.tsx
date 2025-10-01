@@ -8,7 +8,6 @@ import {
   CheckCircle,
   Star,
   Shield,
-  Clock,
   ArrowRight,
   Building,
 } from "lucide-react";

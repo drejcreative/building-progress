@@ -2,11 +2,9 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import {
   CheckCircle,
-  Clock,
   Shield,
   Target,
   TrendingUp,
-  Users,
   Euro,
   Calendar,
   Star,
@@ -24,7 +22,7 @@ export const ProposalDisplay: React.FC<ProposalDisplayProps> = ({
   onAccept,
   onSchedule,
 }) => {
-  const t = useTranslations("Consultation");
+  // const t = useTranslations("Consultation");
 
   return (
     <div className="max-w-4xl mx-auto space-y-8">
@@ -115,7 +113,7 @@ export const ProposalDisplay: React.FC<ProposalDisplayProps> = ({
       <div className="bg-white rounded-2xl shadow-xl p-8">
         <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
           <CheckCircle className="w-6 h-6 text-green-600 mr-3" />
-          What You'll Receive
+          What You&apos;ll Receive
         </h3>
         <div className="grid md:grid-cols-2 gap-4">
           {proposal.deliverables.map((deliverable, index) => (
