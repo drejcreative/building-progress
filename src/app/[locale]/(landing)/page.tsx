@@ -7,6 +7,12 @@ import CommissionStructure from "./_components/commission-structure";
 import MarketExpansion from "./_components/market-expansion";
 import CTASection from "./_components/cta-section";
 import StructuredData from "../../../components/structured-data";
+import { locales } from "../../../i18n/config";
+
+// Generate static params for all locales
+export async function generateStaticParams() {
+  return locales.map((locale: string) => ({ locale }));
+}
 
 export default async function Home() {
   const locale = await getLocale();
