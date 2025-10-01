@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import {
   Building2,
   CheckCircle,
@@ -19,7 +20,6 @@ import {
   Ruler,
   Layers,
 } from "lucide-react";
-
 export default function ApartmentDetails() {
   const t = useTranslations("ApartmentDetails");
   const [isFirstSticky, setIsFirstSticky] = useState(false);
@@ -125,7 +125,11 @@ export default function ApartmentDetails() {
             </div>
 
             {/* Mobile Menu Button */}
-            <button className="md:hidden text-gray-700 dark:text-gray-300">
+            <button
+              className="md:hidden text-gray-700 dark:text-gray-300"
+              aria-label="Open mobile menu"
+              title="Open mobile menu"
+            >
               <Menu className="w-6 h-6" />
             </button>
           </div>
@@ -167,10 +171,11 @@ export default function ApartmentDetails() {
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="col-span-2">
                   <div className="relative h-96 bg-gray-200 dark:bg-gray-700 rounded-2xl overflow-hidden">
-                    <img
+                    <Image
                       src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&h=400&fit=crop"
                       alt="Apartment A205 Living Room"
-                      className="w-full h-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                     <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-1">
                       <div className="text-sm font-bold text-gray-900">
@@ -185,17 +190,19 @@ export default function ApartmentDetails() {
                   </div>
                 </div>
                 <div className="relative h-48 bg-gray-200 dark:bg-gray-700 rounded-xl overflow-hidden">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop"
                     alt="Kitchen"
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <div className="relative h-48 bg-gray-200 dark:bg-gray-700 rounded-xl overflow-hidden">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=400&h=300&fit=crop"
                     alt="Bedroom"
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
               </div>
@@ -212,8 +219,8 @@ export default function ApartmentDetails() {
                 {/* Key Stats */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-xl flex items-center justify-center mx-auto mb-2">
-                      <Bed className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+                    <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-blue-100 dark:bg-blue-900/30 rounded-xl flex items-center justify-center mx-auto mb-2">
+                      <Bed className="w-6 h-6 flex-shrink-0 text-blue-600 dark:text-blue-400" />
                     </div>
                     <div className="text-2xl font-bold text-gray-900 dark:text-white">
                       3
@@ -223,8 +230,8 @@ export default function ApartmentDetails() {
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-xl flex items-center justify-center mx-auto mb-2">
-                      <Bath className="w-6 h-6 text-green-600 dark:text-green-400" />
+                    <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-green-100 dark:bg-green-900/30 rounded-xl flex items-center justify-center mx-auto mb-2">
+                      <Bath className="w-6 h-6 flex-shrink-0 text-green-600 dark:text-green-400" />
                     </div>
                     <div className="text-2xl font-bold text-gray-900 dark:text-white">
                       2
@@ -234,8 +241,8 @@ export default function ApartmentDetails() {
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-xl flex items-center justify-center mx-auto mb-2">
-                      <Square className="w-6 h-6 text-purple-600 dark:text-purple-400" />
+                    <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-purple-100 dark:bg-purple-900/30 rounded-xl flex items-center justify-center mx-auto mb-2">
+                      <Square className="w-6 h-6 flex-shrink-0 text-purple-600 dark:text-purple-400" />
                     </div>
                     <div className="text-2xl font-bold text-gray-900 dark:text-white">
                       120m²
@@ -245,8 +252,8 @@ export default function ApartmentDetails() {
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-xl flex items-center justify-center mx-auto mb-2">
-                      <Layers className="w-6 h-6 text-orange-600 dark:text-orange-400" />
+                    <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-orange-100 dark:bg-orange-900/30 rounded-xl flex items-center justify-center mx-auto mb-2">
+                      <Layers className="w-6 h-6 flex-shrink-0 text-orange-600 dark:text-orange-400" />
                     </div>
                     <div className="text-2xl font-bold text-gray-900 dark:text-white">
                       2nd
@@ -351,8 +358,8 @@ export default function ApartmentDetails() {
               {/* Virtual Tour Section */}
               <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
                 <div className="flex items-center mb-6">
-                  <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center mr-4">
-                    <Video className="w-6 h-6 text-white" />
+                  <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-blue-500 rounded-xl flex items-center justify-center mr-4">
+                    <Video className="w-6 h-6 flex-shrink-0 text-white" />
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
@@ -364,13 +371,18 @@ export default function ApartmentDetails() {
                   </div>
                 </div>
                 <div className="relative h-96 bg-gray-100 dark:bg-gray-700 rounded-xl overflow-hidden mb-4">
-                  <img
+                  <Image
                     src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&h=400&fit=crop"
                     alt="Virtual Tour Preview"
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                    <button className="bg-white/90 backdrop-blur-sm rounded-full p-6 hover:bg-white transition-all">
+                    <button
+                      className="bg-white/90 backdrop-blur-sm rounded-full p-6 hover:bg-white transition-all"
+                      aria-label="Play virtual tour video"
+                      title="Play virtual tour video"
+                    >
                       <Play className="w-12 h-12 text-gray-900" />
                     </button>
                   </div>

@@ -12,7 +12,6 @@ import {
   TrendingUp,
   AlertTriangle,
 } from "lucide-react";
-
 export default function GetStarted() {
   const t = useTranslations("GetStarted");
 

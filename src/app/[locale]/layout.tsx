@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import "./globals.css";
 import { notFound } from "next/navigation";
 import { routing } from "../../i18n/routing";
+import { locales } from "../../i18n/config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,6 +23,11 @@ const oswald = Oswald({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700"],
 });
+
+// Generate static params for all locales
+export async function generateStaticParams() {
+  return locales.map((locale: string) => ({ locale }));
+}
 
 export async function generateMetadata({
   params,
@@ -112,8 +118,11 @@ export default async function RootLayout({
   // Enable static rendering
   setRequestLocale(locale);
 
+  // Convert locale to proper BCP 47 language code
+  const langCode = locale === "rs" ? "sr" : "en";
+
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={langCode} suppressHydrationWarning>
       <head>
         <link rel="alternate" hrefLang="en" href="https://proinvest.rs/en" />
         <link rel="alternate" hrefLang="sr" href="https://proinvest.rs/rs" />

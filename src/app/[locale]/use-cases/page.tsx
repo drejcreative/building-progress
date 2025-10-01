@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Building2 } from "lucide-react";
 import UseCasesHeader from "./_components/header";
 import UseCasesHero from "./_components/hero";
@@ -7,9 +7,15 @@ import UseCasesApartments from "./_components/apartments";
 import UseCasesLocation from "./_components/location";
 import UseCasesProgress from "./_components/progress";
 import UseCasesContact from "./_components/contact";
+import { locales } from "../../../i18n/config";
 
-export default function UseCases() {
-  const t = useTranslations("UseCases");
+// Generate static params for all locales
+export async function generateStaticParams() {
+  return locales.map((locale: string) => ({ locale }));
+}
+
+export default async function UseCases() {
+  const t = await getTranslations("UseCases");
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900">

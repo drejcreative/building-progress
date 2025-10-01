@@ -93,7 +93,11 @@ export default function UseCasesHeader() {
             </div>
 
             {/* Mobile Menu Button */}
-            <button className="md:hidden text-gray-700 dark:text-gray-300">
+            <button
+              className="md:hidden text-gray-700 dark:text-gray-300"
+              aria-label="Open mobile menu"
+              title="Open mobile menu"
+            >
               <Menu className="w-6 h-6" />
             </button>
           </div>

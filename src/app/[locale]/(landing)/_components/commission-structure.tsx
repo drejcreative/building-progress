@@ -110,7 +110,7 @@ export default function CommissionStructure() {
 
           {/* Premium Service */}
           <div className="backdrop-blur-sm border border-blue-300 dark:border-blue-500/30 rounded-2xl p-8 text-center relative overflow-hidden bg-gradient-to-r from-blue-100/80 to-indigo-100/80 dark:from-blue-500/20 dark:to-indigo-500/20 shadow-lg">
-            <div className="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+            <div className="absolute top-4 right-4 bg-blue-700 text-white px-3 py-1 rounded-full text-sm font-semibold">
               {t("commission.premium.badge")}
             </div>
             <h3 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">

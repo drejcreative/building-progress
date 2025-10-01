@@ -20,7 +20,6 @@ import {
 import Image from "next/image";
 import { sendEmail } from "@/utils/send-email";
 import LanguageSwitcher from "@/components/language-switcher";
-
 export default function ComingSoon() {
   const t = useTranslations("ComingSoon");
   const [timeLeft, setTimeLeft] = useState({

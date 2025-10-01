@@ -13,7 +13,8 @@ export const config = {
      * - favicon.ico (favicon file)
      * - coming-soon (the coming soon page itself)
      * - files with extensions (static assets)
+     * - robots.txt, sitemap.xml (static files)
      */
-    "/((?!api|_next/static|_next/image|favicon.ico|coming-soon|.*\\.).*)",
+    "/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|.*\\.).*)",
   ],
 };
