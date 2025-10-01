@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export default function VipCta() {
   const t = useTranslations("HomePage");
@@ -19,9 +20,12 @@ export default function VipCta() {
           <strong>{t("vipCta.subtitle").split("**")[1]}</strong>
           {t("vipCta.subtitle").split("**")[2]}
         </p>
-        <button className="bg-white text-purple-600 px-12 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-2xl">
+        <Link
+          href="/get-started"
+          className="inline-block bg-white text-purple-600 px-12 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-2xl"
+        >
           {t("vipCta.button")}
-        </button>
+        </Link>
       </div>
     </div>
   );
