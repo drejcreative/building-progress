@@ -1,4 +1,3 @@
-import { getLocale } from "next-intl/server";
 import Hero from "./_components/hero";
 import CostSaving from "./_components/cost-saving";
 import Solution from "./_components/solution";
@@ -14,8 +13,8 @@ export async function generateStaticParams() {
   return locales.map((locale: string) => ({ locale }));
 }
 
-export default async function Home() {
-  const locale = await getLocale();
+export default async function Home({ params }: { params: { locale: string } }) {
+  const locale = params.locale;
 
   return (
     <>

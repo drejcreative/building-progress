@@ -1,10 +1,8 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { TrendingUp, Building2, Users, Target } from "lucide-react";
 
-export default function MarketExpansion() {
-  const t = useTranslations("HomePage");
+export default async function MarketExpansion() {
+  const t = await getTranslations("HomePage");
 
   const markets = [
     {

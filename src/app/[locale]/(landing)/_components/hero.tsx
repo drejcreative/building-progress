@@ -1,11 +1,11 @@
 import { ArrowRight, CheckCircle } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 
-export default function Hero() {
-  const t = useTranslations("HomePage");
+export default async function Hero() {
+  const t = await getTranslations("HomePage");
   return (
     <div className="relative z-10 container mx-auto px-6 lg:px-8 pt-60 pb-32">
       <div className="grid lg:grid-cols-2 gap-12 items-center">

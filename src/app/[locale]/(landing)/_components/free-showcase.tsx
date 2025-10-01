@@ -1,9 +1,9 @@
 import { CheckCircle } from "lucide-react";
 import React from "react";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export default function FreeShowcase() {
-  const t = useTranslations("HomePage");
+export default async function FreeShowcase() {
+  const t = await getTranslations("HomePage");
   return (
     <section className="py-20 bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20">
       <div className="container mx-auto px-6 lg:px-8">
@@ -81,12 +81,8 @@ export default function FreeShowcase() {
               {t("freeShowcase.whyWeOffer")}
             </h3>
             <div className="space-y-4 text-gray-700 dark:text-white/70">
-              <p>
-                {t("freeShowcase.explanation.confidence")}
-              </p>
-              <p>
-                {t("freeShowcase.explanation.value")}
-              </p>
+              <p>{t("freeShowcase.explanation.confidence")}</p>
+              <p>{t("freeShowcase.explanation.value")}</p>
               <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4 mt-6">
                 <p className="font-semibold text-blue-800 dark:text-blue-300">
                   {t("freeShowcase.explanation.quote")}

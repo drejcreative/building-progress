@@ -1,9 +1,9 @@
 import React from "react";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 
-export default function VipCta() {
-  const t = useTranslations("HomePage");
+export default async function VipCta() {
+  const t = await getTranslations("HomePage");
   return (
     <div className="mt-20 bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600 rounded-3xl p-12 text-center relative overflow-hidden">
       <div className="absolute inset-0 bg-black/20"></div>

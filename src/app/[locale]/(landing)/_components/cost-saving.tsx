@@ -9,10 +9,10 @@ import {
   Video,
 } from "lucide-react";
 import React from "react";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export default function CostSaving() {
-  const t = useTranslations("HomePage");
+export default async function CostSaving() {
+  const t = await getTranslations("HomePage");
   const services = [
     {
       key: "websiteDevelopment",

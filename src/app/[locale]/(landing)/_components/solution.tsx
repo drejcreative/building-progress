@@ -1,11 +1,11 @@
 import { CheckCircle, Globe, TrendingUp, Users, Video } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import VipCta from "./vip-cta";
 
-export default function Solution() {
-  const t = useTranslations("HomePage");
+export default async function Solution() {
+  const t = await getTranslations("HomePage");
   return (
     <section id="services" className="py-20">
       <div className="container mx-auto px-6 lg:px-8">

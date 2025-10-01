@@ -1,10 +1,8 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 
-export default function CTASection() {
-  const t = useTranslations("HomePage");
+export default async function CTASection() {
+  const t = await getTranslations("HomePage");
 
   return (
     <section className="py-20">

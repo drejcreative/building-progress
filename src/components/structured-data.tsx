@@ -1,11 +1,11 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 interface StructuredDataProps {
   locale: string;
 }
 
-export default function StructuredData({ locale }: StructuredDataProps) {
-  const t = useTranslations("SEO");
+export default async function StructuredData({ locale }: StructuredDataProps) {
+  const t = await getTranslations("SEO");
 
   const organizationSchema = {
     "@context": "https://schema.org",
