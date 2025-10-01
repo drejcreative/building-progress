@@ -603,6 +603,111 @@
       "cta": "Explore Opportunities"
     }
   },
+  "GetStarted": {
+    "hero": {
+      "urgencyBadge": "URGENT: Only 2 VIP Spots Available This Month",
+      "title": "Secure Your VIP Spot",
+      "titleHighlight": "Before It's Gone",
+      "description": "👉 <strong>Only 2 VIP Properties Accepted Monthly</strong> — Don't miss your chance to join Serbia's most exclusive property sales program.",
+      "badges": {
+        "limitedTime": "Limited Time",
+        "premiumAccess": "Premium Access",
+        "zeroRisk": "Zero Risk"
+      }
+    },
+    "urgency": {
+      "title": "Time is Running Out",
+      "description": "Don't miss your chance to join Serbia's most exclusive property sales program.",
+      "subtitle": "Only 2 VIP spots available this month — first come, first served.",
+      "stats": {
+        "upfrontInvestment": "Upfront Investment",
+        "vipSpotsAvailable": "VIP Spots Available",
+        "riskFreeTrial": "Risk-Free Trial"
+      }
+    },
+    "applicationForm": {
+      "title": "Apply for VIP Investor Access",
+      "description": "Complete this form to secure your exclusive VIP spot. We'll contact you within 24 hours.",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "company": "Company/Organization",
+        "propertyLocation": "Property Location",
+        "propertyValue": "Property Value Range",
+        "timeline": "Timeline for Sale",
+        "additionalInfo": "Additional Information",
+        "placeholders": {
+          "firstName": "Enter your first name",
+          "lastName": "Enter your last name",
+          "email": "your@email.com",
+          "phone": "+381 XX XXX XXX",
+          "company": "Your company name (optional)",
+          "propertyLocation": "Select your property location",
+          "propertyValue": "Select property value range",
+          "timeline": "Select your timeline",
+          "additionalInfo": "Tell us about your property, specific requirements, or any questions you have..."
+        },
+        "locations": {
+          "belgrade": "Belgrade",
+          "noviSad": "Novi Sad",
+          "nis": "Niš",
+          "budva": "Budva (Montenegro)",
+          "kotor": "Kotor (Montenegro)",
+          "podgorica": "Podgorica (Montenegro)",
+          "zagreb": "Zagreb (Croatia)",
+          "dubrovnik": "Dubrovnik (Croatia)",
+          "split": "Split (Croatia)",
+          "other": "Other"
+        },
+        "valueRanges": {
+          "under100k": "Under €100,000",
+          "100k200k": "€100,000 - €200,000",
+          "200k350k": "€200,000 - €350,000",
+          "350k500k": "€350,000 - €500,000",
+          "500k1m": "€500,000 - €1,000,000",
+          "over1m": "Over €1,000,000"
+        },
+        "timelines": {
+          "immediate": "Immediate (within 1 month)",
+          "1to3months": "1-3 months",
+          "3to6months": "3-6 months",
+          "6to12months": "6-12 months",
+          "flexible": "Flexible"
+        }
+      },
+      "nextSteps": {
+        "title": "What Happens Next?",
+        "steps": [
+          "We'll review your application within 24 hours",
+          "Schedule a free consultation call to discuss your property",
+          "Receive a customized proposal for your VIP service package",
+          "Start with our 100% free showcase project (no commitment)"
+        ]
+      },
+      "submitButton": "🚀 Secure My VIP Spot Now",
+      "disclaimer": "By submitting this form, you agree to our terms and privacy policy.",
+      "guarantee": "No upfront costs • No commitment • 100% risk-free"
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Our VIP Service?",
+      "features": {
+        "extremeScarcity": {
+          "title": "Exclusive Access",
+          "description": "Join the elite circle of investors who get priority access to our most successful property sales strategies."
+        },
+        "zeroRiskTrial": {
+          "title": "Zero Risk Trial",
+          "description": "Start with our 100% free showcase project. No upfront costs, no commitment required."
+        },
+        "premiumResults": {
+          "title": "Premium Results",
+          "description": "Our VIP clients see 15-25% higher sale prices and 2-3x faster sales compared to DIY."
+        }
+      }
+    }
+  },
   "ApartmentDetails": {
     "header": {
       "showcase": "ProInvest Showcase",

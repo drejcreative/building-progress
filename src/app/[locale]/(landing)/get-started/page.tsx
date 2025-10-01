@@ -32,39 +32,39 @@ export default function GetStarted() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300 text-sm font-medium mb-6">
               <AlertTriangle className="w-4 h-4 mr-2" />
-              URGENT: Only 2 VIP Spots Available This Month
+              {t("hero.urgencyBadge")}
             </div>
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 text-gray-900 dark:text-white">
               <span className="bg-gradient-to-r from-red-400 via-orange-400 to-red-500 bg-clip-text text-transparent">
-                Secure Your VIP Spot
+                {t("hero.title")}
               </span>
               <br />
               <span className="text-gray-900 dark:text-white">
-                Before It&apos;s Gone
+                {t("hero.titleHighlight")}
               </span>
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-gray-700 dark:text-white/80 max-w-4xl mx-auto">
-              👉 <strong>Only 2 VIP Properties Accepted Monthly</strong> —
-              Extreme scarcity creates maximum urgency and ensures premium
-              service quality.
+              {t.rich("hero.description", {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
             </p>
             <div className="flex items-center justify-center space-x-4 mb-8">
               <div className="flex items-center space-x-2 bg-red-500/10 px-4 py-2 rounded-full">
                 <Clock className="w-5 h-5 text-red-500" />
                 <span className="text-red-700 dark:text-red-300 font-semibold">
-                  Limited Time
+                  {t("hero.badges.limitedTime")}
                 </span>
               </div>
               <div className="flex items-center space-x-2 bg-orange-500/10 px-4 py-2 rounded-full">
                 <Star className="w-5 h-5 text-orange-500" />
                 <span className="text-orange-700 dark:text-orange-300 font-semibold">
-                  Premium Access
+                  {t("hero.badges.premiumAccess")}
                 </span>
               </div>
               <div className="flex items-center space-x-2 bg-green-500/10 px-4 py-2 rounded-full">
                 <Shield className="w-5 h-5 text-green-500" />
                 <span className="text-green-700 dark:text-green-300 font-semibold">
-                  Zero Risk
+                  {t("hero.badges.zeroRisk")}
                 </span>
               </div>
             </div>
@@ -74,29 +74,31 @@ export default function GetStarted() {
           <div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-3xl p-8 mb-12 text-white text-center">
             <div className="flex items-center justify-center space-x-4 mb-4">
               <Clock className="w-8 h-8 animate-pulse" />
-              <span className="text-2xl font-bold">Time is Running Out</span>
+              <span className="text-2xl font-bold">{t("urgency.title")}</span>
             </div>
             <p className="text-xl mb-6">
-              Don&apos;t miss your chance to join Serbia&apos;s most exclusive
-              property sales program.
+              {t("urgency.description")}
               <br />
-              <strong>
-                Only 2 VIP spots available this month — first come, first
-                served.
-              </strong>
+              <strong>{t("urgency.subtitle")}</strong>
             </p>
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="bg-white/20 rounded-xl p-4 backdrop-blur-sm">
                 <div className="text-3xl font-bold mb-2">€0</div>
-                <div className="text-sm">Upfront Investment</div>
+                <div className="text-sm">
+                  {t("urgency.stats.upfrontInvestment")}
+                </div>
               </div>
               <div className="bg-white/20 rounded-xl p-4 backdrop-blur-sm">
                 <div className="text-3xl font-bold mb-2">2</div>
-                <div className="text-sm">VIP Spots Available</div>
+                <div className="text-sm">
+                  {t("urgency.stats.vipSpotsAvailable")}
+                </div>
               </div>
               <div className="bg-white/20 rounded-xl p-4 backdrop-blur-sm">
                 <div className="text-3xl font-bold mb-2">100%</div>
-                <div className="text-sm">Risk-Free Trial</div>
+                <div className="text-sm">
+                  {t("urgency.stats.riskFreeTrial")}
+                </div>
               </div>
             </div>
           </div>
@@ -106,11 +108,10 @@ export default function GetStarted() {
             <div className="bg-white dark:bg-slate-800 rounded-3xl p-8 shadow-2xl">
               <div className="text-center mb-8">
                 <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
-                  Apply for VIP Investor Access
+                  {t("applicationForm.title")}
                 </h2>
                 <p className="text-gray-700 dark:text-white/70">
-                  Complete this form to secure your exclusive VIP spot.
-                  We&apos;ll contact you within 24 hours.
+                  {t("applicationForm.description")}
                 </p>
               </div>
 
@@ -118,24 +119,28 @@ export default function GetStarted() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
-                      First Name *
+                      {t("applicationForm.form.firstName")} *
                     </label>
                     <input
                       type="text"
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                      placeholder="Enter your first name"
+                      placeholder={t(
+                        "applicationForm.form.placeholders.firstName"
+                      )}
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
-                      Last Name *
+                      {t("applicationForm.form.lastName")} *
                     </label>
                     <input
                       type="text"
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                      placeholder="Enter your last name"
+                      placeholder={t(
+                        "applicationForm.form.placeholders.lastName"
+                      )}
                     />
                   </div>
                 </div>
@@ -143,106 +148,154 @@ export default function GetStarted() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
-                      Email Address *
+                      {t("applicationForm.form.email")} *
                     </label>
                     <input
                       type="email"
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                      placeholder="your@email.com"
+                      placeholder={t("applicationForm.form.placeholders.email")}
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
-                      Phone Number *
+                      {t("applicationForm.form.phone")} *
                     </label>
                     <input
                       type="tel"
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                      placeholder="+381 XX XXX XXX"
+                      placeholder={t("applicationForm.form.placeholders.phone")}
                     />
                   </div>
                 </div>
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
-                    Company/Organization
+                    {t("applicationForm.form.company")}
                   </label>
                   <input
                     type="text"
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                    placeholder="Your company name (optional)"
+                    placeholder={t("applicationForm.form.placeholders.company")}
                   />
                 </div>
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
-                    Property Location *
+                    {t("applicationForm.form.propertyLocation")} *
                   </label>
                   <select
                     required
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                   >
-                    <option value="">Select your property location</option>
-                    <option value="belgrade">Belgrade</option>
-                    <option value="novi-sad">Novi Sad</option>
-                    <option value="nis">Niš</option>
-                    <option value="budva">Budva (Montenegro)</option>
-                    <option value="kotor">Kotor (Montenegro)</option>
-                    <option value="podgorica">Podgorica (Montenegro)</option>
-                    <option value="zagreb">Zagreb (Croatia)</option>
-                    <option value="dubrovnik">Dubrovnik (Croatia)</option>
-                    <option value="split">Split (Croatia)</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
-                    Property Value Range *
-                  </label>
-                  <select
-                    required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                  >
-                    <option value="">Select property value range</option>
-                    <option value="under-100k">Under €100,000</option>
-                    <option value="100k-200k">€100,000 - €200,000</option>
-                    <option value="200k-350k">€200,000 - €350,000</option>
-                    <option value="350k-500k">€350,000 - €500,000</option>
-                    <option value="500k-1m">€500,000 - €1,000,000</option>
-                    <option value="over-1m">Over €1,000,000</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
-                    Timeline for Sale *
-                  </label>
-                  <select
-                    required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                  >
-                    <option value="">Select your timeline</option>
-                    <option value="immediate">
-                      Immediate (within 1 month)
+                    <option value="">
+                      {t("applicationForm.form.placeholders.propertyLocation")}
                     </option>
-                    <option value="1-3-months">1-3 months</option>
-                    <option value="3-6-months">3-6 months</option>
-                    <option value="6-12-months">6-12 months</option>
-                    <option value="flexible">Flexible</option>
+                    <option value="belgrade">
+                      {t("applicationForm.form.locations.belgrade")}
+                    </option>
+                    <option value="novi-sad">
+                      {t("applicationForm.form.locations.noviSad")}
+                    </option>
+                    <option value="nis">
+                      {t("applicationForm.form.locations.nis")}
+                    </option>
+                    <option value="budva">
+                      {t("applicationForm.form.locations.budva")}
+                    </option>
+                    <option value="kotor">
+                      {t("applicationForm.form.locations.kotor")}
+                    </option>
+                    <option value="podgorica">
+                      {t("applicationForm.form.locations.podgorica")}
+                    </option>
+                    <option value="zagreb">
+                      {t("applicationForm.form.locations.zagreb")}
+                    </option>
+                    <option value="dubrovnik">
+                      {t("applicationForm.form.locations.dubrovnik")}
+                    </option>
+                    <option value="split">
+                      {t("applicationForm.form.locations.split")}
+                    </option>
+                    <option value="other">
+                      {t("applicationForm.form.locations.other")}
+                    </option>
                   </select>
                 </div>
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
-                    Additional Information
+                    {t("applicationForm.form.propertyValue")} *
+                  </label>
+                  <select
+                    required
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
+                  >
+                    <option value="">
+                      {t("applicationForm.form.placeholders.propertyValue")}
+                    </option>
+                    <option value="under-100k">
+                      {t("applicationForm.form.valueRanges.under100k")}
+                    </option>
+                    <option value="100k-200k">
+                      {t("applicationForm.form.valueRanges.100k200k")}
+                    </option>
+                    <option value="200k-350k">
+                      {t("applicationForm.form.valueRanges.200k350k")}
+                    </option>
+                    <option value="350k-500k">
+                      {t("applicationForm.form.valueRanges.350k500k")}
+                    </option>
+                    <option value="500k-1m">
+                      {t("applicationForm.form.valueRanges.500k1m")}
+                    </option>
+                    <option value="over-1m">
+                      {t("applicationForm.form.valueRanges.over1m")}
+                    </option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
+                    {t("applicationForm.form.timeline")} *
+                  </label>
+                  <select
+                    required
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
+                  >
+                    <option value="">
+                      {t("applicationForm.form.placeholders.timeline")}
+                    </option>
+                    <option value="immediate">
+                      {t("applicationForm.form.timelines.immediate")}
+                    </option>
+                    <option value="1-3-months">
+                      {t("applicationForm.form.timelines.1to3months")}
+                    </option>
+                    <option value="3-6-months">
+                      {t("applicationForm.form.timelines.3to6months")}
+                    </option>
+                    <option value="6-12-months">
+                      {t("applicationForm.form.timelines.6to12months")}
+                    </option>
+                    <option value="flexible">
+                      {t("applicationForm.form.timelines.flexible")}
+                    </option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
+                    {t("applicationForm.form.additionalInfo")}
                   </label>
                   <textarea
                     rows={4}
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                    placeholder="Tell us about your property, specific requirements, or any questions you have..."
+                    placeholder={t(
+                      "applicationForm.form.placeholders.additionalInfo"
+                    )}
                   ></textarea>
                 </div>
 
@@ -251,24 +304,14 @@ export default function GetStarted() {
                     <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold text-gray-900 dark:text-white mb-2">
-                        What Happens Next?
+                        {t("applicationForm.nextSteps.title")}
                       </h3>
                       <ul className="space-y-2 text-sm text-gray-700 dark:text-white/70">
-                        <li>
-                          • We&apos;ll review your application within 24 hours
-                        </li>
-                        <li>
-                          • Schedule a free consultation call to discuss your
-                          property
-                        </li>
-                        <li>
-                          • Receive a customized proposal for your VIP service
-                          package
-                        </li>
-                        <li>
-                          • Start with our 100% free showcase project (no
-                          commitment)
-                        </li>
+                        {t
+                          .raw("applicationForm.nextSteps.steps")
+                          .map((step: string, index: number) => (
+                            <li key={index}>• {step}</li>
+                          ))}
                       </ul>
                     </div>
                   </div>
@@ -278,17 +321,14 @@ export default function GetStarted() {
                   type="submit"
                   className="w-full bg-gradient-to-r from-red-500 to-orange-500 text-white py-4 rounded-xl text-xl font-bold hover:from-red-600 hover:to-orange-600 transition-all transform hover:scale-105 shadow-2xl flex items-center justify-center space-x-2"
                 >
-                  <span>🚀 Secure My VIP Spot Now</span>
+                  <span>{t("applicationForm.submitButton")}</span>
                   <ArrowRight className="w-6 h-6" />
                 </button>
 
                 <p className="text-center text-sm text-gray-600 dark:text-white/60">
-                  By submitting this form, you agree to our terms and privacy
-                  policy.
+                  {t("applicationForm.disclaimer")}
                   <br />
-                  <strong>
-                    No upfront costs • No commitment • 100% risk-free
-                  </strong>
+                  <strong>{t("applicationForm.guarantee")}</strong>
                 </p>
               </form>
             </div>
@@ -298,9 +338,9 @@ export default function GetStarted() {
           <div className="mt-20">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
-                Why{" "}
+                {t("whyChooseUs.title").split(" ").slice(0, 1).join(" ")}{" "}
                 <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
-                  Choose Our VIP Service?
+                  {t("whyChooseUs.title").split(" ").slice(1).join(" ")}
                 </span>
               </h2>
             </div>
@@ -311,11 +351,10 @@ export default function GetStarted() {
                   <Zap className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">
-                  Extreme Scarcity
+                  {t("whyChooseUs.features.extremeScarcity.title")}
                 </h3>
                 <p className="text-gray-700 dark:text-white/70">
-                  Only 2 VIP properties accepted monthly ensures maximum
-                  attention and premium service quality.
+                  {t("whyChooseUs.features.extremeScarcity.description")}
                 </p>
               </div>
 
@@ -324,11 +363,10 @@ export default function GetStarted() {
                   <Shield className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">
-                  Zero Risk Trial
+                  {t("whyChooseUs.features.zeroRiskTrial.title")}
                 </h3>
                 <p className="text-gray-700 dark:text-white/70">
-                  Start with our 100% free showcase project. No upfront costs,
-                  no commitment required.
+                  {t("whyChooseUs.features.zeroRiskTrial.description")}
                 </p>
               </div>
 
@@ -337,11 +375,10 @@ export default function GetStarted() {
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">
-                  Premium Results
+                  {t("whyChooseUs.features.premiumResults.title")}
                 </h3>
                 <p className="text-gray-700 dark:text-white/70">
-                  Our VIP clients see 15-25% higher sale prices and 2-3x faster
-                  sales compared to DIY.
+                  {t("whyChooseUs.features.premiumResults.description")}
                 </p>
               </div>
             </div>

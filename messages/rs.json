@@ -603,6 +603,111 @@
       "cta": "Istražite Mogućnosti"
     }
   },
+  "GetStarted": {
+    "hero": {
+      "urgencyBadge": "HITNO: Samo 2 VIP Mesta Dostupna Ovaj Mesec",
+      "title": "Obezbedite Svoje VIP Mesto",
+      "titleHighlight": "Pre Nego Što Nestane",
+      "description": "👉 <strong>Samo 2 VIP Nekretnine Prihvaćene Mesečno</strong> — Ne propustite priliku da se pridružite najekskluzivnijem srpskom programu za prodaju nekretnina.",
+      "badges": {
+        "limitedTime": "Ograničeno Vreme",
+        "premiumAccess": "Premium Pristup",
+        "zeroRisk": "Nulti Rizik"
+      }
+    },
+    "urgency": {
+      "title": "Vreme Ističe",
+      "description": "Ne propustite priliku da se pridružite najekskluzivnijem srpskom programu za prodaju nekretnina.",
+      "subtitle": "Samo 2 VIP mesta dostupna ovaj mesec — ko prvi, taj prvi.",
+      "stats": {
+        "upfrontInvestment": "Početna Investicija",
+        "vipSpotsAvailable": "VIP Mesta Dostupna",
+        "riskFreeTrial": "Pokušaj Bez Rizika"
+      }
+    },
+    "applicationForm": {
+      "title": "Prijavite Se za VIP Investitorski Pristup",
+      "description": "Popunite ovaj formular da obezbedite svoje ekskluzivno VIP mesto. Kontaktiraćemo vas u roku od 24 sata.",
+      "form": {
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "email": "Email Adresa",
+        "phone": "Broj Telefona",
+        "company": "Kompanija/Organizacija",
+        "propertyLocation": "Lokacija Nekretnine",
+        "propertyValue": "Raspon Vrednosti Nekretnine",
+        "timeline": "Rok za Prodaju",
+        "additionalInfo": "Dodatne Informacije",
+        "placeholders": {
+          "firstName": "Unesite vaše ime",
+          "lastName": "Unesite vaše prezime",
+          "email": "vas@email.com",
+          "phone": "+381 XX XXX XXX",
+          "company": "Naziv vaše kompanije (opciono)",
+          "propertyLocation": "Izaberite lokaciju vaše nekretnine",
+          "propertyValue": "Izaberite raspon vrednosti nekretnine",
+          "timeline": "Izaberite vaš rok",
+          "additionalInfo": "Recite nam o vašoj nekretnini, specifičnim zahtevima ili pitanjima..."
+        },
+        "locations": {
+          "belgrade": "Beograd",
+          "noviSad": "Novi Sad",
+          "nis": "Niš",
+          "budva": "Budva (Crna Gora)",
+          "kotor": "Kotor (Crna Gora)",
+          "podgorica": "Podgorica (Crna Gora)",
+          "zagreb": "Zagreb (Hrvatska)",
+          "dubrovnik": "Dubrovnik (Hrvatska)",
+          "split": "Split (Hrvatska)",
+          "other": "Ostalo"
+        },
+        "valueRanges": {
+          "under100k": "Ispod €100.000",
+          "100k200k": "€100.000 - €200.000",
+          "200k350k": "€200.000 - €350.000",
+          "350k500k": "€350.000 - €500.000",
+          "500k1m": "€500.000 - €1.000.000",
+          "over1m": "Preko €1.000.000"
+        },
+        "timelines": {
+          "immediate": "Odmah (u roku od 1 mesec)",
+          "1to3months": "1-3 meseca",
+          "3to6months": "3-6 meseci",
+          "6to12months": "6-12 meseci",
+          "flexible": "Fleksibilno"
+        }
+      },
+      "nextSteps": {
+        "title": "Šta Se Dešava Dalje?",
+        "steps": [
+          "Pregledaćemo vašu prijavu u roku od 24 sata",
+          "Zakazati besplatni konsultacijski poziv da razgovorimo o vašoj nekretnini",
+          "Dobiti prilagođenu ponudu za vaš VIP servisni paket",
+          "Početi sa našim 100% besplatnim projektom prezentacije (bez obaveza)"
+        ]
+      },
+      "submitButton": "🚀 Obezbedite Svoje VIP Mesto Sada",
+      "disclaimer": "Slanjem ovog formulara, slažete se sa našim uslovima i politikom privatnosti.",
+      "guarantee": "Nema početnih troškova • Nema obaveza • 100% bez rizika"
+    },
+    "whyChooseUs": {
+      "title": "Zašto Izabrati Naš VIP Servis?",
+      "features": {
+        "extremeScarcity": {
+          "title": "Ekskluzivan Pristup",
+          "description": "Pridružite se elitnom krugu investitora koji dobijaju prioritetni pristup našim najuspešnijim strategijama prodaje nekretnina."
+        },
+        "zeroRiskTrial": {
+          "title": "Pokušaj Bez Rizika",
+          "description": "Počnite sa našim 100% besplatnim projektom prezentacije. Nema početnih troškova, nema potrebne obaveze."
+        },
+        "premiumResults": {
+          "title": "Premium Rezultati",
+          "description": "Naši VIP klijenti vide 15-25% više cene prodaje i 2-3x brže prodaje u poređenju sa DIY pristupom."
+        }
+      }
+    }
+  },
   "ApartmentDetails": {
     "header": {
       "showcase": "ProInvest Prikaz",
