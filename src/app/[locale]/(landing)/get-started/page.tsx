@@ -1,4 +1,7 @@
+"use client";
+
 import { useTranslations } from "next-intl";
+import { useState } from "react";
 import {
   ArrowRight,
   CheckCircle,
@@ -12,6 +15,74 @@ import {
 
 export default function GetStarted() {
   const t = useTranslations("GetStarted");
+
+  // Form state
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    company: "",
+    propertyLocation: "",
+    propertyValue: "",
+    timeline: "",
+    additionalInfo: "",
+  });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<
+    "idle" | "success" | "error"
+  >("idle");
+
+  // Handle input changes
+  const handleInputChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
+    >
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus("idle");
+
+    try {
+      // Log form data
+      console.log("Form submitted with data:", formData);
+
+      // Simulate API call delay
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      // Log success
+      console.log("Form submission successful!");
+      setSubmitStatus("success");
+
+      // Reset form after successful submission
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        company: "",
+        propertyLocation: "",
+        propertyValue: "",
+        timeline: "",
+        additionalInfo: "",
+      });
+    } catch (error) {
+      console.error("Form submission error:", error);
+      setSubmitStatus("error");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-gray-50 dark:from-slate-900 dark:via-blue-900 dark:to-slate-900 transition-colors duration-300">
@@ -115,7 +186,7 @@ export default function GetStarted() {
                 </p>
               </div>
 
-              <form className="space-y-6">
+              <form className="space-y-6" onSubmit={handleSubmit}>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-900 dark:text-white mb-2">
@@ -123,6 +194,9 @@ export default function GetStarted() {
                     </label>
                     <input
                       type="text"
+                      name="firstName"
+                      value={formData.firstName}
+                      onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                       placeholder={t(
@@ -136,6 +210,9 @@ export default function GetStarted() {
                     </label>
                     <input
                       type="text"
+                      name="lastName"
+                      value={formData.lastName}
+                      onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                       placeholder={t(
@@ -152,6 +229,9 @@ export default function GetStarted() {
                     </label>
                     <input
                       type="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                       placeholder={t("applicationForm.form.placeholders.email")}
@@ -163,6 +243,9 @@ export default function GetStarted() {
                     </label>
                     <input
                       type="tel"
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                       placeholder={t("applicationForm.form.placeholders.phone")}
@@ -176,6 +259,9 @@ export default function GetStarted() {
                   </label>
                   <input
                     type="text"
+                    name="company"
+                    value={formData.company}
+                    onChange={handleInputChange}
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                     placeholder={t("applicationForm.form.placeholders.company")}
                   />
@@ -186,6 +272,9 @@ export default function GetStarted() {
                     {t("applicationForm.form.propertyLocation")} *
                   </label>
                   <select
+                    name="propertyLocation"
+                    value={formData.propertyLocation}
+                    onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                   >
@@ -230,6 +319,9 @@ export default function GetStarted() {
                     {t("applicationForm.form.propertyValue")} *
                   </label>
                   <select
+                    name="propertyValue"
+                    value={formData.propertyValue}
+                    onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                   >
@@ -262,6 +354,9 @@ export default function GetStarted() {
                     {t("applicationForm.form.timeline")} *
                   </label>
                   <select
+                    name="timeline"
+                    value={formData.timeline}
+                    onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                   >
@@ -291,6 +386,9 @@ export default function GetStarted() {
                     {t("applicationForm.form.additionalInfo")}
                   </label>
                   <textarea
+                    name="additionalInfo"
+                    value={formData.additionalInfo}
+                    onChange={handleInputChange}
                     rows={4}
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
                     placeholder={t(
@@ -319,10 +417,17 @@ export default function GetStarted() {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-red-500 to-orange-500 text-white py-4 rounded-xl text-xl font-bold hover:from-red-600 hover:to-orange-600 transition-all transform hover:scale-105 shadow-2xl flex items-center justify-center space-x-2"
+                  disabled={isSubmitting}
+                  className="w-full bg-gradient-to-r from-red-500 to-orange-500 text-white py-4 rounded-xl text-xl font-bold hover:from-red-600 hover:to-orange-600 transition-all transform hover:scale-105 shadow-2xl flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                 >
-                  <span>{t("applicationForm.submitButton")}</span>
-                  <ArrowRight className="w-6 h-6" />
+                  <span>
+                    {isSubmitting
+                      ? "Submitting..."
+                      : submitStatus === "success"
+                        ? "Successfully Submitted!"
+                        : t("applicationForm.submitButton")}
+                  </span>
+                  {!isSubmitting && <ArrowRight className="w-6 h-6" />}
                 </button>
 
                 <p className="text-center text-sm text-gray-600 dark:text-white/60">
@@ -330,6 +435,35 @@ export default function GetStarted() {
                   <br />
                   <strong>{t("applicationForm.guarantee")}</strong>
                 </p>
+
+                {/* Success/Error Messages */}
+                {submitStatus === "success" && (
+                  <div className="mt-4 p-4 bg-green-100 dark:bg-green-900/30 border border-green-300 dark:border-green-700 rounded-xl text-center">
+                    <div className="flex items-center justify-center space-x-2 text-green-700 dark:text-green-300">
+                      <CheckCircle className="w-5 h-5" />
+                      <span className="font-semibold">
+                        Application submitted successfully!
+                      </span>
+                    </div>
+                    <p className="text-sm text-green-600 dark:text-green-400 mt-2">
+                      We&apos;ll review your application and get back to you
+                      within 24 hours.
+                    </p>
+                  </div>
+                )}
+
+                {submitStatus === "error" && (
+                  <div className="mt-4 p-4 bg-red-100 dark:bg-red-900/30 border border-red-300 dark:border-red-700 rounded-xl text-center">
+                    <div className="flex items-center justify-center space-x-2 text-red-700 dark:text-red-300">
+                      <AlertTriangle className="w-5 h-5" />
+                      <span className="font-semibold">Submission failed</span>
+                    </div>
+                    <p className="text-sm text-red-600 dark:text-red-400 mt-2">
+                      Please try again or contact support if the problem
+                      persists.
+                    </p>
+                  </div>
+                )}
               </form>
             </div>
           </div>
