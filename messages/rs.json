@@ -390,14 +390,10 @@
     "title": "ProInvest - Prva u Srbiji Prodaja Nekretnina Bez Rizika | Livion Real Estate",
     "description": "Vodeći srpski servis za prodaju nekretnina za investitore. Nulti početni troškovi, profesionalni marketing i garantovani rezultati. Širimo se na Crnu Goru i Hrvatsku.",
     "keywords": "prodaja nekretnina, investicije u nekretnine, marketing nekretnina, Beograd, Novi Sad, Niš, Crna Gora, Hrvatska, bez rizika, profesionalni marketing, virtuelne ture, SEO optimizacija",
-    "organizationName": "ProInvest",
-    "organizationAlternateName": "ProInvest by Livion Real Estate",
-    "organizationDescription": "Vodeći srpski servis za prodaju nekretnina za investitore. Nulti početni troškovi, profesionalni marketing i garantovani rezultati.",
     "serviceName": "Prodaja Nekretnina Bez Rizika",
     "serviceDescription": "Kompletna usluga prodaje nekretnina bez početnih troškova. Profesionalni marketing, virtuelne ture, pravna podrška i prodajni tim.",
     "servicePaymentDescription": "Plaćanje samo kada se nekretnina proda. Nema početnih troškova.",
-    "websiteDescription": "Vodeći srpski servis za prodaju nekretnina za investitore",
-    "homePageName": "Početna"
+    "websiteDescription": "Vodeći srpski servis za prodaje nekretnina za investitore"
   },
   "Footer": {
     "description": "Vodeći srpski servis za prodaju nekretnina za investitore. Nulti početni troškovi, profesionalni marketing i garantovani rezultati. Deo porodice Livion Real Estate.",
@@ -1491,6 +1487,274 @@
       "contact": "Kontakt",
       "followUs": "Pratite Nas",
       "copyright": "© 2024 Beograd Luksuzni Stanovi. Sva prava zadržana."
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Politika Privatnosti",
+    "lastUpdated": "Poslednje ažuriranje: Decembar 2024",
+    "introduction": {
+      "title": "Uvod",
+      "content": "ProInvest od strane Livion Real Estate je posvećen zaštiti vaše privatnosti i ličnih podataka. Ova Politika Privatnosti objašnjava kako prikupljamo, koristimo i štitimo vaše informacije kada koristite naše usluge."
+    },
+    "dataCollection": {
+      "title": "Informacije koje Prikupljamo",
+      "content": "Prikupljamo informacije koje nam direktno pružate i informacije koje automatski dobijamo kada koristite naše usluge:",
+      "personalInfo": "Lične informacije (ime, email, broj telefona) iz formulara za konsultacije i kontakt formulara",
+      "propertyInfo": "Detalji i specifikacije nekretnine iz upitnika za konsultacije",
+      "contactInfo": "Kontakt preferencije i istorija komunikacije",
+      "usageData": "Podaci o korišćenju veb sajta i analitika (anonimizovano) preko Umami Analytics",
+      "consultationData": "Odgovori na konsultacije uključujući tip nekretnine, lokaciju, vrednost, vremenski okvir i ciljeve investicija"
+    },
+    "dataUsage": {
+      "title": "Kako Koristimo Vaše Informacije",
+      "content": "Koristimo informacije koje prikupljamo da:",
+      "provideServices": "Pružamo i poboljšavamo naše usluge prodaje nekretnina",
+      "communicate": "Komuniciramo sa vama o vašim nekretninama i našim uslugama",
+      "improveServices": "Analiziramo i poboljšavamo naš veb sajt i usluge",
+      "legalCompliance": "Poštujemo zakonske obaveze",
+      "consultation": "Generišemo personalizovane predloge za prodaju nekretnina i preporuke",
+      "analytics": "Razumemo obrasce korišćenja veb sajta da poboljšamo korisničko iskustvo"
+    },
+    "dataSharing": {
+      "title": "Deljenje Informacija",
+      "content": "Ne prodajemo, ne razmenjujemo niti na drugi način prenosimo vaše lične informacije trećim stranama bez vašeg pristanka, osim kako je opisano u ovoj politici ili kako zahteva zakon. Možemo deliti anonimizovane analitičke podatke sa Umami Analytics za praćenje performansi veb sajta."
+    },
+    "dataSecurity": {
+      "title": "Bezbednost Podataka",
+      "content": "Implementiramo odgovarajuće bezbednosne mere za zaštitu vaših ličnih informacija od neovlašćenog pristupa, izmene, otkrivanja ili uništenja. Svi podaci se obrađuju bezbedno i u skladu sa GDPR zahtevima."
+    },
+    "dataRetention": {
+      "title": "Čuvanje Podataka",
+      "content": "Čuvamo vaše lične podatke u sledećim periodima:",
+      "consultationData": "Podaci konsultacija: 2 godine nakon poslednjeg kontakta",
+      "contactInfo": "Kontakt informacije: Do zahteva za brisanje",
+      "analyticsData": "Analitički podaci: Maksimalno 26 meseci (anonimizovano)",
+      "legalData": "Podaci za zakonsku usklađenost: Kako zahteva srpski zakon"
+    },
+    "yourRights": {
+      "title": "Vaša Prava",
+      "content": "Imate pravo da:",
+      "access": "Pristupite svojim ličnim podacima",
+      "correction": "Ispravite netačne podatke",
+      "deletion": "Zatražite brisanje vaših podataka",
+      "portability": "Prenesete svoje podatke",
+      "withdraw": "Povučete pristanak za obradu podataka"
+    },
+    "contact": {
+      "title": "Kontaktirajte Nas",
+      "content": "Ako imate pitanja o ovoj Politici Privatnosti, molimo kontaktirajte nas:"
+    }
+  },
+  "TermsOfService": {
+    "title": "Uslovi Korišćenja",
+    "lastUpdated": "Poslednje ažuriranje: Decembar 2024",
+    "acceptance": {
+      "title": "Prihvatanje Uslova",
+      "content": "Pristupanjem i korišćenjem ProInvest usluga, prihvatate i slažete se da budete vezani uslovima i odredbama ovog sporazuma."
+    },
+    "services": {
+      "title": "Naše Usluge",
+      "content": "ProInvest pruža sveobuhvatne usluge prodaje nekretnina uključujući:",
+      "propertyMarketing": "Profesionalni marketing i oglašavanje nekretnina",
+      "virtualTours": "360° virtualne ture i multimedijalni sadržaj",
+      "legalSupport": "Pravna dokumentacija i podrška za usklađenost",
+      "salesManagement": "Kompletno upravljanje procesom prodaje",
+      "progressTracking": "Praćenje napretka u realnom vremenu i izveštavanje",
+      "consultation": "Besplatne konsultacije i personalizovani predlozi za prodaju nekretnina",
+      "websiteCreation": "Kreiranje prilagođenih veb sajtova sa SEO optimizacijom"
+    },
+    "payment": {
+      "title": "Uslovi Plaćanja",
+      "content": "Naša struktura plaćanja je dizajnirana da minimizuje vaš rizik:",
+      "noUpfront": "Bez prethodnih troškova - plaćate samo kada se nekretnine prodaju",
+      "commission": "Struktura cena na osnovu provizije: 2-5,5% na osnovu vrednosti nekretnine",
+      "paymentTerms": "Plaćanje samo nakon uspešne prodaje nekretnine",
+      "geographicScope": "Usluge dostupne u Srbiji, Crnoj Gori i Hrvatskoj"
+    },
+    "businessModel": {
+      "title": "Poslovni Model",
+      "content": "ProInvest radi na principu nulte rizika investicije:",
+      "vipModel": "Model VIP Puna Usluga - kompletni paket usluga od veb sajta do zatvaranja",
+      "scarcity": "Ograničen kapacitet - samo 2 VIP nekretnine prihvaćene mesečno",
+      "targetMarket": "Primarni fokus na investitore u zgrade i developere",
+      "expansion": "Širenje na Crnu Goru (Budva, Kotor, Podgorica) i Hrvatsku (Zagreb, Dubrovnik, Split)"
+    },
+    "obligations": {
+      "title": "Obaveze",
+      "content": "Obje strane imaju specifične obaveze prema ovom sporazumu:",
+      "client": {
+        "title": "Obaveze Klijenta",
+        "accurateInfo": "Pružanje tačnih i potpunih informacija o nekretnini",
+        "cooperation": "Saradnja sa našim marketing i prodajnim naporima",
+        "legalCompliance": "Osiguravanje zakonske usklađenosti dokumentacije nekretnine",
+        "propertyAccess": "Pružanje pristupa nekretnini za fotografisanje i virtualne ture"
+      },
+      "proinvest": {
+        "title": "Obaveze ProInvest-a",
+        "professionalService": "Pružanje profesionalnih marketing i prodajnih usluga",
+        "marketing": "Izvršavanje sveobuhvatnih marketing kampanja",
+        "support": "Pružanje kontinuirane podrške tokom procesa prodaje",
+        "website": "Kreiranje i održavanje prilagođenog veb sajta nekretnine",
+        "media": "Pružanje profesionalne fotografije i virtualnih tura"
+      }
+    },
+    "liability": {
+      "title": "Odgovornost",
+      "content": "Odgovornost ProInvest-a je ograničena na pružene usluge. Nismo odgovorni za tržišne uslove, vrednost nekretnina ili spoljne faktore van naše kontrole. Naš uspeh zavisi od tržišnih uslova i interesovanja kupaca."
+    },
+    "termination": {
+      "title": "Raskid",
+      "content": "Bilo koja strana može raskinuti ovaj sporazum pismenom obaveštenjem. Raskid ne utiče na obaveze nastale pre raskida. Nema plaćanja ako se prodaja ne dogodi."
+    },
+    "governingLaw": {
+      "title": "Primenjivo Pravo",
+      "content": "Ovaj sporazum se uređuje srpskim pravom i svi sporovi će se rešavati u srpskim sudovima."
+    },
+    "contact": {
+      "title": "Kontakt Informacije",
+      "content": "Za pitanja o ovim uslovima, molimo kontaktirajte nas:"
+    }
+  },
+  "CookiePolicy": {
+    "title": "Politika Kolačića",
+    "lastUpdated": "Poslednje ažuriranje: Decembar 2024",
+    "whatAreCookies": {
+      "title": "Šta Su Kolačići",
+      "content": "Kolačići su mali tekstualni fajlovi koji se postavljaju na vaš uređaj kada posetite naš veb sajt. Pomažu nam da vam pružimo bolje iskustvo i razumemo kako koristite naš sajt."
+    },
+    "howWeUseCookies": {
+      "title": "Kako Koristimo Kolačiće",
+      "content": "Koristimo kolačiće da poboljšamo vaše iskustvo pregledanja, zapamtimo vaše preferencije i analiziramo saobraćaj sajta. Kolačići nam pomažu da razumemo kako koristite naš sajt i poboljšamo naše usluge."
+    },
+    "typesOfCookies": {
+      "title": "Vrste Kolačića koje Koristimo",
+      "essential": {
+        "title": "Osnovni Kolačići",
+        "description": "Ovi kolačići su neophodni za pravilno funkcionisanje veb sajta i ne mogu se onemogućiti.",
+        "session": "Upravljanje sesijom i bezbednost",
+        "security": "Bezbednost i sprečavanje prevare",
+        "preferences": "Čuvanje korisničkih preferencija"
+      },
+      "functional": {
+        "title": "Funkcionalni Kolačići",
+        "description": "Ovi kolačići omogućavaju poboljšanu funkcionalnost i personalizaciju.",
+        "locale": "Preferencija jezika (NEXT_LOCALE) - pamti vaš izbor jezika",
+        "theme": "Preferencija teme - pamti vaš izbor tamnog/svetlog režima",
+        "userPreferences": "Korisničke preferencije interfejsa i postavke"
+      },
+      "analytics": {
+        "title": "Analitički Kolačići",
+        "description": "Ovi kolačići nam pomažu da razumemo kako posetioci komuniciraju sa našim veb sajtom.",
+        "umami": "Umami Analytics - analitika veb sajta fokusirana na privatnost",
+        "performance": "Praćenje performansi veb sajta",
+        "usage": "Analiza ponašanja korisnika (anonimizovano)"
+      }
+    },
+    "thirdPartyCookies": {
+      "title": "Kolačići Trećih Strana",
+      "content": "Koristimo sledeće usluge trećih strana koje mogu postavljati kolačiće:",
+      "umami": "Umami Analytics (umami.livion.homes) - analitička usluga fokusirana na privatnost",
+      "nextThemes": "Next.js Themes - za funkcionalnost tamnog/svetlog režima",
+      "nextIntl": "Next.js Internationalization - za preferencije jezika"
+    },
+    "cookieManagement": {
+      "title": "Upravljanje Kolačićima",
+      "content": "Možete kontrolisati i upravljati kolačićima na nekoliko načina:",
+      "browserSettings": {
+        "title": "Postavke Pretraživača",
+        "content": "Većina pretraživača vam omogućava da kontrolišete kolačiće kroz svoje postavke:",
+        "chrome": "Chrome: Postavke > Privatnost i Bezbednost > Kolačići",
+        "firefox": "Firefox: Opcije > Privatnost i Bezbednost > Kolačići",
+        "safari": "Safari: Preferencije > Privatnost > Kolačići",
+        "edge": "Edge: Postavke > Kolačići i Dozvole Sajta"
+      },
+      "functionalCookies": {
+        "title": "Upravljanje Funkcionalnim Kolačićima",
+        "content": "Možete upravljati funkcionalnim kolačićima kroz naš veb sajt:",
+        "language": "Preferencija jezika se može promeniti pomoću prekidača jezika",
+        "theme": "Preferencija teme se može promeniti pomoću dugmeta za prebacivanje teme"
+      }
+    },
+    "updates": {
+      "title": "Ažuriranja Politike",
+      "content": "Možemo ažurirati ovu Politiku Kolačića s vremena na vreme. Obavestićemo vas o svim promenama objavljivanjem nove politike na ovoj stranici."
+    },
+    "contact": {
+      "title": "Kontaktirajte Nas",
+      "content": "Ako imate pitanja o našem korišćenju kolačića, molimo kontaktirajte nas:"
+    }
+  },
+  "GDPR": {
+    "title": "GDPR Usklađenost",
+    "lastUpdated": "Poslednje ažuriranje: Decembar 2024",
+    "introduction": {
+      "title": "GDPR Usklađenost",
+      "content": "ProInvest od strane Livion Real Estate je posvećen usklađenosti sa Opštom Uredbom o Zaštiti Podataka (GDPR) i zaštiti vaših prava na lične podatke."
+    },
+    "dataController": {
+      "title": "Kontroler Podataka",
+      "content": "ProInvest od strane Livion Real Estate je kontroler vaših ličnih informacija:"
+    },
+    "legalBasis": {
+      "title": "Pravna Osnova za Obradom",
+      "content": "Obrađujemo vaše lične podatke na osnovu sledećih pravnih osnova:",
+      "consent": "Pristanak",
+      "consentDesc": "Kada dobrovoljno pružate informacije kroz naše formulara za konsultacije",
+      "contract": "Izvršavanje Ugovora",
+      "contractDesc": "Da ispunimo naše ugovorne obaveze za usluge prodaje nekretnina",
+      "legitimate": "Opravdani Interes",
+      "legitimateDesc": "Da poboljšamo naše usluge i komuniciramo sa vama o prodaji nekretnina",
+      "legal": "Zakonska Obaveza",
+      "legalDesc": "Da poštujemo srpske zakone o nekretninama i zaštiti podataka"
+    },
+    "dataRights": {
+      "title": "Vaša Prava na Zaštitu Podataka",
+      "content": "Prema GDPR-u, imate sledeća prava u vezi sa vašim ličnim podacima:",
+      "access": {
+        "title": "Pravo Pristupa",
+        "description": "Možete zatražiti kopije vaših ličnih podataka"
+      },
+      "rectification": {
+        "title": "Pravo na Ispravku",
+        "description": "Možete zatražiti ispravku netačnih podataka"
+      },
+      "erasure": {
+        "title": "Pravo na Brisanje",
+        "description": "Možete zatražiti brisanje vaših ličnih podataka"
+      },
+      "portability": {
+        "title": "Pravo na Prenos Podataka",
+        "description": "Možete zatražiti prenos vaših podataka na drugu uslugu"
+      }
+    },
+    "dataRetention": {
+      "title": "Čuvanje Podataka",
+      "content": "Čuvamo vaše lične podatke u sledećim periodima:",
+      "consultationData": "Podaci konsultacija: 2 godine nakon poslednjeg kontakta",
+      "contactInfo": "Kontakt informacije: Do zahteva za brisanje",
+      "analyticsData": "Analitički podaci: Maksimalno 26 meseci (anonimizovano preko Umami)",
+      "legalData": "Podaci za zakonsku usklađenost: Kako zahteva srpski zakon"
+    },
+    "dataSecurity": {
+      "title": "Mere Bezbednosti Podataka",
+      "content": "Implementiramo sveobuhvatne bezbednosne mere za zaštitu vaših podataka:",
+      "encryption": "Šifrovanje podataka u prenosu i mirovanju",
+      "access": "Ograničene kontrole pristupa i autentifikacija",
+      "monitoring": "Kontinuirano praćenje bezbednosti i revizija",
+      "training": "Redovna obuka osoblja o zaštiti podataka",
+      "anonymization": "Analitički podaci su anonimizovani preko Umami Analytics"
+    },
+    "dataBreach": {
+      "title": "Obaveštenje o Kršenju Podataka",
+      "content": "U slučaju kršenja podataka koje može uticati na vaše lične podatke, obavestićemo vas i relevantne vlasti u roku od 72 sata kako zahteva GDPR."
+    },
+    "complaints": {
+      "title": "Pravo na Žalbu",
+      "content": "Imate pravo da podnesete žalbu Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti ako smatrate da su vaša prava na zaštitu podataka povređena:"
+    },
+    "contact": {
+      "title": "Kontaktirajte Našeg Zastupnika za Zaštitu Podataka",
+      "content": "Za sva pitanja o zaštiti podataka ili za ostvarivanje vaših prava, molimo kontaktirajte našeg Zastupnika za zaštitu podataka:"
     }
   }
 }

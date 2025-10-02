@@ -390,14 +390,10 @@
     "title": "ProInvest - Serbia's First Zero-Risk Property Sales | Livion Real Estate",
     "description": "Serbia's premier property sales service for investors. Zero upfront costs, professional marketing, and guaranteed results. Expanding to Montenegro and Croatia.",
     "keywords": "property sales, real estate investment, property marketing, Belgrade, Novi Sad, Niš, Montenegro, Croatia, zero risk, professional marketing, virtual tours, SEO optimization",
-    "organizationName": "ProInvest",
-    "organizationAlternateName": "ProInvest by Livion Real Estate",
-    "organizationDescription": "Serbia's premier property sales service for investors. Zero upfront costs, professional marketing, and guaranteed results.",
     "serviceName": "Zero-Risk Property Sales",
     "serviceDescription": "Complete property sales service with zero upfront costs. Professional marketing, virtual tours, legal support, and sales team.",
     "servicePaymentDescription": "Payment only when property sells. No upfront costs.",
-    "websiteDescription": "Serbia's premier property sales service for investors",
-    "homePageName": "Home"
+    "websiteDescription": "Serbia's premier property sales service for investors"
   },
   "Footer": {
     "description": "Serbia's premier property sales service for investors. Zero upfront costs, professional marketing, and guaranteed results. Part of the Livion Real Estate family.",
@@ -1491,6 +1487,274 @@
       "contact": "Contact",
       "followUs": "Follow Us",
       "copyright": "© 2024 Belgrade Luxury Residences. All rights reserved."
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: December 2024",
+    "introduction": {
+      "title": "Introduction",
+      "content": "ProInvest by Livion Real Estate is committed to protecting your privacy and personal data. This Privacy Policy explains how we collect, use, and protect your information when you use our services."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "content": "We collect information that you provide directly to us and information that we obtain automatically when you use our services:",
+      "personalInfo": "Personal information (name, email, phone number) from consultation forms and contact forms",
+      "propertyInfo": "Property details and specifications from consultation questionnaires",
+      "contactInfo": "Contact preferences and communication history",
+      "usageData": "Website usage data and analytics (anonymized) via Umami Analytics",
+      "consultationData": "Consultation responses including property type, location, value, timeline, and investment goals"
+    },
+    "dataUsage": {
+      "title": "How We Use Your Information",
+      "content": "We use the information we collect to:",
+      "provideServices": "Provide and improve our property sales services",
+      "communicate": "Communicate with you about your properties and our services",
+      "improveServices": "Analyze and improve our website and services",
+      "legalCompliance": "Comply with legal obligations",
+      "consultation": "Generate personalized property sales proposals and recommendations",
+      "analytics": "Understand website usage patterns to improve user experience"
+    },
+    "dataSharing": {
+      "title": "Information Sharing",
+      "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy or as required by law. We may share anonymized analytics data with Umami Analytics for website performance monitoring."
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. All data is processed securely and in compliance with GDPR requirements."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "We retain your personal data for the following periods:",
+      "consultationData": "Consultation data: 2 years after last contact",
+      "contactInfo": "Contact information: Until you request deletion",
+      "analyticsData": "Analytics data: 26 months maximum (anonymized)",
+      "legalData": "Legal compliance data: As required by Serbian law"
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "content": "You have the right to:",
+      "access": "Access your personal data",
+      "correction": "Correct inaccurate data",
+      "deletion": "Request deletion of your data",
+      "portability": "Data portability",
+      "withdraw": "Withdraw consent for data processing"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us:"
+    }
+  },
+  "TermsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: December 2024",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing and using ProInvest services, you accept and agree to be bound by the terms and provision of this agreement."
+    },
+    "services": {
+      "title": "Our Services",
+      "content": "ProInvest provides comprehensive property sales services including:",
+      "propertyMarketing": "Professional property marketing and advertising",
+      "virtualTours": "360° virtual tours and multimedia content",
+      "legalSupport": "Legal documentation and compliance support",
+      "salesManagement": "Complete sales process management",
+      "progressTracking": "Real-time progress tracking and reporting",
+      "consultation": "Free consultation and personalized property sales proposals",
+      "websiteCreation": "Custom website creation with SEO optimization"
+    },
+    "payment": {
+      "title": "Payment Terms",
+      "content": "Our payment structure is designed to minimize your risk:",
+      "noUpfront": "No upfront costs - you only pay when properties sell",
+      "commission": "Commission-based pricing: 2-5.5% based on property value",
+      "paymentTerms": "Payment only upon successful property sale",
+      "geographicScope": "Services available in Serbia, Montenegro, and Croatia"
+    },
+    "businessModel": {
+      "title": "Business Model",
+      "content": "ProInvest operates on a zero-risk investment approach:",
+      "vipModel": "Full-Service VIP Model - complete service package from website to closing",
+      "scarcity": "Limited capacity - only 2 VIP properties accepted monthly",
+      "targetMarket": "Primary focus on building investors and developers",
+      "expansion": "Expanding to Montenegro (Budva, Kotor, Podgorica) and Croatia (Zagreb, Dubrovnik, Split)"
+    },
+    "obligations": {
+      "title": "Obligations",
+      "content": "Both parties have specific obligations under this agreement:",
+      "client": {
+        "title": "Client Obligations",
+        "accurateInfo": "Provide accurate and complete property information",
+        "cooperation": "Cooperate with our marketing and sales efforts",
+        "legalCompliance": "Ensure legal compliance of property documentation",
+        "propertyAccess": "Provide access to property for photography and virtual tours"
+      },
+      "proinvest": {
+        "title": "ProInvest Obligations",
+        "professionalService": "Provide professional marketing and sales services",
+        "marketing": "Execute comprehensive marketing campaigns",
+        "support": "Offer ongoing support throughout the sales process",
+        "website": "Create and maintain custom property website",
+        "media": "Provide professional photography and virtual tours"
+      }
+    },
+    "liability": {
+      "title": "Liability",
+      "content": "ProInvest's liability is limited to the services provided. We are not liable for market conditions, property values, or external factors beyond our control. Our success depends on market conditions and buyer interest."
+    },
+    "termination": {
+      "title": "Termination",
+      "content": "Either party may terminate this agreement with written notice. Termination does not affect obligations incurred prior to termination. No payment is required if no sale occurs."
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "content": "This agreement is governed by Serbian law and any disputes will be resolved in Serbian courts."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "content": "For questions about these terms, please contact us:"
+    }
+  },
+  "CookiePolicy": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: December 2024",
+    "whatAreCookies": {
+      "title": "What Are Cookies",
+      "content": "Cookies are small text files that are placed on your device when you visit our website. They help us provide you with a better experience and understand how you use our site."
+    },
+    "howWeUseCookies": {
+      "title": "How We Use Cookies",
+      "content": "We use cookies to enhance your browsing experience, remember your preferences, and analyze site traffic. Cookies help us understand how you use our site and improve our services."
+    },
+    "typesOfCookies": {
+      "title": "Types of Cookies We Use",
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "These cookies are necessary for the website to function properly and cannot be disabled.",
+        "session": "Session management and security",
+        "security": "Security and fraud prevention",
+        "preferences": "User preference storage"
+      },
+      "functional": {
+        "title": "Functional Cookies",
+        "description": "These cookies enable enhanced functionality and personalization.",
+        "locale": "Language preference (NEXT_LOCALE) - remembers your language choice",
+        "theme": "Theme preference - remembers your dark/light mode choice",
+        "userPreferences": "User interface preferences and settings"
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "description": "These cookies help us understand how visitors interact with our website.",
+        "umami": "Umami Analytics - privacy-focused website analytics",
+        "performance": "Website performance monitoring",
+        "usage": "User behavior analysis (anonymized)"
+      }
+    },
+    "thirdPartyCookies": {
+      "title": "Third-Party Cookies",
+      "content": "We use the following third-party services that may set cookies:",
+      "umami": "Umami Analytics (umami.livion.homes) - privacy-focused analytics service",
+      "nextThemes": "Next.js Themes - for dark/light mode functionality",
+      "nextIntl": "Next.js Internationalization - for language preferences"
+    },
+    "cookieManagement": {
+      "title": "Managing Cookies",
+      "content": "You can control and manage cookies in several ways:",
+      "browserSettings": {
+        "title": "Browser Settings",
+        "content": "Most browsers allow you to control cookies through their settings:",
+        "chrome": "Chrome: Settings > Privacy and Security > Cookies",
+        "firefox": "Firefox: Options > Privacy & Security > Cookies",
+        "safari": "Safari: Preferences > Privacy > Cookies",
+        "edge": "Edge: Settings > Cookies and Site Permissions"
+      },
+      "functionalCookies": {
+        "title": "Functional Cookie Management",
+        "content": "You can manage functional cookies through our website:",
+        "language": "Language preference can be changed using the language switcher",
+        "theme": "Theme preference can be changed using the theme toggle button"
+      }
+    },
+    "updates": {
+      "title": "Policy Updates",
+      "content": "We may update this Cookie Policy from time to time. We will notify you of any changes by posting the new policy on this page."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have questions about our use of cookies, please contact us:"
+    }
+  },
+  "GDPR": {
+    "title": "GDPR Compliance",
+    "lastUpdated": "Last updated: December 2024",
+    "introduction": {
+      "title": "GDPR Compliance",
+      "content": "ProInvest by Livion Real Estate is committed to complying with the General Data Protection Regulation (GDPR) and protecting your personal data rights."
+    },
+    "dataController": {
+      "title": "Data Controller",
+      "content": "ProInvest by Livion Real Estate is the data controller for your personal information:"
+    },
+    "legalBasis": {
+      "title": "Legal Basis for Processing",
+      "content": "We process your personal data based on the following legal grounds:",
+      "consent": "Consent",
+      "consentDesc": "When you voluntarily provide information through our consultation forms",
+      "contract": "Contract Performance",
+      "contractDesc": "To fulfill our contractual obligations for property sales services",
+      "legitimate": "Legitimate Interest",
+      "legitimateDesc": "To improve our services and communicate with you about property sales",
+      "legal": "Legal Obligation",
+      "legalDesc": "To comply with Serbian real estate and data protection laws"
+    },
+    "dataRights": {
+      "title": "Your Data Protection Rights",
+      "content": "Under GDPR, you have the following rights regarding your personal data:",
+      "access": {
+        "title": "Right of Access",
+        "description": "You can request copies of your personal data"
+      },
+      "rectification": {
+        "title": "Right to Rectification",
+        "description": "You can request correction of inaccurate data"
+      },
+      "erasure": {
+        "title": "Right to Erasure",
+        "description": "You can request deletion of your personal data"
+      },
+      "portability": {
+        "title": "Right to Data Portability",
+        "description": "You can request transfer of your data to another service"
+      }
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "We retain your personal data for the following periods:",
+      "consultationData": "Consultation data: 2 years after last contact",
+      "contactInfo": "Contact information: Until you request deletion",
+      "analyticsData": "Analytics data: 26 months maximum (anonymized via Umami)",
+      "legalData": "Legal compliance data: As required by Serbian law"
+    },
+    "dataSecurity": {
+      "title": "Data Security Measures",
+      "content": "We implement comprehensive security measures to protect your data:",
+      "encryption": "Data encryption in transit and at rest",
+      "access": "Restricted access controls and authentication",
+      "monitoring": "Continuous security monitoring and auditing",
+      "training": "Regular staff training on data protection",
+      "anonymization": "Analytics data is anonymized through Umami Analytics"
+    },
+    "dataBreach": {
+      "title": "Data Breach Notification",
+      "content": "In the event of a data breach that may affect your personal data, we will notify you and the relevant authorities within 72 hours as required by GDPR."
+    },
+    "complaints": {
+      "title": "Right to Complain",
+      "content": "You have the right to lodge a complaint with the Serbian Data Protection Authority if you believe your data protection rights have been violated:"
+    },
+    "contact": {
+      "title": "Contact Our Data Protection Officer",
+      "content": "For any data protection inquiries or to exercise your rights, please contact our Data Protection Officer:"
     }
   }
 }

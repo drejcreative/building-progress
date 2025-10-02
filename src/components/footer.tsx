@@ -143,18 +143,27 @@ export default function Footer() {
               {t("copyright")}
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-white transition-colors">
+              <Link
+                href="/privacy-policy"
+                className="hover:text-white transition-colors"
+              >
                 {t("privacyPolicy")}
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
+              </Link>
+              <Link
+                href="/terms-of-service"
+                className="hover:text-white transition-colors"
+              >
                 {t("termsOfService")}
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
+              </Link>
+              <Link
+                href="/cookie-policy"
+                className="hover:text-white transition-colors"
+              >
                 {t("cookiePolicy")}
-              </a>
-              <a href="#" className="hover:text-white transition-colors">
+              </Link>
+              <Link href="/gdpr" className="hover:text-white transition-colors">
                 {t("gdpr")}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
