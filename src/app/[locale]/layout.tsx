@@ -7,6 +7,7 @@ import "./globals.css";
 import { notFound } from "next/navigation";
 import { routing } from "../../i18n/routing";
 import { locales } from "../../i18n/config";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -139,6 +140,11 @@ export default async function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${oswald.variable} antialiased`}
       >
+        <Script
+          src="https://umami.livion.homes/script.js"
+          data-website-id={process.env.UMAMI_API_KEY}
+          strategy="lazyOnload"
+        />
         <NextIntlClientProvider locale={locale}>
           {children}
         </NextIntlClientProvider>
