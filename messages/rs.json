@@ -8,8 +8,17 @@
       "ctaPrimary": "Započni Besplatnu Konsultaciju",
       "ctaSecondary": "Pogledaj Studije Slučaja",
       "stats": {
+        "hotIdea": "🔥 #1 Prodaja Nekretnina Bez Rizika u Srbiji",
+        "trending": "⚡ Trenutno Popularno",
         "properties": "150+ Nekretnina",
-        "sold": "Uspešno Prodato"
+        "sold": "Uspešno Prodato",
+        "dynamic": {
+          "option1": "🚀 Prvi Model Bez Rizika u Srbiji",
+          "option2": "⚡ Novi Trend Pristup",
+          "option3": "🔥 Popularno u Beogradu",
+          "option4": "💎 VIP Prodaja Nekretnina",
+          "option5": "⭐ Izbor Investitora"
+        }
       }
     },
     "costSaving": {

@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import HotIdeaBadge from "./hot-idea-badge";
 
 export default async function Hero() {
   const t = await getTranslations("HomePage");
@@ -19,6 +20,9 @@ export default async function Hero() {
               {t("hero.subtitle")}
             </span>
           </h1>
+          <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-orange-300 to-orange-400 text-white rounded-full text-sm font-bold mb-6 shadow-lg border-2 border-orange-300">
+            {t("hero.stats.hotIdea")}
+          </div>
           <p className="text-xl lg:text-2xl mb-4 animate-fade-in-up animation-delay-200 text-gray-700 dark:text-white/80">
             {t("hero.description").split("**")[0]}
             <strong>{t("hero.description").split("**")[1]}</strong>
@@ -50,21 +54,7 @@ export default async function Hero() {
             height={500}
             className="rounded-2xl shadow-2xl animate-float"
           />
-          <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-lg p-4">
-            <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
-                <CheckCircle className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <div className="font-semibold text-gray-800">
-                  {t("hero.stats.properties")}
-                </div>
-                <div className="text-sm text-gray-600">
-                  {t("hero.stats.sold")}
-                </div>
-              </div>
-            </div>
-          </div>
+          <HotIdeaBadge />
         </div>
       </div>
     </div>

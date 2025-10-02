@@ -1,19 +1,15 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { setRequestLocale } from "next-intl/server";
-import { routing } from "../../../../i18n/routing";
-import { locales } from "../../../../i18n/config";
+import { routing } from "@/i18n/routing";
+import { locales } from "@/i18n/config";
 import { notFound } from "next/navigation";
 import { hasLocale } from "next-intl";
 import {
-  Camera,
   Video,
-  Globe,
   Eye,
   ArrowRight,
   CheckCircle,
-  Star,
-  Award,
   Zap,
   Play,
   Maximize,
