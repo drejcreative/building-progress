@@ -50,7 +50,7 @@ export default function Navigation() {
         </a>
         <Link
           href="/use-cases"
-          className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
+          className="text-blue-600 dark:text-blue-400 font-bold hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
         >
           {t("useCases")}
         </Link>
