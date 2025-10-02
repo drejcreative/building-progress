@@ -1,6 +1,327 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "hero": {
+      "title": "Serbia's First",
+      "subtitle": "Zero-Risk Property Sales",
+      "description": "👉 **Sell Your Building Faster — Without Spending €1 Upfront.**",
+      "content": "Serbia's premier property sales service for investors. We handle everything from Belgrade to Novi Sad to Niš - we also sell for you. You only pay when properties sell. Expanding to Montenegro and Croatia.",
+      "ctaPrimary": "Start Free Consultation",
+      "ctaSecondary": "View Case Studies",
+      "stats": {
+        "properties": "150+ Properties",
+        "sold": "Successfully Sold"
+      }
+    },
+    "costSaving": {
+      "title": "Save **€20,000-35,000** Per Building",
+      "subtitle": "Traditional DIY marketing costs vs. our zero-upfront professional service.",
+      "maxSavings": "Maximum savings for Serbian market conditions",
+      "vsLabel": "VS",
+      "diyTitle": "DIY Costs (Your Risk)",
+      "ourServiceTitle": "Our Service (Zero Risk)",
+      "services": {
+        "websiteDevelopment": {
+          "title": "Website Development",
+          "cost": "€6,000-12,000",
+          "descriptionDiy": "Professional custom website with SEO optimization + dedicated apartment pages",
+          "descriptionOur": "Custom SEO-optimized website with lead capture, analytics & dedicated apartment pages"
+        },
+        "photography": {
+          "title": "Professional Photography",
+          "cost": "€800-1,800",
+          "descriptionDiy": "High-quality photos with professional staging",
+          "descriptionOur": "Professional photos with staging and lighting setup"
+        },
+        "droneVideo": {
+          "title": "Drone Video + Editing",
+          "cost": "€1,200-2,500",
+          "descriptionDiy": "Aerial footage with cinematic editing + YouTube videos & paid commercials",
+          "descriptionOur": "Aerial footage with cinematic editing, YouTube videos & high-end paid commercials"
+        },
+        "virtualTour": {
+          "title": "360° Virtual Tour",
+          "cost": "€1,500-3,000",
+          "descriptionDiy": "Interactive virtual tours with floor plans",
+          "descriptionOur": "Interactive virtual tours with floor plans and details"
+        },
+        "marketing": {
+          "title": "Marketing & Ads (6-12 months)",
+          "cost": "€7,000-12,000",
+          "descriptionDiy": "Google, Facebook, Instagram campaigns",
+          "descriptionOur": "Google, Facebook, Instagram, and LinkedIn advertising"
+        },
+        "legalSupport": {
+          "title": "Legal Support",
+          "cost": "€2,000-4,000",
+          "descriptionDiy": "Contract management and compliance",
+          "descriptionOur": "Full legal support from contracts to closing"
+        },
+        "salesStaff": {
+          "title": "Sales Staff (6 months)",
+          "cost": "€8,000-15,000",
+          "descriptionDiy": "Professional sales team and management",
+          "descriptionOur": "Professional sales agents handling all inquiries"
+        }
+      },
+      "summary": {
+        "yourRisk": {
+          "badge": "YOUR RISK",
+          "total": "€20,000-35,000",
+          "title": "Total Upfront Investment",
+          "monthly": "Plus ongoing monthly costs",
+          "noGuarantee": "No guarantee of success"
+        },
+        "zeroRisk": {
+          "badge": "ZERO RISK",
+          "total": "€0",
+          "title": "Upfront Investment",
+          "payOnSale": "Pay only when properties sell",
+          "maxReturn": "Zero risk, maximum return"
+        }
+      }
+    },
+    "solution": {
+      "badge": "All-Inclusive Service",
+      "title": "Complete **Investor Solution**",
+      "subtitle": "From initial concept to final sale, we handle every aspect of your property marketing and sales. We also sell for you. Our comprehensive platform combines cutting-edge technology with proven sales strategies to maximize your returns while minimizing your workload.",
+      "digitalPresence": {
+        "title": "Digital Presence",
+        "subtitle": "Professional Online Platform + Dedicated Apartment Pages",
+        "image": {
+          "title": "Complete Investor Solution",
+          "description": "Everything you need for successful property sales"
+        },
+        "features": {
+          "customWebsite": {
+            "title": "Custom Building Website",
+            "description": "SEO-optimized, mobile-responsive website with lead capture forms, analytics tracking & dedicated apartment pages"
+          },
+          "virtualTours": {
+            "title": "Virtual Property Tours",
+            "description": "Interactive 360° virtual tours with floor plans and detailed property information"
+          },
+          "leadManagement": {
+            "title": "Lead Management System",
+            "description": "Automated lead tracking, qualification, and follow-up system"
+          },
+          "apartmentPages": {
+            "title": "Dedicated Apartment Pages",
+            "description": "Individual pages for each apartment with detailed information and virtual tours"
+          }
+        }
+      },
+      "mediaProduction": {
+        "title": "Premium Media Production",
+        "subtitle": "Cinematic Visual Content + YouTube Videos & Paid Commercials",
+        "features": {
+          "photography": {
+            "title": "Professional Photography",
+            "description": "High-resolution photos with professional staging and lighting"
+          },
+          "droneVideography": {
+            "title": "Drone Videography",
+            "description": "Aerial footage showcasing location, views, building exteriors, YouTube videos & high-end paid commercials"
+          },
+          "walkthroughs": {
+            "title": "Narrated Walkthroughs",
+            "description": "Professional video tours with voice-over highlighting key features"
+          },
+          "youtubeCommercials": {
+            "title": "YouTube & Paid Commercials",
+            "description": "Professional YouTube videos and high-end paid advertising commercials"
+          }
+        }
+      },
+      "marketing": {
+        "title": "Strategic Marketing",
+        "subtitle": "Multi-Channel Campaigns",
+        "image": {
+          "title": "Premium Marketing & Sales",
+          "description": "Strategic campaigns and dedicated support"
+        },
+        "features": {
+          "googleMeta": {
+            "title": "Google & Meta Advertising",
+            "description": "Targeted PPC campaigns reaching qualified buyers across platforms"
+          },
+          "socialMedia": {
+            "title": "Social Media Management",
+            "description": "Regular content creation and community engagement"
+          },
+          "emailMarketing": {
+            "title": "Email Marketing",
+            "description": "Automated email sequences nurturing leads through the sales funnel"
+          },
+          "contentMarketing": {
+            "title": "Content Marketing",
+            "description": "Blog posts, articles, and valuable content to attract and engage potential buyers"
+          }
+        }
+      },
+      "salesSupport": {
+        "title": "Sales & Support",
+        "subtitle": "End-to-End Service",
+        "features": {
+          "dedicatedTeam": {
+            "title": "Dedicated Sales Team",
+            "description": "Professional sales agents handling all buyer inquiries and negotiations"
+          },
+          "legalConcierge": {
+            "title": "Legal Concierge",
+            "description": "Full legal support from contract creation to closing"
+          },
+          "contractManagement": {
+            "title": "Contract Management",
+            "description": "Professional contract drafting, review, and negotiation"
+          },
+          "compliance": {
+            "title": "Compliance & Verification",
+            "description": "Buyer verification, legal compliance, and regulatory support"
+          },
+          "progressTracking": {
+            "title": "Progress Tracking",
+            "description": "Real-time construction updates and investor reporting dashboard"
+          }
+        }
+      }
+    },
+    "freeShowcase": {
+      "badge": "Risk-Free Trial",
+      "title": "Try Our Service **100% Free**",
+      "subtitle": "We'll create a professional showcase for your first apartment completely free. No commitment, no risk — see our quality before you commit.",
+      "whatYouGet": "What You Get in Our Free Trial:",
+      "features": {
+        "listing": {
+          "title": "Professional Apartment Listing",
+          "description": "Complete webpage for one apartment with SEO optimization"
+        },
+        "photography": {
+          "title": "Professional Photography",
+          "description": "High-quality photos and basic drone footage"
+        },
+        "marketingTest": {
+          "title": "2-Week Marketing Test",
+          "description": "Targeted Facebook and Google ads with performance analytics"
+        },
+        "analysis": {
+          "title": "Results Analysis",
+          "description": "Detailed report on leads, engagement, and recommendations"
+        }
+      },
+      "whyWeOffer": "Why We Offer This:",
+      "explanation": {
+        "confidence": "We're confident in our ability to deliver results. This limited trial proves our quality with minimal investment from us while giving you a real taste of our service.",
+        "value": "After seeing the leads and engagement we generate, you'll understand the value of our commission-based approach for your entire building.",
+        "quote": "\"Small investment, big proof of concept.\"",
+        "cost": "Typical cost: €800-1,200 • Your cost: €0"
+      }
+    },
+    "commission": {
+      "title": "Fair **Commission** Structure",
+      "subtitle": "We only succeed when you succeed - no hidden fees or upfront costs",
+      "standard": {
+        "title": "Standard Service",
+        "rate": "2-4%",
+        "description": "Complete service package with zero upfront costs",
+        "coreServices": "Core Services:",
+        "features": {
+          "website": "Professional website + apartment pages",
+          "media": "Cinematic media package",
+          "marketing": "Multi-channel marketing campaigns",
+          "legal": "Legal concierge service",
+          "sales": "Dedicated sales team",
+          "tracking": "Progress tracking & reporting"
+        },
+        "included": "What's Included:",
+        "details": {
+          "seo": "• Basic SEO optimization",
+          "photography": "• Standard photography & drone footage",
+          "ads": "• Google & Facebook ads (3 months)",
+          "documentation": "• Standard legal documentation",
+          "reports": "• Monthly progress reports"
+        }
+      },
+      "premium": {
+        "title": "Premium Service",
+        "badge": "VIP",
+        "rate": "3-5.5%",
+        "description": "Premium service with exclusive benefits & priority access",
+        "everything": "Everything in Standard +",
+        "features": {
+          "database": "Exclusive buyer database access",
+          "premiumMarketing": "Premium marketing campaigns",
+          "accountManager": "Personal account manager",
+          "youtube": "YouTube videos & paid commercials",
+          "contentSeo": "Content marketing & SEO"
+        },
+        "benefits": "Premium Benefits:",
+        "details": {
+          "seo": "• Advanced SEO & content marketing",
+          "video": "• Professional video production for YouTube",
+          "extended": "• Extended ad campaigns (6 months)",
+          "priority": "• Priority access to our buyer network",
+          "weekly": "• Weekly progress updates",
+          "premiumLegal": "• Premium legal support & contracts",
+          "manager": "• Dedicated account manager 24/7"
+        }
+      }
+    },
+    "marketExpansion": {
+      "title": "Growing **Regional Presence**",
+      "subtitle": "Expanding our premium service across the region to serve more investors",
+      "serbia": {
+        "title": "Serbia",
+        "status": "Primary Market",
+        "cities": {
+          "belgrade": "• Belgrade",
+          "noviSad": "• Novi Sad",
+          "nis": "• Niš"
+        }
+      },
+      "montenegro": {
+        "title": "Montenegro",
+        "status": "Expansion Market",
+        "cities": {
+          "budva": "• Budva",
+          "kotor": "• Kotor",
+          "podgorica": "• Podgorica"
+        }
+      },
+      "croatia": {
+        "title": "Croatia",
+        "status": "Expansion Market",
+        "cities": {
+          "zagreb": "• Zagreb",
+          "dubrovnik": "• Dubrovnik",
+          "split": "• Split"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Property Sales?",
+      "subtitle": "Join successful investors who've eliminated upfront costs and increased their returns. Start with a free consultation today.",
+      "primary": "Schedule Free Consultation",
+      "secondary": "View Success Stories"
+    },
+    "vipCta": {
+      "badge": "Limited Availability",
+      "title": "👉 Secure Your VIP Investor Spot",
+      "subtitle": "Only **2 VIP Properties Accepted Monthly** — Extreme scarcity creates maximum urgency and ensures premium service quality. Join the elite investors who get exclusive access.",
+      "button": "Apply Now"
+    },
+    "expandingNetwork": {
+      "title": "Join Our Expanding Network",
+      "description": "Be part of our regional growth story. Connect with premium properties and investment opportunities across the Balkans.",
+      "cta": "Explore Opportunities"
+    }
+  },
+  "Navigation": {
+    "costSavings": "Cost Savings",
+    "services": "Services",
+    "pricing": "Pricing",
+    "useCases": "Use Cases",
+    "consultation": "Free Consultation",
+    "getStarted": "Get Started"
   },
   "LocaleSwitcher": {
     "label": "Select language",
@@ -64,5 +385,1376 @@
       }
     },
     "copyright": "© {year} ProInvest. All rights reserved."
+  },
+  "SEO": {
+    "title": "ProInvest - Serbia's First Zero-Risk Property Sales | Livion Real Estate",
+    "description": "Serbia's premier property sales service for investors. Zero upfront costs, professional marketing, and guaranteed results. Expanding to Montenegro and Croatia.",
+    "keywords": "property sales, real estate investment, property marketing, Belgrade, Novi Sad, Niš, Montenegro, Croatia, zero risk, professional marketing, virtual tours, SEO optimization",
+    "serviceName": "Zero-Risk Property Sales",
+    "serviceDescription": "Complete property sales service with zero upfront costs. Professional marketing, virtual tours, legal support, and sales team.",
+    "servicePaymentDescription": "Payment only when property sells. No upfront costs.",
+    "websiteDescription": "Serbia's premier property sales service for investors"
+  },
+  "Footer": {
+    "description": "Serbia's premier property sales service for investors. Zero upfront costs, professional marketing, and guaranteed results. Part of the Livion Real Estate family.",
+    "ourServices": "Our Services",
+    "propertyMarketing": "Property Marketing",
+    "virtualTours": "Virtual Tours",
+    "legalSupport": "Legal Support",
+    "salesManagement": "Sales Management",
+    "progressTracking": "Progress Tracking",
+    "contactUs": "Contact Us",
+    "copyright": "© 2024 ProInvest by Livion Real Estate. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "gdpr": "GDPR"
+  },
+  "UseCases": {
+    "header": {
+      "showcase": "ProInvest Showcase",
+      "description": "This is how your building website will look",
+      "backToProInvest": "Back to ProInvest",
+      "title": "Belgrade Luxury Residences",
+      "subtitle": "Premium Living in the Heart of Belgrade",
+      "poweredBy": "Powered by ProInvest • Livion Real Estate"
+    },
+    "navigation": {
+      "overview": "Overview",
+      "apartments": "Apartments",
+      "location": "Location",
+      "progress": "Progress",
+      "contact": "Contact"
+    },
+    "hero": {
+      "constructionStatus": "Construction: 75% Complete",
+      "title": "Belgrade Luxury Residences",
+      "description": "Premium living in the heart of Belgrade. 24 luxury apartments with world-class amenities and stunning city views.",
+      "viewUnits": "View Available Units",
+      "virtualTour": "Virtual Tour"
+    },
+    "stats": {
+      "totalUnits": "Total Units",
+      "sold": "Sold",
+      "available": "Available",
+      "totalValue": "Total Value"
+    },
+    "overview": {
+      "title": "Luxury Living Redefined",
+      "description": "Belgrade Luxury Residences offers an unparalleled living experience in the heart of Serbia's capital. Each apartment is designed with premium materials and finishes, featuring open-concept layouts, floor-to-ceiling windows, and private balconies with stunning city views.",
+      "features": {
+        "premiumLocation": "Premium Location",
+        "security": "24/7 Security",
+        "parking": "Underground Parking",
+        "fitness": "Fitness Center",
+        "garden": "Garden Terrace",
+        "lounge": "Coffee Lounge"
+      },
+      "completion": {
+        "title": "Completion",
+        "date": "Q2 2024"
+      }
+    },
+    "apartments": {
+      "title": "Available Apartments",
+      "description": "Choose from our selection of premium apartments, each designed for modern luxury living",
+      "filter": "Filter",
+      "view": "View",
+      "availableCount": "6 apartments available",
+      "status": "Available",
+      "viewDetails": "View Details"
+    },
+    "location": {
+      "title": "Prime Location",
+      "description": "Located in the heart of Belgrade, our residences offer easy access to the city's finest amenities, cultural attractions, and business districts. Everything you need is just minutes away.",
+      "distances": {
+        "center": "5 min to Belgrade Center",
+        "airport": "10 min to Airport",
+        "metro": "2 min to Metro Station",
+        "shops": "Walking distance to shops"
+      },
+      "destinations": {
+        "center": "Belgrade Center",
+        "airport": "Airport",
+        "metro": "Metro Station",
+        "shops": "Shopping Centers"
+      },
+      "methods": {
+        "byCar": "By car",
+        "walking": "Walking"
+      },
+      "benefits": {
+        "title": "Prime Location Benefits",
+        "cityCenter": "City center access",
+        "publicTransport": "Public transport",
+        "shopping": "Shopping nearby",
+        "airport": "Airport proximity"
+      },
+      "mapPlaceholder": "Interactive Map"
+    },
+    "progress": {
+      "title": "Construction Progress",
+      "description": "Stay updated on our construction progress with real-time updates",
+      "overallProgress": "Overall Progress",
+      "milestones": {
+        "sitePreparation": {
+          "title": "Site Preparation & Excavation",
+          "date": "January 15, 2024",
+          "description": "Site cleared, foundation trenches dug"
+        },
+        "foundation": {
+          "title": "Foundation & Basement",
+          "date": "February 28, 2024",
+          "description": "Concrete foundation poured, basement walls completed"
+        },
+        "structural": {
+          "title": "Structural Framework",
+          "date": "March 15, 2024",
+          "description": "Steel structure erected, floors installed"
+        },
+        "exterior": {
+          "title": "Exterior Walls & Roofing",
+          "date": "April 10, 2024",
+          "description": "Facade installation, roof waterproofing"
+        },
+        "mep": {
+          "title": "MEP Systems",
+          "date": "April 30, 2024",
+          "description": "Electrical, plumbing, HVAC installation"
+        },
+        "interior": {
+          "title": "Interior Finishing",
+          "date": "In Progress - 60%",
+          "description": "Drywall, flooring, kitchen installations"
+        },
+        "amenities": {
+          "title": "Amenities & Landscaping",
+          "date": "May 15, 2024",
+          "description": "Gym, lounge, garden installation"
+        },
+        "inspection": {
+          "title": "Final Inspection & Handover",
+          "date": "June 1, 2024",
+          "description": "Quality checks, permits, delivery"
+        }
+      },
+      "photosPlaceholder": "Latest Construction Photos"
+    },
+    "contact": {
+      "urgency": {
+        "badge": "Premium Apartments Available"
+      },
+      "title": "Ready to Own Your Dream Apartment?",
+      "description": "Secure your apartment in Belgrade's most prestigious residential complex. Limited units available with exclusive pre-construction pricing and premium finishes.",
+      "value": {
+        "fast": {
+          "title": "Pre-Construction Pricing",
+          "description": "Best prices before completion"
+        },
+        "expert": {
+          "title": "Premium Location",
+          "description": "Prime Belgrade location"
+        },
+        "guaranteed": {
+          "title": "Luxury Finishes",
+          "description": "High-end materials included"
+        }
+      },
+      "call": {
+        "title": "Call for Apartment Information",
+        "description": "Speak with our sales specialist about available units, pricing, and construction progress. Get detailed information about your future home.",
+        "phone": "+381 11 123 4567",
+        "urgency": "Available Monday-Friday, 9AM-6PM"
+      },
+      "email": {
+        "title": "Get Apartment Details",
+        "description": "Request detailed information about available apartments, floor plans, and pricing. Receive comprehensive project documentation.",
+        "address": "info@belgradeluxury.com",
+        "cta": "Request Information",
+        "response": "We respond within 24 hours"
+      },
+      "visit": {
+        "title": "Schedule Site Visit",
+        "description": "Book a guided tour of the construction site and showroom. See the progress and quality of your future apartment.",
+        "cta": "Book Site Visit",
+        "availability": "Available by appointment"
+      },
+      "socialProof": {
+        "title": "Trusted by Home Buyers",
+        "rating": "4.9/5",
+        "description": "Premium residential development with proven quality"
+      },
+      "stats": {
+        "properties": "24",
+        "propertiesLabel": "Luxury Apartments",
+        "sold": "75%",
+        "soldLabel": "Construction Progress",
+        "satisfaction": "98%",
+        "satisfactionLabel": "Buyer Satisfaction"
+      },
+      "finalCta": {
+        "urgency": "Limited Units Available",
+        "call": "Call for Apartment Information",
+        "schedule": "Schedule Site Visit",
+        "guarantee": "Premium quality with construction guarantee"
+      }
+    },
+    "footer": {
+      "title": "Belgrade Luxury Residences",
+      "description": "Premium living in the heart of Belgrade. Experience luxury redefined.",
+      "quickLinks": "Quick Links",
+      "contact": "Contact",
+      "followUs": "Follow Us",
+      "copyright": "© 2024 Belgrade Luxury Residences. All rights reserved."
+    },
+    "expandingNetwork": {
+      "title": "Join Our Expanding Network",
+      "description": "Be part of our regional growth story. Connect with premium properties and investment opportunities across the Balkans.",
+      "cta": "Explore Opportunities"
+    }
+  },
+  "GetStarted": {
+    "hero": {
+      "urgencyBadge": "URGENT: Only 2 VIP Spots Available This Month",
+      "title": "Secure Your VIP Spot",
+      "titleHighlight": "Before It's Gone",
+      "description": "👉 <strong>Only 2 VIP Properties Accepted Monthly</strong> — Don't miss your chance to join Serbia's most exclusive property sales program.",
+      "badges": {
+        "limitedTime": "Limited Time",
+        "premiumAccess": "Premium Access",
+        "zeroRisk": "Zero Risk"
+      }
+    },
+    "urgency": {
+      "title": "Time is Running Out",
+      "description": "Don't miss your chance to join Serbia's most exclusive property sales program.",
+      "subtitle": "Only 2 VIP spots available this month — first come, first served.",
+      "stats": {
+        "upfrontInvestment": "Upfront Investment",
+        "vipSpotsAvailable": "VIP Spots Available",
+        "riskFreeTrial": "Risk-Free Trial"
+      }
+    },
+    "applicationForm": {
+      "title": "Apply for VIP Investor Access",
+      "description": "Complete this form to secure your exclusive VIP spot. We'll contact you within 24 hours.",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "company": "Company/Organization",
+        "propertyLocation": "Property Location",
+        "propertyValue": "Property Value Range",
+        "timeline": "Timeline for Sale",
+        "additionalInfo": "Additional Information",
+        "placeholders": {
+          "firstName": "Enter your first name",
+          "lastName": "Enter your last name",
+          "email": "your@email.com",
+          "phone": "+381 XX XXX XXX",
+          "company": "Your company name (optional)",
+          "propertyLocation": "Select your property location",
+          "propertyValue": "Select property value range",
+          "timeline": "Select your timeline",
+          "additionalInfo": "Tell us about your property, specific requirements, or any questions you have..."
+        },
+        "locations": {
+          "belgrade": "Belgrade",
+          "noviSad": "Novi Sad",
+          "nis": "Niš",
+          "budva": "Budva (Montenegro)",
+          "kotor": "Kotor (Montenegro)",
+          "podgorica": "Podgorica (Montenegro)",
+          "zagreb": "Zagreb (Croatia)",
+          "dubrovnik": "Dubrovnik (Croatia)",
+          "split": "Split (Croatia)",
+          "other": "Other"
+        },
+        "valueRanges": {
+          "under100k": "Under €100,000",
+          "100k200k": "€100,000 - €200,000",
+          "200k350k": "€200,000 - €350,000",
+          "350k500k": "€350,000 - €500,000",
+          "500k1m": "€500,000 - €1,000,000",
+          "over1m": "Over €1,000,000"
+        },
+        "timelines": {
+          "immediate": "Immediate (within 1 month)",
+          "1to3months": "1-3 months",
+          "3to6months": "3-6 months",
+          "6to12months": "6-12 months",
+          "flexible": "Flexible"
+        }
+      },
+      "nextSteps": {
+        "title": "What Happens Next?",
+        "steps": [
+          "We'll review your application within 24 hours",
+          "Schedule a free consultation call to discuss your property",
+          "Receive a customized proposal for your VIP service package",
+          "Start with our 100% free showcase project (no commitment)"
+        ]
+      },
+      "submitButton": "🚀 Secure My VIP Spot Now",
+      "disclaimer": "By submitting this form, you agree to our terms and privacy policy.",
+      "guarantee": "No upfront costs • No commitment • 100% risk-free"
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Our VIP Service?",
+      "features": {
+        "extremeScarcity": {
+          "title": "Exclusive Access",
+          "description": "Join the elite circle of investors who get priority access to our most successful property sales strategies."
+        },
+        "zeroRiskTrial": {
+          "title": "Zero Risk Trial",
+          "description": "Start with our 100% free showcase project. No upfront costs, no commitment required."
+        },
+        "premiumResults": {
+          "title": "Premium Results",
+          "description": "Our VIP clients see 15-25% higher sale prices and 2-3x faster sales compared to DIY."
+        }
+      }
+    }
+  },
+  "Consultation": {
+    "badge": "AI-Powered Consultation",
+    "title": "Get Your AI-Generated Property Sales Strategy",
+    "subtitle": "Our intelligent system analyzes your situation and creates a personalized strategy. No commitment, no risk - just expert insights tailored to your specific situation.",
+    "progress": "Progress",
+    "previous": "Previous",
+    "next": "Next",
+    "complete": "Generate My Report",
+    "contactPlaceholder": "Please provide your name, email, and phone number so we can send your personalized report...",
+    "ai": {
+      "analyzing": "AI is Analyzing Your Situation",
+      "analyzingDescription": "Our intelligent system is processing your answers to generate your personalized property sales strategy..."
+    },
+    "report": {
+      "title": "Your AI-Generated Property Sales Report",
+      "subtitle": "Based on your answers, our AI has created a comprehensive analysis and strategy for your property sales success.",
+      "propertyAnalysis": "Property Analysis",
+      "propertyType": "Property Type",
+      "location": "Location",
+      "value": "Estimated Value",
+      "timeline": "Timeline",
+      "recommendations": "AI Recommendations",
+      "recommendedService": "Recommended Service",
+      "urgency": "Urgency Level",
+      "estimatedSavings": "Estimated Savings",
+      "riskLevel": "Risk Assessment",
+      "nextSteps": "Recommended Next Steps",
+      "valueProposition": "Why Choose Our Service?",
+      "valueDescription": "Our AI analysis shows you could save significant money and time while reducing risk to zero.",
+      "zeroRisk": "Zero Risk",
+      "fastResults": "Fast Results",
+      "professional": "Professional",
+      "cta": "Get My Personalized Proposal"
+    }
+  },
+  "ProgressTracking": {
+    "seo": {
+      "title": "Progress Tracking for Real Estate | ProInvest - Construction Progress Monitoring",
+      "description": "Professional progress tracking for real estate construction projects. Real-time updates, milestone tracking, investor dashboards. Zero upfront costs, pay only when properties sell.",
+      "keywords": "progress tracking, construction progress, real estate monitoring, project tracking, construction milestones, investor dashboard, construction updates, property development tracking"
+    },
+    "hero": {
+      "badge": "Real-time Monitoring",
+      "title": "Progress Tracking That Keeps You Informed",
+      "subtitle": "Comprehensive progress tracking for your real estate construction projects. From real-time updates to milestone tracking, stay informed about every aspect of your investment.",
+      "ctaPrimary": "Get Free Consultation",
+      "ctaSecondary": "View Progress Examples"
+    },
+    "services": {
+      "title": "Complete Progress Tracking",
+      "subtitle": "We provide comprehensive progress tracking services designed specifically for real estate construction projects and investors.",
+      "realTimeUpdates": {
+        "title": "Real-time Updates",
+        "description": "Live construction updates and progress notifications to keep you informed about every development in your project.",
+        "live": "Live construction feeds",
+        "notifications": "Progress notifications",
+        "alerts": "Milestone alerts"
+      },
+      "milestones": {
+        "title": "Construction Milestones",
+        "description": "Detailed tracking of construction milestones with completion percentages and timeline forecasting.",
+        "tracking": "Milestone tracking",
+        "completion": "Completion percentages",
+        "forecasting": "Timeline forecasting"
+      },
+      "dashboard": {
+        "title": "Investor Dashboard",
+        "description": "Comprehensive dashboard with analytics, reports, and insights about your construction project progress.",
+        "analytics": "Progress analytics",
+        "reports": "Detailed reports",
+        "insights": "Project insights"
+      }
+    },
+    "process": {
+      "title": "Our Progress Tracking Process",
+      "subtitle": "A systematic approach to monitoring and reporting on your construction project progress.",
+      "step1": {
+        "title": "Project Setup",
+        "description": "We set up comprehensive tracking systems for your construction project with all necessary monitoring points."
+      },
+      "step2": {
+        "title": "Data Collection",
+        "description": "Continuous data collection from construction sites, contractors, and project managers."
+      },
+      "step3": {
+        "title": "Analysis & Reporting",
+        "description": "Regular analysis of progress data and generation of detailed reports for stakeholders."
+      },
+      "step4": {
+        "title": "Communication",
+        "description": "Regular communication of progress updates to all stakeholders through multiple channels."
+      }
+    },
+    "benefits": {
+      "title": "Why Choose Our Progress Tracking",
+      "subtitle": "Our progress tracking approach provides comprehensive visibility and peace of mind for your construction investments.",
+      "benefit1": {
+        "title": "Zero Upfront Costs",
+        "description": "No initial tracking setup fees required. We only succeed when your project succeeds."
+      },
+      "benefit2": {
+        "title": "Real-time Visibility",
+        "description": "Complete visibility into your construction project progress with real-time updates and notifications."
+      },
+      "benefit3": {
+        "title": "Professional Monitoring",
+        "description": "Professional monitoring systems with experienced project managers overseeing your construction progress."
+      },
+      "benefit4": {
+        "title": "Detailed Reporting",
+        "description": "Comprehensive reporting with photos, videos, and detailed progress documentation."
+      },
+      "benefit5": {
+        "title": "Risk Management",
+        "description": "Early identification of potential delays and issues to minimize risks to your investment."
+      },
+      "benefit6": {
+        "title": "Stakeholder Communication",
+        "description": "Regular communication with all stakeholders to keep everyone informed about project progress."
+      }
+    },
+    "features": {
+      "title": "Advanced Tracking Features",
+      "subtitle": "Our progress tracking system provides comprehensive monitoring and reporting capabilities.",
+      "stat1": {
+        "value": "24/7",
+        "label": "Monitoring"
+      },
+      "stat2": {
+        "value": "Real-time",
+        "label": "Updates"
+      },
+      "stat3": {
+        "value": "100%",
+        "label": "Transparency"
+      },
+      "cta": "Start Progress Tracking"
+    },
+    "technology": {
+      "title": "Advanced Tracking Technology",
+      "subtitle": "We use cutting-edge technology to provide comprehensive progress tracking and monitoring.",
+      "tech1": {
+        "title": "IoT Sensors",
+        "description": "Internet of Things sensors for real-time construction monitoring."
+      },
+      "tech2": {
+        "title": "Drone Surveillance",
+        "description": "Regular drone flights for aerial progress documentation."
+      },
+      "tech3": {
+        "title": "AI Analytics",
+        "description": "Artificial Intelligence for progress analysis and forecasting."
+      },
+      "tech4": {
+        "title": "Mobile Apps",
+        "description": "Mobile applications for on-the-go progress monitoring."
+      }
+    },
+    "contact": {
+      "title": "Get Progress Tracking Support",
+      "subtitle": "Contact our progress tracking team for immediate assistance with your construction monitoring needs.",
+      "phone": {
+        "title": "Call Tracking Team",
+        "description": "Speak directly with our progress tracking experts",
+        "number": "+381 11 123 4567",
+        "availability": "Available Monday-Friday, 9AM-6PM"
+      },
+      "email": {
+        "title": "Email Tracking Team",
+        "description": "Send detailed progress tracking inquiries",
+        "address": "tracking@proinvest.com",
+        "response": "We respond within 2 hours"
+      }
+    },
+    "cta": {
+      "title": "Ready to Track Your Construction Progress?",
+      "subtitle": "Get professional progress tracking that keeps you informed and ensures your construction project stays on track.",
+      "primary": "Get Free Progress Consultation",
+      "secondary": "View Tracking Services"
+    }
+  },
+  "SalesManagement": {
+    "seo": {
+      "title": "Sales Management for Real Estate | ProInvest - Professional Sales Services",
+      "description": "Professional sales management for real estate properties. Dedicated sales teams, lead management, performance analytics. Zero upfront costs, pay only when properties sell.",
+      "keywords": "sales management, real estate sales, property sales, sales team, lead management, sales analytics, property sales services, real estate sales support"
+    },
+    "hero": {
+      "badge": "Sales Excellence",
+      "title": "Sales Management That Delivers",
+      "subtitle": "Professional sales management services that maximize your property sales potential. From dedicated teams to performance analytics, we handle every aspect of your sales process.",
+      "ctaPrimary": "Get Free Consultation",
+      "ctaSecondary": "View Sales Services"
+    },
+    "services": {
+      "title": "Complete Sales Management",
+      "subtitle": "We provide comprehensive sales management services designed specifically for real estate investors and property sales.",
+      "dedicatedTeam": {
+        "title": "Dedicated Sales Team",
+        "description": "Professional sales agents dedicated to your property sales with extensive real estate experience and proven track records.",
+        "professional": "Professional sales agents",
+        "training": "Ongoing training",
+        "support": "24/7 sales support"
+      },
+      "leadManagement": {
+        "title": "Lead Management",
+        "description": "Comprehensive lead capture, qualification, and nurturing systems to maximize your sales opportunities.",
+        "capture": "Lead capture systems",
+        "qualification": "Lead qualification",
+        "nurturing": "Lead nurturing campaigns"
+      },
+      "analytics": {
+        "title": "Performance Analytics",
+        "description": "Detailed analytics and reporting to track sales performance and optimize your sales strategy.",
+        "tracking": "Sales tracking",
+        "reporting": "Performance reporting",
+        "optimization": "Strategy optimization"
+      }
+    },
+    "process": {
+      "title": "Our Sales Process",
+      "subtitle": "A proven sales methodology that delivers consistent results for your property sales.",
+      "step1": {
+        "title": "Lead Generation",
+        "description": "We generate qualified leads through multiple channels and marketing strategies."
+      },
+      "step2": {
+        "title": "Lead Qualification",
+        "description": "Our team qualifies leads to ensure they are serious buyers with the right financial capacity."
+      },
+      "step3": {
+        "title": "Sales Process",
+        "description": "Professional sales agents guide prospects through the entire buying process."
+      },
+      "step4": {
+        "title": "Closing & Follow-up",
+        "description": "We handle contract negotiations, closing procedures, and post-sale follow-up."
+      }
+    },
+    "benefits": {
+      "title": "Why Choose Our Sales Management",
+      "subtitle": "Our sales management approach delivers measurable results and maximizes your property sales potential.",
+      "benefit1": {
+        "title": "Zero Upfront Costs",
+        "description": "No initial sales management fees required. We only succeed when your properties sell."
+      },
+      "benefit2": {
+        "title": "Professional Sales Team",
+        "description": "Experienced sales professionals with deep knowledge of real estate markets and buyer psychology."
+      },
+      "benefit3": {
+        "title": "Proven Sales Process",
+        "description": "Systematic approach to sales that has been refined through hundreds of successful transactions."
+      },
+      "benefit4": {
+        "title": "Lead Generation",
+        "description": "Comprehensive lead generation strategies to ensure a steady stream of qualified prospects."
+      },
+      "benefit5": {
+        "title": "Performance Tracking",
+        "description": "Detailed analytics and reporting to measure sales performance and identify optimization opportunities."
+      },
+      "benefit6": {
+        "title": "Dedicated Support",
+        "description": "Personal sales manager and dedicated team to handle all aspects of your property sales."
+      }
+    },
+    "results": {
+      "title": "Proven Sales Results",
+      "subtitle": "Our sales management strategies have helped investors achieve outstanding sales results.",
+      "stat1": {
+        "value": "2-3x",
+        "label": "Faster Sales"
+      },
+      "stat2": {
+        "value": "15-25%",
+        "label": "Higher Prices"
+      },
+      "stat3": {
+        "value": "95%",
+        "label": "Customer Satisfaction"
+      },
+      "cta": "Start Your Sales Management"
+    },
+    "contact": {
+      "title": "Get Sales Management Support",
+      "subtitle": "Contact our sales team for immediate assistance with your property sales.",
+      "phone": {
+        "title": "Call Sales Team",
+        "description": "Speak directly with our sales experts",
+        "number": "+381 11 123 4567",
+        "availability": "Available Monday-Friday, 9AM-6PM"
+      },
+      "email": {
+        "title": "Email Sales Team",
+        "description": "Send detailed sales inquiries",
+        "address": "sales@proinvest.com",
+        "response": "We respond within 1 hour"
+      }
+    },
+    "cta": {
+      "title": "Ready to Maximize Your Property Sales?",
+      "subtitle": "Get professional sales management that accelerates your sales and maximizes your returns.",
+      "primary": "Get Free Sales Consultation",
+      "secondary": "View Sales Services"
+    }
+  },
+  "LegalSupport": {
+    "seo": {
+      "title": "Legal Support for Real Estate | ProInvest - Professional Legal Services",
+      "description": "Professional legal support for real estate transactions. Contract management, compliance verification, legal concierge services. Zero upfront costs, pay only when properties sell.",
+      "keywords": "legal support, real estate legal services, contract management, compliance, legal concierge, property law, real estate transactions, legal verification"
+    },
+    "hero": {
+      "badge": "Legal Excellence",
+      "title": "Legal Support That Protects",
+      "subtitle": "Comprehensive legal services for your real estate transactions. From contract management to compliance verification, we ensure your deals are secure and legally sound.",
+      "ctaPrimary": "Get Free Consultation",
+      "ctaSecondary": "View Legal Services"
+    },
+    "services": {
+      "title": "Complete Legal Services",
+      "subtitle": "We provide comprehensive legal support designed specifically for real estate investors and property transactions.",
+      "contractManagement": {
+        "title": "Contract Management",
+        "description": "Professional contract drafting, review, and negotiation to protect your interests in every transaction.",
+        "drafting": "Contract drafting",
+        "review": "Legal review",
+        "negotiation": "Contract negotiation"
+      },
+      "compliance": {
+        "title": "Compliance & Verification",
+        "description": "Thorough verification and compliance checks to ensure all legal requirements are met for your transactions.",
+        "verification": "Buyer verification",
+        "regulatory": "Regulatory compliance",
+        "documentation": "Legal documentation"
+      },
+      "legalConcierge": {
+        "title": "Legal Concierge",
+        "description": "Dedicated legal support team providing guidance and assistance throughout your property transactions.",
+        "dedicated": "Dedicated legal team",
+        "support": "24/7 legal support",
+        "guidance": "Expert legal guidance"
+      }
+    },
+    "process": {
+      "title": "Our Legal Process",
+      "subtitle": "A systematic approach to ensuring your real estate transactions are legally sound and secure.",
+      "step1": {
+        "title": "Initial Assessment",
+        "description": "We review your transaction and identify all legal requirements and potential issues."
+      },
+      "step2": {
+        "title": "Document Preparation",
+        "description": "Professional drafting and preparation of all necessary legal documents and contracts."
+      },
+      "step3": {
+        "title": "Verification & Compliance",
+        "description": "Thorough verification of all parties and compliance with legal requirements and regulations."
+      },
+      "step4": {
+        "title": "Transaction Support",
+        "description": "Ongoing legal support throughout the transaction process until successful completion."
+      }
+    },
+    "benefits": {
+      "title": "Why Choose Our Legal Services",
+      "subtitle": "Our legal support provides comprehensive protection and peace of mind for your real estate investments.",
+      "benefit1": {
+        "title": "Zero Upfront Costs",
+        "description": "No initial legal fees required. We only succeed when your transaction succeeds."
+      },
+      "benefit2": {
+        "title": "Expert Legal Team",
+        "description": "Experienced real estate attorneys with deep knowledge of property law and regulations."
+      },
+      "benefit3": {
+        "title": "Comprehensive Protection",
+        "description": "Full legal coverage from contract creation to transaction completion and beyond."
+      },
+      "benefit4": {
+        "title": "Risk Mitigation",
+        "description": "Proactive identification and mitigation of legal risks before they become problems."
+      },
+      "benefit5": {
+        "title": "Compliance Assurance",
+        "description": "Complete compliance with all legal requirements and regulatory standards."
+      },
+      "benefit6": {
+        "title": "Dedicated Support",
+        "description": "Personal legal concierge service with direct access to your legal team."
+      }
+    },
+    "expertise": {
+      "title": "Legal Expertise",
+      "subtitle": "Our legal team brings decades of experience in real estate law and property transactions.",
+      "stat1": {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      "stat2": {
+        "value": "500+",
+        "label": "Transactions Completed"
+      },
+      "stat3": {
+        "value": "100%",
+        "label": "Legal Compliance"
+      },
+      "cta": "Get Legal Consultation"
+    },
+    "contact": {
+      "title": "Get Legal Support",
+      "subtitle": "Contact our legal team for immediate assistance with your real estate transactions.",
+      "phone": {
+        "title": "Call Legal Team",
+        "description": "Speak directly with our legal experts",
+        "number": "+381 11 123 4567",
+        "availability": "Available Monday-Friday, 9AM-6PM"
+      },
+      "email": {
+        "title": "Email Legal Team",
+        "description": "Send detailed legal inquiries",
+        "address": "legal@proinvest.com",
+        "response": "We respond within 2 hours"
+      }
+    },
+    "cta": {
+      "title": "Ready to Secure Your Real Estate Transactions?",
+      "subtitle": "Get professional legal support that protects your investments and ensures smooth transactions.",
+      "primary": "Get Free Legal Consultation",
+      "secondary": "View Legal Services"
+    }
+  },
+  "VirtualTours": {
+    "seo": {
+      "title": "Virtual Tours for Real Estate | ProInvest - 360° Property Virtual Tours",
+      "description": "Professional virtual tours for real estate properties. 360° interactive tours, video walkthroughs, and interactive floor plans. Zero upfront costs, pay only when properties sell.",
+      "keywords": "virtual tours, 360 tours, real estate virtual tours, property virtual tours, interactive tours, video tours, floor plans, property marketing"
+    },
+    "hero": {
+      "badge": "Immersive Technology",
+      "title": "Virtual Tours That Sell",
+      "subtitle": "Bring your properties to life with our cutting-edge virtual tour technology. 360° interactive experiences that engage buyers and accelerate sales.",
+      "ctaPrimary": "Get Free Consultation",
+      "ctaSecondary": "View Sample Tours"
+    },
+    "types": {
+      "title": "Virtual Tour Solutions",
+      "subtitle": "Multiple virtual tour formats to showcase your properties in the most engaging way possible.",
+      "threeSixty": {
+        "title": "360° Interactive Tours",
+        "description": "Fully immersive 360° virtual tours that let buyers explore every corner of your property from anywhere in the world.",
+        "interactive": "Interactive navigation",
+        "mobile": "Mobile-optimized",
+        "embed": "Easy to embed"
+      },
+      "videoTours": {
+        "title": "Video Walkthroughs",
+        "description": "Professional narrated video tours that guide potential buyers through your property with expert commentary.",
+        "narrated": "Professional narration",
+        "hd": "HD quality video",
+        "shareable": "Easy to share"
+      },
+      "floorPlans": {
+        "title": "Interactive Floor Plans",
+        "description": "Clickable floor plans with detailed measurements, room information, and virtual furniture placement.",
+        "clickable": "Clickable rooms",
+        "measurements": "Detailed measurements",
+        "furniture": "Virtual furniture"
+      }
+    },
+    "features": {
+      "title": "Advanced Virtual Tour Features",
+      "subtitle": "Our virtual tours come with powerful features that enhance the buyer experience and drive sales.",
+      "feature1": {
+        "title": "360° Navigation",
+        "description": "Smooth, intuitive navigation that lets buyers explore every angle of your property."
+      },
+      "feature2": {
+        "title": "Mobile Responsive",
+        "description": "Optimized for all devices - desktop, tablet, and mobile for maximum accessibility."
+      },
+      "feature3": {
+        "title": "VR Compatible",
+        "description": "Virtual Reality support for the ultimate immersive property viewing experience."
+      },
+      "feature4": {
+        "title": "Analytics Tracking",
+        "description": "Detailed analytics on viewer engagement, time spent, and popular areas."
+      },
+      "feature5": {
+        "title": "Lead Capture",
+        "description": "Built-in lead capture forms to collect contact information from interested viewers."
+      },
+      "feature6": {
+        "title": "Social Sharing",
+        "description": "Easy sharing across social media platforms to maximize property exposure."
+      }
+    },
+    "process": {
+      "title": "Our Virtual Tour Process",
+      "subtitle": "A streamlined process to create stunning virtual tours for your properties.",
+      "step1": {
+        "title": "Property Assessment",
+        "description": "We evaluate your property and plan the optimal tour experience."
+      },
+      "step2": {
+        "title": "Professional Capture",
+        "description": "High-quality 360° photography and video capture using professional equipment."
+      },
+      "step3": {
+        "title": "Tour Creation",
+        "description": "Interactive tour assembly with navigation, hotspots, and multimedia content."
+      },
+      "step4": {
+        "title": "Launch & Optimize",
+        "description": "Tour deployment with ongoing optimization based on viewer analytics."
+      }
+    },
+    "benefits": {
+      "title": "Proven Virtual Tour Benefits",
+      "subtitle": "Our virtual tours deliver measurable results for property sales.",
+      "stat1": {
+        "value": "40%",
+        "label": "Faster Sales"
+      },
+      "stat2": {
+        "value": "3x",
+        "label": "More Engagement"
+      },
+      "stat3": {
+        "value": "85%",
+        "label": "Buyer Satisfaction"
+      },
+      "cta": "Create Your Virtual Tour"
+    },
+    "technology": {
+      "title": "Cutting-Edge Technology",
+      "subtitle": "We use the latest virtual tour technology to create immersive experiences.",
+      "tech1": {
+        "title": "360° Cameras",
+        "description": "Professional 360° cameras for crystal-clear imagery."
+      },
+      "tech2": {
+        "title": "VR Integration",
+        "description": "Virtual Reality compatibility for next-level immersion."
+      },
+      "tech3": {
+        "title": "Cloud Hosting",
+        "description": "Fast, reliable cloud hosting for seamless viewing."
+      },
+      "tech4": {
+        "title": "AI Optimization",
+        "description": "AI-powered optimization for the best viewing experience."
+      }
+    },
+    "cta": {
+      "title": "Ready to Create Your Virtual Tour?",
+      "subtitle": "Transform your property marketing with immersive virtual tours that engage buyers and accelerate sales.",
+      "primary": "Get Free Consultation",
+      "secondary": "View Success Stories"
+    }
+  },
+  "PropertyMarketing": {
+    "seo": {
+      "title": "Property Marketing Services | ProInvest - Professional Real Estate Marketing",
+      "description": "Professional property marketing services for real estate investors. Digital marketing, visual content, lead generation, and sales support. Zero upfront costs, pay only when properties sell.",
+      "keywords": "property marketing, real estate marketing, digital marketing, property photography, virtual tours, lead generation, real estate sales, property advertising"
+    },
+    "hero": {
+      "badge": "Professional Marketing",
+      "title": "Property Marketing That Sells",
+      "subtitle": "Transform your property sales with our comprehensive marketing solutions. From digital campaigns to visual content, we handle everything to maximize your returns.",
+      "ctaPrimary": "Get Free Consultation",
+      "ctaSecondary": "View Our Work"
+    },
+    "services": {
+      "title": "Complete Marketing Solutions",
+      "subtitle": "We provide end-to-end marketing services designed specifically for real estate investors and property developers.",
+      "digitalMarketing": {
+        "title": "Digital Marketing",
+        "description": "Comprehensive online marketing strategies to reach qualified buyers across multiple channels.",
+        "seo": "SEO-optimized websites",
+        "socialMedia": "Social media campaigns",
+        "ppc": "Google & Facebook ads"
+      },
+      "visualContent": {
+        "title": "Visual Content",
+        "description": "Professional photography, videography, and virtual tours that showcase your properties in the best light.",
+        "photography": "Professional photography",
+        "droneVideo": "Drone videography",
+        "virtualTours": "360° virtual tours"
+      },
+      "leadGeneration": {
+        "title": "Lead Generation",
+        "description": "Automated systems to capture, qualify, and nurture potential buyers throughout the sales process.",
+        "leadCapture": "Lead capture forms",
+        "qualification": "Lead qualification",
+        "nurturing": "Email nurturing campaigns"
+      }
+    },
+    "process": {
+      "title": "Our Marketing Process",
+      "subtitle": "A proven 4-step process that delivers results for your property sales.",
+      "step1": {
+        "title": "Strategy & Planning",
+        "description": "We analyze your property and market to create a customized marketing strategy."
+      },
+      "step2": {
+        "title": "Content Creation",
+        "description": "Professional photography, videos, and marketing materials are produced."
+      },
+      "step3": {
+        "title": "Campaign Launch",
+        "description": "Multi-channel marketing campaigns are launched across digital platforms."
+      },
+      "step4": {
+        "title": "Lead Management",
+        "description": "We handle all inquiries and guide prospects through the sales process."
+      }
+    },
+    "benefits": {
+      "title": "Why Choose Our Marketing Services",
+      "subtitle": "Our marketing approach delivers measurable results for property investors.",
+      "benefit1": {
+        "title": "Zero Upfront Costs",
+        "description": "No initial investment required. We only succeed when you succeed."
+      },
+      "benefit2": {
+        "title": "Professional Quality",
+        "description": "High-end photography, videography, and marketing materials that showcase your properties professionally."
+      },
+      "benefit3": {
+        "title": "Multi-Channel Reach",
+        "description": "Comprehensive campaigns across Google, Facebook, Instagram, and other platforms to maximize visibility."
+      },
+      "benefit4": {
+        "title": "Lead Management",
+        "description": "Automated systems to capture, qualify, and nurture potential buyers."
+      },
+      "benefit5": {
+        "title": "Performance Tracking",
+        "description": "Detailed analytics and reporting to measure campaign effectiveness and ROI."
+      },
+      "benefit6": {
+        "title": "Dedicated Support",
+        "description": "Personal account manager and dedicated team to handle all aspects of your marketing."
+      }
+    },
+    "results": {
+      "title": "Proven Results",
+      "subtitle": "Our marketing strategies have helped investors achieve outstanding results.",
+      "stat1": {
+        "value": "150+",
+        "label": "Properties Sold"
+      },
+      "stat2": {
+        "value": "2-3x",
+        "label": "Faster Sales"
+      },
+      "stat3": {
+        "value": "15-25%",
+        "label": "Higher Prices"
+      },
+      "cta": "Start Your Marketing Campaign"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Property Marketing?",
+      "subtitle": "Join successful investors who have eliminated upfront costs and increased their returns with our marketing services.",
+      "primary": "Get Free Consultation",
+      "secondary": "View Success Stories"
+    }
+  },
+  "ApartmentDetails": {
+    "header": {
+      "showcase": "ProInvest Showcase",
+      "description": "This is how individual apartment pages will look",
+      "backToBuilding": "Back to Building Overview",
+      "title": "Belgrade Luxury Residences",
+      "subtitle": "Premium Living in the Heart of Belgrade",
+      "poweredBy": "Powered by ProInvest • Livion Real Estate"
+    },
+    "breadcrumb": {
+      "buildingOverview": "Building Overview",
+      "apartments": "Apartments",
+      "currentApartment": "Apartment A205"
+    },
+    "navigation": {
+      "overview": "Overview",
+      "apartments": "Apartments",
+      "location": "Location",
+      "progress": "Progress",
+      "contact": "Contact"
+    },
+    "apartment": {
+      "title": "Apartment A205 - 3 Bedroom",
+      "description": "Spacious 3-bedroom apartment with stunning city views, premium finishes, and modern amenities. Perfect for families seeking luxury living in the heart of Belgrade.",
+      "status": "Available",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "totalArea": "Total Area",
+      "floor": "Floor"
+    },
+    "features": {
+      "apartmentFeatures": "Apartment Features",
+      "buildingAmenities": "Building Amenities",
+      "largeBalcony": "Large balcony with city views",
+      "undergroundParking": "Underground parking space",
+      "storageRoom": "Storage room included",
+      "homeOffice": "Home office/study area",
+      "floorToCeiling": "Floor-to-ceiling windows",
+      "premiumKitchen": "Premium kitchen appliances",
+      "security": "24/7 security & concierge",
+      "fitnessCenter": "Fitness center",
+      "gardenTerrace": "Garden terrace",
+      "coffeeLounge": "Coffee lounge",
+      "highSpeedInternet": "High-speed internet",
+      "climateControl": "Climate control system"
+    },
+    "virtualTour": {
+      "title": "Virtual Tour",
+      "subtitle": "360° Interactive Experience",
+      "description": "Explore every corner of this beautiful apartment with our immersive 360° virtual tour. Experience the space as if you were there in person.",
+      "interactiveFloorPlan": "Interactive Floor Plan",
+      "clickToExplore": "Click to explore room dimensions"
+    },
+    "floorPlan": {
+      "title": "Floor Plan"
+    },
+    "pricing": {
+      "price": "€420,000",
+      "pricePerM2": "€3,500 per m²",
+      "monthlyPayment": "Monthly Payment",
+      "maintenanceFee": "Maintenance Fee",
+      "propertyTax": "Property Tax"
+    },
+    "actions": {
+      "scheduleViewing": "Schedule Viewing",
+      "requestInformation": "Request Information",
+      "addToFavorites": "Add to Favorites",
+      "sendMessage": "Send Message"
+    },
+    "contact": {
+      "title": "Contact Agent",
+      "agentName": "Milan Petrović",
+      "agentTitle": "Senior Sales Agent",
+      "phone": "+381 11 123 4567",
+      "email": "milan@belgradeluxury.com"
+    },
+    "similarApartments": {
+      "title": "Similar Apartments",
+      "apartment1": {
+        "name": "Apartment A101",
+        "description": "2 Bedroom • 85m²",
+        "price": "€285,000"
+      },
+      "apartment2": {
+        "name": "Apartment A301",
+        "description": "Penthouse • 180m²",
+        "price": "€750,000"
+      }
+    },
+    "footer": {
+      "title": "Belgrade Luxury Residences",
+      "description": "Premium living in the heart of Belgrade. Experience luxury redefined.",
+      "quickLinks": "Quick Links",
+      "contact": "Contact",
+      "followUs": "Follow Us",
+      "copyright": "© 2024 Belgrade Luxury Residences. All rights reserved."
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: December 2024",
+    "introduction": {
+      "title": "Introduction",
+      "content": "ProInvest by Livion Real Estate is committed to protecting your privacy and personal data. This Privacy Policy explains how we collect, use, and protect your information when you use our services."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "content": "We collect information that you provide directly to us and information that we obtain automatically when you use our services:",
+      "personalInfo": "Personal information (name, email, phone number) from consultation forms and contact forms",
+      "propertyInfo": "Property details and specifications from consultation questionnaires",
+      "contactInfo": "Contact preferences and communication history",
+      "usageData": "Website usage data and analytics (anonymized) via Umami Analytics",
+      "consultationData": "Consultation responses including property type, location, value, timeline, and investment goals"
+    },
+    "dataUsage": {
+      "title": "How We Use Your Information",
+      "content": "We use the information we collect to:",
+      "provideServices": "Provide and improve our property sales services",
+      "communicate": "Communicate with you about your properties and our services",
+      "improveServices": "Analyze and improve our website and services",
+      "legalCompliance": "Comply with legal obligations",
+      "consultation": "Generate personalized property sales proposals and recommendations",
+      "analytics": "Understand website usage patterns to improve user experience"
+    },
+    "dataSharing": {
+      "title": "Information Sharing",
+      "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy or as required by law. We may share anonymized analytics data with Umami Analytics for website performance monitoring."
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. All data is processed securely and in compliance with GDPR requirements."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "We retain your personal data for the following periods:",
+      "consultationData": "Consultation data: 2 years after last contact",
+      "contactInfo": "Contact information: Until you request deletion",
+      "analyticsData": "Analytics data: 26 months maximum (anonymized)",
+      "legalData": "Legal compliance data: As required by Serbian law"
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "content": "You have the right to:",
+      "access": "Access your personal data",
+      "correction": "Correct inaccurate data",
+      "deletion": "Request deletion of your data",
+      "portability": "Data portability",
+      "withdraw": "Withdraw consent for data processing"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us:"
+    }
+  },
+  "TermsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: December 2024",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing and using ProInvest services, you accept and agree to be bound by the terms and provision of this agreement."
+    },
+    "services": {
+      "title": "Our Services",
+      "content": "ProInvest provides comprehensive property sales services including:",
+      "propertyMarketing": "Professional property marketing and advertising",
+      "virtualTours": "360° virtual tours and multimedia content",
+      "legalSupport": "Legal documentation and compliance support",
+      "salesManagement": "Complete sales process management",
+      "progressTracking": "Real-time progress tracking and reporting",
+      "consultation": "Free consultation and personalized property sales proposals",
+      "websiteCreation": "Custom website creation with SEO optimization"
+    },
+    "payment": {
+      "title": "Payment Terms",
+      "content": "Our payment structure is designed to minimize your risk:",
+      "noUpfront": "No upfront costs - you only pay when properties sell",
+      "commission": "Commission-based pricing: 2-5.5% based on property value",
+      "paymentTerms": "Payment only upon successful property sale",
+      "geographicScope": "Services available in Serbia, Montenegro, and Croatia"
+    },
+    "businessModel": {
+      "title": "Business Model",
+      "content": "ProInvest operates on a zero-risk investment approach:",
+      "vipModel": "Full-Service VIP Model - complete service package from website to closing",
+      "scarcity": "Limited capacity - only 2 VIP properties accepted monthly",
+      "targetMarket": "Primary focus on building investors and developers",
+      "expansion": "Expanding to Montenegro (Budva, Kotor, Podgorica) and Croatia (Zagreb, Dubrovnik, Split)"
+    },
+    "obligations": {
+      "title": "Obligations",
+      "content": "Both parties have specific obligations under this agreement:",
+      "client": {
+        "title": "Client Obligations",
+        "accurateInfo": "Provide accurate and complete property information",
+        "cooperation": "Cooperate with our marketing and sales efforts",
+        "legalCompliance": "Ensure legal compliance of property documentation",
+        "propertyAccess": "Provide access to property for photography and virtual tours"
+      },
+      "proinvest": {
+        "title": "ProInvest Obligations",
+        "professionalService": "Provide professional marketing and sales services",
+        "marketing": "Execute comprehensive marketing campaigns",
+        "support": "Offer ongoing support throughout the sales process",
+        "website": "Create and maintain custom property website",
+        "media": "Provide professional photography and virtual tours"
+      }
+    },
+    "liability": {
+      "title": "Liability",
+      "content": "ProInvest's liability is limited to the services provided. We are not liable for market conditions, property values, or external factors beyond our control. Our success depends on market conditions and buyer interest."
+    },
+    "termination": {
+      "title": "Termination",
+      "content": "Either party may terminate this agreement with written notice. Termination does not affect obligations incurred prior to termination. No payment is required if no sale occurs."
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "content": "This agreement is governed by Serbian law and any disputes will be resolved in Serbian courts."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "content": "For questions about these terms, please contact us:"
+    }
+  },
+  "CookiePolicy": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: December 2024",
+    "whatAreCookies": {
+      "title": "What Are Cookies",
+      "content": "Cookies are small text files that are placed on your device when you visit our website. They help us provide you with a better experience and understand how you use our site."
+    },
+    "howWeUseCookies": {
+      "title": "How We Use Cookies",
+      "content": "We use cookies to enhance your browsing experience, remember your preferences, and analyze site traffic. Cookies help us understand how you use our site and improve our services."
+    },
+    "typesOfCookies": {
+      "title": "Types of Cookies We Use",
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "These cookies are necessary for the website to function properly and cannot be disabled.",
+        "session": "Session management and security",
+        "security": "Security and fraud prevention",
+        "preferences": "User preference storage"
+      },
+      "functional": {
+        "title": "Functional Cookies",
+        "description": "These cookies enable enhanced functionality and personalization.",
+        "locale": "Language preference (NEXT_LOCALE) - remembers your language choice",
+        "theme": "Theme preference - remembers your dark/light mode choice",
+        "userPreferences": "User interface preferences and settings"
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "description": "These cookies help us understand how visitors interact with our website.",
+        "umami": "Umami Analytics - privacy-focused website analytics",
+        "performance": "Website performance monitoring",
+        "usage": "User behavior analysis (anonymized)"
+      }
+    },
+    "thirdPartyCookies": {
+      "title": "Third-Party Cookies",
+      "content": "We use the following third-party services that may set cookies:",
+      "umami": "Umami Analytics (umami.livion.homes) - privacy-focused analytics service",
+      "nextThemes": "Next.js Themes - for dark/light mode functionality",
+      "nextIntl": "Next.js Internationalization - for language preferences"
+    },
+    "cookieManagement": {
+      "title": "Managing Cookies",
+      "content": "You can control and manage cookies in several ways:",
+      "browserSettings": {
+        "title": "Browser Settings",
+        "content": "Most browsers allow you to control cookies through their settings:",
+        "chrome": "Chrome: Settings > Privacy and Security > Cookies",
+        "firefox": "Firefox: Options > Privacy & Security > Cookies",
+        "safari": "Safari: Preferences > Privacy > Cookies",
+        "edge": "Edge: Settings > Cookies and Site Permissions"
+      },
+      "functionalCookies": {
+        "title": "Functional Cookie Management",
+        "content": "You can manage functional cookies through our website:",
+        "language": "Language preference can be changed using the language switcher",
+        "theme": "Theme preference can be changed using the theme toggle button"
+      }
+    },
+    "updates": {
+      "title": "Policy Updates",
+      "content": "We may update this Cookie Policy from time to time. We will notify you of any changes by posting the new policy on this page."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have questions about our use of cookies, please contact us:"
+    }
+  },
+  "GDPR": {
+    "title": "GDPR Compliance",
+    "lastUpdated": "Last updated: December 2024",
+    "introduction": {
+      "title": "GDPR Compliance",
+      "content": "ProInvest by Livion Real Estate is committed to complying with the General Data Protection Regulation (GDPR) and protecting your personal data rights."
+    },
+    "dataController": {
+      "title": "Data Controller",
+      "content": "ProInvest by Livion Real Estate is the data controller for your personal information:"
+    },
+    "legalBasis": {
+      "title": "Legal Basis for Processing",
+      "content": "We process your personal data based on the following legal grounds:",
+      "consent": "Consent",
+      "consentDesc": "When you voluntarily provide information through our consultation forms",
+      "contract": "Contract Performance",
+      "contractDesc": "To fulfill our contractual obligations for property sales services",
+      "legitimate": "Legitimate Interest",
+      "legitimateDesc": "To improve our services and communicate with you about property sales",
+      "legal": "Legal Obligation",
+      "legalDesc": "To comply with Serbian real estate and data protection laws"
+    },
+    "dataRights": {
+      "title": "Your Data Protection Rights",
+      "content": "Under GDPR, you have the following rights regarding your personal data:",
+      "access": {
+        "title": "Right of Access",
+        "description": "You can request copies of your personal data"
+      },
+      "rectification": {
+        "title": "Right to Rectification",
+        "description": "You can request correction of inaccurate data"
+      },
+      "erasure": {
+        "title": "Right to Erasure",
+        "description": "You can request deletion of your personal data"
+      },
+      "portability": {
+        "title": "Right to Data Portability",
+        "description": "You can request transfer of your data to another service"
+      }
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "We retain your personal data for the following periods:",
+      "consultationData": "Consultation data: 2 years after last contact",
+      "contactInfo": "Contact information: Until you request deletion",
+      "analyticsData": "Analytics data: 26 months maximum (anonymized via Umami)",
+      "legalData": "Legal compliance data: As required by Serbian law"
+    },
+    "dataSecurity": {
+      "title": "Data Security Measures",
+      "content": "We implement comprehensive security measures to protect your data:",
+      "encryption": "Data encryption in transit and at rest",
+      "access": "Restricted access controls and authentication",
+      "monitoring": "Continuous security monitoring and auditing",
+      "training": "Regular staff training on data protection",
+      "anonymization": "Analytics data is anonymized through Umami Analytics"
+    },
+    "dataBreach": {
+      "title": "Data Breach Notification",
+      "content": "In the event of a data breach that may affect your personal data, we will notify you and the relevant authorities within 72 hours as required by GDPR."
+    },
+    "complaints": {
+      "title": "Right to Complain",
+      "content": "You have the right to lodge a complaint with the Serbian Data Protection Authority if you believe your data protection rights have been violated:"
+    },
+    "contact": {
+      "title": "Contact Our Data Protection Officer",
+      "content": "For any data protection inquiries or to exercise your rights, please contact our Data Protection Officer:"
+    }
   }
 }

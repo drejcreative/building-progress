@@ -1,11 +1,332 @@
 {
   "HomePage": {
-    "title": "Dobrodošli na našu stranicu!"
+    "hero": {
+      "title": "Prva u Srbiji",
+      "subtitle": "Prodaja Nekretnina Bez Rizika",
+      "description": "👉 **Prodajte Svoju Zgradu Brže — Bez Ulaganja €1 Unapred.**",
+      "content": "Vodeći srpski servis za prodaju nekretnina za investitore. Vodimo računa o svemu od Beograda do Novog Sada do Niša - takođe prodajemo za vas. Plaćate samo kada se nekretnine prodaju. Širimo se na Crnu Goru i Hrvatsku.",
+      "ctaPrimary": "Započni Besplatnu Konsultaciju",
+      "ctaSecondary": "Pogledaj Studije Slučaja",
+      "stats": {
+        "properties": "150+ Nekretnina",
+        "sold": "Uspešno Prodato"
+      }
+    },
+    "costSaving": {
+      "title": "Uštedite **€20.000-35.000** Po Zgradi",
+      "subtitle": "Tradicionalni DIY marketing troškovi naspram našeg profesionalnog servisa bez početnih troškova.",
+      "maxSavings": "Maksimalne uštede za srpske tržišne uslove",
+      "vsLabel": "NASPRAM",
+      "diyTitle": "DIY Troškovi (Vaš Rizik)",
+      "ourServiceTitle": "Naš Servis (Nulti Rizik)",
+      "services": {
+        "websiteDevelopment": {
+          "title": "Razvoj Veb Sajta",
+          "cost": "€6.000-12.000",
+          "descriptionDiy": "Profesionalni prilagođeni veb sajt sa SEO optimizacijom + posvećene stranice stanova",
+          "descriptionOur": "Prilagođeni SEO-optimizovani veb sajt sa snimanjem potencijalnih kupaca, analitikama i posvećenim stranicama stanova"
+        },
+        "photography": {
+          "title": "Profesionalna Fotografija",
+          "cost": "€800-1.800",
+          "descriptionDiy": "Visokokvalitetne fotografije sa profesionalnim postavljanjem",
+          "descriptionOur": "Profesionalne fotografije sa postavljanjem i osvetljenjem"
+        },
+        "droneVideo": {
+          "title": "Dron Video + Montaža",
+          "cost": "€1.200-2.500",
+          "descriptionDiy": "Snimci iz vazduha sa kinematskim editovanjem + YouTube videi i plaćene reklame",
+          "descriptionOur": "Snimci iz vazduha sa kinematskim editovanjem, YouTube videi i vrhunske plaćene reklame"
+        },
+        "virtualTour": {
+          "title": "360° Virtuelna Tura",
+          "cost": "€1.500-3.000",
+          "descriptionDiy": "Interaktivne virtuelne ture sa planovima osnovama",
+          "descriptionOur": "Interaktivne virtuelne ture sa planovima osnova i detaljima"
+        },
+        "marketing": {
+          "title": "Marketing i Reklame (6-12 meseci)",
+          "cost": "€7.000-12.000",
+          "descriptionDiy": "Google, Facebook, Instagram kampanje",
+          "descriptionOur": "Google, Facebook, Instagram i LinkedIn reklamiranje"
+        },
+        "legalSupport": {
+          "title": "Pravna Podrška",
+          "cost": "€2.000-4.000",
+          "descriptionDiy": "Upravljanje ugovorima i usklađenost",
+          "descriptionOur": "Potpuna pravna podrška od ugovora do zatvaranja"
+        },
+        "salesStaff": {
+          "title": "Prodajno Osoblje (6 meseci)",
+          "cost": "€8.000-15.000",
+          "descriptionDiy": "Profesionalni prodajni tim i upravljanje",
+          "descriptionOur": "Profesionalni prodajni agenti koji rešavaju sve upite"
+        }
+      },
+      "summary": {
+        "yourRisk": {
+          "badge": "VAŠ RIZIK",
+          "total": "€20.000-35.000",
+          "title": "Ukupna Početna Investicija",
+          "monthly": "Plus tekući mesečni troškovi",
+          "noGuarantee": "Nema garancije uspeha"
+        },
+        "zeroRisk": {
+          "badge": "NULTI RIZIK",
+          "total": "€0",
+          "title": "Početna Investicija",
+          "payOnSale": "Platite samo kada se nekretnine prodaju",
+          "maxReturn": "Nulti rizik, maksimalni povrat"
+        }
+      }
+    },
+    "solution": {
+      "badge": "Sveobuhvatni Servis",
+      "title": "Kompletno **Investitorsko Rešenje**",
+      "subtitle": "Od početne ideje do finalne prodaje, vodimo računa o svakom aspektu vašeg marketinga i prodaje nekretnina. Takođe prodajemo za vas. Naša sveobuhvatna platforma kombinuje najnoviju tehnologiju sa dokazanim prodajnim strategijama da maksimizuje vaše povrate uz minimalizovanje vašeg opterećenja.",
+      "digitalPresence": {
+        "title": "Digitalno Prisustvo",
+        "subtitle": "Profesionalna Online Platforma + Posvećene Stranice Stanova",
+        "image": {
+          "title": "Kompletno Investitorsko Rešenje",
+          "description": "Sve što vam je potrebno za uspešnu prodaju nekretnina"
+        },
+        "features": {
+          "customWebsite": {
+            "title": "Prilagođeni Veb Sajt Zgrade",
+            "description": "SEO-optimizovan, mobilno-responzivan veb sajt sa formama za snimanje potencijalnih kupaca, praćenjem analitike i posvećenim stranicama stanova"
+          },
+          "virtualTours": {
+            "title": "Virtuelne Ture Nekretnina",
+            "description": "Interaktivne 360° virtuelne ture sa planovima osnova i detaljnim informacijama o nekretnini"
+          },
+          "leadManagement": {
+            "title": "Sistem Upravljanja Potencijalnim Kupcima",
+            "description": "Automatizovano praćenje, kvalifikovanje i sistem praćenja potencijalnih kupaca"
+          },
+          "apartmentPages": {
+            "title": "Posvećene Stranice Stanova",
+            "description": "Individualne stranice za svaki stan sa detaljnim informacijama i virtuelnim turama"
+          }
+        }
+      },
+      "mediaProduction": {
+        "title": "Premium Medijska Produkcija",
+        "subtitle": "Kinematski Vizuelni Sadržaj + YouTube Videi i Plaćene Reklame",
+        "features": {
+          "photography": {
+            "title": "Profesionalna Fotografija",
+            "description": "Visoke rezolucije fotografije sa profesionalnim postavljanjem i osvetljenjem"
+          },
+          "droneVideography": {
+            "title": "Dron Videografija",
+            "description": "Snimci iz vazduha koji prikazuju lokaciju, poglede, spoljašnjost zgrade, YouTube videi i vrhunske plaćene reklame"
+          },
+          "walkthroughs": {
+            "title": "Narator Obilasci",
+            "description": "Profesionalne video ture sa glasovnim komentarom koji ističe ključne karakteristike"
+          },
+          "youtubeCommercials": {
+            "title": "YouTube i Plaćene Reklame",
+            "description": "Profesionalni YouTube videi i vrhunske plaćene reklamne reklame"
+          }
+        }
+      },
+      "marketing": {
+        "title": "Strateški Marketing",
+        "subtitle": "Multi-Kanal Kampanje",
+        "image": {
+          "title": "Premium Marketing i Prodaja",
+          "description": "Strateške kampanje i posvećena podrška"
+        },
+        "features": {
+          "googleMeta": {
+            "title": "Google i Meta Reklamiranje",
+            "description": "Ciljane PPC kampanje koje dopiru do kvalifikovanih kupaca na svim platformama"
+          },
+          "socialMedia": {
+            "title": "Upravljanje Društvenim Mrežama",
+            "description": "Redovno kreiranje sadržaja i angažovanje zajednice"
+          },
+          "emailMarketing": {
+            "title": "Email Marketing",
+            "description": "Automatizovane email sekvence koje neguju potencijalne kupce kroz prodajni lej"
+          },
+          "contentMarketing": {
+            "title": "Content Marketing",
+            "description": "Blog postovi, članci i vredan sadržaj za privlačenje i angažovanje potencijalnih kupaca"
+          }
+        }
+      },
+      "salesSupport": {
+        "title": "Prodaja i Podrška",
+        "subtitle": "Servis od Kraja do Kraja",
+        "features": {
+          "dedicatedTeam": {
+            "title": "Posvećen Prodajni Tim",
+            "description": "Profesionalni prodajni agenti koji rešavaju sve upite kupaca i pregovore"
+          },
+          "legalConcierge": {
+            "title": "Pravni Konsijeriž",
+            "description": "Potpuna pravna podrška od kreiranja ugovora do zatvaranja"
+          },
+          "contractManagement": {
+            "title": "Upravljanje Ugovorima",
+            "description": "Profesionalno kreiranje ugovora, pregled i pregovaranje"
+          },
+          "compliance": {
+            "title": "Usklađenost i Verifikacija",
+            "description": "Verifikacija kupaca, pravna usklađenost i regulatorna podrška"
+          },
+          "progressTracking": {
+            "title": "Praćenje Napretka",
+            "description": "Ažuriranja izgradnje u realnom vremenu i dashboard za izveštavanje investitora"
+          }
+        }
+      }
+    },
+    "freeShowcase": {
+      "badge": "Pokušaj Bez Rizika",
+      "title": "Isprobajte Naš Servis **100% Besplatno**",
+      "subtitle": "Kreirat ćemo profesionalnu prezentaciju za vaš prvi stan potpuno besplatno. Bez obaveza, bez rizika — vidite naš kvalitet pre nego što se opredelite.",
+      "whatYouGet": "Šta Dobijate u Našem Besplatnom Pokušaju:",
+      "features": {
+        "listing": {
+          "title": "Profesionalan Listing Stana",
+          "description": "Kompletna veb stranica za jedan stan sa SEO optimizacijom"
+        },
+        "photography": {
+          "title": "Profesionalna Fotografija",
+          "description": "Visokokvalitetne fotografije i osnovni dron snimci"
+        },
+        "marketingTest": {
+          "title": "2-nedeljni Marketing Test",
+          "description": "Ciljane Facebook i Google reklame sa analitikama performansi"
+        },
+        "analysis": {
+          "title": "Analiza Rezultata",
+          "description": "Detaljan izveštaj o potencijalnim kupcima, angažovanju i preporukama"
+        }
+      },
+      "whyWeOffer": "Zašto Ovo Nudimo:",
+      "explanation": {
+        "confidence": "Uvereni smo u našu sposobnost da isporučimo rezultate. Ovaj ograničeni pokušaj dokazuje naš kvalitet uz minimalnu investiciju od nas dok vam daje pravi ukus našeg servisa.",
+        "value": "Nakon što vidite potencijalne kupce i angažovanje koje generišemo, razumećete vrednost našeg pristupa zasnovanog na proviziji za celu vašu zgradu.",
+        "quote": "\"Mala investicija, veliki dokaz koncepta.\"",
+        "cost": "Tipičan trošak: €800-1.200 • Vaš trošak: €0"
+      }
+    },
+    "commission": {
+      "title": "Fer **Provizijska** Struktura",
+      "subtitle": "Mi uspevamo samo kada vi uspevate - nema skrivenih tarifa ili početnih troškova",
+      "standard": {
+        "title": "Standardni Servis",
+        "rate": "2-4%",
+        "description": "Kompletan servisni paket bez početnih troškova",
+        "coreServices": "Osnovni Servisi:",
+        "features": {
+          "website": "Profesionalan veb sajt + stranice stanova",
+          "media": "Kinematski medijski paket",
+          "marketing": "Multi-kanal marketing kampanje",
+          "legal": "Pravni konsijeriž servis",
+          "sales": "Posvećen prodajni tim",
+          "tracking": "Praćenje napretka i izveštavanje"
+        },
+        "included": "Šta je Uključeno:",
+        "details": {
+          "seo": "• Osnovna SEO optimizacija",
+          "photography": "• Standardna fotografija i dron snimci",
+          "ads": "• Google i Facebook reklame (3 meseca)",
+          "documentation": "• Standardna pravna dokumentacija",
+          "reports": "• Mesečni izveštaji o napretku"
+        }
+      },
+      "premium": {
+        "title": "Premium Servis",
+        "badge": "VIP",
+        "rate": "3-5.5%",
+        "description": "Premium servis sa ekskluzivnim pogodnostima i prioritetnim pristupom",
+        "everything": "Sve iz Standardnog +",
+        "features": {
+          "database": "Ekskluzivan pristup bazi kupaca",
+          "premiumMarketing": "Premium marketing kampanje",
+          "accountManager": "Lični menadžer računa",
+          "youtube": "YouTube videi i plaćene reklame",
+          "contentSeo": "Content marketing i SEO"
+        },
+        "benefits": "Premium Pogodnosti:",
+        "details": {
+          "seo": "• Napredni SEO i content marketing",
+          "video": "• Profesionalna video produkcija za YouTube",
+          "extended": "• Proširene reklamne kampanje (6 meseci)",
+          "priority": "• Prioritetan pristup našoj mreži kupaca",
+          "weekly": "• Nedeljni izveštaji o napretku",
+          "premiumLegal": "• Premium pravna podrška i ugovori",
+          "manager": "• Posvećen menadžer računa 24/7"
+        }
+      }
+    },
+    "marketExpansion": {
+      "title": "Rastuce **Regionalno Prisustvo**",
+      "subtitle": "Širimo naš premium servis širom regiona da poslužimo više investitora",
+      "serbia": {
+        "title": "Srbija",
+        "status": "Primarno Tržište",
+        "cities": {
+          "belgrade": "• Beograd",
+          "noviSad": "• Novi Sad",
+          "nis": "• Niš"
+        }
+      },
+      "montenegro": {
+        "title": "Crna Gora",
+        "status": "Tržište Širenja",
+        "cities": {
+          "budva": "• Budva",
+          "kotor": "• Kotor",
+          "podgorica": "• Podgorica"
+        }
+      },
+      "croatia": {
+        "title": "Hrvatska",
+        "status": "Tržište Širenja",
+        "cities": {
+          "zagreb": "• Zagreb",
+          "dubrovnik": "• Dubrovnik",
+          "split": "• Split"
+        }
+      }
+    },
+    "cta": {
+      "title": "Spremni da Transformišete Prodaju Svojih Nekretnina?",
+      "subtitle": "Pridružite se uspešnim investitorima koji su eliminisali početne troškove i povećali svoje povrate. Započnite sa besplatnom konsultacijom danas.",
+      "primary": "Besplatna Konsultacija",
+      "secondary": "Primeri Našeg Rada"
+    },
+    "vipCta": {
+      "badge": "Ograničena Dostupnost",
+      "title": "👉 Obezbedite Svoje VIP Investitorsko Mesto",
+      "subtitle": "Samo **2 VIP Nekretnine Prihvaćene Mesečno** — Ekstremna retkost stvara maksimalnu hitnost i osigurava kvalitet premium servisa. Pridružite se elitnim investitorima koji dobijaju ekskluzivan pristup.",
+      "button": "Prijaviti Se Sada"
+    },
+    "expandingNetwork": {
+      "title": "Pridružite Se Našoj Rastućoj Mreži",
+      "description": "Budite deo naše regionalne priče o rastu. Povezujte se sa premium nekretninama i investicionim prilikama širom Balkana.",
+      "cta": "Istražite Mogućnosti"
+    }
+  },
+  "Navigation": {
+    "costSavings": "Uštede Troškova",
+    "services": "Servisi",
+    "pricing": "Cene",
+    "useCases": "Primeri",
+    "consultation": "Besplatna Konsultacija",
+    "getStarted": "Započni"
   },
   "LocaleSwitcher": {
     "label": "Izaberite jezik",
     "en": "Engleski",
-    "rs": "Српски"
+    "rs": "Srpski"
   },
   "ComingSoon": {
     "badge": "Nešto Neverovatno Dolazi",
@@ -59,10 +380,1381 @@
         },
         "legalSupport": {
           "title": "Pravna Podrška",
-          "description": "Kompletna pravna koncijerž usluga koja osigurava glatke transakcije i usklađenost."
+          "description": "Kompletna pravna konsijeriž usluga koja osigurava glatke transakcije i usklađenost."
         }
       }
     },
     "copyright": "© {year} ProInvest. Sva prava zadržana."
+  },
+  "SEO": {
+    "title": "ProInvest - Prva u Srbiji Prodaja Nekretnina Bez Rizika | Livion Real Estate",
+    "description": "Vodeći srpski servis za prodaju nekretnina za investitore. Nulti početni troškovi, profesionalni marketing i garantovani rezultati. Širimo se na Crnu Goru i Hrvatsku.",
+    "keywords": "prodaja nekretnina, investicije u nekretnine, marketing nekretnina, Beograd, Novi Sad, Niš, Crna Gora, Hrvatska, bez rizika, profesionalni marketing, virtuelne ture, SEO optimizacija",
+    "serviceName": "Prodaja Nekretnina Bez Rizika",
+    "serviceDescription": "Kompletna usluga prodaje nekretnina bez početnih troškova. Profesionalni marketing, virtuelne ture, pravna podrška i prodajni tim.",
+    "servicePaymentDescription": "Plaćanje samo kada se nekretnina proda. Nema početnih troškova.",
+    "websiteDescription": "Vodeći srpski servis za prodaje nekretnina za investitore"
+  },
+  "Footer": {
+    "description": "Vodeći srpski servis za prodaju nekretnina za investitore. Nulti početni troškovi, profesionalni marketing i garantovani rezultati. Deo porodice Livion Real Estate.",
+    "ourServices": "Naši Servisi",
+    "propertyMarketing": "Marketing Nekretnina",
+    "virtualTours": "Virtuelne Ture",
+    "legalSupport": "Pravna Podrška",
+    "salesManagement": "Upravljanje Prodajom",
+    "progressTracking": "Praćenje Napretka",
+    "contactUs": "Kontaktirajte Nas",
+    "copyright": "© 2024 ProInvest od strane Livion Real Estate. Sva prava zadržana.",
+    "privacyPolicy": "Politika Privatnosti",
+    "termsOfService": "Uslovi Korišćenja",
+    "cookiePolicy": "Politika Kolačića",
+    "gdpr": "GDPR"
+  },
+  "UseCases": {
+    "header": {
+      "showcase": "ProInvest Prikaz",
+      "description": "Ovako će izgledati vaš veb sajt zgrade",
+      "backToProInvest": "Nazad na ProInvest",
+      "title": "Beograd Luksuzni Stanovi",
+      "subtitle": "Premium Život u Srcu Beograda",
+      "poweredBy": "Pokrenuto od strane ProInvest • Livion Real Estate"
+    },
+    "navigation": {
+      "overview": "Pregled",
+      "apartments": "Stanovi",
+      "location": "Lokacija",
+      "progress": "Napredak",
+      "contact": "Kontakt"
+    },
+    "hero": {
+      "constructionStatus": "Izgradnja: 75% Završeno",
+      "title": "Beograd Luksuzni Stanovi",
+      "description": "Premium život u srcu Beograda. 24 luksuzna stana sa svetskim sadržajima i zadivljujućim pogledom na grad.",
+      "viewUnits": "Pogledaj Dostupne Jedinice",
+      "virtualTour": "Virtuelna Tura"
+    },
+    "stats": {
+      "totalUnits": "Ukupno Jedinica",
+      "sold": "Prodato",
+      "available": "Dostupno",
+      "totalValue": "Ukupna Vrednost"
+    },
+    "overview": {
+      "title": "Luksuzni Život Redefinisan",
+      "description": "Beograd Luksuzni Stanovi nude neuporedivo iskustvo života u srcu srpske prestonice. Svaki stan je dizajniran sa premium materijalima i završnim radovima, sa otvorenim konceptom, podovima do plafona i privatnim balkonima sa zadivljujućim pogledom na grad.",
+      "features": {
+        "premiumLocation": "Premium Lokacija",
+        "security": "24/7 Bezbednost",
+        "parking": "Podzemno Parkiranje",
+        "fitness": "Fitnes Centar",
+        "garden": "Bašta Terasa",
+        "lounge": "Kafić Lounge"
+      },
+      "completion": {
+        "title": "Završetak",
+        "date": "Q2 2024"
+      }
+    },
+    "apartments": {
+      "title": "Dostupni Stanovi",
+      "description": "Izaberite iz naše selekcije premium stanova, svaki dizajniran za moderni luksuzni život",
+      "filter": "Filter",
+      "view": "Pregled",
+      "availableCount": "6 stanova dostupno",
+      "status": "Dostupno",
+      "viewDetails": "Pogledaj Detalje"
+    },
+    "location": {
+      "title": "Premijska Lokacija",
+      "description": "Locirani u srcu Beograda, naši stanovi nude lak pristup najboljim sadržajima grada, kulturnim atrakcijama i poslovnim distriktima. Sve što vam je potrebno je na nekoliko minuta.",
+      "distances": {
+        "center": "5 min do Beogradskog Centra",
+        "airport": "10 min do Aerodroma",
+        "metro": "2 min do Metro Stanice",
+        "shops": "Pješice do prodavnica"
+      },
+      "destinations": {
+        "center": "Beogradski Centar",
+        "airport": "Aerodrom",
+        "metro": "Metro Stanica",
+        "shops": "Prodavnice"
+      },
+      "methods": {
+        "byCar": "Automobilom",
+        "walking": "Pješice"
+      },
+      "benefits": {
+        "title": "Prednosti Premijske Lokacije",
+        "cityCenter": "Pristup centru grada",
+        "publicTransport": "Javni prevoz",
+        "shopping": "Prodavnice u blizini",
+        "airport": "Blizina aerodroma"
+      },
+      "mapPlaceholder": "Interaktivna Mapa"
+    },
+    "progress": {
+      "title": "Napredak Izgradnje",
+      "description": "Budite u toku sa napretkom naše izgradnje sa ažuriranjima u realnom vremenu",
+      "overallProgress": "Ukupan Napredak",
+      "milestones": {
+        "sitePreparation": {
+          "title": "Priprema Terena i Iskopavanje",
+          "date": "15. januar 2024",
+          "description": "Terrain očišćen, temeljni rovovi iskopani"
+        },
+        "foundation": {
+          "title": "Temelj i Podrum",
+          "date": "28. februar 2024",
+          "description": "Betonski temelj izliven, zidovi podruma završeni"
+        },
+        "structural": {
+          "title": "Strukturni Okvir",
+          "date": "15. mart 2024",
+          "description": "Čelična struktura podignuta, podovi instalirani"
+        },
+        "exterior": {
+          "title": "Spoljašnji Zidovi i Krov",
+          "date": "10. april 2024",
+          "description": "Instalacija fasade, hidroizolacija krova"
+        },
+        "mep": {
+          "title": "MEP Sistemi",
+          "date": "30. april 2024",
+          "description": "Instalacija elektrike, vodovoda, HVAC"
+        },
+        "interior": {
+          "title": "Unutrašnji Završni Radovi",
+          "date": "U Toku - 60%",
+          "description": "Gipsane ploče, podovi, instalacija kuhinje"
+        },
+        "amenities": {
+          "title": "Sadržaji i Pejzaž",
+          "date": "15. maj 2024",
+          "description": "Instalacija teretane, lounge-a, bašte"
+        },
+        "inspection": {
+          "title": "Finalna Inspekcija i Predaja",
+          "date": "1. jun 2024",
+          "description": "Kontrola kvaliteta, dozvole, predaja"
+        }
+      },
+      "photosPlaceholder": "Najnovije Fotografije Izgradnje"
+    },
+    "contact": {
+      "urgency": {
+        "badge": "Premium Stanovi Dostupni"
+      },
+      "title": "Spremni da Budete Vlasnik Vašeg San Stan?",
+      "description": "Zakupite svoj stan u najprestižnijem stambenom kompleksu u Beogradu. Ograničeni broj jedinica dostupan sa ekskluzivnim cenama pre završetka izgradnje i premium opremom.",
+      "value": {
+        "fast": {
+          "title": "Cene Pre Završetka",
+          "description": "Najbolje cene pre završetka"
+        },
+        "expert": {
+          "title": "Premium Lokacija",
+          "description": "Prva lokacija u Beogradu"
+        },
+        "guaranteed": {
+          "title": "Luksuzna Oprema",
+          "description": "Visokokvalitetni materijali uključeni"
+        }
+      },
+      "call": {
+        "title": "Pozovite za Informacije o Stanu",
+        "description": "Razgovarajte sa našim prodajnim stručnjakom o dostupnim jedinicama, cenama i napretku izgradnje. Dobijte detaljne informacije o vašem budućem domu.",
+        "phone": "+381 11 123 4567",
+        "urgency": "Dostupno ponedeljak-petak, 9-18h"
+      },
+      "email": {
+        "title": "Dobijte Detalje o Stanu",
+        "description": "Zatražite detaljne informacije o dostupnim stanovima, tlocrtima i cenama. Dobijte sveobuhvatnu dokumentaciju projekta.",
+        "address": "info@belgradeluxury.com",
+        "cta": "Zatražite Informacije",
+        "response": "Odgovaramo u roku od 24 sata"
+      },
+      "visit": {
+        "title": "Zakazati Posetu Gradilišta",
+        "description": "Rezervišite vođenu turu gradilišta i showroom-a. Vidite napredak i kvalitet vašeg budućeg stana.",
+        "cta": "Rezervišite Posetu",
+        "availability": "Dostupno po dogovoru"
+      },
+      "socialProof": {
+        "title": "Poverenje Kupaca Stanova",
+        "rating": "4.9/5",
+        "description": "Premium stambeni kompleks sa dokazanim kvalitetom"
+      },
+      "stats": {
+        "properties": "24",
+        "propertiesLabel": "Luksuzni Stanovi",
+        "sold": "75%",
+        "soldLabel": "Napredak Izgradnje",
+        "satisfaction": "98%",
+        "satisfactionLabel": "Zadovoljstvo Kupaca"
+      },
+      "finalCta": {
+        "urgency": "Ograničeni Broj Jedinica",
+        "call": "Pozovite za Informacije o Stanu",
+        "schedule": "Zakazati Posetu Gradilišta",
+        "guarantee": "Premium kvalitet sa garancijom izgradnje"
+      }
+    },
+    "footer": {
+      "title": "Beograd Luksuzni Stanovi",
+      "description": "Premium život u srcu Beograda. Doživite luksuz redefinisan.",
+      "quickLinks": "Brze Veze",
+      "contact": "Kontakt",
+      "followUs": "Pratite Nas",
+      "copyright": "© 2024 Beograd Luksuzni Stanovi. Sva prava zadržana."
+    },
+    "expandingNetwork": {
+      "title": "Pridružite Se Našoj Rastućoj Mreži",
+      "description": "Budite deo naše regionalne priče o rastu. Povezujte se sa premium nekretninama i investicionim prilikama širom Balkana.",
+      "cta": "Istražite Mogućnosti"
+    }
+  },
+  "GetStarted": {
+    "hero": {
+      "urgencyBadge": "HITNO: Samo 2 VIP Mesta Dostupna Ovaj Mesec",
+      "title": "Obezbedite Svoje VIP Mesto",
+      "titleHighlight": "Pre Nego Što Nestane",
+      "description": "👉 <strong>Samo 2 VIP Nekretnine Prihvaćene Mesečno</strong> — Ne propustite priliku da se pridružite najekskluzivnijem srpskom programu za prodaju nekretnina.",
+      "badges": {
+        "limitedTime": "Ograničeno Vreme",
+        "premiumAccess": "Premium Pristup",
+        "zeroRisk": "Nulti Rizik"
+      }
+    },
+    "urgency": {
+      "title": "Vreme Ističe",
+      "description": "Ne propustite priliku da se pridružite najekskluzivnijem srpskom programu za prodaju nekretnina.",
+      "subtitle": "Samo 2 VIP mesta dostupna ovaj mesec — ko prvi, taj prvi.",
+      "stats": {
+        "upfrontInvestment": "Početna Investicija",
+        "vipSpotsAvailable": "VIP Mesta Dostupna",
+        "riskFreeTrial": "Pokušaj Bez Rizika"
+      }
+    },
+    "applicationForm": {
+      "title": "Prijavite Se za VIP Investitorski Pristup",
+      "description": "Popunite ovaj formular da obezbedite svoje ekskluzivno VIP mesto. Kontaktiraćemo vas u roku od 24 sata.",
+      "form": {
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "email": "Email Adresa",
+        "phone": "Broj Telefona",
+        "company": "Kompanija/Organizacija",
+        "propertyLocation": "Lokacija Nekretnine",
+        "propertyValue": "Raspon Vrednosti Nekretnine",
+        "timeline": "Rok za Prodaju",
+        "additionalInfo": "Dodatne Informacije",
+        "placeholders": {
+          "firstName": "Unesite vaše ime",
+          "lastName": "Unesite vaše prezime",
+          "email": "vas@email.com",
+          "phone": "+381 XX XXX XXX",
+          "company": "Naziv vaše kompanije (opciono)",
+          "propertyLocation": "Izaberite lokaciju vaše nekretnine",
+          "propertyValue": "Izaberite raspon vrednosti nekretnine",
+          "timeline": "Izaberite vaš rok",
+          "additionalInfo": "Recite nam o vašoj nekretnini, specifičnim zahtevima ili pitanjima..."
+        },
+        "locations": {
+          "belgrade": "Beograd",
+          "noviSad": "Novi Sad",
+          "nis": "Niš",
+          "budva": "Budva (Crna Gora)",
+          "kotor": "Kotor (Crna Gora)",
+          "podgorica": "Podgorica (Crna Gora)",
+          "zagreb": "Zagreb (Hrvatska)",
+          "dubrovnik": "Dubrovnik (Hrvatska)",
+          "split": "Split (Hrvatska)",
+          "other": "Ostalo"
+        },
+        "valueRanges": {
+          "under100k": "Ispod €100.000",
+          "100k200k": "€100.000 - €200.000",
+          "200k350k": "€200.000 - €350.000",
+          "350k500k": "€350.000 - €500.000",
+          "500k1m": "€500.000 - €1.000.000",
+          "over1m": "Preko €1.000.000"
+        },
+        "timelines": {
+          "immediate": "Odmah (u roku od 1 mesec)",
+          "1to3months": "1-3 meseca",
+          "3to6months": "3-6 meseci",
+          "6to12months": "6-12 meseci",
+          "flexible": "Fleksibilno"
+        }
+      },
+      "nextSteps": {
+        "title": "Šta Se Dešava Dalje?",
+        "steps": [
+          "Pregledaćemo vašu prijavu u roku od 24 sata",
+          "Zakazati besplatni konsultacijski poziv da razgovorimo o vašoj nekretnini",
+          "Dobiti prilagođenu ponudu za vaš VIP servisni paket",
+          "Početi sa našim 100% besplatnim projektom prezentacije (bez obaveza)"
+        ]
+      },
+      "submitButton": "🚀 Obezbedite Svoje VIP Mesto Sada",
+      "disclaimer": "Slanjem ovog formulara, slažete se sa našim uslovima i politikom privatnosti.",
+      "guarantee": "Nema početnih troškova • Nema obaveza • 100% bez rizika"
+    },
+    "whyChooseUs": {
+      "title": "Zašto Izabrati Naš VIP Servis?",
+      "features": {
+        "extremeScarcity": {
+          "title": "Ekskluzivan Pristup",
+          "description": "Pridružite se elitnom krugu investitora koji dobijaju prioritetni pristup našim najuspešnijim strategijama prodaje nekretnina."
+        },
+        "zeroRiskTrial": {
+          "title": "Pokušaj Bez Rizika",
+          "description": "Počnite sa našim 100% besplatnim projektom prezentacije. Nema početnih troškova, nema potrebne obaveze."
+        },
+        "premiumResults": {
+          "title": "Premium Rezultati",
+          "description": "Naši VIP klijenti vide 15-25% više cene prodaje i 2-3x brže prodaje u poređenju sa DIY pristupom."
+        }
+      }
+    }
+  },
+  "Consultation": {
+    "badge": "AI-Powered Konsultacija",
+    "title": "Dobijte Vašu AI-Generisanu Strategiju Prodaje Nekretnina",
+    "subtitle": "Naš inteligentni sistem analizira vašu situaciju i kreira personalizovanu strategiju. Bez obaveza, bez rizika - samo stručni uvidi prilagođeni vašoj specifičnoj situaciji.",
+    "progress": "Napredak",
+    "previous": "Prethodno",
+    "next": "Sledeće",
+    "complete": "Generiši Moj Izveštaj",
+    "contactPlaceholder": "Molimo unesite vaše ime, email i broj telefona da bismo vam poslali vašu personalizovanu ponudu...",
+    "ai": {
+      "analyzing": "AI Analizira Vašu Situaciju",
+      "analyzingDescription": "Naš inteligentni sistem obrađuje vaše odgovore da generiše vašu personalizovanu strategiju prodaje nekretnina..."
+    },
+    "report": {
+      "title": "Vaš AI-Generisan Izveštaj o Prodaji Nekretnina",
+      "subtitle": "Na osnovu vaših odgovora, naš AI je kreirao sveobuhvatnu analizu i strategiju za vaš uspeh u prodaji nekretnina.",
+      "propertyAnalysis": "Analiza Nekretnine",
+      "propertyType": "Tip Nekretnine",
+      "location": "Lokacija",
+      "value": "Procenjena Vrednost",
+      "timeline": "Rok",
+      "recommendations": "AI Preporuke",
+      "recommendedService": "Preporučeni Servis",
+      "urgency": "Nivo Hitnosti",
+      "estimatedSavings": "Procenjene Uštede",
+      "riskLevel": "Procena Rizika",
+      "nextSteps": "Preporučeni Sledeći Koraci",
+      "valueProposition": "Zašto Izabrati Naš Servis?",
+      "valueDescription": "Naša AI analiza pokazuje da možete uštedeti značajne novac i vreme dok smanjujete rizik na nulu.",
+      "zeroRisk": "Nulti Rizik",
+      "fastResults": "Brzi Rezultati",
+      "professional": "Profesionalno",
+      "cta": "Dobijte Moju Personalizovanu Ponudu"
+    }
+  },
+  "ProgressTracking": {
+    "seo": {
+      "title": "Praćenje Napretka za Nekretnine | ProInvest - Praćenje Napretka Izgradnje",
+      "description": "Profesionalno praćenje napretka za projekte izgradnje nekretnina. Ažuriranja u realnom vremenu, praćenje milestona, dashboard investitora. Nulti početni troškovi, plaćanje samo kada se nekretnine prodaju.",
+      "keywords": "praćenje napretka, napredak izgradnje, praćenje nekretnina, praćenje projekta, milestoni izgradnje, dashboard investitora, ažuriranja izgradnje, praćenje razvoja nekretnina"
+    },
+    "hero": {
+      "badge": "Praćenje u Realnom Vremenu",
+      "title": "Praćenje Napretka koje Vas Informiše",
+      "subtitle": "Sveobuhvatno praćenje napretka za vaše projekte izgradnje nekretnina. Od ažuriranja u realnom vremenu do praćenja milestona, budite informisani o svakom aspektu vaše investicije.",
+      "ctaPrimary": "Započni Besplatnu Konsultaciju",
+      "ctaSecondary": "Pogledaj Primere Napretka"
+    },
+    "services": {
+      "title": "Kompletno Praćenje Napretka",
+      "subtitle": "Pružamo sveobuhvatne servise praćenja napretka dizajnirane posebno za projekte izgradnje nekretnina i investitore.",
+      "realTimeUpdates": {
+        "title": "Ažuriranja u Realnom Vremenu",
+        "description": "Živa ažuriranja izgradnje i obaveštenja o napretku da budete informisani o svakom razvoju u vašem projektu.",
+        "live": "Živi feed-ovi izgradnje",
+        "notifications": "Obaveštenja o napretku",
+        "alerts": "Upozorenja o milestonima"
+      },
+      "milestones": {
+        "title": "Milestoni Izgradnje",
+        "description": "Detaljno praćenje milestona izgradnje sa procentima završetka i predviđanjem vremenske linije.",
+        "tracking": "Praćenje milestona",
+        "completion": "Procenti završetka",
+        "forecasting": "Predviđanje vremenske linije"
+      },
+      "dashboard": {
+        "title": "Dashboard Investitora",
+        "description": "Sveobuhvatan dashboard sa analitikama, izveštajima i uvidima o napretku vašeg projekta izgradnje.",
+        "analytics": "Analitike napretka",
+        "reports": "Detaljni izveštaji",
+        "insights": "Uvidi o projektu"
+      }
+    },
+    "process": {
+      "title": "Naš Proces Praćenja Napretka",
+      "subtitle": "Sistemski pristup praćenju i izveštavanju o napretku vašeg projekta izgradnje.",
+      "step1": {
+        "title": "Postavljanje Projekta",
+        "description": "Postavljamo sveobuhvatne sisteme praćenja za vaš projekat izgradnje sa svim potrebnim tačkama praćenja."
+      },
+      "step2": {
+        "title": "Prikupljanje Podataka",
+        "description": "Kontinuirano prikupljanje podataka sa gradilišta, izvođača i menadžera projekta."
+      },
+      "step3": {
+        "title": "Analiza i Izveštavanje",
+        "description": "Redovna analiza podataka o napretku i generisanje detaljnih izveštaja za zainteresovane strane."
+      },
+      "step4": {
+        "title": "Komunikacija",
+        "description": "Redovna komunikacija ažuriranja napretka svim zainteresovanim stranama preko više kanala."
+      }
+    },
+    "benefits": {
+      "title": "Zašto Izabrati Naše Praćenje Napretka",
+      "subtitle": "Naš pristup praćenja napretka pruža sveobuhvatnu vidljivost i mir za vaše investicije u izgradnju.",
+      "benefit1": {
+        "title": "Nulti Početni Troškovi",
+        "description": "Nema početnih troškova postavljanja praćenja potrebnih. Mi uspevamo samo kada vaš projekat uspe."
+      },
+      "benefit2": {
+        "title": "Vidljivost u Realnom Vremenu",
+        "description": "Potpuna vidljivost u napredak vašeg projekta izgradnje sa ažuriranjima u realnom vremenu i obaveštenjima."
+      },
+      "benefit3": {
+        "title": "Profesionalno Praćenje",
+        "description": "Profesionalni sistemi praćenja sa iskusnim menadžerima projekta koji nadgledaju napredak vaše izgradnje."
+      },
+      "benefit4": {
+        "title": "Detaljno Izveštavanje",
+        "description": "Sveobuhvatno izveštavanje sa fotografijama, videima i detaljnom dokumentacijom napretka."
+      },
+      "benefit5": {
+        "title": "Upravljanje Rizikom",
+        "description": "Rana identifikacija potencijalnih kašnjenja i problema za minimizovanje rizika vaše investicije."
+      },
+      "benefit6": {
+        "title": "Komunikacija sa Zainteresovanim Stranama",
+        "description": "Redovna komunikacija sa svim zainteresovanim stranama da svi budu informisani o napretku projekta."
+      }
+    },
+    "features": {
+      "title": "Napredne Funkcije Praćenja",
+      "subtitle": "Naš sistem praćenja napretka pruža sveobuhvatne mogućnosti praćenja i izveštavanja.",
+      "stat1": {
+        "value": "24/7",
+        "label": "Praćenje"
+      },
+      "stat2": {
+        "value": "Realno Vreme",
+        "label": "Ažuriranja"
+      },
+      "stat3": {
+        "value": "100%",
+        "label": "Transparentnost"
+      },
+      "cta": "Započni Praćenje Napretka"
+    },
+    "technology": {
+      "title": "Napredna Tehnologija Praćenja",
+      "subtitle": "Koristimo najnoviju tehnologiju za pružanje sveobuhvatnog praćenja napretka i praćenja.",
+      "tech1": {
+        "title": "IoT Senzori",
+        "description": "Internet of Things senzori za praćenje izgradnje u realnom vremenu."
+      },
+      "tech2": {
+        "title": "Dron Nadzor",
+        "description": "Redovni letovi dronova za aerodokumentaciju napretka."
+      },
+      "tech3": {
+        "title": "AI Analitike",
+        "description": "Veštačka inteligencija za analizu napretka i predviđanje."
+      },
+      "tech4": {
+        "title": "Mobilne Aplikacije",
+        "description": "Mobilne aplikacije za praćenje napretka u pokretu."
+      }
+    },
+    "contact": {
+      "title": "Dobijte Podršku Praćenja Napretka",
+      "subtitle": "Kontaktirajte naš tim za praćenje napretka za neposrednu pomoć sa vašim potrebama praćenja izgradnje.",
+      "phone": {
+        "title": "Pozovite Tim za Praćenje",
+        "description": "Razgovarajte direktno sa našim stručnjacima za praćenje napretka",
+        "number": "+381 11 123 4567",
+        "availability": "Dostupno ponedeljak-petak, 9-18h"
+      },
+      "email": {
+        "title": "Email Tim za Praćenje",
+        "description": "Pošaljte detaljne upite o praćenju napretka",
+        "address": "tracking@proinvest.com",
+        "response": "Odgovaramo u roku od 2 sata"
+      }
+    },
+    "cta": {
+      "title": "Spremni da Pratite Napredak Vaše Izgradnje?",
+      "subtitle": "Dobijte profesionalno praćenje napretka koje vas informiše i osigurava da vaš projekat izgradnje ostane na pravom putu.",
+      "primary": "Započni Besplatnu Konsultaciju o Napretku",
+      "secondary": "Pogledaj Servise Praćenja"
+    }
+  },
+  "SalesManagement": {
+    "seo": {
+      "title": "Upravljanje Prodajom za Nekretnine | ProInvest - Profesionalni Servisi Prodaje",
+      "description": "Profesionalno upravljanje prodajom za nekretnine. Posvećeni prodajni timovi, upravljanje potencijalnim kupcima, analitike performansi. Nulti početni troškovi, plaćanje samo kada se nekretnine prodaju.",
+      "keywords": "upravljanje prodajom, prodaja nekretnina, prodaja nekretnina, prodajni tim, upravljanje potencijalnim kupcima, analitike prodaje, servisi prodaje nekretnina, podrška prodaje nekretnina"
+    },
+    "hero": {
+      "badge": "Izvrsnost Prodaje",
+      "title": "Upravljanje Prodajom koje Donosi Rezultate",
+      "subtitle": "Profesionalni servisi upravljanja prodajom koji maksimizuju potencijal prodaje vaših nekretnina. Od posvećenih timova do analitika performansi, vodimo računa o svakom aspektu vašeg prodajnog procesa.",
+      "ctaPrimary": "Započni Besplatnu Konsultaciju",
+      "ctaSecondary": "Pogledaj Servise Prodaje"
+    },
+    "services": {
+      "title": "Kompletno Upravljanje Prodajom",
+      "subtitle": "Pružamo sveobuhvatne servise upravljanja prodajom dizajnirane posebno za investitore u nekretnine i prodaju nekretnina.",
+      "dedicatedTeam": {
+        "title": "Posvećen Prodajni Tim",
+        "description": "Profesionalni prodajni agenti posvećeni prodaji vaših nekretnina sa obimnim iskustvom u nekretninama i dokazanim rezultatima.",
+        "professional": "Profesionalni prodajni agenti",
+        "training": "Kontinuirano obučavanje",
+        "support": "24/7 prodajna podrška"
+      },
+      "leadManagement": {
+        "title": "Upravljanje Potencijalnim Kupcima",
+        "description": "Sveobuhvatni sistemi za snimanje, kvalifikovanje i negovanje potencijalnih kupaca za maksimizovanje vaših prodajnih prilika.",
+        "capture": "Sistemi za snimanje potencijalnih kupaca",
+        "qualification": "Kvalifikovanje potencijalnih kupaca",
+        "nurturing": "Kampanje za negovanje potencijalnih kupaca"
+      },
+      "analytics": {
+        "title": "Analitike Performansi",
+        "description": "Detaljne analitike i izveštavanje za praćenje performansi prodaje i optimizaciju vaše prodajne strategije.",
+        "tracking": "Praćenje prodaje",
+        "reporting": "Izveštavanje o performansama",
+        "optimization": "Optimizacija strategije"
+      }
+    },
+    "process": {
+      "title": "Naš Prodajni Proces",
+      "subtitle": "Dokazana prodajna metodologija koja donosi konzistentne rezultate za prodaju vaših nekretnina.",
+      "step1": {
+        "title": "Generisanje Potencijalnih Kupaca",
+        "description": "Generišemo kvalifikovane potencijalne kupce preko više kanala i marketing strategija."
+      },
+      "step2": {
+        "title": "Kvalifikovanje Potencijalnih Kupaca",
+        "description": "Naš tim kvalifikuje potencijalne kupce da osigura da su ozbiljni kupci sa odgovarajućom finansijskom sposobnošću."
+      },
+      "step3": {
+        "title": "Prodajni Proces",
+        "description": "Profesionalni prodajni agenti vode potencijalne kupce kroz ceo proces kupovine."
+      },
+      "step4": {
+        "title": "Zatvaranje i Praćenje",
+        "description": "Vodimo računa o pregovorima ugovora, procedurama zatvaranja i praćenju nakon prodaje."
+      }
+    },
+    "benefits": {
+      "title": "Zašto Izabrati Naše Upravljanje Prodajom",
+      "subtitle": "Naš pristup upravljanja prodajom donosi merljive rezultate i maksimizuje potencijal prodaje vaših nekretnina.",
+      "benefit1": {
+        "title": "Nulti Početni Troškovi",
+        "description": "Nema početnih troškova upravljanja prodajom potrebnih. Mi uspevamo samo kada se vaše nekretnine prodaju."
+      },
+      "benefit2": {
+        "title": "Profesionalni Prodajni Tim",
+        "description": "Iskusni prodajni profesionalci sa dubokim znanjem tržišta nekretnina i psihologije kupaca."
+      },
+      "benefit3": {
+        "title": "Dokazani Prodajni Proces",
+        "description": "Sistemski pristup prodaji koji je usavršen kroz stotine uspešnih transakcija."
+      },
+      "benefit4": {
+        "title": "Generisanje Potencijalnih Kupaca",
+        "description": "Sveobuhvatne strategije generisanja potencijalnih kupaca za osiguravanje stabilnog toka kvalifikovanih potencijalnih kupaca."
+      },
+      "benefit5": {
+        "title": "Praćenje Performansi",
+        "description": "Detaljne analitike i izveštavanje za merenje performansi prodaje i identifikovanje prilika za optimizaciju."
+      },
+      "benefit6": {
+        "title": "Posvećena Podrška",
+        "description": "Lični menadžer prodaje i posvećen tim za upravljanje svim aspektima prodaje vaših nekretnina."
+      }
+    },
+    "results": {
+      "title": "Dokazani Rezultati Prodaje",
+      "subtitle": "Naše strategije upravljanja prodajom su pomogle investitorima da postignu izuzetne rezultate prodaje.",
+      "stat1": {
+        "value": "2-3x",
+        "label": "Brže Prodaje"
+      },
+      "stat2": {
+        "value": "15-25%",
+        "label": "Više Cene"
+      },
+      "stat3": {
+        "value": "95%",
+        "label": "Zadovoljstvo Kupaca"
+      },
+      "cta": "Započni Svoje Upravljanje Prodajom"
+    },
+    "contact": {
+      "title": "Dobijte Podršku Upravljanja Prodajom",
+      "subtitle": "Kontaktirajte naš prodajni tim za neposrednu pomoć sa prodajom vaših nekretnina.",
+      "phone": {
+        "title": "Pozovite Prodajni Tim",
+        "description": "Razgovarajte direktno sa našim prodajnim stručnjacima",
+        "number": "+381 11 123 4567",
+        "availability": "Dostupno ponedeljak-petak, 9-18h"
+      },
+      "email": {
+        "title": "Email Prodajni Tim",
+        "description": "Pošaljte detaljne prodajne upite",
+        "address": "sales@proinvest.com",
+        "response": "Odgovaramo u roku od 1 sata"
+      }
+    },
+    "cta": {
+      "title": "Spremni da Maksimizujete Prodaju Svojih Nekretnina?",
+      "subtitle": "Dobijte profesionalno upravljanje prodajom koje ubrzava vaše prodaje i maksimizuje vaše povrate.",
+      "primary": "Započni Besplatnu Prodajnu Konsultaciju",
+      "secondary": "Pogledaj Servise Prodaje"
+    }
+  },
+  "LegalSupport": {
+    "seo": {
+      "title": "Pravna Podrška za Nekretnine | ProInvest - Profesionalni Pravni Servisi",
+      "description": "Profesionalna pravna podrška za transakcije nekretnina. Upravljanje ugovorima, verifikacija usklađenosti, pravni konsijeriž servisi. Nulti početni troškovi, plaćanje samo kada se nekretnine prodaju.",
+      "keywords": "pravna podrška, pravni servisi nekretnina, upravljanje ugovorima, usklađenost, pravni konsijeriž, pravo nekretnina, transakcije nekretnina, pravna verifikacija"
+    },
+    "hero": {
+      "badge": "Pravna Izvrsnost",
+      "title": "Pravna Podrška koja Štiti",
+      "subtitle": "Sveobuhvatni pravni servisi za vaše transakcije nekretnina. Od upravljanja ugovorima do verifikacije usklađenosti, osiguravamo da su vaši poslovi sigurni i pravno ispravni.",
+      "ctaPrimary": "Započni Besplatnu Konsultaciju",
+      "ctaSecondary": "Pogledaj Pravne Servise"
+    },
+    "services": {
+      "title": "Kompletni Pravni Servisi",
+      "subtitle": "Pružamo sveobuhvatnu pravnu podršku dizajniranu posebno za investitore u nekretnine i transakcije nekretnina.",
+      "contractManagement": {
+        "title": "Upravljanje Ugovorima",
+        "description": "Profesionalno kreiranje, pregled i pregovaranje ugovora za zaštitu vaših interesa u svakoj transakciji.",
+        "drafting": "Kreiranje ugovora",
+        "review": "Pravni pregled",
+        "negotiation": "Pregovaranje ugovora"
+      },
+      "compliance": {
+        "title": "Usklađenost i Verifikacija",
+        "description": "Temeljita verifikacija i provere usklađenosti da se osigura da su svi pravni zahtevi ispunjeni za vaše transakcije.",
+        "verification": "Verifikacija kupaca",
+        "regulatory": "Regulatorna usklađenost",
+        "documentation": "Pravna dokumentacija"
+      },
+      "legalConcierge": {
+        "title": "Pravni Konsijeriž",
+        "description": "Posvećen tim za pravnu podršku koji pruža smernice i pomoć tokom vaših transakcija nekretnina.",
+        "dedicated": "Posvećen pravni tim",
+        "support": "24/7 pravna podrška",
+        "guidance": "Stručne pravne smernice"
+      }
+    },
+    "process": {
+      "title": "Naš Pravni Proces",
+      "subtitle": "Sistemski pristup osiguravanju da su vaše transakcije nekretnina pravno ispravne i sigurne.",
+      "step1": {
+        "title": "Početna Procena",
+        "description": "Pregledamo vašu transakciju i identifikujemo sve pravne zahteve i potencijalne probleme."
+      },
+      "step2": {
+        "title": "Priprema Dokumenata",
+        "description": "Profesionalno kreiranje i priprema svih potrebnih pravnih dokumenata i ugovora."
+      },
+      "step3": {
+        "title": "Verifikacija i Usklađenost",
+        "description": "Temeljita verifikacija svih strana i usklađenost sa pravnim zahtevima i regulativama."
+      },
+      "step4": {
+        "title": "Podrška Transakcije",
+        "description": "Kontinuirana pravna podrška tokom celog procesa transakcije do uspešnog završetka."
+      }
+    },
+    "benefits": {
+      "title": "Zašto Izabrati Naše Pravne Servise",
+      "subtitle": "Naša pravna podrška pruža sveobuhvatnu zaštitu i mir za vaše investicije u nekretnine.",
+      "benefit1": {
+        "title": "Nulti Početni Troškovi",
+        "description": "Nema početnih pravnih troškova potrebnih. Mi uspevamo samo kada vaša transakcija uspe."
+      },
+      "benefit2": {
+        "title": "Stručan Pravni Tim",
+        "description": "Iskusni advokati za nekretnine sa dubokim znanjem prava nekretnina i regulativa."
+      },
+      "benefit3": {
+        "title": "Sveobuhvatna Zaštita",
+        "description": "Potpuna pravna pokrivenost od kreiranja ugovora do završetka transakcije i dalje."
+      },
+      "benefit4": {
+        "title": "Smanjenje Rizika",
+        "description": "Proaktivna identifikacija i ublažavanje pravnih rizika pre nego što postanu problemi."
+      },
+      "benefit5": {
+        "title": "Garantija Usklađenosti",
+        "description": "Potpuna usklađenost sa svim pravnim zahtevima i regulatornim standardima."
+      },
+      "benefit6": {
+        "title": "Posvećena Podrška",
+        "description": "Lični pravni konsijeriž servis sa direktnim pristupom vašem pravnom timu."
+      }
+    },
+    "expertise": {
+      "title": "Pravna Stručnost",
+      "subtitle": "Naš pravni tim donosi decenije iskustva u pravu nekretnina i transakcijama nekretnina.",
+      "stat1": {
+        "value": "15+",
+        "label": "Godina Iskustva"
+      },
+      "stat2": {
+        "value": "500+",
+        "label": "Završenih Transakcija"
+      },
+      "stat3": {
+        "value": "100%",
+        "label": "Pravna Usklađenost"
+      },
+      "cta": "Započni Pravnu Konsultaciju"
+    },
+    "contact": {
+      "title": "Dobijte Pravnu Podršku",
+      "subtitle": "Kontaktirajte naš pravni tim za neposrednu pomoć sa vašim transakcijama nekretnina.",
+      "phone": {
+        "title": "Pozovite Pravni Tim",
+        "description": "Razgovarajte direktno sa našim pravnim stručnjacima",
+        "number": "+381 11 123 4567",
+        "availability": "Dostupno ponedeljak-petak, 9-18h"
+      },
+      "email": {
+        "title": "Email Pravni Tim",
+        "description": "Pošaljite detaljne pravne upite",
+        "address": "legal@proinvest.com",
+        "response": "Odgovaramo u roku od 2 sata"
+      }
+    },
+    "cta": {
+      "title": "Spremni da Obezbedite Svoje Transakcije Nekretnina?",
+      "subtitle": "Dobijte profesionalnu pravnu podršku koja štiti vaše investicije i osigurava glatke transakcije.",
+      "primary": "Započni Besplatnu Pravnu Konsultaciju",
+      "secondary": "Pogledaj Pravne Servise"
+    }
+  },
+  "VirtualTours": {
+    "seo": {
+      "title": "Virtuelne Ture za Nekretnine | ProInvest - 360° Virtuelne Ture Nekretnina",
+      "description": "Profesionalne virtuelne ture za nekretnine. 360° interaktivne ture, video obilasci i interaktivni planovi osnova. Nulti početni troškovi, plaćanje samo kada se nekretnine prodaju.",
+      "keywords": "virtuelne ture, 360 ture, virtuelne ture nekretnina, interaktivne ture, video ture, planovi osnova, marketing nekretnina"
+    },
+    "hero": {
+      "badge": "Imerzivna Tehnologija",
+      "title": "Virtuelne Ture koje Prodaju",
+      "subtitle": "Oživite svoje nekretnine sa našom najnovijom tehnologijom virtuelnih tura. 360° interaktivna iskustva koja angažuju kupce i ubrzavaju prodaju.",
+      "ctaPrimary": "Započni Besplatnu Konsultaciju",
+      "ctaSecondary": "Pogledaj Primer Tura"
+    },
+    "types": {
+      "title": "Rešenja za Virtuelne Ture",
+      "subtitle": "Više formata virtuelnih tura za predstavljanje vaših nekretnina na najangažovaniji mogući način.",
+      "threeSixty": {
+        "title": "360° Interaktivne Ture",
+        "description": "Potpuno imerzivne 360° virtuelne ture koje omogućavaju kupcima da istraže svaki ugao vaše nekretnine sa bilo kog mesta na svetu.",
+        "interactive": "Interaktivna navigacija",
+        "mobile": "Optimizovano za mobilne",
+        "embed": "Lako za ugradnju"
+      },
+      "videoTours": {
+        "title": "Video Obilasci",
+        "description": "Profesionalni narator video ture koje vode potencijalne kupce kroz vašu nekretninu sa stručnim komentarom.",
+        "narrated": "Profesionalna naracija",
+        "hd": "HD kvalitet videa",
+        "shareable": "Lako za deljenje"
+      },
+      "floorPlans": {
+        "title": "Interaktivni Planovi Osnova",
+        "description": "Klikabilni planovi osnova sa detaljnim merenjima, informacijama o sobama i virtuelnim postavljanjem nameštaja.",
+        "clickable": "Klikabilne sobe",
+        "measurements": "Detaljna merenja",
+        "furniture": "Virtuelni nameštaj"
+      }
+    },
+    "features": {
+      "title": "Napredne Funkcije Virtuelnih Tura",
+      "subtitle": "Naše virtuelne ture dolaze sa moćnim funkcijama koje poboljšavaju iskustvo kupaca i pokreću prodaju.",
+      "feature1": {
+        "title": "360° Navigacija",
+        "description": "Glatka, intuitivna navigacija koja omogućava kupcima da istraže svaki ugao vaše nekretnine."
+      },
+      "feature2": {
+        "title": "Mobilno Responzivno",
+        "description": "Optimizovano za sve uređaje - desktop, tablet i mobilni za maksimalnu pristupačnost."
+      },
+      "feature3": {
+        "title": "VR Kompatibilno",
+        "description": "Podrška za Virtual Reality za ultimativno imerzivno iskustvo pregleda nekretnine."
+      },
+      "feature4": {
+        "title": "Praćenje Analitike",
+        "description": "Detaljne analitike o angažovanju gledalaca, vremenu provedenom i popularnim oblastima."
+      },
+      "feature5": {
+        "title": "Snimanje Potencijalnih Kupaca",
+        "description": "Ugrađene forme za snimanje potencijalnih kupaca za prikupljanje kontakt informacija od zainteresovanih gledalaca."
+      },
+      "feature6": {
+        "title": "Društveno Deljenje",
+        "description": "Lako deljenje preko društvenih mreža za maksimalnu ekspoziciju nekretnine."
+      }
+    },
+    "process": {
+      "title": "Naš Proces Virtuelnih Tura",
+      "subtitle": "Pojednostavljeni proces za kreiranje zadivljujućih virtuelnih tura za vaše nekretnine.",
+      "step1": {
+        "title": "Procena Nekretnine",
+        "description": "Procenjujemo vašu nekretninu i planiramo optimalno iskustvo ture."
+      },
+      "step2": {
+        "title": "Profesionalno Snimanje",
+        "description": "Visokokvalitetna 360° fotografija i video snimanje koristeći profesionalnu opremu."
+      },
+      "step3": {
+        "title": "Kreiranje Ture",
+        "description": "Interaktivna montaža ture sa navigacijom, hotspot-ovima i multimedijalnim sadržajem."
+      },
+      "step4": {
+        "title": "Lansiranje i Optimizacija",
+        "description": "Postavljanje ture sa kontinuiranom optimizacijom na osnovu analitike gledalaca."
+      }
+    },
+    "benefits": {
+      "title": "Dokazane Prednosti Virtuelnih Tura",
+      "subtitle": "Naše virtuelne ture donose merljive rezultate za prodaju nekretnina.",
+      "stat1": {
+        "value": "40%",
+        "label": "Brže Prodaje"
+      },
+      "stat2": {
+        "value": "3x",
+        "label": "Više Angažovanja"
+      },
+      "stat3": {
+        "value": "85%",
+        "label": "Zadovoljstvo Kupaca"
+      },
+      "cta": "Kreiraj Svoju Virtuelnu Turu"
+    },
+    "technology": {
+      "title": "Najnovija Tehnologija",
+      "subtitle": "Koristimo najnoviju tehnologiju virtuelnih tura za kreiranje imerzivnih iskustava.",
+      "tech1": {
+        "title": "360° Kamere",
+        "description": "Profesionalne 360° kamere za kristalno jasne slike."
+      },
+      "tech2": {
+        "title": "VR Integracija",
+        "description": "Virtual Reality kompatibilnost za sledeći nivo imerzije."
+      },
+      "tech3": {
+        "title": "Cloud Hosting",
+        "description": "Brzi, pouzdani cloud hosting za besprekorno gledanje."
+      },
+      "tech4": {
+        "title": "AI Optimizacija",
+        "description": "AI-powered optimizacija za najbolje iskustvo gledanja."
+      }
+    },
+    "cta": {
+      "title": "Spremni da Kreirate Svoju Virtuelnu Turu?",
+      "subtitle": "Transformišite marketing vaših nekretnina sa imerzivnim virtuelnim turama koje angažuju kupce i ubrzavaju prodaju.",
+      "primary": "Započni Besplatnu Konsultaciju",
+      "secondary": "Pogledaj Priče o Uspehu"
+    }
+  },
+  "PropertyMarketing": {
+    "seo": {
+      "title": "Marketing Nekretnina | ProInvest - Profesionalni Marketing Nekretnina",
+      "description": "Profesionalni marketing servisi za investitore u nekretnine. Digitalni marketing, vizuelni sadržaj, generisanje potencijalnih kupaca i podrška prodaji. Nulti početni troškovi, plaćanje samo kada se nekretnine prodaju.",
+      "keywords": "marketing nekretnina, marketing nekretnina, digitalni marketing, fotografija nekretnina, virtuelne ture, generisanje potencijalnih kupaca, prodaja nekretnina, reklamiranje nekretnina"
+    },
+    "hero": {
+      "badge": "Profesionalni Marketing",
+      "title": "Marketing Nekretnina koji Prodaje",
+      "subtitle": "Transformišite prodaju vaših nekretnina sa našim sveobuhvatnim marketing rešenjima. Od digitalnih kampanja do vizuelnog sadržaja, vodimo računa o svemu da maksimizujemo vaše povrate.",
+      "ctaPrimary": "Započni Besplatnu Konsultaciju",
+      "ctaSecondary": "Pogledaj Naš Rad"
+    },
+    "services": {
+      "title": "Kompletna Marketing Rešenja",
+      "subtitle": "Pružamo end-to-end marketing servise dizajnirane posebno za investitore u nekretnine i developere.",
+      "digitalMarketing": {
+        "title": "Digitalni Marketing",
+        "description": "Sveobuhvatne online marketing strategije za dostizanje kvalifikovanih kupaca preko više kanala.",
+        "seo": "SEO-optimizovani veb sajtovi",
+        "socialMedia": "Kampanje na društvenim mrežama",
+        "ppc": "Google i Facebook reklame"
+      },
+      "visualContent": {
+        "title": "Vizuelni Sadržaj",
+        "description": "Profesionalna fotografija, videografija i virtuelne ture koje prikazuju vaše nekretnine u najboljem svetlu.",
+        "photography": "Profesionalna fotografija",
+        "droneVideo": "Dron videografija",
+        "virtualTours": "360° virtuelne ture"
+      },
+      "leadGeneration": {
+        "title": "Generisanje Potencijalnih Kupaca",
+        "description": "Automatizovani sistemi za snimanje, kvalifikovanje i negovanje potencijalnih kupaca tokom celog prodajnog procesa.",
+        "leadCapture": "Forme za snimanje potencijalnih kupaca",
+        "qualification": "Kvalifikovanje potencijalnih kupaca",
+        "nurturing": "Email kampanje za negovanje"
+      }
+    },
+    "process": {
+      "title": "Naš Marketing Proces",
+      "subtitle": "Dokazani 4-korak proces koji donosi rezultate za prodaju vaših nekretnina.",
+      "step1": {
+        "title": "Strategija i Planiranje",
+        "description": "Analiziramo vašu nekretninu i tržište da kreiramo prilagođenu marketing strategiju."
+      },
+      "step2": {
+        "title": "Kreiranje Sadržaja",
+        "description": "Profesionalna fotografija, videi i marketing materijali se proizvode."
+      },
+      "step3": {
+        "title": "Lansiranje Kampanje",
+        "description": "Multi-kanal marketing kampanje se lansiraju preko digitalnih platformi."
+      },
+      "step4": {
+        "title": "Upravljanje Potencijalnim Kupcima",
+        "description": "Vodimo računa o svim upitima i vodimo potencijalne kupce kroz prodajni proces."
+      }
+    },
+    "benefits": {
+      "title": "Zašto Izabrati Naše Marketing Servise",
+      "subtitle": "Naš marketing pristup donosi merljive rezultate za investitore u nekretnine.",
+      "benefit1": {
+        "title": "Nulti Početni Troškovi",
+        "description": "Nema početne investicije potrebne. Mi uspevamo samo kada vi uspevate."
+      },
+      "benefit2": {
+        "title": "Profesionalni Kvalitet",
+        "description": "Vrhunska fotografija, videografija i marketing materijali koji profesionalno prikazuju vaše nekretnine."
+      },
+      "benefit3": {
+        "title": "Multi-Kanal Dostupnost",
+        "description": "Sveobuhvatne kampanje preko Google-a, Facebook-a, Instagram-a i drugih platformi za maksimalnu vidljivost."
+      },
+      "benefit4": {
+        "title": "Upravljanje Potencijalnim Kupcima",
+        "description": "Automatizovani sistemi za snimanje, kvalifikovanje i negovanje potencijalnih kupaca."
+      },
+      "benefit5": {
+        "title": "Praćenje Performansi",
+        "description": "Detaljne analitike i izveštavanje za merenje efikasnosti kampanje i ROI-a."
+      },
+      "benefit6": {
+        "title": "Posvećena Podrška",
+        "description": "Lični menadžer računa i posvećen tim za upravljanje svim aspektima vašeg marketinga."
+      }
+    },
+    "results": {
+      "title": "Dokazani Rezultati",
+      "subtitle": "Naše marketing strategije su pomogle investitorima da postignu izuzetne rezultate.",
+      "stat1": {
+        "value": "150+",
+        "label": "Prodato Nekretnina"
+      },
+      "stat2": {
+        "value": "2-3x",
+        "label": "Brže Prodaje"
+      },
+      "stat3": {
+        "value": "15-25%",
+        "label": "Više Cene"
+      },
+      "cta": "Započni Svoju Marketing Kampanju"
+    },
+    "cta": {
+      "title": "Spremni da Transformišete Marketing Vaših Nekretnina?",
+      "subtitle": "Pridružite se uspešnim investitorima koji su eliminisali početne troškove i povećali svoje povrate sa našim marketing servisima.",
+      "primary": "Započni Besplatnu Konsultaciju",
+      "secondary": "Pogledaj Priče o Uspehu"
+    }
+  },
+  "ApartmentDetails": {
+    "header": {
+      "showcase": "ProInvest Prikaz",
+      "description": "Ovako će izgledati individualne stranice stanova",
+      "backToBuilding": "Nazad na Pregled Zgrade",
+      "title": "Beograd Luksuzni Stanovi",
+      "subtitle": "Premium Život u Srcu Beograda",
+      "poweredBy": "Pokrenuto od strane ProInvest • Livion Real Estate"
+    },
+    "breadcrumb": {
+      "buildingOverview": "Pregled Zgrade",
+      "apartments": "Stanovi",
+      "currentApartment": "Stan A205"
+    },
+    "navigation": {
+      "overview": "Pregled",
+      "apartments": "Stanovi",
+      "location": "Lokacija",
+      "progress": "Napredak",
+      "contact": "Kontakt"
+    },
+    "apartment": {
+      "title": "Stan A205 - 3 Sobe",
+      "description": "Prostrani stan sa 3 sobe sa zadivljujućim pogledom na grad, premium završnim radovima i modernim sadržajima. Savršen za porodice koje traže luksuzni život u srcu Beograda.",
+      "status": "Dostupno",
+      "bedrooms": "Sobe",
+      "bathrooms": "Kupatila",
+      "totalArea": "Ukupna Površina",
+      "floor": "Sprat"
+    },
+    "features": {
+      "apartmentFeatures": "Karakteristike Stana",
+      "buildingAmenities": "Sadržaji Zgrade",
+      "largeBalcony": "Veliki balkon sa pogledom na grad",
+      "undergroundParking": "Podzemno parkiranje",
+      "storageRoom": "Ostava uključena",
+      "homeOffice": "Kućna kancelarija/radna soba",
+      "floorToCeiling": "Prozori od poda do plafona",
+      "premiumKitchen": "Premium kuhinjski aparati",
+      "security": "24/7 bezbednost i koncijerž",
+      "fitnessCenter": "Fitnes centar",
+      "gardenTerrace": "Bašta terasa",
+      "coffeeLounge": "Kafić lounge",
+      "highSpeedInternet": "Brzi internet",
+      "climateControl": "Sistem klimatizacije"
+    },
+    "virtualTour": {
+      "title": "Virtuelna Tura",
+      "subtitle": "360° Interaktivno Iskustvo",
+      "description": "Istražite svaki ugao ovog prelepog stana sa našom imerzivnom 360° virtuelnom turom. Doživite prostor kao da ste tamo lično.",
+      "interactiveFloorPlan": "Interaktivni Plan Stana",
+      "clickToExplore": "Kliknite da istražite dimenzije soba"
+    },
+    "floorPlan": {
+      "title": "Plan Stana"
+    },
+    "pricing": {
+      "price": "€420.000",
+      "pricePerM2": "€3.500 po m²",
+      "monthlyPayment": "Mesečna Rata",
+      "maintenanceFee": "Naknada za Održavanje",
+      "propertyTax": "Porez na Nekretninu"
+    },
+    "actions": {
+      "scheduleViewing": "Zakazati Pregled",
+      "requestInformation": "Zatražiti Informacije",
+      "addToFavorites": "Dodati u Omiljene",
+      "sendMessage": "Poslati Poruku"
+    },
+    "contact": {
+      "title": "Kontaktirajte Agenta",
+      "agentName": "Milan Petrović",
+      "agentTitle": "Senior Prodajni Agent",
+      "phone": "+381 11 123 4567",
+      "email": "milan@belgradeluxury.com"
+    },
+    "similarApartments": {
+      "title": "Slični Stanovi",
+      "apartment1": {
+        "name": "Stan A101",
+        "description": "2 Sobe • 85m²",
+        "price": "€285.000"
+      },
+      "apartment2": {
+        "name": "Stan A301",
+        "description": "Penthouse • 180m²",
+        "price": "€750.000"
+      }
+    },
+    "footer": {
+      "title": "Beograd Luksuzni Stanovi",
+      "description": "Premium život u srcu Beograda. Doživite luksuz redefinisan.",
+      "quickLinks": "Brze Veze",
+      "contact": "Kontakt",
+      "followUs": "Pratite Nas",
+      "copyright": "© 2024 Beograd Luksuzni Stanovi. Sva prava zadržana."
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Politika Privatnosti",
+    "lastUpdated": "Poslednje ažuriranje: Decembar 2024",
+    "introduction": {
+      "title": "Uvod",
+      "content": "ProInvest od strane Livion Real Estate je posvećen zaštiti vaše privatnosti i ličnih podataka. Ova Politika Privatnosti objašnjava kako prikupljamo, koristimo i štitimo vaše informacije kada koristite naše usluge."
+    },
+    "dataCollection": {
+      "title": "Informacije koje Prikupljamo",
+      "content": "Prikupljamo informacije koje nam direktno pružate i informacije koje automatski dobijamo kada koristite naše usluge:",
+      "personalInfo": "Lične informacije (ime, email, broj telefona) iz formulara za konsultacije i kontakt formulara",
+      "propertyInfo": "Detalji i specifikacije nekretnine iz upitnika za konsultacije",
+      "contactInfo": "Kontakt preferencije i istorija komunikacije",
+      "usageData": "Podaci o korišćenju veb sajta i analitika (anonimizovano) preko Umami Analytics",
+      "consultationData": "Odgovori na konsultacije uključujući tip nekretnine, lokaciju, vrednost, vremenski okvir i ciljeve investicija"
+    },
+    "dataUsage": {
+      "title": "Kako Koristimo Vaše Informacije",
+      "content": "Koristimo informacije koje prikupljamo da:",
+      "provideServices": "Pružamo i poboljšavamo naše usluge prodaje nekretnina",
+      "communicate": "Komuniciramo sa vama o vašim nekretninama i našim uslugama",
+      "improveServices": "Analiziramo i poboljšavamo naš veb sajt i usluge",
+      "legalCompliance": "Poštujemo zakonske obaveze",
+      "consultation": "Generišemo personalizovane predloge za prodaju nekretnina i preporuke",
+      "analytics": "Razumemo obrasce korišćenja veb sajta da poboljšamo korisničko iskustvo"
+    },
+    "dataSharing": {
+      "title": "Deljenje Informacija",
+      "content": "Ne prodajemo, ne razmenjujemo niti na drugi način prenosimo vaše lične informacije trećim stranama bez vašeg pristanka, osim kako je opisano u ovoj politici ili kako zahteva zakon. Možemo deliti anonimizovane analitičke podatke sa Umami Analytics za praćenje performansi veb sajta."
+    },
+    "dataSecurity": {
+      "title": "Bezbednost Podataka",
+      "content": "Implementiramo odgovarajuće bezbednosne mere za zaštitu vaših ličnih informacija od neovlašćenog pristupa, izmene, otkrivanja ili uništenja. Svi podaci se obrađuju bezbedno i u skladu sa GDPR zahtevima."
+    },
+    "dataRetention": {
+      "title": "Čuvanje Podataka",
+      "content": "Čuvamo vaše lične podatke u sledećim periodima:",
+      "consultationData": "Podaci konsultacija: 2 godine nakon poslednjeg kontakta",
+      "contactInfo": "Kontakt informacije: Do zahteva za brisanje",
+      "analyticsData": "Analitički podaci: Maksimalno 26 meseci (anonimizovano)",
+      "legalData": "Podaci za zakonsku usklađenost: Kako zahteva srpski zakon"
+    },
+    "yourRights": {
+      "title": "Vaša Prava",
+      "content": "Imate pravo da:",
+      "access": "Pristupite svojim ličnim podacima",
+      "correction": "Ispravite netačne podatke",
+      "deletion": "Zatražite brisanje vaših podataka",
+      "portability": "Prenesete svoje podatke",
+      "withdraw": "Povučete pristanak za obradu podataka"
+    },
+    "contact": {
+      "title": "Kontaktirajte Nas",
+      "content": "Ako imate pitanja o ovoj Politici Privatnosti, molimo kontaktirajte nas:"
+    }
+  },
+  "TermsOfService": {
+    "title": "Uslovi Korišćenja",
+    "lastUpdated": "Poslednje ažuriranje: Decembar 2024",
+    "acceptance": {
+      "title": "Prihvatanje Uslova",
+      "content": "Pristupanjem i korišćenjem ProInvest usluga, prihvatate i slažete se da budete vezani uslovima i odredbama ovog sporazuma."
+    },
+    "services": {
+      "title": "Naše Usluge",
+      "content": "ProInvest pruža sveobuhvatne usluge prodaje nekretnina uključujući:",
+      "propertyMarketing": "Profesionalni marketing i oglašavanje nekretnina",
+      "virtualTours": "360° virtualne ture i multimedijalni sadržaj",
+      "legalSupport": "Pravna dokumentacija i podrška za usklađenost",
+      "salesManagement": "Kompletno upravljanje procesom prodaje",
+      "progressTracking": "Praćenje napretka u realnom vremenu i izveštavanje",
+      "consultation": "Besplatne konsultacije i personalizovani predlozi za prodaju nekretnina",
+      "websiteCreation": "Kreiranje prilagođenih veb sajtova sa SEO optimizacijom"
+    },
+    "payment": {
+      "title": "Uslovi Plaćanja",
+      "content": "Naša struktura plaćanja je dizajnirana da minimizuje vaš rizik:",
+      "noUpfront": "Bez prethodnih troškova - plaćate samo kada se nekretnine prodaju",
+      "commission": "Struktura cena na osnovu provizije: 2-5,5% na osnovu vrednosti nekretnine",
+      "paymentTerms": "Plaćanje samo nakon uspešne prodaje nekretnine",
+      "geographicScope": "Usluge dostupne u Srbiji, Crnoj Gori i Hrvatskoj"
+    },
+    "businessModel": {
+      "title": "Poslovni Model",
+      "content": "ProInvest radi na principu nulte rizika investicije:",
+      "vipModel": "Model VIP Puna Usluga - kompletni paket usluga od veb sajta do zatvaranja",
+      "scarcity": "Ograničen kapacitet - samo 2 VIP nekretnine prihvaćene mesečno",
+      "targetMarket": "Primarni fokus na investitore u zgrade i developere",
+      "expansion": "Širenje na Crnu Goru (Budva, Kotor, Podgorica) i Hrvatsku (Zagreb, Dubrovnik, Split)"
+    },
+    "obligations": {
+      "title": "Obaveze",
+      "content": "Obje strane imaju specifične obaveze prema ovom sporazumu:",
+      "client": {
+        "title": "Obaveze Klijenta",
+        "accurateInfo": "Pružanje tačnih i potpunih informacija o nekretnini",
+        "cooperation": "Saradnja sa našim marketing i prodajnim naporima",
+        "legalCompliance": "Osiguravanje zakonske usklađenosti dokumentacije nekretnine",
+        "propertyAccess": "Pružanje pristupa nekretnini za fotografisanje i virtualne ture"
+      },
+      "proinvest": {
+        "title": "Obaveze ProInvest-a",
+        "professionalService": "Pružanje profesionalnih marketing i prodajnih usluga",
+        "marketing": "Izvršavanje sveobuhvatnih marketing kampanja",
+        "support": "Pružanje kontinuirane podrške tokom procesa prodaje",
+        "website": "Kreiranje i održavanje prilagođenog veb sajta nekretnine",
+        "media": "Pružanje profesionalne fotografije i virtualnih tura"
+      }
+    },
+    "liability": {
+      "title": "Odgovornost",
+      "content": "Odgovornost ProInvest-a je ograničena na pružene usluge. Nismo odgovorni za tržišne uslove, vrednost nekretnina ili spoljne faktore van naše kontrole. Naš uspeh zavisi od tržišnih uslova i interesovanja kupaca."
+    },
+    "termination": {
+      "title": "Raskid",
+      "content": "Bilo koja strana može raskinuti ovaj sporazum pismenom obaveštenjem. Raskid ne utiče na obaveze nastale pre raskida. Nema plaćanja ako se prodaja ne dogodi."
+    },
+    "governingLaw": {
+      "title": "Primenjivo Pravo",
+      "content": "Ovaj sporazum se uređuje srpskim pravom i svi sporovi će se rešavati u srpskim sudovima."
+    },
+    "contact": {
+      "title": "Kontakt Informacije",
+      "content": "Za pitanja o ovim uslovima, molimo kontaktirajte nas:"
+    }
+  },
+  "CookiePolicy": {
+    "title": "Politika Kolačića",
+    "lastUpdated": "Poslednje ažuriranje: Decembar 2024",
+    "whatAreCookies": {
+      "title": "Šta Su Kolačići",
+      "content": "Kolačići su mali tekstualni fajlovi koji se postavljaju na vaš uređaj kada posetite naš veb sajt. Pomažu nam da vam pružimo bolje iskustvo i razumemo kako koristite naš sajt."
+    },
+    "howWeUseCookies": {
+      "title": "Kako Koristimo Kolačiće",
+      "content": "Koristimo kolačiće da poboljšamo vaše iskustvo pregledanja, zapamtimo vaše preferencije i analiziramo saobraćaj sajta. Kolačići nam pomažu da razumemo kako koristite naš sajt i poboljšamo naše usluge."
+    },
+    "typesOfCookies": {
+      "title": "Vrste Kolačića koje Koristimo",
+      "essential": {
+        "title": "Osnovni Kolačići",
+        "description": "Ovi kolačići su neophodni za pravilno funkcionisanje veb sajta i ne mogu se onemogućiti.",
+        "session": "Upravljanje sesijom i bezbednost",
+        "security": "Bezbednost i sprečavanje prevare",
+        "preferences": "Čuvanje korisničkih preferencija"
+      },
+      "functional": {
+        "title": "Funkcionalni Kolačići",
+        "description": "Ovi kolačići omogućavaju poboljšanu funkcionalnost i personalizaciju.",
+        "locale": "Preferencija jezika (NEXT_LOCALE) - pamti vaš izbor jezika",
+        "theme": "Preferencija teme - pamti vaš izbor tamnog/svetlog režima",
+        "userPreferences": "Korisničke preferencije interfejsa i postavke"
+      },
+      "analytics": {
+        "title": "Analitički Kolačići",
+        "description": "Ovi kolačići nam pomažu da razumemo kako posetioci komuniciraju sa našim veb sajtom.",
+        "umami": "Umami Analytics - analitika veb sajta fokusirana na privatnost",
+        "performance": "Praćenje performansi veb sajta",
+        "usage": "Analiza ponašanja korisnika (anonimizovano)"
+      }
+    },
+    "thirdPartyCookies": {
+      "title": "Kolačići Trećih Strana",
+      "content": "Koristimo sledeće usluge trećih strana koje mogu postavljati kolačiće:",
+      "umami": "Umami Analytics (umami.livion.homes) - analitička usluga fokusirana na privatnost",
+      "nextThemes": "Next.js Themes - za funkcionalnost tamnog/svetlog režima",
+      "nextIntl": "Next.js Internationalization - za preferencije jezika"
+    },
+    "cookieManagement": {
+      "title": "Upravljanje Kolačićima",
+      "content": "Možete kontrolisati i upravljati kolačićima na nekoliko načina:",
+      "browserSettings": {
+        "title": "Postavke Pretraživača",
+        "content": "Većina pretraživača vam omogućava da kontrolišete kolačiće kroz svoje postavke:",
+        "chrome": "Chrome: Postavke > Privatnost i Bezbednost > Kolačići",
+        "firefox": "Firefox: Opcije > Privatnost i Bezbednost > Kolačići",
+        "safari": "Safari: Preferencije > Privatnost > Kolačići",
+        "edge": "Edge: Postavke > Kolačići i Dozvole Sajta"
+      },
+      "functionalCookies": {
+        "title": "Upravljanje Funkcionalnim Kolačićima",
+        "content": "Možete upravljati funkcionalnim kolačićima kroz naš veb sajt:",
+        "language": "Preferencija jezika se može promeniti pomoću prekidača jezika",
+        "theme": "Preferencija teme se može promeniti pomoću dugmeta za prebacivanje teme"
+      }
+    },
+    "updates": {
+      "title": "Ažuriranja Politike",
+      "content": "Možemo ažurirati ovu Politiku Kolačića s vremena na vreme. Obavestićemo vas o svim promenama objavljivanjem nove politike na ovoj stranici."
+    },
+    "contact": {
+      "title": "Kontaktirajte Nas",
+      "content": "Ako imate pitanja o našem korišćenju kolačića, molimo kontaktirajte nas:"
+    }
+  },
+  "GDPR": {
+    "title": "GDPR Usklađenost",
+    "lastUpdated": "Poslednje ažuriranje: Decembar 2024",
+    "introduction": {
+      "title": "GDPR Usklađenost",
+      "content": "ProInvest od strane Livion Real Estate je posvećen usklađenosti sa Opštom Uredbom o Zaštiti Podataka (GDPR) i zaštiti vaših prava na lične podatke."
+    },
+    "dataController": {
+      "title": "Kontroler Podataka",
+      "content": "ProInvest od strane Livion Real Estate je kontroler vaših ličnih informacija:"
+    },
+    "legalBasis": {
+      "title": "Pravna Osnova za Obradom",
+      "content": "Obrađujemo vaše lične podatke na osnovu sledećih pravnih osnova:",
+      "consent": "Pristanak",
+      "consentDesc": "Kada dobrovoljno pružate informacije kroz naše formulara za konsultacije",
+      "contract": "Izvršavanje Ugovora",
+      "contractDesc": "Da ispunimo naše ugovorne obaveze za usluge prodaje nekretnina",
+      "legitimate": "Opravdani Interes",
+      "legitimateDesc": "Da poboljšamo naše usluge i komuniciramo sa vama o prodaji nekretnina",
+      "legal": "Zakonska Obaveza",
+      "legalDesc": "Da poštujemo srpske zakone o nekretninama i zaštiti podataka"
+    },
+    "dataRights": {
+      "title": "Vaša Prava na Zaštitu Podataka",
+      "content": "Prema GDPR-u, imate sledeća prava u vezi sa vašim ličnim podacima:",
+      "access": {
+        "title": "Pravo Pristupa",
+        "description": "Možete zatražiti kopije vaših ličnih podataka"
+      },
+      "rectification": {
+        "title": "Pravo na Ispravku",
+        "description": "Možete zatražiti ispravku netačnih podataka"
+      },
+      "erasure": {
+        "title": "Pravo na Brisanje",
+        "description": "Možete zatražiti brisanje vaših ličnih podataka"
+      },
+      "portability": {
+        "title": "Pravo na Prenos Podataka",
+        "description": "Možete zatražiti prenos vaših podataka na drugu uslugu"
+      }
+    },
+    "dataRetention": {
+      "title": "Čuvanje Podataka",
+      "content": "Čuvamo vaše lične podatke u sledećim periodima:",
+      "consultationData": "Podaci konsultacija: 2 godine nakon poslednjeg kontakta",
+      "contactInfo": "Kontakt informacije: Do zahteva za brisanje",
+      "analyticsData": "Analitički podaci: Maksimalno 26 meseci (anonimizovano preko Umami)",
+      "legalData": "Podaci za zakonsku usklađenost: Kako zahteva srpski zakon"
+    },
+    "dataSecurity": {
+      "title": "Mere Bezbednosti Podataka",
+      "content": "Implementiramo sveobuhvatne bezbednosne mere za zaštitu vaših podataka:",
+      "encryption": "Šifrovanje podataka u prenosu i mirovanju",
+      "access": "Ograničene kontrole pristupa i autentifikacija",
+      "monitoring": "Kontinuirano praćenje bezbednosti i revizija",
+      "training": "Redovna obuka osoblja o zaštiti podataka",
+      "anonymization": "Analitički podaci su anonimizovani preko Umami Analytics"
+    },
+    "dataBreach": {
+      "title": "Obaveštenje o Kršenju Podataka",
+      "content": "U slučaju kršenja podataka koje može uticati na vaše lične podatke, obavestićemo vas i relevantne vlasti u roku od 72 sata kako zahteva GDPR."
+    },
+    "complaints": {
+      "title": "Pravo na Žalbu",
+      "content": "Imate pravo da podnesete žalbu Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti ako smatrate da su vaša prava na zaštitu podataka povređena:"
+    },
+    "contact": {
+      "title": "Kontaktirajte Našeg Zastupnika za Zaštitu Podataka",
+      "content": "Za sva pitanja o zaštiti podataka ili za ostvarivanje vaših prava, molimo kontaktirajte našeg Zastupnika za zaštitu podataka:"
+    }
   }
 }

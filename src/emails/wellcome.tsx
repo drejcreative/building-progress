@@ -19,13 +19,13 @@ import type * as React from "react";
 
 const baseUrl = process.env.URL ? `https://proinvest.rs` : "";
 
-const links = [
-  {
-    title: "Pregledajte objekte",
-    href: "https://proinvest.rs",
-  },
-  { title: "Kontaktirajte nas", href: "https://proinvest.rs" },
-];
+// const links = [
+//   {
+//     title: "Pregledajte objekte",
+//     href: "https://proinvest.rs",
+//   },
+//   { title: "Kontaktirajte nas", href: "https://proinvest.rs" },
+// ];
 
 export const ProInvestWelcomeEmail = () => {
   return (

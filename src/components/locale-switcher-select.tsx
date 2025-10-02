@@ -2,7 +2,9 @@
 
 import { Globe, ChevronDown } from "lucide-react";
 import { useTransition, useState, useRef, useEffect } from "react";
+import { useParams } from "next/navigation";
 import { type Locale } from "@/i18n/config";
+import { usePathname, useRouter } from "@/i18n/navigation";
 import { setUserLocale } from "@/services/locale";
 
 type Props = {
@@ -20,6 +22,9 @@ export default function LocaleSwitcherSelect({
   const [isOpen, setIsOpen] = useState(false);
   const [selectedValue, setSelectedValue] = useState(defaultValue);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
+  const pathname = usePathname();
+  const params = useParams();
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -36,12 +41,22 @@ export default function LocaleSwitcherSelect({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  function onChange(value: string) {
+  async function onChange(value: string) {
     const locale = value as Locale;
     setSelectedValue(value);
     setIsOpen(false);
-    startTransition(() => {
-      setUserLocale(locale);
+
+    startTransition(async () => {
+      // Persist the locale choice in cookies
+      await setUserLocale(locale);
+
+      router.replace(
+        // @ts-expect-error -- TypeScript will validate that only known `params`
+        // are used in combination with a given `pathname`. Since the two will
+        // always match for the current route, we can skip runtime checks.
+        { pathname, params },
+        { locale }
+      );
     });
   }
 
