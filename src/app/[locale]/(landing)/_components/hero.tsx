@@ -48,7 +48,7 @@ export default async function Hero() {
         </div>
         <div className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop"
+            src="/images/modern-complex.jpg"
             alt="Modern building complex"
             width={500}
             height={500}
