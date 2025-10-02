@@ -35,7 +35,7 @@ export default async function Solution() {
               <Image
                 width={1000}
                 height={1000}
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=400&fit=crop"
+                src="/images/business.jpg"
                 alt="Professional property marketing"
                 className="w-full h-64 object-cover"
               />
@@ -211,7 +211,7 @@ export default async function Solution() {
               <Image
                 width={1000}
                 height={1000}
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop"
+                src="/images/marketing.jpg"
                 alt="Marketing and sales services"
                 className="w-full h-64 object-cover"
               />

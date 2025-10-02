@@ -172,7 +172,7 @@ export default function ApartmentDetails() {
                 <div className="col-span-2">
                   <div className="relative h-96 bg-gray-200 dark:bg-gray-700 rounded-2xl overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&h=400&fit=crop"
+                      src="/images/room1.jpg"
                       alt="Apartment A205 Living Room"
                       fill
                       className="object-cover"
@@ -191,7 +191,7 @@ export default function ApartmentDetails() {
                 </div>
                 <div className="relative h-48 bg-gray-200 dark:bg-gray-700 rounded-xl overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop"
+                    src="/images/room3.jpg"
                     alt="Kitchen"
                     fill
                     className="object-cover"
@@ -199,7 +199,7 @@ export default function ApartmentDetails() {
                 </div>
                 <div className="relative h-48 bg-gray-200 dark:bg-gray-700 rounded-xl overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=400&h=300&fit=crop"
+                    src="/images/room2.jpg"
                     alt="Bedroom"
                     fill
                     className="object-cover"

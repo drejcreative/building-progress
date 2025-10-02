@@ -61,7 +61,7 @@ export default function UseCasesOverview() {
 
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop"
+              src="/images/aerial-view.jpg"
               alt="Luxury Interior"
               width={600}
               height={400}

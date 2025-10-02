@@ -8,8 +8,17 @@
       "ctaPrimary": "Start Free Consultation",
       "ctaSecondary": "View Case Studies",
       "stats": {
+        "hotIdea": "🔥 Serbia's #1 Zero-Risk Property Sales",
+        "trending": "⚡ Trending Now",
         "properties": "150+ Properties",
-        "sold": "Successfully Sold"
+        "sold": "Successfully Sold",
+        "dynamic": {
+          "option1": "🚀 Serbia's First Zero-Risk Model",
+          "option2": "⚡ Hot New Approach",
+          "option3": "🔥 Trending in Belgrade",
+          "option4": "💎 VIP Property Sales",
+          "option5": "⭐ Investors' Choice"
+        }
       }
     },
     "costSaving": {

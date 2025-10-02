@@ -24,44 +24,44 @@ export default function UseCasesProgress() {
   // Construction milestone images mapping
   const milestoneImages = {
     sitePreparation: {
-      src: "/api/placeholder/400/300",
+      src: "/images/construction.jpg",
       alt: "Site preparation and excavation work",
       description:
         "Heavy machinery clearing the site and digging foundation trenches",
     },
     foundation: {
-      src: "/api/placeholder/400/300",
+      src: "/images/construction.jpg",
       alt: "Foundation and basement construction",
       description:
         "Concrete foundation being poured and basement walls completed",
     },
     structural: {
-      src: "/api/placeholder/400/300",
+      src: "/images/construction.jpg",
       alt: "Structural framework installation",
       description: "Steel structure being erected and floors being installed",
     },
     exterior: {
-      src: "/api/placeholder/400/300",
+      src: "/images/construction.jpg",
       alt: "Exterior walls and roofing work",
       description: "Facade installation and roof waterproofing in progress",
     },
     mep: {
-      src: "/api/placeholder/400/300",
+      src: "/images/construction.jpg",
       alt: "MEP systems installation",
       description: "Electrical, plumbing, and HVAC systems being installed",
     },
     interior: {
-      src: "/api/placeholder/400/300",
+      src: "/images/construction.jpg",
       alt: "Interior finishing work",
       description: "Drywall installation, flooring, and kitchen setup",
     },
     amenities: {
-      src: "/api/placeholder/400/300",
+      src: "/images/construction.jpg",
       alt: "Amenities and landscaping",
       description: "Gym, lounge, and garden installation",
     },
     inspection: {
-      src: "/api/placeholder/400/300",
+      src: "/images/construction.jpg",
       alt: "Final inspection and handover",
       description: "Quality checks, permits, and final delivery preparation",
     },

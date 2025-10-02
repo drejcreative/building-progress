@@ -18,7 +18,7 @@ export default function UseCasesHero() {
       {/* Animated Background */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop"
+          src="/images/appartments.jpg"
           alt="Belgrade Luxury Residences"
           fill
           className="object-cover scale-105"
