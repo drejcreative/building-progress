@@ -148,7 +148,7 @@ export default async function SalesManagementPage({
                     <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" />
                   </Link>
                   <Link
-                    href={`/${locale}/get-started`}
+                    href={`/${locale}/use-cases`}
                     className="group inline-flex items-center px-10 py-5 border-2 border-orange-600 text-orange-600 font-bold rounded-xl hover:bg-orange-50 transition-all duration-300 shadow-lg hover:shadow-xl"
                   >
                     {t("hero.ctaSecondary")}

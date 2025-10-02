@@ -4,6 +4,7 @@ import React from "react";
 import LanguageSwitcher from "./language-switcher";
 import { ThemeToggle } from "./theme-toggle";
 import { useTranslations } from "next-intl";
+import { MessageCircle } from "lucide-react";
 
 export default function Navigation() {
   const t = useTranslations("Navigation");
@@ -28,40 +29,20 @@ export default function Navigation() {
           </span>
         </span>
       </Link>
-      <div className="hidden md:flex items-center space-x-8">
-        <a
-          href="#savings"
-          className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
-        >
-          {t("costSavings")}
-        </a>
-        <a
-          href="#services"
-          className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
-        >
-          {t("services")}
-        </a>
-
-        <a
-          href="#commission"
-          className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
-        >
-          {t("pricing")}
-        </a>
+      <div className="flex items-center space-x-2 lg:space-x-4">
         <Link
           href="/use-cases"
-          className="text-blue-600 dark:text-blue-400 font-bold hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
+          className="hidden md:flex text-blue-600 dark:text-blue-400 font-bold hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
         >
           {t("useCases")}
         </Link>
         <Link
           href="/consultation"
-          className="text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
+          className="hidden md:inline-flex items-center space-x-2 text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
         >
-          {t("consultation")}
+          <MessageCircle className="w-4 h-4" />
+          <span>{t("consultation")}</span>
         </Link>
-      </div>
-      <div className="flex items-center space-x-2 lg:space-x-4">
         <LanguageSwitcher />
         <ThemeToggle />
         <Link
