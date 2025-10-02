@@ -1,6 +1,7 @@
 import { Building2, Globe, Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import React from "react";
+import { Link } from "../i18n/navigation";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -62,44 +63,44 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">{t("ourServices")}</h3>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a
-                  href="#services"
+                <Link
+                  href="/property-marketing"
                   className="hover:text-white transition-colors"
                 >
                   {t("propertyMarketing")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#services"
+                <Link
+                  href="/virtual-tours"
                   className="hover:text-white transition-colors"
                 >
                   {t("virtualTours")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#services"
+                <Link
+                  href="/legal-support"
                   className="hover:text-white transition-colors"
                 >
                   {t("legalSupport")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#services"
+                <Link
+                  href="/sales-management"
                   className="hover:text-white transition-colors"
                 >
                   {t("salesManagement")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#services"
+                <Link
+                  href="/progress-tracking"
                   className="hover:text-white transition-colors"
                 >
                   {t("progressTracking")}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
