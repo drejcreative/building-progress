@@ -24,8 +24,7 @@ export default function UseCasesApartments() {
       priceValue: 285000,
       floor: "1st Floor",
       floorValue: 1,
-      image:
-        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop",
+      image: "/images/room3.jpg",
       status: "Available",
       features: ["Balcony", "Parking", "Storage"],
     },
@@ -37,8 +36,7 @@ export default function UseCasesApartments() {
       priceValue: 295000,
       floor: "1st Floor",
       floorValue: 1,
-      image:
-        "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=400&h=300&fit=crop",
+      image: "/images/room2.jpg",
       status: "Available",
       features: ["Balcony", "Parking", "Storage", "Study"],
     },
@@ -50,8 +48,7 @@ export default function UseCasesApartments() {
       priceValue: 380000,
       floor: "2nd Floor",
       floorValue: 2,
-      image:
-        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop",
+      image: "/images/room1.jpg",
       status: "Available",
       features: ["Large Balcony", "Parking", "Storage"],
     },
@@ -63,8 +60,7 @@ export default function UseCasesApartments() {
       priceValue: 420000,
       floor: "2nd Floor",
       floorValue: 2,
-      image:
-        "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=400&h=300&fit=crop",
+      image: "/images/room2.jpg",
       status: "Available",
       features: ["Large Balcony", "Parking", "Storage", "Study"],
     },
@@ -76,8 +72,7 @@ export default function UseCasesApartments() {
       priceValue: 750000,
       floor: "3rd Floor",
       floorValue: 3,
-      image:
-        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop",
+      image: "/images/room1.jpg",
       status: "Available",
       features: ["Terrace", "Parking", "Storage", "Study", "Garden"],
     },
@@ -89,8 +84,7 @@ export default function UseCasesApartments() {
       priceValue: 850000,
       floor: "3rd Floor",
       floorValue: 3,
-      image:
-        "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=400&h=300&fit=crop",
+      image: "/images/room3.jpg",
       status: "Available",
       features: ["Terrace", "Parking", "Storage", "Study", "Garden", "Pool"],
     },
