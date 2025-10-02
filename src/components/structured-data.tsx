@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { seoConfig } from "@/config/seo";
 
 interface StructuredDataProps {
   locale: string;
@@ -6,15 +7,17 @@ interface StructuredDataProps {
 
 export default async function StructuredData({ locale }: StructuredDataProps) {
   const t = await getTranslations("SEO");
+  const isSerbian = locale === "rs";
+  const languageCode = isSerbian ? "sr" : "en";
 
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: t("organizationName"),
-    alternateName: t("organizationAlternateName"),
-    url: "https://proinvest.rs",
-    logo: "https://proinvest.rs/proinvest-logo.png",
-    description: t("organizationDescription"),
+    name: seoConfig.organization.name,
+    alternateName: seoConfig.organization.alternateName,
+    url: seoConfig.organization.url,
+    logo: seoConfig.organization.logo,
+    description: seoConfig.website.description[languageCode],
     foundingDate: "2024",
     founder: {
       "@type": "Organization",
@@ -24,12 +27,12 @@ export default async function StructuredData({ locale }: StructuredDataProps) {
       "@type": "PostalAddress",
       addressCountry: "RS",
       addressRegion: "Serbia",
-      addressLocality: "Belgrade",
+      addressLocality: seoConfig.organization.address.locality,
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+381-11-123-4567",
-      contactType: "customer service",
+      telephone: seoConfig.organization.contact.telephone,
+      contactType: seoConfig.organization.contact.contactType,
       availableLanguage: ["en", "sr"],
     },
     sameAs: [
@@ -95,13 +98,13 @@ export default async function StructuredData({ locale }: StructuredDataProps) {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "ProInvest",
-    url: "https://proinvest.rs",
-    description: t("websiteDescription"),
+    name: seoConfig.website.name,
+    url: seoConfig.website.url,
+    description: seoConfig.website.description[languageCode],
     inLanguage: locale === "rs" ? "sr-RS" : "en-US",
     publisher: {
       "@type": "Organization",
-      name: "ProInvest",
+      name: seoConfig.organization.name,
     },
     potentialAction: {
       "@type": "SearchAction",
@@ -117,8 +120,8 @@ export default async function StructuredData({ locale }: StructuredDataProps) {
       {
         "@type": "ListItem",
         position: 1,
-        name: t("homePageName"),
-        item: "https://proinvest.rs",
+        name: seoConfig.pages.home[languageCode],
+        item: seoConfig.website.url,
       },
     ],
   };
