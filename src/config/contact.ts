@@ -5,9 +5,9 @@ export const contactConfig = {
   },
   email: {
     general: "info@proinvest.com",
+    sales: "sales@proinvest.rs",
     legal: "legal@proinvest.com",
-    sales: "sales@proinvest.com",
-    tracking: "tracking@proinvest.com",
+    tracking: "legal@proinvest.com",
     belgradeLuxury: "info@belgradeluxury.com",
     milan: "milan@belgradeluxury.com",
   },
