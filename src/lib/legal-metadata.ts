@@ -17,7 +17,6 @@ export function generateLegalMetadata(
 
   const baseUrl = seoConfig.organization.url;
   const pagePath = pageType.replace(/([A-Z])/g, "-$1").toLowerCase();
-  const currentUrl = `${baseUrl}/${locale}/${pagePath}`;
 
   return {
     title: pageData.title,
