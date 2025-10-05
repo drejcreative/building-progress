@@ -11,6 +11,7 @@ import {
   ArrowRight,
   Building,
 } from "lucide-react";
+import { contactConfig } from "@/config/contact";
 
 export default function UseCasesContact() {
   const t = useTranslations("UseCases");
@@ -92,7 +93,7 @@ export default function UseCasesContact() {
             </p>
             <div className="mt-auto">
               <a
-                href={`tel:${t("contact.call.phone")}`}
+                href={contactConfig.phone.tel}
                 className="inline-flex items-center bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 <Phone className="w-5 h-5 mr-3" />
@@ -123,7 +124,7 @@ export default function UseCasesContact() {
             </p>
             <div className="mt-auto">
               <a
-                href={`mailto:${t("contact.email.address")}`}
+                href={`mailto:${contactConfig.email.belgradeLuxury}`}
                 className="inline-flex items-center bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 <Mail className="w-5 h-5 mr-3" />

@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { Metadata } from "next";
 import LegalStructuredData from "@/components/legal-structured-data";
 import { generateLegalMetadata } from "@/lib/legal-metadata";
+import { contactConfig } from "@/config/contact";
 
 export async function generateMetadata({
   params,
@@ -156,11 +157,23 @@ export default function TermsOfServicePage({
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                   <p className="text-gray-600 dark:text-gray-300">
-                    <strong>Email:</strong> legal@proinvest.com
+                    <strong>Email:</strong>{" "}
+                    <a
+                      href={`mailto:${contactConfig.email.legal}`}
+                      className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    >
+                      {contactConfig.email.legal}
+                    </a>
                     <br />
-                    <strong>Phone:</strong> +381 11 123 4567
+                    <strong>Phone:</strong>{" "}
+                    <a
+                      href={contactConfig.phone.tel}
+                      className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    >
+                      {contactConfig.phone.number}
+                    </a>
                     <br />
-                    <strong>Address:</strong> Belgrade, Serbia
+                    <strong>Address:</strong> {contactConfig.address}
                   </p>
                 </div>
               </section>

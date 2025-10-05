@@ -2,6 +2,7 @@ import { Building2, Globe, Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import React from "react";
 import { Link } from "../i18n/navigation";
+import { contactConfig } from "@/config/contact";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -111,11 +112,21 @@ export default function Footer() {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-blue-400" />
-                <span>+381 11 123 4567</span>
+                <a
+                  href={contactConfig.phone.tel}
+                  className="hover:text-white transition-colors"
+                >
+                  {contactConfig.phone.number}
+                </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-blue-400" />
-                <span>info@proinvest.com</span>
+                <a
+                  href={`mailto:${contactConfig.email.general}`}
+                  className="hover:text-white transition-colors"
+                >
+                  {contactConfig.email.general}
+                </a>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-blue-400" />
