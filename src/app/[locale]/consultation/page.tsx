@@ -7,6 +7,8 @@ import { QuestionCard } from "@/components/consultation/QuestionCard";
 import { LoadingState } from "@/components/consultation/LoadingState";
 import { ReportDisplay } from "@/components/consultation/ReportDisplay";
 import { ProposalDisplay } from "@/components/consultation/ProposalDisplay";
+import ComingSoon from "@/components/consultation/ComingSoon";
+import { features } from "@/config/features";
 
 export default function ConsultationPage() {
   const {
@@ -76,6 +78,11 @@ export default function ConsultationPage() {
       </div>
     );
   };
+
+  // Check if consultation feature is enabled
+  if (!features.consultation.enabled) {
+    return <ComingSoon />;
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 py-12">

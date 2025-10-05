@@ -208,9 +208,23 @@ export const getQuestions = (): Question[] => [
       "I've tried but failed",
     ],
     required: true,
-    nextQuestion: "contact_info",
+    nextQuestion: "exclusive_sales",
     aiResponse:
       "Your experience level helps me understand how much guidance and support you'll need.",
+  },
+  {
+    id: "exclusive_sales",
+    question: "Can you commit to our exclusive sales partnership?",
+    type: "single",
+    options: [
+      "Yes, I can commit to exclusive sales partnership",
+      "No, I need to keep other options open",
+      "I'm not sure, I need more information",
+    ],
+    required: true,
+    nextQuestion: "contact_info",
+    aiResponse:
+      "This determines our pricing model - exclusive partnerships get percentage-based pricing, while non-exclusive require upfront investment.",
   },
   {
     id: "contact_info",
@@ -360,6 +374,7 @@ export const generateReportData = (answers: Answer[]): ReportData => {
       ? (answersMap.investment_goals as string[])
       : [answersMap.investment_goals as string],
     experience: (answersMap.previous_experience as string) || "Unknown",
+    exclusiveSales: (answersMap.exclusive_sales as string) || "Unknown",
     contactInfo: (answersMap.contact_info as string) || "",
     recommendations: {
       service: getRecommendedService(answersMap),

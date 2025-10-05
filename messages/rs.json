@@ -332,6 +332,29 @@
     "consultation": "Besplatna Konsultacija",
     "getStarted": "Započni"
   },
+  "ConsultationComingSoon": {
+    "title": "Uskoro",
+    "description": "Naš besplatni servis konsultacija je trenutno u razvoju",
+    "whatToExpect": "Šta da Očekujete",
+    "features": {
+      "personalizedAnalysis": {
+        "title": "Personalizovana Analiza",
+        "description": "Dobijte detaljnu analizu tržišta prilagođenu vašoj nekretnini"
+      },
+      "customProposals": {
+        "title": "Prilagođeni Predlozi",
+        "description": "Primite personalizovani predlog sa cenama i vremenskim okvirom"
+      },
+      "zeroRisk": {
+        "title": "Nulti Rizik",
+        "description": "Bez početnih troškova - plaćate samo kada se vaša nekretnina proda"
+      },
+      "expertGuidance": {
+        "title": "Stručno Vođstvo",
+        "description": "Profesionalna podrška kroz ceo proces"
+      }
+    }
+  },
   "LocaleSwitcher": {
     "label": "Izaberite jezik",
     "en": "Engleski",

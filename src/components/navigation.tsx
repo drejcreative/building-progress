@@ -5,6 +5,7 @@ import LanguageSwitcher from "./language-switcher";
 import { ThemeToggle } from "./theme-toggle";
 import { useTranslations } from "next-intl";
 import { MessageCircle } from "lucide-react";
+import { features } from "@/config/features";
 
 export default function Navigation() {
   const t = useTranslations("Navigation");
@@ -36,13 +37,15 @@ export default function Navigation() {
         >
           {t("useCases")}
         </Link>
-        <Link
-          href="/consultation"
-          className="hidden md:inline-flex items-center space-x-2 text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
-        >
-          <MessageCircle className="w-4 h-4" />
-          <span>{t("consultation")}</span>
-        </Link>
+        {features.consultation.enabled && (
+          <Link
+            href="/consultation"
+            className="hidden md:inline-flex items-center space-x-2 text-gray-700 hover:text-gray-900 dark:text-white/80 dark:hover:text-white transition-colors"
+          >
+            <MessageCircle className="w-4 h-4" />
+            <span>{t("consultation")}</span>
+          </Link>
+        )}
         <LanguageSwitcher />
         <ThemeToggle />
         <Link

@@ -332,6 +332,29 @@
     "consultation": "Free Consultation",
     "getStarted": "Get Started"
   },
+  "ConsultationComingSoon": {
+    "title": "Coming Soon",
+    "description": "Our free consultation service is currently under development",
+    "whatToExpect": "What to Expect",
+    "features": {
+      "personalizedAnalysis": {
+        "title": "Personalized Analysis",
+        "description": "Get a detailed market analysis tailored to your property"
+      },
+      "customProposals": {
+        "title": "Custom Proposals",
+        "description": "Receive a personalized proposal with pricing and timeline"
+      },
+      "zeroRisk": {
+        "title": "Zero Risk",
+        "description": "No upfront costs - pay only when your property sells"
+      },
+      "expertGuidance": {
+        "title": "Expert Guidance",
+        "description": "Professional support throughout the entire process"
+      }
+    }
+  },
   "LocaleSwitcher": {
     "label": "Select language",
     "en": "English",

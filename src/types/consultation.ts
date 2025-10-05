@@ -26,6 +26,7 @@ export interface ReportData {
   budgetConcerns: string;
   goals: string[];
   experience: string;
+  exclusiveSales: string;
   contactInfo: string;
   recommendations: {
     service: string;
