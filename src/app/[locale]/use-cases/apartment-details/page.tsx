@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import { contactConfig } from "@/config/contact";
 import {
   Building2,
   CheckCircle,
@@ -493,15 +494,21 @@ export default function ApartmentDetails() {
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Phone className="w-4 h-4 text-blue-500" />
-                    <span className="text-sm text-gray-700 dark:text-gray-300">
+                    <a
+                      href={contactConfig.phone.tel}
+                      className="text-sm text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    >
                       {t("contact.phone")}
-                    </span>
+                    </a>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-4 h-4 text-blue-500" />
-                    <span className="text-sm text-gray-700 dark:text-gray-300">
+                    <a
+                      href={`mailto:${contactConfig.email.milan}`}
+                      className="text-sm text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    >
                       {t("contact.email")}
-                    </span>
+                    </a>
                   </div>
                 </div>
                 <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors mt-4">

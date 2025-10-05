@@ -5,6 +5,7 @@ import { routing } from "@/i18n/routing";
 import { locales } from "@/i18n/config";
 import { notFound } from "next/navigation";
 import { hasLocale } from "next-intl";
+import { contactConfig } from "@/config/contact";
 import {
   Users,
   Target,
@@ -431,9 +432,12 @@ export default async function SalesManagementPage({
                     </p>
                   </div>
                 </div>
-                <p className="text-2xl font-bold text-gray-900 mb-2">
+                <a
+                  href={contactConfig.phone.tel}
+                  className="text-2xl font-bold text-gray-900 mb-2 hover:text-blue-600 transition-colors block"
+                >
                   {t("contact.phone.number")}
-                </p>
+                </a>
                 <p className="text-gray-600 text-sm">
                   {t("contact.phone.availability")}
                 </p>
@@ -453,9 +457,12 @@ export default async function SalesManagementPage({
                     </p>
                   </div>
                 </div>
-                <p className="text-2xl font-bold text-gray-900 mb-2">
+                <a
+                  href={`mailto:${contactConfig.email.sales}`}
+                  className="text-2xl font-bold text-gray-900 mb-2 hover:text-blue-600 transition-colors block"
+                >
                   {t("contact.email.address")}
-                </p>
+                </a>
                 <p className="text-gray-600 text-sm">
                   {t("contact.email.response")}
                 </p>
