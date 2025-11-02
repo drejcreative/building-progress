@@ -2,7 +2,7 @@
 export const features = {
   // Consultation page feature flag
   consultation: {
-    enabled: true, // Set to true when consultation is ready
+    enabled: false, // Set to true when consultation is ready
     comingSoon: true, // Show coming soon page when disabled
   },
 
