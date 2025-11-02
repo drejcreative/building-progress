@@ -195,34 +195,34 @@
       }
     },
     "freeShowcase": {
-      "badge": "Risk-Free Trial",
-      "title": "Try Our Service **100% Free**",
-      "subtitle": "We'll create a professional showcase for your first apartment completely free. No commitment, no risk — see our quality before you commit.",
-      "whatYouGet": "What You Get in Our Free Trial:",
+      "badge": "Free AI Consultation",
+      "title": "Get Your **Personalized Offer** Free",
+      "subtitle": "Our AI-powered consultation creates a customized proposal for your building project completely free. No commitment, no risk — discover what we can do for you.",
+      "whatYouGet": "What You Get in Our Free AI Consultation:",
       "features": {
         "listing": {
-          "title": "Professional Apartment Listing",
-          "description": "Complete webpage for one apartment with SEO optimization"
+          "title": "Personalized Proposal",
+          "description": "Customized service package tailored to your building's specific needs and goals"
         },
         "photography": {
-          "title": "Professional Photography",
-          "description": "High-quality photos and basic drone footage"
+          "title": "Project Assessment",
+          "description": "AI-powered analysis of your property with recommendations for optimal marketing strategy"
         },
         "marketingTest": {
-          "title": "2-Week Marketing Test",
-          "description": "Targeted Facebook and Google ads with performance analytics"
+          "title": "Custom Marketing Plan",
+          "description": "Detailed marketing strategy designed for your target market and budget expectations"
         },
         "analysis": {
-          "title": "Results Analysis",
-          "description": "Detailed report on leads, engagement, and recommendations"
+          "title": "Investment Analysis",
+          "description": "Clear breakdown of expected ROI, timeline, and commission structure tailored to your project"
         }
       },
       "whyWeOffer": "Why We Offer This:",
       "explanation": {
-        "confidence": "We're confident in our ability to deliver results. This limited trial proves our quality with minimal investment from us while giving you a real taste of our service.",
-        "value": "After seeing the leads and engagement we generate, you'll understand the value of our commission-based approach for your entire building.",
-        "quote": "\"Small investment, big proof of concept.\"",
-        "cost": "Typical cost: €800-1,200 • Your cost: €0"
+        "confidence": "We're confident in our ability to deliver results. This free consultation helps you understand exactly what we can offer and how our commission-based approach works for your building.",
+        "value": "After receiving your personalized offer, you'll see the value we provide and understand why our approach makes sense for your entire project.",
+        "quote": "\"See your potential before you commit.\"",
+        "cost": "Consultation value: €800-1,200 • Your cost: €0"
       }
     },
     "commission": {
@@ -230,9 +230,16 @@
       "subtitle": "We only succeed when you succeed - no hidden fees or upfront costs",
       "standard": {
         "title": "Standard Service",
-        "rate": "2-4%",
+        "rate": "1-2%",
         "description": "Complete service package with zero upfront costs",
-        "coreServices": "Core Services:",
+        "idealFor": "Ideal For:",
+        "idealForDetails": [
+          "First-time developers",
+          "Budget-conscious developers",
+          "Standard residential buildings",
+          "Local market focus"
+        ],
+        "coreServices": "Core Features:",
         "features": {
           "website": "Professional website + apartment pages",
           "media": "Cinematic media package",
@@ -241,22 +248,33 @@
           "sales": "Dedicated sales team",
           "tracking": "Progress tracking & reporting"
         },
-        "included": "What's Included:",
+        "benefits": "Benefits:",
         "details": {
-          "seo": "• Basic SEO optimization",
-          "photography": "• Standard photography & drone footage",
-          "ads": "• Google & Facebook ads (3 months)",
-          "documentation": "• Standard legal documentation",
-          "reports": "• Monthly progress reports"
+          "seo": "Basic SEO optimization",
+          "photography": "Standard photography & drone footage",
+          "ads": "Google & Facebook ads (3 months)",
+          "documentation": "Standard legal documentation",
+          "reports": "Monthly progress reports",
+          "cost": "Zero upfront costs",
+          "commission": "Low commission rate (1-2%)"
         }
       },
       "premium": {
         "title": "Premium Service",
         "badge": "VIP",
-        "rate": "3-5.5%",
+        "rate": "2-4%",
         "description": "Premium service with exclusive benefits & priority access",
-        "everything": "Everything in Standard +",
+        "idealFor": "Ideal For:",
+        "idealForDetails": [
+          "Medium to large projects (50-200 units)",
+          "Established developers",
+          "Projects requiring premium presentation",
+          "Mixed-use developments",
+          "Regional market expansion"
+        ],
+        "everything": "Core Features:",
         "features": {
+          "standardIncluded": "Everything in Standard +",
           "database": "Exclusive buyer database access",
           "premiumMarketing": "Premium marketing campaigns",
           "accountManager": "Personal account manager",
@@ -265,14 +283,49 @@
         },
         "benefits": "Premium Benefits:",
         "details": {
-          "seo": "• Advanced SEO & content marketing",
-          "video": "• Professional video production for YouTube",
-          "extended": "• Extended ad campaigns (6 months)",
-          "priority": "• Priority access to our buyer network",
-          "weekly": "• Weekly progress updates",
-          "premiumLegal": "• Premium legal support & contracts",
-          "manager": "• Dedicated account manager 24/7"
+          "seo": "Advanced SEO & content marketing",
+          "video": "Professional video production for YouTube",
+          "extended": "Extended ad campaigns (6 months)",
+          "priority": "Priority access to our buyer network",
+          "weekly": "Weekly progress updates",
+          "premiumLegal": "Premium legal support & contracts",
+          "manager": "Dedicated account manager 24/7",
+          "database": "Exclusive access to premium buyer database"
         }
+      },
+      "custom": {
+        "title": "Custom Enterprise",
+        "badge": "Tailored",
+        "rate": "Negotiable",
+        "description": "Fully customized service package tailored to your specific needs",
+        "idealFor": "Ideal For:",
+        "idealForDetails": [
+          "Large-scale projects (200+ units)",
+          "Complex developments with unique requirements",
+          "Multi-building portfolios",
+          "International investor targeting",
+          "Specialized property types (luxury, commercial, mixed-use)"
+        ],
+        "coreFeatures": "Core Features:",
+        "features": {
+          "customPackage": "100% customized service package",
+          "flexibleRates": "Flexible commission structure based on project size",
+          "priority": "Highest priority support & resources",
+          "dedicatedTeam": "Dedicated team tailored to your project",
+          "itSupport": "Full IT support team"
+        },
+        "benefits": "Custom Benefits:",
+        "details": {
+          "package": "Custom-built service package per your requirements",
+          "flexibility": "Flexible pricing structure (negotiable rates)",
+          "support": "Priority support with dedicated account manager",
+          "resources": "Unlimited marketing resources allocation",
+          "reporting": "Custom reporting dashboard & analytics",
+          "extensions": "Extended campaigns & support duration",
+          "itSupport": "Full IT support team for technical needs"
+        },
+        "cta": "Contact us for a personalized quote",
+        "note": "Rate determined based on project size, complexity, and duration"
       }
     },
     "marketExpansion": {
@@ -725,7 +778,7 @@
           "We'll review your application within 24 hours",
           "Schedule a free consultation call to discuss your property",
           "Receive a customized proposal for your VIP service package",
-          "Start with our 100% free showcase project (no commitment)"
+          "Receive a free AI consultation and personalized offer (no commitment)"
         ]
       },
       "submitButton": "🚀 Secure My VIP Spot Now",
@@ -812,7 +865,7 @@
         },
         "zeroRiskTrial": {
           "title": "Zero Risk Trial",
-          "description": "Start with our 100% free showcase project. No upfront costs, no commitment required."
+          "description": "Get a free AI consultation and personalized offer. No upfront costs, no commitment required."
         },
         "premiumResults": {
           "title": "Premium Results",
