@@ -14,6 +14,21 @@ export const getQuestions = (): Question[] => [
     required: true,
     aiResponse:
       "Understanding your property type helps me tailor the perfect strategy for your specific situation.",
+    nextQuestion: "exclusive_sales",
+  },
+  {
+    id: "exclusive_sales",
+    question: "Can you commit to our exclusive sales partnership?",
+    type: "single",
+    options: [
+      "Yes, I can commit to exclusive sales partnership",
+      "No, I need to keep other options open",
+      "I'm not sure, I need more information",
+    ],
+    required: true,
+    aiResponse:
+      "This is the most important question. Exclusive partnerships allow us to invest heavily in marketing your property with zero upfront costs. Non-exclusive partnerships require custom negotiation.",
+    nextQuestion: "property_location",
   },
   {
     id: "property_location",
@@ -208,23 +223,9 @@ export const getQuestions = (): Question[] => [
       "I've tried but failed",
     ],
     required: true,
-    nextQuestion: "exclusive_sales",
-    aiResponse:
-      "Your experience level helps me understand how much guidance and support you'll need.",
-  },
-  {
-    id: "exclusive_sales",
-    question: "Can you commit to our exclusive sales partnership?",
-    type: "single",
-    options: [
-      "Yes, I can commit to exclusive sales partnership",
-      "No, I need to keep other options open",
-      "I'm not sure, I need more information",
-    ],
-    required: true,
     nextQuestion: "contact_info",
     aiResponse:
-      "This determines our pricing model - exclusive partnerships get percentage-based pricing, while non-exclusive require upfront investment.",
+      "Your experience level helps me understand how much guidance and support you'll need.",
   },
   {
     id: "contact_info",

@@ -245,7 +245,7 @@ This project is proprietary software. All rights reserved.
 
 - **Website**: [ProInvest URL]
 - **Email**: info@proinvest.com
-- **Phone**: +381 11 123 4567
+- **Phone**: +381 64 577 3034
 - **Location**: Belgrade, Serbia
 
 ---

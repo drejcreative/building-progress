@@ -9,13 +9,14 @@ export interface PersonalizedProposal {
     value: string;
     timeline: string;
   };
-  serviceTier: "Standard" | "VIP Premium";
+  serviceTier: "Standard" | "VIP Premium" | "Custom Enterprise";
   pricing: {
     serviceFee: string;
     marketingInvestment: string;
     estimatedSavings: string;
     netBenefit: string;
     paymentModel: string;
+    note?: string;
   };
   deliverables: string[];
   timeline: {
@@ -46,10 +47,22 @@ export const generatePersonalizedProposal = (
     reportData.exclusiveSales ===
     "Yes, I can commit to exclusive sales partnership";
 
-  const serviceTier = isHighValue || isUrgent ? "VIP Premium" : "Standard";
+  // Determine service tier based on property value and requirements
+  let serviceTier: "Standard" | "VIP Premium" | "Custom Enterprise" =
+    "Standard";
+
+  if (
+    reportData.value.includes("Over €5,000,000") ||
+    (reportData.value.includes("€1,000,000") &&
+      reportData.value.includes("€5,000,000"))
+  ) {
+    serviceTier = "Custom Enterprise";
+  } else if (isHighValue || isUrgent) {
+    serviceTier = "VIP Premium";
+  }
 
   const pricing = getPricingForTier(serviceTier, isExclusive, reportData.value);
-  const deliverables = getDeliverablesForTier(serviceTier);
+  const deliverables = getDeliverablesForTier(serviceTier, isExclusive);
   const timeline = getTimelineForUrgency(reportData.timeline);
   const guarantees = getGuaranteesForTier(serviceTier, isExclusive);
   const qaSection = getQASection(isExclusive, serviceTier);
@@ -84,47 +97,49 @@ const getPricingForTier = (
   _propertyValue: string
 ) => {
   if (isExclusive) {
-    // Exclusive sales - percentage-based pricing
+    // Exclusive sales - percentage-based pricing (new structure)
+    if (tier === "Custom Enterprise") {
+      return {
+        serviceFee: "Negotiable",
+        marketingInvestment: "Included in service fee",
+        estimatedSavings: "Custom calculation",
+        netBenefit: "Custom calculation",
+        paymentModel: "Pay only when property sells - negotiable rate",
+      };
+    }
+
     if (tier === "VIP Premium") {
       return {
-        serviceFee: "3-5% of sale price",
+        serviceFee: "2-4% of sale price",
         marketingInvestment: "Included in service fee",
-        estimatedSavings: "€25,000 - €100,000",
-        netBenefit: "€25,000 - €100,000",
+        estimatedSavings: "Based on property value",
+        netBenefit: "Based on property value",
         paymentModel: "Pay only when property sells",
       };
     }
 
+    // Standard tier
     return {
-      serviceFee: "2-4% of sale price",
+      serviceFee: "1-2% of sale price",
       marketingInvestment: "Included in service fee",
-      estimatedSavings: "€10,000 - €25,000",
-      netBenefit: "€10,000 - €25,000",
+      estimatedSavings: "Based on property value",
+      netBenefit: "Based on property value",
       paymentModel: "Pay only when property sells",
     };
   } else {
-    // Non-exclusive sales - upfront payment required
-    if (tier === "VIP Premium") {
-      return {
-        serviceFee: "€8,000 - €20,000 upfront",
-        marketingInvestment: "€15,000 - €30,000 upfront",
-        estimatedSavings: "€25,000 - €100,000",
-        netBenefit: "€2,000 - €50,000",
-        paymentModel: "Upfront payment required",
-      };
-    }
-
+    // Non-exclusive sales - suggest custom solution through negotiation
     return {
-      serviceFee: "€3,000 - €8,000 upfront",
-      marketingInvestment: "€5,000 - €12,000 upfront",
-      estimatedSavings: "€10,000 - €25,000",
-      netBenefit: "€2,000 - €5,000",
-      paymentModel: "Upfront payment required",
+      serviceFee: "Custom negotiation required",
+      marketingInvestment: "To be discussed",
+      estimatedSavings: "To be determined",
+      netBenefit: "To be determined",
+      paymentModel: "Custom pricing structure - contact us for negotiation",
+      note: "Since you prefer to keep other options open, we'll create a custom solution tailored to your needs. Let's schedule a consultation to discuss the best approach for your situation.",
     };
   }
 };
 
-const getDeliverablesForTier = (tier: string) => {
+const getDeliverablesForTier = (tier: string, isExclusive: boolean) => {
   const baseDeliverables = [
     "Professional property photography & videography",
     "Comprehensive market analysis report",
@@ -133,6 +148,28 @@ const getDeliverablesForTier = (tier: string) => {
     "Negotiation support & guidance",
     "Legal documentation assistance",
   ];
+
+  if (!isExclusive) {
+    return [
+      ...baseDeliverables,
+      "Custom service package (to be negotiated)",
+      "Flexible pricing structure",
+      "Tailored marketing strategy",
+    ];
+  }
+
+  if (tier === "Custom Enterprise") {
+    return [
+      ...baseDeliverables,
+      "100% customized service package",
+      "Full IT support team",
+      "Exclusive VIP buyer network access",
+      "Strategic planning & market analysis",
+      "Dedicated enterprise team",
+      "Priority support & communication",
+      "Unlimited marketing resources",
+    ];
+  }
 
   if (tier === "VIP Premium") {
     return [
@@ -240,14 +277,19 @@ const getQASection = (isExclusive: boolean, serviceTier: string) => {
     {
       question: "Investment & Returns - How does your pricing work?",
       answer: isExclusive
-        ? "With exclusive sales partnership, you pay ZERO upfront. We invest in all marketing costs and only get paid a small percentage (2-5%) when your property sells. This means zero risk for you - we're fully invested in your success."
-        : "For non-exclusive sales, we require upfront investment because you're keeping other options open. This covers our marketing costs while you maintain flexibility. With exclusive partnership, you pay nothing upfront - only when we sell your property.",
+        ? `With exclusive sales partnership, you pay ZERO upfront. We invest in all marketing costs and only get paid a commission when your property sells:
+- Standard Service: 1-2% commission
+- Premium Service: 2-4% commission
+- Custom Enterprise: Negotiable rate
+
+This means zero risk for you - we're fully invested in your success.`
+        : "Since you prefer to keep other options open, we'll create a custom solution tailored to your specific needs. We don't offer fixed pricing for non-exclusive partnerships. Let's schedule a consultation to discuss the best approach and negotiate terms that work for both parties.",
     },
     {
       question: "What if my property doesn't sell?",
       answer: isExclusive
         ? "With our exclusive partnership, you pay nothing if the property doesn't sell. We're fully invested in your success and will continue working until we find the right buyer."
-        : "We offer a 30-day money-back guarantee. If you're not satisfied with our service within the first 30 days, we'll refund your upfront investment.",
+        : "For non-exclusive partnerships, we'll discuss terms during our consultation. We understand your need for flexibility and will create a custom solution that protects your interests.",
     },
   ];
 
@@ -271,32 +313,38 @@ const getQASection = (isExclusive: boolean, serviceTier: string) => {
 
   const nonExclusiveQA = [
     {
-      question: "Why do you require upfront payment for non-exclusive sales?",
+      question: "Why can't you offer fixed pricing for non-exclusive sales?",
       answer:
-        "Since you're keeping other options open, we need to cover our marketing investment upfront. This ensures we can still provide professional service while you maintain flexibility.",
+        "Since you prefer to keep other options open, each situation is unique. We'll create a custom solution through negotiation that balances your need for flexibility with our ability to provide quality service. This ensures both parties are protected and aligned.",
     },
     {
-      question: "Investment & Returns - Why the difference in payment models?",
+      question:
+        "What happens in the consultation for non-exclusive partnerships?",
       answer:
-        "Exclusive partnership = Zero upfront, percentage-based payment (we're confident we'll sell, so we invest our own money). Non-exclusive = Upfront payment required (since you're keeping options open, we need to cover our marketing costs upfront to provide professional service while you maintain flexibility).",
+        "We'll discuss your specific needs, project requirements, and expectations. Based on that, we'll negotiate terms, pricing structure, and service package that works for your situation. Every non-exclusive partnership is customized to fit both parties' interests.",
     },
     {
       question: "Can I switch to exclusive partnership later?",
       answer:
-        "Yes! If you decide to commit to exclusive partnership, we can adjust our pricing model and refund a portion of your upfront investment.",
+        "Absolutely! If you decide to commit to exclusive partnership after our consultation, we can adjust our pricing model to the commission-based structure (1-2% Standard, 2-4% Premium, or Negotiable Custom). This gives you zero upfront costs and aligns our success with yours.",
     },
   ];
 
-  const vipQA =
-    serviceTier === "VIP Premium"
-      ? [
-          {
-            question: "What's included in VIP Premium service?",
-            answer:
-              "VIP service includes everything in Standard plus exclusive buyer network access, discrete marketing for privacy, premium staging consultation, international buyer outreach, and dedicated account management.",
-          },
-        ]
-      : [];
+  const vipQA = [];
+
+  if (serviceTier === "VIP Premium") {
+    vipQA.push({
+      question: "What's included in Premium service?",
+      answer:
+        "Premium service (2-4% commission) includes everything in Standard plus exclusive buyer database access, premium marketing campaigns, YouTube videos & paid commercials, content marketing & SEO, weekly progress updates, premium legal support, and dedicated account manager 24/7.",
+    });
+  } else if (serviceTier === "Custom Enterprise") {
+    vipQA.push({
+      question: "What's included in Custom Enterprise service?",
+      answer:
+        "Custom Enterprise (negotiable rate) includes everything in Premium plus 100% customized service package, full IT support team, strategic planning & market analysis, unlimited marketing resources, custom reporting dashboard, and dedicated enterprise team tailored to your project.",
+    });
+  }
 
   return [...baseQA, ...(isExclusive ? exclusiveQA : nonExclusiveQA), ...vipQA];
 };
