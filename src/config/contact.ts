@@ -1,7 +1,7 @@
 export const contactConfig = {
   phone: {
-    number: "+381 11 123 4567",
-    tel: "tel:+381111234567",
+    number: "+381 64 577 3034",
+    tel: "tel:+381645773034",
   },
   email: {
     general: "info@proinvest.com",

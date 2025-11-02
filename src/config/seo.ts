@@ -10,7 +10,7 @@ export const seoConfig = {
       country: "Serbia",
     },
     contact: {
-      telephone: "+381 11 123 4567",
+      telephone: "+381 64 577 3034",
       email: "info@proinvest.com",
       contactType: "customer service",
     },

@@ -195,34 +195,34 @@
       }
     },
     "freeShowcase": {
-      "badge": "Pokušaj Bez Rizika",
-      "title": "Isprobajte Naš Servis **100% Besplatno**",
-      "subtitle": "Kreirat ćemo profesionalnu prezentaciju za vaš prvi stan potpuno besplatno. Bez obaveza, bez rizika — vidite naš kvalitet pre nego što se opredelite.",
-      "whatYouGet": "Šta Dobijate u Našem Besplatnom Pokušaju:",
+      "badge": "Besplatna AI Konsultacija",
+      "title": "Dobijte Vašu **Personalizovanu Ponudu** Besplatno",
+      "subtitle": "Naša AI-pokrenuta konsultacija kreira prilagođenu ponudu za vaš projekat zgrade potpuno besplatno. Bez obaveza, bez rizika — saznajte šta možemo da uradimo za vas.",
+      "whatYouGet": "Šta Dobijate u Našoj Besplatnoj AI Konsultaciji:",
       "features": {
         "listing": {
-          "title": "Profesionalan Listing Stana",
-          "description": "Kompletna veb stranica za jedan stan sa SEO optimizacijom"
+          "title": "Personalizovana Ponuda",
+          "description": "Prilagođen servisni paket dizajniran prema specifičnim potrebama i ciljevima vaše zgrade"
         },
         "photography": {
-          "title": "Profesionalna Fotografija",
-          "description": "Visokokvalitetne fotografije i osnovni dron snimci"
+          "title": "Procena Projekta",
+          "description": "AI-pokrenuta analiza vaše nekretnine sa preporukama za optimalnu marketing strategiju"
         },
         "marketingTest": {
-          "title": "2-nedeljni Marketing Test",
-          "description": "Ciljane Facebook i Google reklame sa analitikama performansi"
+          "title": "Prilagođen Marketing Plan",
+          "description": "Detaljna marketing strategija dizajnirana za vaš ciljni tržište i budžetska očekivanja"
         },
         "analysis": {
-          "title": "Analiza Rezultata",
-          "description": "Detaljan izveštaj o potencijalnim kupcima, angažovanju i preporukama"
+          "title": "Analiza Investicije",
+          "description": "Jasan pregled očekivanog ROI-a, vremenske linije i provizijske strukture prilagođene vašem projektu"
         }
       },
       "whyWeOffer": "Zašto Ovo Nudimo:",
       "explanation": {
-        "confidence": "Uvereni smo u našu sposobnost da isporučimo rezultate. Ovaj ograničeni pokušaj dokazuje naš kvalitet uz minimalnu investiciju od nas dok vam daje pravi ukus našeg servisa.",
-        "value": "Nakon što vidite potencijalne kupce i angažovanje koje generišemo, razumećete vrednost našeg pristupa zasnovanog na proviziji za celu vašu zgradu.",
-        "quote": "\"Mala investicija, veliki dokaz koncepta.\"",
-        "cost": "Tipičan trošak: €800-1.200 • Vaš trošak: €0"
+        "confidence": "Uvereni smo u našu sposobnost da isporučimo rezultate. Ova besplatna konsultacija vam pomaže da razumete tačno šta možemo da ponudimo i kako naš pristup zasnovan na proviziji funkcioniše za vašu zgradu.",
+        "value": "Nakon što dobijete vašu personalizovanu ponudu, videćete vrednost koju pružamo i razumećete zašto naš pristup ima smisla za vaš ceo projekat.",
+        "quote": "\"Vidite svoj potencijal pre nego što se opredelite.\"",
+        "cost": "Vrednost konsultacije: €800-1.200 • Vaš trošak: €0"
       }
     },
     "commission": {
@@ -230,9 +230,16 @@
       "subtitle": "Mi uspevamo samo kada vi uspevate - nema skrivenih tarifa ili početnih troškova",
       "standard": {
         "title": "Standardni Servis",
-        "rate": "2-4%",
+        "rate": "1-2%",
         "description": "Kompletan servisni paket bez početnih troškova",
-        "coreServices": "Osnovni Servisi:",
+        "idealFor": "Idealno Za:",
+        "idealForDetails": [
+          "Prve razvojne projekte",
+          "Razvijače koji vode računa o budžetu",
+          "Standardne stambene zgrade",
+          "Fokus na lokalno tržište"
+        ],
+        "coreServices": "Osnovne Funkcije:",
         "features": {
           "website": "Profesionalan veb sajt + stranice stanova",
           "media": "Kinematski medijski paket",
@@ -241,22 +248,33 @@
           "sales": "Posvećen prodajni tim",
           "tracking": "Praćenje napretka i izveštavanje"
         },
-        "included": "Šta je Uključeno:",
+        "benefits": "Pogodnosti:",
         "details": {
-          "seo": "• Osnovna SEO optimizacija",
-          "photography": "• Standardna fotografija i dron snimci",
-          "ads": "• Google i Facebook reklame (3 meseca)",
-          "documentation": "• Standardna pravna dokumentacija",
-          "reports": "• Mesečni izveštaji o napretku"
+          "seo": "Osnovna SEO optimizacija",
+          "photography": "Standardna fotografija i dron snimci",
+          "ads": "Google i Facebook reklame (3 meseca)",
+          "documentation": "Standardna pravna dokumentacija",
+          "reports": "Mesečni izveštaji o napretku",
+          "cost": "Nema početnih troškova",
+          "commission": "Niska provizijska stopa (1-2%)"
         }
       },
       "premium": {
         "title": "Premium Servis",
         "badge": "VIP",
-        "rate": "3-5.5%",
+        "rate": "2-4%",
         "description": "Premium servis sa ekskluzivnim pogodnostima i prioritetnim pristupom",
-        "everything": "Sve iz Standardnog +",
+        "idealFor": "Idealno Za:",
+        "idealForDetails": [
+          "Srednje do velike projekte (50-200 jedinica)",
+          "Uspostavljene razvijače",
+          "Projekte koji zahtevaju premium prezentaciju",
+          "Mešovite razvojne projekte",
+          "Regionalno širenje tržišta"
+        ],
+        "everything": "Osnovne Funkcije:",
         "features": {
+          "standardIncluded": "Sve iz Standardnog +",
           "database": "Ekskluzivan pristup bazi kupaca",
           "premiumMarketing": "Premium marketing kampanje",
           "accountManager": "Lični menadžer računa",
@@ -265,14 +283,49 @@
         },
         "benefits": "Premium Pogodnosti:",
         "details": {
-          "seo": "• Napredni SEO i content marketing",
-          "video": "• Profesionalna video produkcija za YouTube",
-          "extended": "• Proširene reklamne kampanje (6 meseci)",
-          "priority": "• Prioritetan pristup našoj mreži kupaca",
-          "weekly": "• Nedeljni izveštaji o napretku",
-          "premiumLegal": "• Premium pravna podrška i ugovori",
-          "manager": "• Posvećen menadžer računa 24/7"
+          "seo": "Napredni SEO i content marketing",
+          "video": "Profesionalna video produkcija za YouTube",
+          "extended": "Proširene reklamne kampanje (6 meseci)",
+          "priority": "Prioritetan pristup našoj mreži kupaca",
+          "weekly": "Nedeljni izveštaji o napretku",
+          "premiumLegal": "Premium pravna podrška i ugovori",
+          "manager": "Posvećen menadžer računa 24/7",
+          "database": "Ekskluzivan pristup premium bazi kupaca"
         }
+      },
+      "custom": {
+        "title": "Prilagođen Enterprise",
+        "badge": "Po Meri",
+        "rate": "Dogovor",
+        "description": "Potpuno prilagođen servisni paket dizajniran prema vašim specifičnim potrebama",
+        "idealFor": "Idealno Za:",
+        "idealForDetails": [
+          "Velike projekte (200+ jedinica)",
+          "Složene projekte sa jedinstvenim zahtevima",
+          "Portfolio više zgrada",
+          "Ciljanje na medjunarodne investitore",
+          "Specijalizovane tipove nekretnina (luksuz, komercijalne, mešovite)"
+        ],
+        "coreFeatures": "Osnovne Funkcije:",
+        "features": {
+          "customPackage": "100% prilagođen servisni paket",
+          "flexibleRates": "Fleksibilna provizijska struktura bazirana na veličini projekta",
+          "priority": "Najveći prioritet podrške i resursa",
+          "dedicatedTeam": "Posvećen tim prilagođen vašem projektu",
+          "itSupport": "Kompletan IT tim za podršku"
+        },
+        "benefits": "Prilagođene Pogodnosti:",
+        "details": {
+          "package": "Paket usluga po meri prema vašim zahtevima",
+          "flexibility": "Fleksibilna struktura cena (dogovorene stope)",
+          "support": "Prioritetna podrška sa posvećenim menadžerom računa",
+          "resources": "Neograničena alokacija marketing resursa",
+          "reporting": "Prilagođen dashboard za izveštavanje i analitiku",
+          "extensions": "Proširene kampanje i dužina podrške",
+          "itSupport": "Kompletan IT tim za podršku za tehničke potrebe"
+        },
+        "cta": "Kontaktirajte nas za personalizovanu ponudu",
+        "note": "Stopa određena na osnovu veličine projekta, složenosti i trajanja"
       }
     },
     "marketExpansion": {
@@ -595,7 +648,7 @@
       "call": {
         "title": "Pozovite za Informacije o Stanu",
         "description": "Razgovarajte sa našim prodajnim stručnjakom o dostupnim jedinicama, cenama i napretku izgradnje. Dobijte detaljne informacije o vašem budućem domu.",
-        "phone": "+381 11 123 4567",
+        "phone": "+381 64 577 3034",
         "urgency": "Dostupno ponedeljak-petak, 9-18h"
       },
       "email": {
@@ -725,7 +778,7 @@
           "Pregledaćemo vašu prijavu u roku od 24 sata",
           "Zakazati besplatni konsultacijski poziv da razgovorimo o vašoj nekretnini",
           "Dobiti prilagođenu ponudu za vaš VIP servisni paket",
-          "Početi sa našim 100% besplatnim projektom prezentacije (bez obaveza)"
+          "Dobiti besplatnu AI konsultaciju i personalizovanu ponudu (bez obaveza)"
         ]
       },
       "submitButton": "🚀 Obezbedite Svoje VIP Mesto Sada",
@@ -812,7 +865,7 @@
         },
         "zeroRiskTrial": {
           "title": "Pokušaj Bez Rizika",
-          "description": "Počnite sa našim 100% besplatnim projektom prezentacije. Nema početnih troškova, nema potrebne obaveze."
+          "description": "Dobijte besplatnu AI konsultaciju i personalizovanu ponudu. Nema početnih troškova, nema potrebne obaveze."
         },
         "premiumResults": {
           "title": "Premium Rezultati",
@@ -985,7 +1038,7 @@
       "phone": {
         "title": "Pozovite Tim za Praćenje",
         "description": "Razgovarajte direktno sa našim stručnjacima za praćenje napretka",
-        "number": "+381 11 123 4567",
+        "number": "+381 64 577 3034",
         "availability": "Dostupno ponedeljak-petak, 9-18h"
       },
       "email": {
@@ -1111,7 +1164,7 @@
       "phone": {
         "title": "Pozovite Prodajni Tim",
         "description": "Razgovarajte direktno sa našim prodajnim stručnjacima",
-        "number": "+381 11 123 4567",
+        "number": "+381 64 577 3034",
         "availability": "Dostupno ponedeljak-petak, 9-18h"
       },
       "email": {
@@ -1237,7 +1290,7 @@
       "phone": {
         "title": "Pozovite Pravni Tim",
         "description": "Razgovarajte direktno sa našim pravnim stručnjacima",
-        "number": "+381 11 123 4567",
+        "number": "+381 64 577 3034",
         "availability": "Dostupno ponedeljak-petak, 9-18h"
       },
       "email": {
