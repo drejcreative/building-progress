@@ -9,12 +9,13 @@ import Slide1 from "./slides/slide1";
 import Slide3 from "./slides/slide3";
 import Slide4 from "./slides/slide4";
 import Slide6 from "./slides/slide6";
+import Slide6b from "./slides/slide6b";
 import Slide7 from "./slides/slide7";
 import Slide8 from "./slides/slide8";
 import Slide9 from "./slides/slide9";
 import Slide10 from "./slides/slide10";
 
-const TOTAL_SLIDES = 8;
+const TOTAL_SLIDES = 9;
 
 interface PresentationContainerProps {
   onClose?: () => void;
@@ -99,6 +100,7 @@ export default function MMontStrojPresentation({
     <Slide3 key="3" />,
     <Slide4 key="4" />,
     <Slide6 key="6" />,
+    <Slide6b key="6b" />,
     <Slide7 key="7" />,
     <Slide8 key="8" />,
     <Slide9 key="9" />,
