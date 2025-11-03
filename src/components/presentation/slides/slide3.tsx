@@ -12,12 +12,12 @@ export default function Slide3() {
     {
       name: "Belgrade Waterfront",
       url: "https://www.belgradewaterfront.com/en/",
-      image: "/images/modern-complex.jpg",
+      image: "/images/bw.webp",
     },
     {
       name: "Delta District",
       url: "https://deltadistrict.rs/",
-      image: "/images/aerial-view.jpg",
+      image: "/images/Delta-District-Home-page-1.jpg",
     },
   ];
 
