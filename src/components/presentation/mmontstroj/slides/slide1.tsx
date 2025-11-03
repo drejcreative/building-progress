@@ -49,11 +49,11 @@ export default function Slide1() {
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
             <span className="bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-400 bg-clip-text text-transparent">
-              Hvala vam što ste odvojili vreme
+              Želimo da vam ponudimo
             </span>
             <br />
             <span className="text-white text-3xl md:text-5xl font-light">
-              da se vidimo.
+              isti nivo marketinga kao Waterfront i Delta.
             </span>
           </h1>
           <motion.p
@@ -62,7 +62,7 @@ export default function Slide1() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-xl md:text-2xl text-amber-100 font-light max-w-4xl mx-auto leading-relaxed"
           >
-            Moram da kažem — pratimo MMontStroj već neko vreme i iskreno, oduševljeni smo onim što radite.
+            Pratimo MMontStroj već neko vreme. Kvalitet gradnje, tempo, i način na koji završavate projekte — stvarno stoji iza imena.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -70,7 +70,7 @@ export default function Slide1() {
             transition={{ duration: 0.8, delay: 0.7 }}
             className="text-lg md:text-xl text-amber-200 font-light max-w-4xl mx-auto leading-relaxed mt-4"
           >
-            Kvalitet gradnje, tempo, i način na koji završavate projekte — stvarno stoji iza imena.
+            Vaš projekat zaslužuje isti nivo digitalne prezentacije kao najveći beogradski projekti — ali sa više autentičnosti i lokalnog duha.
           </motion.p>
         </motion.div>
       </div>

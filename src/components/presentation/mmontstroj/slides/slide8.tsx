@@ -7,7 +7,7 @@ export default function Slide8() {
   const models = [
     {
       number: "1️⃣",
-      name: "Potpuna Ekskluziva",
+      name: "Delimična Ekskluziva",
       commission: "1%",
       description: "Jedna zgrada, ekskluzivna prodaja",
       details: [
@@ -34,13 +34,13 @@ export default function Slide8() {
     {
       number: "3️⃣",
       name: "Parcijalna Ekskluziva",
-      commission: "1.5%",
+      commission: "2%",
       description: "25% stanova, test saradnja",
       details: [
         "25% stanova po zgradi",
         "Ekskluzivno pravo prodaje četvrtine stanova",
-        "Trajanje 6 meseci",
-        "Oslobađa se 20 stanova mesečno ako ne postignemo rezultate",
+        "Trajanje prodaje od gradjevinske dozvole + 1 god od upotrebne dozvole",
+        "Oslobađa se 10% stanova na 6 meseci ako ne postignemo rezultate",
       ],
       color: "blue",
     },

@@ -3,8 +3,8 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Maximize, Minimize, X } from "lucide-react";
+import Image from "next/image";
 import Slide1 from "./slides/slide1";
-import Slide2 from "./slides/slide2";
 import Slide3 from "./slides/slide3";
 import Slide4 from "./slides/slide4";
 import Slide5 from "./slides/slide5";
@@ -14,7 +14,7 @@ import Slide8 from "./slides/slide8";
 import Slide9 from "./slides/slide9";
 import Slide10 from "./slides/slide10";
 
-const TOTAL_SLIDES = 10;
+const TOTAL_SLIDES = 9;
 
 interface PresentationContainerProps {
   onClose?: () => void;
@@ -96,7 +96,6 @@ export default function MMontStrojPresentation({
 
   const slides = [
     <Slide1 key="1" />,
-    <Slide2 key="2" />,
     <Slide3 key="3" />,
     <Slide4 key="4" />,
     <Slide5 key="5" />,
@@ -178,6 +177,24 @@ export default function MMontStrojPresentation({
           />
         ))}
       </div>
+
+      {/* Logo - Top Left */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+        className="absolute top-4 left-4 z-50"
+      >
+        <div className="relative w-32 h-12 opacity-80 hover:opacity-100 transition-opacity">
+          <Image
+            src="/proinvest-logo.svg"
+            alt="ProInvest Logo"
+            fill
+            className="object-contain"
+            priority
+          />
+        </div>
+      </motion.div>
 
       {/* Top Controls */}
       <div className="absolute top-4 right-4 z-50 flex gap-2">
