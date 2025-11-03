@@ -15,11 +15,11 @@ export default function Slide3() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ko Smo Mi
+            Ko smo mi
           </h2>
           <p className="text-2xl md:text-3xl text-blue-300 font-semibold mb-8">
-            Jesmo agencija, ali smo u pozadini IT kompanija sa dugogodišnjim
-            internacionalnim iskustvom.
+            Agencija za nekretnine, proistekla iz dugogodišnjeg internacionalnog
+            IT iskustva
           </p>
         </motion.div>
 
