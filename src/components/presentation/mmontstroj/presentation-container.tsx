@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Maximize, Minimize, X } from "lucide-react";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import Slide1 from "./slides/slide1";
 import Slide3 from "./slides/slide3";
 import Slide4 from "./slides/slide4";
@@ -185,15 +186,17 @@ export default function MMontStrojPresentation({
         transition={{ duration: 0.8, delay: 0.5 }}
         className="absolute top-4 left-4 z-50"
       >
-        <div className="relative w-32 h-12 opacity-80 hover:opacity-100 transition-opacity">
-          <Image
-            src="/proinvest-logo.svg"
-            alt="ProInvest Logo"
-            fill
-            className="object-contain"
-            priority
-          />
-        </div>
+        <Link href="/" className="block">
+          <div className="relative w-32 h-12 opacity-80 hover:opacity-100 transition-opacity cursor-pointer">
+            <Image
+              src="/proinvest-logo.svg"
+              alt="ProInvest Logo"
+              fill
+              className="object-contain"
+              priority
+            />
+          </div>
+        </Link>
       </motion.div>
 
       {/* Top Controls */}
