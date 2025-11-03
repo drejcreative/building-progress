@@ -1912,5 +1912,246 @@
       "title": "Kontaktirajte Našeg Zastupnika za Zaštitu Podataka",
       "content": "Za sva pitanja o zaštiti podataka ili za ostvarivanje vaših prava, molimo kontaktirajte našeg Zastupnika za zaštitu podataka:"
     }
+  },
+  "Presentation": {
+    "slide1": {
+      "headline": "Mi nismo samo agencija za nekretnine. Gradimo digitalnu infrastrukturu za prodaju za investitore.",
+      "subheadline": "ProInvest + Livion — IT razvoj, marketing i prodaja — sve u jednom sistemu."
+    },
+    "slide2": {
+      "title": "Ko Smo Mi",
+      "description": "Mi smo full-stack IT i marketing kompanija sa sedištem u Rumi, sa fokusom na Beograd i Novi Sad — razvijamo svetske digitalne sisteme za nekretnine.",
+      "team": {
+        "engineers": "Softverski inženjeri (platforme, API-ji, baze podataka)",
+        "marketing": "Marketing stručnjaci (video, društvene mreže, analitika)",
+        "sales": "Agenti za nekretnine (prodaja na licu mesta i upravljanje investitorima)"
+      },
+      "conclusion": "Zato ne postupamo kao agencija — funkcionišemo kao vaš interni odsek za rast."
+    },
+    "slide3": {
+      "title": "U Šta Verujemo",
+      "mission": "Verujemo da manji investitori zaslužuju isti nivo digitalne prisutnosti kao Beograd na vodi ili Delta City — ali sa više autentičnosti i lokalnog duha.",
+      "vision": "Naša misija je da pomognemo manjim investitorima da izgrade premium brendove koji se takmiče sa najvećim projektima — pokazujući da svaka zgrada može imati premium digitalnu prisutnost, bez gubljenja autentičnosti."
+    },
+    "slide4": {
+      "title": "S Čim Se Investitori Bore",
+      "headline": "Vaše zgrade su premium. Vaša digitalna prisutnost ne bi trebalo da izgleda kao iz druge ruke.",
+      "problems": {
+        "agents": "Većina investitora se oslanja na agente ili Facebook postove.",
+        "websites": "Websajtovi su zastareli, nisu optimizovani za konverziju.",
+        "analytics": "Nemaju analitiku ili CRM preglednost.",
+        "brand": "Njihov brend izgleda mali u odnosu na kvalitet izgradnje.",
+        "time": "Gube vreme ručno praćenjem potencijalnih klijenata.",
+        "media": "Nedostatak profesionalnog medijskog sadržaja (fotografije, video, virtuelne ture)."
+      },
+      "benefitsTitle": "Sa ProInvest Dobijate:",
+      "benefits": {
+        "automated": "Automatsko praćenje potencijalnih klijenata i CRM sistem",
+        "premium": "Premium dizajn websajta koji odgovara kvalitetu vaše izgradnje",
+        "analytics": "Analitika u realnom vremenu i praćenje konverzija",
+        "marketing": "Profesionalne marketinške kampanje na svim kanalima",
+        "time": "Štedite vreme sa automatizovanim procesima",
+        "brand": "Gradite premium brend koji privlači kupce visoke vrednosti"
+      }
+    },
+    "slide5": {
+      "title": "ProInvest Sistem",
+      "description": "Nismo marketing agencija — gradimo kompletan sistem prodaje za vaše projekte.",
+      "system": {
+        "video": "Video i Oglasi",
+        "crm": "CRM",
+        "agents": "Agenti",
+        "analytics": "Analitika",
+        "sales": "Prodaja"
+      },
+      "features": {
+        "website": "Posvećeni websajt za svaku zgradu i stranica za svaki stan",
+        "tours": "360° ture i ažuriranja izgradnje uživo",
+        "tracking": "Automatsko praćenje potencijalnih klijenata i analitika",
+        "campaigns": "Marketinške kampanje (Google, Meta, YouTube)",
+        "legal": "Pravna podrška i agenti na licu mesta",
+        "media": "Profesionalna fotografija, video i snimci sa drona"
+      }
+    },
+    "slide6": {
+      "title": "Naša Tehnologija i Rezultati",
+      "description": "Svaki pregled, klik i upit se prati. Vi vidite ono što mi vidimo — potpuna transparentnost.",
+      "showcases": {
+        "listings": "ProInvest oglasi",
+        "dashboard": "CRM kontrolna tabla",
+        "analytics": "Analitički izveštaj",
+        "website": "Primer websajta",
+        "tour": "360° tura",
+        "progress": "Praćenje izgradnje"
+      }
+    },
+    "slide7": {
+      "title": "Kako Radimo",
+      "headline": "Ne naplaćujemo unapred. Zarađujemo kada vi zaradite.",
+      "services": {
+        "standard": {
+          "name": "Standardna Usluga",
+          "commission": "1-2%",
+          "description": "Kompletan paket usluga bez unapred plaćanja",
+          "idealFor": [
+            "Početni investitori",
+            "Investitori koji su budžetno ograničeni",
+            "Standardne stambene zgrade",
+            "Fokus na lokalnom tržištu"
+          ],
+          "coreFeatures": [
+            "Profesionalni websajt + stranice za stanove",
+            "Kinematografski medijski paket",
+            "Marketinške kampanje na više kanala",
+            "Usluga pravne podrške",
+            "Posvećeni prodajni tim",
+            "Praćenje izgradnje i izveštavanje"
+          ],
+          "benefits": [
+            "Osnovna SEO optimizacija",
+            "Standardna fotografija i snimci sa drona",
+            "Google i Facebook oglasi (3 meseca)",
+            "Standardna pravna dokumentacija",
+            "Mesečni izveštaji o napretku",
+            "Bez unapred plaćanja",
+            "Niska provizija (1-2%)"
+          ]
+        },
+        "premium": {
+          "name": "Premium Usluga",
+          "commission": "2-4%",
+          "description": "Premium usluga sa ekskluzivnim beneficijama i prioritetnim pristupom",
+          "idealFor": [
+            "Srednji do veliki projekti (50-200 jedinica)",
+            "Iskusni investitori",
+            "Projekti koji zahtevaju premium prezentaciju",
+            "Mešovite zgrade",
+            "Regionalna ekspanzija tržišta"
+          ],
+          "coreFeatures": [
+            "Sve iz Standardne +",
+            "Ekskluzivan pristup bazi kupaca",
+            "Premium marketinške kampanje",
+            "Lični menadžer za račun",
+            "YouTube video i plaćeni reklamni spotovi",
+            "Content marketing i SEO"
+          ],
+          "benefits": [
+            "Napredna SEO i content marketing optimizacija",
+            "Profesionalna produkcija videa za YouTube",
+            "Produžene reklamne kampanje (6 meseci)",
+            "Prioritetni pristup našoj mreži kupaca",
+            "Nedeljni izveštaji o napretku",
+            "Premium pravna podrška i ugovori",
+            "Posvećeni menadžer za račun 24/7",
+            "Ekskluzivan pristup premium bazi kupaca"
+          ]
+        },
+        "enterprise": {
+          "name": "Prilagođeno Preduzeće",
+          "commission": "Po dogovoru",
+          "description": "Potpuno prilagođen paket usluga po vašim specifičnim potrebama",
+          "idealFor": [
+            "Veliki projekti (200+ jedinica)",
+            "Kompleksni razvoji sa jedinstvenim zahtevima",
+            "Multi-zgradni portfoliji",
+            "Ciljanje na međunarodne investitore",
+            "Specijalizovani tipovi nekretnina (luksuz, komercijalno, mešovito)"
+          ],
+          "coreFeatures": [
+            "100% prilagođen paket usluga",
+            "Fleksibilna struktura provizije na osnovu veličine projekta",
+            "Najviši prioritet podrške i resursa",
+            "Posvećeni tim prilagođen vašem projektu",
+            "Pun IT tim za podršku"
+          ],
+          "benefits": [
+            "Prilagođen paket usluga po vašim zahtevima",
+            "Fleksibilna cenovna struktura (procenjene stope)",
+            "Prioritetna podrška sa posvećenim menadžerom za račun",
+            "Neograničena alokacija marketinških resursa",
+            "Prilagođena kontrolna tabla i analitika",
+            "Produžene kampanje i trajanje podrške",
+            "Pun IT tim za podršku za tehničke potrebe"
+          ],
+          "note": "Stopa se određuje na osnovu veličine projekta, složenosti i trajanja",
+          "cta": "Kontaktirajte nas za personalizovanu ponudu"
+        }
+      }
+    },
+    "slide8": {
+      "title": "Šta Dobijate",
+      "deliverables": {
+        "platform": "Posvećena digitalna platforma i aplikacija po projektu",
+        "tours": "360° ture, fotografije, video sadržaj",
+        "ads": "Upravljanje oglasima (Google, Meta, YouTube)",
+        "reports": "Nedeljni analitički izveštaji",
+        "agents": "Agenti za prodaju na licu mesta",
+        "legal": "Pravna i ugovorna podrška"
+      }
+    },
+    "slide9": {
+      "title": "Zašto Mi",
+      "headline": "Agencije rade marketing. Mi gradimo sistem prodaje.",
+      "points": {
+        "tech": "Mi smo IT kompanija, ne marketing agencija.",
+        "local": "Nismo samo agencija za nekretnine — to je samo jedna od naših usluga. Mi smo IT kompanija koja gradi kompletan sistem.",
+        "enterprise": "Imamo interne programere, agente, marketare i advokate — kompletnu ekspertizu pod jednim krovom.",
+        "combined": "Kombinujemo IT, marketing i nekretnine pod jednim krovom.",
+        "results": "Merimo uspeh brzinom prodaje, ne \"lajkovima\"."
+      }
+    },
+    "slide10": {
+      "title": "Kako Počinjemo",
+      "steps": {
+        "step1": {
+          "action": "Dogovor o modelu i nekretnini",
+          "duration": "1 nedelja"
+        },
+        "step2": {
+          "action": "Brend i produkcija medija",
+          "duration": "2–3 nedelje"
+        },
+        "step3": {
+          "action": "Podešavanje websajta / aplikacije",
+          "duration": "3–4 nedelje"
+        },
+        "step4": {
+          "action": "Pokretanje kampanje",
+          "duration": "Odmah posle"
+        },
+        "step5": {
+          "action": "Prvi izveštaj i optimizacija",
+          "duration": "Dan 30"
+        }
+      }
+    },
+    "slide11": {
+      "title": "Vizuelni Kvalitet",
+      "tagline": "Vaša zgrada zaslužuje prezentaciju koja prodaje pre nego što je završena.",
+      "mockups": {
+        "landing": "Dizajn početne stranice za zgradu",
+        "tour": "Pregled 360 ture",
+        "app": "Ekran mobilne aplikacije",
+        "drone": "Snimak sa drona / vremenski raspored izgradnje"
+      }
+    },
+    "slide12": {
+      "title": "Gradimo Vaš Sledeći Uspeh Zajedno",
+      "description": "Pripremićemo vaš 60-dnevni plan prodaje i digitalni koncept za nedelju dana.",
+      "subdescription": "Ako vam se sviđa ono što vidite, nastavljamo dalje — bez pritiska, samo rezultati.",
+      "contact": "Kontaktirajte nas",
+      "website": "Posetite naš websajt",
+      "phone": "+381 64 577 3034",
+      "email": "info@proinvest.com"
+    },
+    "controls": {
+      "fullscreen": "Puni Ekran",
+      "exitFullscreen": "Izađi iz Punog Ekrana",
+      "next": "Sledeći Slide",
+      "previous": "Prethodni Slide",
+      "slide": "Slide",
+      "of": "od"
+    }
   }
 }
