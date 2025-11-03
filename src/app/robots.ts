@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/private/", "/admin/"],
+      disallow: ["/private/", "/admin/", "/presentation/mmontstroj/"],
     },
     sitemap: "https://proinvest.rs/sitemap.xml",
     host: "https://proinvest.rs",

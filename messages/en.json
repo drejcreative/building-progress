@@ -1912,5 +1912,246 @@
       "title": "Contact Our Data Protection Officer",
       "content": "For any data protection inquiries or to exercise your rights, please contact our Data Protection Officer:"
     }
+  },
+  "Presentation": {
+    "slide1": {
+      "headline": "We don't sell marketing. We build digital sales infrastructure for real estate developers.",
+      "subheadline": "ProInvest + Livion — IT development, marketing, and sales — all under one system."
+    },
+    "slide2": {
+      "title": "Who We Are",
+      "description": "We're a full-stack IT and marketing company headquartered in Ruma, with operations focused on Belgrade and Novi Sad — developing world-class digital systems for real estate.",
+      "team": {
+        "engineers": "Software engineers (platforms, APIs, databases)",
+        "marketing": "Marketing experts (video, social, analytics)",
+        "sales": "Real estate agents (on-site sales & investor management)"
+      },
+      "conclusion": "This is why we don't act like an agency — we function like your internal growth department."
+    },
+    "slide3": {
+      "title": "What We Believe",
+      "mission": "We believe that smaller investors deserve the same level of digital presence as Belgrade Waterfront or Delta District — but with more authenticity and local soul.",
+      "vision": "Our mission is to help smaller investors build premium brands that compete with the biggest projects — showing that every building can have a premium digital presence, without losing authenticity."
+    },
+    "slide4": {
+      "title": "What Developers Struggle With",
+      "headline": "Your buildings are premium. Your digital presence shouldn't look second-hand.",
+      "problems": {
+        "agents": "Most developers rely on agents or Facebook posts.",
+        "websites": "Websites are outdated, not optimized for conversion.",
+        "analytics": "They have no analytics or CRM visibility.",
+        "brand": "Their brand looks small compared to their construction quality.",
+        "time": "They lose time following up leads manually.",
+        "media": "Lack of professional media content (photos, videos, virtual tours)."
+      },
+      "benefitsTitle": "With ProInvest You Get:",
+      "benefits": {
+        "automated": "Automated lead tracking and CRM system",
+        "premium": "Premium website design that matches your construction quality",
+        "analytics": "Real-time analytics and conversion tracking",
+        "marketing": "Professional marketing campaigns across all channels",
+        "time": "Save time with automated processes",
+        "brand": "Build a premium brand that attracts high-value buyers"
+      }
+    },
+    "slide5": {
+      "title": "The ProInvest System",
+      "description": "We don't just market — we operate the full sales engine for your projects.",
+      "system": {
+        "video": "Video & Ads",
+        "crm": "CRM",
+        "agents": "Agents",
+        "analytics": "Analytics",
+        "sales": "Sales"
+      },
+      "features": {
+        "website": "Dedicated website for each building and page for each apartment",
+        "tours": "360° tours & live construction updates",
+        "tracking": "Automated lead tracking & analytics",
+        "campaigns": "Marketing campaigns (Google, Meta, YouTube)",
+        "legal": "Legal support and on-site agents",
+        "media": "Professional photography, video & drone footage"
+      }
+    },
+    "slide6": {
+      "title": "Our Technology & Results",
+      "description": "Every view, click, and inquiry is tracked. You see what we see — full transparency.",
+      "showcases": {
+        "listings": "ProInvest listings",
+        "dashboard": "CRM dashboard",
+        "analytics": "Analytics report",
+        "website": "Website sample",
+        "tour": "360° tour",
+        "progress": "Progress tracking"
+      }
+    },
+    "slide7": {
+      "title": "How We Work",
+      "headline": "We don't charge upfront. We earn when you earn.",
+      "services": {
+        "standard": {
+          "name": "Standard Service",
+          "commission": "1-2%",
+          "description": "Complete service package with zero upfront costs",
+          "idealFor": [
+            "First-time developers",
+            "Budget-conscious developers",
+            "Standard residential buildings",
+            "Local market focus"
+          ],
+          "coreFeatures": [
+            "Professional website + apartment pages",
+            "Cinematic media package",
+            "Multi-channel marketing campaigns",
+            "Legal concierge service",
+            "Dedicated sales team",
+            "Progress tracking & reporting"
+          ],
+          "benefits": [
+            "Basic SEO optimization",
+            "Standard photography & drone footage",
+            "Google & Facebook ads (3 months)",
+            "Standard legal documentation",
+            "Monthly progress reports",
+            "Zero upfront costs",
+            "Low commission rate (1-2%)"
+          ]
+        },
+        "premium": {
+          "name": "Premium Service",
+          "commission": "2-4%",
+          "description": "Premium service with exclusive benefits & priority access",
+          "idealFor": [
+            "Medium to large projects (50-200 units)",
+            "Established developers",
+            "Projects requiring premium presentation",
+            "Mixed-use developments",
+            "Regional market expansion"
+          ],
+          "coreFeatures": [
+            "Everything in Standard +",
+            "Exclusive buyer database access",
+            "Premium marketing campaigns",
+            "Personal account manager",
+            "YouTube videos & paid commercials",
+            "Content marketing & SEO"
+          ],
+          "benefits": [
+            "Advanced SEO & content marketing",
+            "Professional video production for YouTube",
+            "Extended ad campaigns (6 months)",
+            "Priority access to our buyer network",
+            "Weekly progress updates",
+            "Premium legal support & contracts",
+            "Dedicated account manager 24/7",
+            "Exclusive access to premium buyer database"
+          ]
+        },
+        "enterprise": {
+          "name": "Custom Enterprise",
+          "commission": "Negotiable",
+          "description": "Fully customized service package tailored to your specific needs",
+          "idealFor": [
+            "Large-scale projects (200+ units)",
+            "Complex developments with unique requirements",
+            "Multi-building portfolios",
+            "International investor targeting",
+            "Specialized property types (luxury, commercial, mixed-use)"
+          ],
+          "coreFeatures": [
+            "100% customized service package",
+            "Flexible commission structure based on project size",
+            "Highest priority support & resources",
+            "Dedicated team tailored to your project",
+            "Full IT support team"
+          ],
+          "benefits": [
+            "Custom-built service package per your requirements",
+            "Flexible pricing structure (negotiable rates)",
+            "Priority support with dedicated account manager",
+            "Unlimited marketing resources allocation",
+            "Custom reporting dashboard & analytics",
+            "Extended campaigns & support duration",
+            "Full IT support team for technical needs"
+          ],
+          "note": "Rate determined based on project size, complexity, and duration",
+          "cta": "Contact us for a personalized quote"
+        }
+      }
+    },
+    "slide8": {
+      "title": "What You Get",
+      "deliverables": {
+        "platform": "Dedicated digital platform & app per project",
+        "tours": "360° tours, photography, video content",
+        "ads": "Ad management (Google, Meta, YouTube)",
+        "reports": "Weekly analytics reports",
+        "agents": "On-site sales agents",
+        "legal": "Legal and contract support"
+      }
+    },
+    "slide9": {
+      "title": "Why Us",
+      "headline": "Agencies do marketing. We build sales systems.",
+      "points": {
+        "tech": "We're a tech company, not a marketing agency.",
+        "local": "We're not just a real estate agency — that's just one of our services. We're an IT company that builds complete systems.",
+        "enterprise": "We have in-house developers, agents, marketers, and lawyers — complete expertise under one roof.",
+        "combined": "We combine IT, marketing, and real estate under one roof.",
+        "results": "We measure success by sales velocity, not \"likes.\""
+      }
+    },
+    "slide10": {
+      "title": "How We Start",
+      "steps": {
+        "step1": {
+          "action": "Agreement on model & property",
+          "duration": "1 week"
+        },
+        "step2": {
+          "action": "Brand & media production",
+          "duration": "2–3 weeks"
+        },
+        "step3": {
+          "action": "Website / app setup",
+          "duration": "3–4 weeks"
+        },
+        "step4": {
+          "action": "Campaign launch",
+          "duration": "Immediately after"
+        },
+        "step5": {
+          "action": "First report & optimization",
+          "duration": "Day 30"
+        }
+      }
+    },
+    "slide11": {
+      "title": "Visual Quality",
+      "tagline": "Your building deserves a presentation that sells before it's finished.",
+      "mockups": {
+        "landing": "Landing page design for building",
+        "tour": "360 tour preview",
+        "app": "Mobile app screen",
+        "drone": "Drone shot / construction timelapse"
+      }
+    },
+    "slide12": {
+      "title": "Let's Build Your Next Success Together",
+      "description": "We'll prepare your 60-day sales plan and digital concept within a week.",
+      "subdescription": "If you like what you see, we move forward — no pressure, just results.",
+      "contact": "Contact us",
+      "website": "Visit our website",
+      "phone": "+381 64 577 3034",
+      "email": "info@proinvest.com"
+    },
+    "controls": {
+      "fullscreen": "Enter Fullscreen",
+      "exitFullscreen": "Exit Fullscreen",
+      "next": "Next Slide",
+      "previous": "Previous Slide",
+      "slide": "Slide",
+      "of": "of"
+    }
   }
 }
