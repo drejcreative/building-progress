@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Phone, Mail, Globe, CheckCircle2, TrendingUp, Shield, Clock } from "lucide-react";
+import { Phone, Mail, Globe, TrendingUp, Shield, Clock } from "lucide-react";
 
 export default function Slide10() {
   const closingArguments = [
@@ -25,11 +25,6 @@ export default function Slide10() {
     },
   ];
 
-  const nextSteps = [
-    "Personalizovani plan za vašu zgradu",
-    "Konkretni ciljevi i timeline",
-    "Kompletan digitalni ekosistem od prvog dana",
-  ];
 
   return (
     <div className="relative h-full w-full flex items-center justify-center overflow-hidden bg-gradient-to-br from-emerald-950 via-slate-900 to-emerald-950 overflow-y-auto">
@@ -88,31 +83,6 @@ export default function Slide10() {
           })}
         </motion.div>
 
-        {/* What Happens Next */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-          className="bg-emerald-900/20 rounded-lg border border-emerald-400/30 p-8 max-w-4xl mx-auto mb-12"
-        >
-          <h3 className="text-2xl font-bold text-white mb-6 text-center">
-            Kako To Radi?
-          </h3>
-          <div className="space-y-4">
-            {nextSteps.map((step, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: 1.0 + index * 0.1 }}
-                className="flex items-start gap-3"
-              >
-                <CheckCircle2 className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
-                <p className="text-lg text-white font-medium">{step}</p>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
 
         {/* Contact CTA */}
         <motion.div
