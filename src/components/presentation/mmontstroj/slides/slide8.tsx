@@ -34,7 +34,7 @@ export default function Slide8() {
     {
       number: "3️⃣",
       name: "Parcijalna Ekskluziva",
-      commission: "1%",
+      commission: "1.5%",
       description: "25% stanova, test saradnja",
       details: [
         "25% stanova po zgradi",

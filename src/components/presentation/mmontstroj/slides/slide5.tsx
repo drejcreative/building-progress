@@ -9,12 +9,13 @@ export default function Slide5() {
     {
       name: "Belgrade Waterfront",
       url: "https://www.belgradewaterfront.com/en/",
-      image: "/images/modern-complex.jpg",
+      image: "/images/bw.webp",
     },
     {
       name: "Delta District",
       url: "https://deltadistrict.rs/",
-      image: "/images/aerial-view.jpg",
+      image: "/images/Delta-District-Home-page-1.jpg",
+      subtitle: "Primer nivoa prezentacije koji želimo da vam ponudimo",
     },
   ];
 
@@ -86,9 +87,16 @@ export default function Slide5() {
                     <span className="text-2xl font-bold">{example.name}</span>
                     <ExternalLink className="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" />
                   </div>
-                  <p className="text-sm text-indigo-300 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                    Primer nivoa prezentacije koji želimo da vam ponudimo
-                  </p>
+                  {example.subtitle && (
+                    <p className="text-sm text-indigo-300 mt-2 opacity-80 group-hover:opacity-100 transition-opacity">
+                      {example.subtitle}
+                    </p>
+                  )}
+                  {!example.subtitle && (
+                    <p className="text-sm text-indigo-300 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                      Primer nivoa prezentacije koji želimo da vam ponudimo
+                    </p>
+                  )}
                 </div>
               </div>
             </motion.a>

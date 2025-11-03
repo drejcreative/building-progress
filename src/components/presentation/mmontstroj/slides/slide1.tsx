@@ -11,11 +11,12 @@ export default function Slide1() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-amber-950/60 to-black/80" />
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="/images/modern-complex.jpg"
+            src="https://mmontstroj.com/wp-content/uploads/2024/03/1-301-min-scaled-1.jpg"
             alt="Architectural background"
             fill
             className="object-cover"
             priority
+            unoptimized
           />
         </div>
       </div>
