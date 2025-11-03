@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Building2, CheckCircle2, TrendingUp, Award } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 export default function Slide2() {
   const achievements = [
@@ -47,14 +47,15 @@ export default function Slide2() {
           className="text-center mt-12"
         >
           <p className="text-2xl md:text-3xl text-amber-300 font-semibold leading-relaxed max-w-4xl mx-auto mb-4">
-            "Ono što vi gradite ima kvalitet Beograda, ali dušu Rume i Novog Sada."
+            &quot;Ono što vi gradite ima kvalitet Beograda, ali dušu Rume i
+            Novog Sada.&quot;
           </p>
           <p className="text-lg md:text-xl text-amber-400 font-medium leading-relaxed max-w-3xl mx-auto">
-            Elegantnost bez kompromisa — prostranstvo i svetlost za vaš idealan dom.
+            Elegantnost bez kompromisa — prostranstvo i svetlost za vaš idealan
+            dom.
           </p>
         </motion.div>
       </div>
     </div>
   );
 }
-

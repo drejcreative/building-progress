@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Maximize, Minimize, X } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -32,6 +32,34 @@ export default function PresentationContainer({
   const [isFullscreen, setIsFullscreen] = useState(startFullscreen);
   const t = useTranslations("Presentation");
 
+  const toggleFullscreen = useCallback(async () => {
+    if (!document.fullscreenElement) {
+      await document.documentElement.requestFullscreen();
+      setIsFullscreen(true);
+    } else {
+      await document.exitFullscreen();
+      setIsFullscreen(false);
+    }
+  }, []);
+
+  const nextSlide = useCallback(() => {
+    setCurrentSlide((prev) => {
+      if (prev < TOTAL_SLIDES - 1) {
+        return prev + 1;
+      }
+      return prev;
+    });
+  }, []);
+
+  const prevSlide = useCallback(() => {
+    setCurrentSlide((prev) => {
+      if (prev > 0) {
+        return prev - 1;
+      }
+      return prev;
+    });
+  }, []);
+
   // Keyboard navigation
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
@@ -52,7 +80,7 @@ export default function PresentationContainer({
 
     window.addEventListener("keydown", handleKeyPress);
     return () => window.removeEventListener("keydown", handleKeyPress);
-  }, [currentSlide, isFullscreen]);
+  }, [isFullscreen, nextSlide, prevSlide, toggleFullscreen]);
 
   // Fullscreen management
   useEffect(() => {
@@ -63,28 +91,6 @@ export default function PresentationContainer({
     document.addEventListener("fullscreenchange", handleFullscreenChange);
     return () => document.removeEventListener("fullscreenchange", handleFullscreenChange);
   }, []);
-
-  const toggleFullscreen = async () => {
-    if (!document.fullscreenElement) {
-      await document.documentElement.requestFullscreen();
-      setIsFullscreen(true);
-    } else {
-      await document.exitFullscreen();
-      setIsFullscreen(false);
-    }
-  };
-
-  const nextSlide = () => {
-    if (currentSlide < TOTAL_SLIDES - 1) {
-      setCurrentSlide(currentSlide + 1);
-    }
-  };
-
-  const prevSlide = () => {
-    if (currentSlide > 0) {
-      setCurrentSlide(currentSlide - 1);
-    }
-  };
 
   const goToSlide = (index: number) => {
     if (index >= 0 && index < TOTAL_SLIDES) {

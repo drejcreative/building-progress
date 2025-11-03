@@ -1,5 +1,4 @@
 import React from "react";
-import { useRouter } from "@/i18n/navigation";
 import {
   CheckCircle,
   ArrowRight,

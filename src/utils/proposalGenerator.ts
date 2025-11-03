@@ -61,7 +61,7 @@ export const generatePersonalizedProposal = (
     serviceTier = "VIP Premium";
   }
 
-  const pricing = getPricingForTier(serviceTier, isExclusive, reportData.value);
+  const pricing = getPricingForTier(serviceTier, isExclusive);
   const deliverables = getDeliverablesForTier(serviceTier, isExclusive);
   const timeline = getTimelineForUrgency(reportData.timeline);
   const guarantees = getGuaranteesForTier(serviceTier, isExclusive);
@@ -93,8 +93,7 @@ export const generatePersonalizedProposal = (
 
 const getPricingForTier = (
   tier: string,
-  isExclusive: boolean,
-  _propertyValue: string
+  isExclusive: boolean
 ) => {
   if (isExclusive) {
     // Exclusive sales - percentage-based pricing (new structure)
