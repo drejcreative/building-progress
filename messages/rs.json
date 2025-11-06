@@ -262,7 +262,7 @@
       "premium": {
         "title": "Premium Servis",
         "badge": "VIP",
-        "rate": "2-4%",
+        "rate": "2-3%",
         "description": "Premium servis sa ekskluzivnim pogodnostima i prioritetnim pristupom",
         "idealFor": "Idealno Za:",
         "idealForDetails": [
@@ -2019,7 +2019,7 @@
         },
         "premium": {
           "name": "Premium Usluga",
-          "commission": "2-4%",
+          "commission": "2-3%",
           "description": "Premium usluga sa ekskluzivnim beneficijama i prioritetnim pristupom",
           "idealFor": [
             "Srednji do veliki projekti (50-200 jedinica)",

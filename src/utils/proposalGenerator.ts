@@ -109,7 +109,7 @@ const getPricingForTier = (
 
     if (tier === "VIP Premium") {
       return {
-        serviceFee: "2-4% of sale price",
+        serviceFee: "2-3% of sale price",
         marketingInvestment: "Included in service fee",
         estimatedSavings: "Based on property value",
         netBenefit: "Based on property value",
@@ -278,7 +278,7 @@ const getQASection = (isExclusive: boolean, serviceTier: string) => {
       answer: isExclusive
         ? `With exclusive sales partnership, you pay ZERO upfront. We invest in all marketing costs and only get paid a commission when your property sells:
 - Standard Service: 1-2% commission
-- Premium Service: 2-4% commission
+- Premium Service: 2-3% commission
 - Custom Enterprise: Negotiable rate
 
 This means zero risk for you - we're fully invested in your success.`
@@ -325,7 +325,7 @@ This means zero risk for you - we're fully invested in your success.`
     {
       question: "Can I switch to exclusive partnership later?",
       answer:
-        "Absolutely! If you decide to commit to exclusive partnership after our consultation, we can adjust our pricing model to the commission-based structure (1-2% Standard, 2-4% Premium, or Negotiable Custom). This gives you zero upfront costs and aligns our success with yours.",
+        "Absolutely! If you decide to commit to exclusive partnership after our consultation, we can adjust our pricing model to the commission-based structure (1-2% Standard, 2-3% Premium, or Negotiable Custom). This gives you zero upfront costs and aligns our success with yours.",
     },
   ];
 
@@ -335,7 +335,7 @@ This means zero risk for you - we're fully invested in your success.`
     vipQA.push({
       question: "What's included in Premium service?",
       answer:
-        "Premium service (2-4% commission) includes everything in Standard plus exclusive buyer database access, premium marketing campaigns, YouTube videos & paid commercials, content marketing & SEO, weekly progress updates, premium legal support, and dedicated account manager 24/7.",
+        "Premium service (2-3% commission) includes everything in Standard plus exclusive buyer database access, premium marketing campaigns, YouTube videos & paid commercials, content marketing & SEO, weekly progress updates, premium legal support, and dedicated account manager 24/7.",
     });
   } else if (serviceTier === "Custom Enterprise") {
     vipQA.push({

@@ -262,7 +262,7 @@
       "premium": {
         "title": "Premium Service",
         "badge": "VIP",
-        "rate": "2-4%",
+        "rate": "2-3%",
         "description": "Premium service with exclusive benefits & priority access",
         "idealFor": "Ideal For:",
         "idealForDetails": [
@@ -2019,7 +2019,7 @@
         },
         "premium": {
           "name": "Premium Service",
-          "commission": "2-4%",
+          "commission": "2-3%",
           "description": "Premium service with exclusive benefits & priority access",
           "idealFor": [
             "Medium to large projects (50-200 units)",
