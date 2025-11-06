@@ -180,6 +180,11 @@ export default async function CostSaving() {
               </div>
             </div>
           </div>
+
+          {/* Footnote */}
+          <p className="text-center text-sm text-gray-600 dark:text-gray-400 mt-8 max-w-4xl mx-auto italic">
+            {t("costSaving.summary.footnote")}
+          </p>
         </div>
       </div>
     </section>

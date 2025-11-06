@@ -39,8 +39,8 @@ export default async function Home({
           <Hero />
         </section>
 
-        <CostSaving />
         <Solution />
+        <CostSaving />
         <FreeShowcase />
 
         {/* <VipBuyerProgram /> */}

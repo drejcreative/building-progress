@@ -22,60 +22,60 @@
       }
     },
     "costSaving": {
-      "title": "Save **€20,000-35,000** Per Building",
+      "title": "Save **€42,000-70,000** Per Building",
       "subtitle": "Traditional DIY marketing costs vs. our zero-upfront professional service.",
-      "maxSavings": "Maximum savings for Serbian market conditions",
+      "maxSavings": "Realistic costs for Serbian market — projects of 150-250 apartments, 18-24 months",
       "vsLabel": "VS",
       "diyTitle": "DIY Costs (Your Risk)",
       "ourServiceTitle": "Our Service (Zero Risk)",
       "services": {
         "websiteDevelopment": {
-          "title": "Website Development",
-          "cost": "€6,000-12,000",
-          "descriptionDiy": "Professional custom website with SEO optimization + dedicated apartment pages",
-          "descriptionOur": "Custom SEO-optimized website with lead capture, analytics & dedicated apartment pages"
+          "title": "Complex Website Development",
+          "cost": "€10,000-15,000",
+          "descriptionDiy": "Professional website with 150-250 apartment pages, SEO optimization, admin panel and management system",
+          "descriptionOur": "Complete website with pages for all apartments, SEO optimization, lead capture system, analytics and admin panel"
         },
         "photography": {
-          "title": "Professional Photography",
-          "cost": "€800-1,800",
-          "descriptionDiy": "High-quality photos with professional staging",
-          "descriptionOur": "Professional photos with staging and lighting setup"
+          "title": "Photo & Video Production",
+          "cost": "€3,500-6,000",
+          "descriptionDiy": "Professional interior and exterior photography, lifestyle shots and video production with staging",
+          "descriptionOur": "Professional photography and video production with staging, lifestyle videos and walkthroughs"
         },
         "droneVideo": {
-          "title": "Drone Video + Editing",
-          "cost": "€1,200-2,500",
-          "descriptionDiy": "Aerial footage with cinematic editing + YouTube videos & paid commercials",
-          "descriptionOur": "Aerial footage with cinematic editing, YouTube videos & high-end paid commercials"
+          "title": "Drone & 360° Tours",
+          "cost": "€1,500-3,000",
+          "descriptionDiy": "Drone footage of building and location, cinematic editing, 360° virtual tours for key apartments",
+          "descriptionOur": "Drone footage of building and location, cinematic editing, 360° virtual tours with floor plans"
         },
         "virtualTour": {
-          "title": "360° Virtual Tour",
+          "title": "Drone & 360° Tours",
           "cost": "€1,500-3,000",
           "descriptionDiy": "Interactive virtual tours with floor plans",
           "descriptionOur": "Interactive virtual tours with floor plans and details"
         },
         "marketing": {
-          "title": "Marketing & Ads (6-12 months)",
-          "cost": "€7,000-12,000",
-          "descriptionDiy": "Google, Facebook, Instagram campaigns",
-          "descriptionOur": "Google, Facebook, Instagram, and LinkedIn advertising"
+          "title": "Campaigns & Ads (18-24 months)",
+          "cost": "€10,000-18,000",
+          "descriptionDiy": "Google Ads, Meta (Facebook/Instagram), LinkedIn campaigns over 18-24 months of sales",
+          "descriptionOur": "Google Ads, Meta (Facebook/Instagram), LinkedIn advertising throughout the project"
         },
         "legalSupport": {
           "title": "Legal Support",
-          "cost": "€2,000-4,000",
-          "descriptionDiy": "Contract management and compliance",
-          "descriptionOur": "Full legal support from contracts to closing"
+          "cost": "€2,000-3,500",
+          "descriptionDiy": "Legal support for 150-250 contracts, documentation management and regulatory compliance",
+          "descriptionOur": "Full legal support for all contracts, documentation management and compliance"
         },
         "salesStaff": {
-          "title": "Sales Staff (6 months)",
-          "cost": "€8,000-15,000",
-          "descriptionDiy": "Professional sales team and management",
-          "descriptionOur": "Professional sales agents handling all inquiries"
+          "title": "Agents & Sales Team (18-24 months)",
+          "cost": "€15,000-25,000",
+          "descriptionDiy": "Sales manager and agents over 18-24 months of sales, handling inquiries and negotiations",
+          "descriptionOur": "Professional sales team handling all inquiries, negotiations and closing deals"
         }
       },
       "summary": {
         "yourRisk": {
           "badge": "YOUR RISK",
-          "total": "€20,000-35,000",
+          "total": "€42,000-70,000",
           "title": "Total Upfront Investment",
           "monthly": "Plus ongoing monthly costs",
           "noGuarantee": "No guarantee of success"
@@ -86,7 +86,8 @@
           "title": "Upfront Investment",
           "payOnSale": "Pay only when properties sell",
           "maxReturn": "Zero risk, maximum return"
-        }
+        },
+        "footnote": "Calculated for projects of 150-250 apartments with a duration of 18-24 months (from start of construction to completion of sales). These costs reflect realistic prices for the Serbian market and cover the complete project lifecycle."
       }
     },
     "solution": {
@@ -262,7 +263,7 @@
       "premium": {
         "title": "Premium Service",
         "badge": "VIP",
-        "rate": "2-4%",
+        "rate": "2-3%",
         "description": "Premium service with exclusive benefits & priority access",
         "idealFor": "Ideal For:",
         "idealForDetails": [
@@ -2019,7 +2020,7 @@
         },
         "premium": {
           "name": "Premium Service",
-          "commission": "2-4%",
+          "commission": "2-3%",
           "description": "Premium service with exclusive benefits & priority access",
           "idealFor": [
             "Medium to large projects (50-200 units)",

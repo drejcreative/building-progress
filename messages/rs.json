@@ -22,60 +22,60 @@
       }
     },
     "costSaving": {
-      "title": "Uštedite **€20.000-35.000** Po Zgradi",
+      "title": "Uštedite **€42.000-70.000** Po Zgradi",
       "subtitle": "Tradicionalni DIY marketing troškovi naspram našeg profesionalnog servisa bez početnih troškova.",
-      "maxSavings": "Maksimalne uštede za srpske tržišne uslove",
+      "maxSavings": "Realistični troškovi za srpsko tržište — projekti od 150-250 stanova, 18-24 meseca",
       "vsLabel": "NASPRAM",
       "diyTitle": "DIY Troškovi (Vaš Rizik)",
       "ourServiceTitle": "Naš Servis (Nulti Rizik)",
       "services": {
         "websiteDevelopment": {
-          "title": "Razvoj Veb Sajta",
-          "cost": "€6.000-12.000",
-          "descriptionDiy": "Profesionalni prilagođeni veb sajt sa SEO optimizacijom + posvećene stranice stanova",
-          "descriptionOur": "Prilagođeni SEO-optimizovani veb sajt sa snimanjem potencijalnih kupaca, analitikama i posvećenim stranicama stanova"
+          "title": "Izrada kompleksnog sajta",
+          "cost": "€10.000-15.000",
+          "descriptionDiy": "Profesionalni sajt sa 150-250 stranica stanova, SEO optimizacija, admin panel i sistem za upravljanje",
+          "descriptionOur": "Kompletan sajt sa stranicama za sve stanove, SEO optimizacija, sistem za lead capture, analitika i admin panel"
         },
         "photography": {
-          "title": "Profesionalna Fotografija",
-          "cost": "€800-1.800",
-          "descriptionDiy": "Visokokvalitetne fotografije sa profesionalnim postavljanjem",
-          "descriptionOur": "Profesionalne fotografije sa postavljanjem i osvetljenjem"
+          "title": "Foto & video produkcija",
+          "cost": "€3.500-6.000",
+          "descriptionDiy": "Profesionalna fotografija interijera, eksterijera, lifestyle snimci i video produkcija sa postavljanjem",
+          "descriptionOur": "Profesionalna fotografija i video produkcija sa postavljanjem, lifestyle snimci i video ture"
         },
         "droneVideo": {
-          "title": "Dron Video + Montaža",
-          "cost": "€1.200-2.500",
-          "descriptionDiy": "Snimci iz vazduha sa kinematskim editovanjem + YouTube videi i plaćene reklame",
-          "descriptionOur": "Snimci iz vazduha sa kinematskim editovanjem, YouTube videi i vrhunske plaćene reklame"
+          "title": "Dron i 360° ture",
+          "cost": "€1.500-3.000",
+          "descriptionDiy": "Dron snimci zgrade i lokacije, kinematska montaža, 360° virtuelne ture za ključne stanove",
+          "descriptionOur": "Dron snimci zgrade i lokacije, kinematska montaža, 360° virtuelne ture sa planovima osnova"
         },
         "virtualTour": {
-          "title": "360° Virtuelna Tura",
+          "title": "Dron i 360° ture",
           "cost": "€1.500-3.000",
           "descriptionDiy": "Interaktivne virtuelne ture sa planovima osnovama",
           "descriptionOur": "Interaktivne virtuelne ture sa planovima osnova i detaljima"
         },
         "marketing": {
-          "title": "Marketing i Reklame (6-12 meseci)",
-          "cost": "€7.000-12.000",
-          "descriptionDiy": "Google, Facebook, Instagram kampanje",
-          "descriptionOur": "Google, Facebook, Instagram i LinkedIn reklamiranje"
+          "title": "Kampanje i oglasi (18-24 meseca)",
+          "cost": "€10.000-18.000",
+          "descriptionDiy": "Google Ads, Meta (Facebook/Instagram), LinkedIn kampanje tokom 18-24 meseca prodaje",
+          "descriptionOur": "Google Ads, Meta (Facebook/Instagram), LinkedIn reklamiranje tokom celog projekta"
         },
         "legalSupport": {
-          "title": "Pravna Podrška",
-          "cost": "€2.000-4.000",
-          "descriptionDiy": "Upravljanje ugovorima i usklađenost",
-          "descriptionOur": "Potpuna pravna podrška od ugovora do zatvaranja"
+          "title": "Pravna podrška",
+          "cost": "€2.000-3.500",
+          "descriptionDiy": "Pravna podrška za 150-250 ugovora, upravljanje dokumentacijom i usklađenost sa propisima",
+          "descriptionOur": "Potpuna pravna podrška za sve ugovore, upravljanje dokumentacijom i usklađenost"
         },
         "salesStaff": {
-          "title": "Prodajno Osoblje (6 meseci)",
-          "cost": "€8.000-15.000",
-          "descriptionDiy": "Profesionalni prodajni tim i upravljanje",
-          "descriptionOur": "Profesionalni prodajni agenti koji rešavaju sve upite"
+          "title": "Agenti i prodajni tim (18-24 meseca)",
+          "cost": "€15.000-25.000",
+          "descriptionDiy": "Prodajni menadžer i agenti tokom 18-24 meseca prodaje, upravljanje upitima i pregovorima",
+          "descriptionOur": "Profesionalni prodajni tim koji rešava sve upite, pregovore i zatvaranje prodaje"
         }
       },
       "summary": {
         "yourRisk": {
           "badge": "VAŠ RIZIK",
-          "total": "€20.000-35.000",
+          "total": "€42.000-70.000",
           "title": "Ukupna Početna Investicija",
           "monthly": "Plus tekući mesečni troškovi",
           "noGuarantee": "Nema garancije uspeha"
@@ -86,7 +86,8 @@
           "title": "Početna Investicija",
           "payOnSale": "Platite samo kada se nekretnine prodaju",
           "maxReturn": "Nulti rizik, maksimalni povrat"
-        }
+        },
+        "footnote": "Izračunato za projekte od 150-250 stanova sa trajanjem od 18-24 meseca (od početka izgradnje do završetka prodaje). Ovi troškovi odražavaju realistične cene za srpsko tržište i pokrivaju kompletan životni ciklus projekta."
       }
     },
     "solution": {
@@ -262,7 +263,7 @@
       "premium": {
         "title": "Premium Servis",
         "badge": "VIP",
-        "rate": "2-4%",
+        "rate": "2-3%",
         "description": "Premium servis sa ekskluzivnim pogodnostima i prioritetnim pristupom",
         "idealFor": "Idealno Za:",
         "idealForDetails": [
@@ -2019,7 +2020,7 @@
         },
         "premium": {
           "name": "Premium Usluga",
-          "commission": "2-4%",
+          "commission": "2-3%",
           "description": "Premium usluga sa ekskluzivnim beneficijama i prioritetnim pristupom",
           "idealFor": [
             "Srednji do veliki projekti (50-200 jedinica)",
